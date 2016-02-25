@@ -1,10 +1,12 @@
+### These settings are for erelsgl.github.io
+
 # Site settings
 title: Erel Segal-Halevi
 email: erelsgl@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Erel Segal-Halevi new homepage
-url: "http://tora.us.fm" # the base hostname & protocol for your site
-baseurl: "/erel" # the subpath of your site, e.g. /blog
+url: "http://erelsgl.github.io" # the base hostname & protocol for your site
+baseurl: #empty
 github_username:  erelsgl
 
 # Build settings
