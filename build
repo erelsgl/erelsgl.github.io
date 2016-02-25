@@ -1,4 +1,3 @@
 #!/bin/bash
 git pull
-jekyll build _config.yml,_config_do.yml
-
+jekyll build --config=_config.yml,_config_do.yml
