@@ -1,3 +1,11 @@
-	name: Erel Segal-Halevi
-	markdown: kramdown
-	
+# Site settings
+title: Erel Segal-Halevi
+email: erelsgl@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Erel Segal-Halevi new homepage
+baseurl: "/erelsgl" # the subpath of your site, e.g. /blog
+url: "http://tora.us.fm" # the base hostname & protocol for your site
+github_username:  erelsgl
+
+# Build settings
+markdown: kramdown
