@@ -1,0 +1,9 @@
+---
+name: thanks
+categories: thanks
+title:  "תודות"
+---
+אתר זה נבנה ב-
+[Jekyll](https://github.com/jekyll/jekyll) 
+בעזרת המדריך המעולה של
+[Sylvain Durand](https://www.sylvaindurand.org/making-jekyll-multilingual/).

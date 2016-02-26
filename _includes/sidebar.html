@@ -1,0 +1,22 @@
+<nav>
+  <p>Hi.</p>
+  <p>
+  <a href="/">
+    {% if site.data.theme.social.gravatar %}
+    <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
+    {% else %}
+    <img src="/logo.png" id="logo" alt="Erel Segal-Halevi"/>
+    {% endif %}
+  </a>
+  </p>
+  <p>I'm <a href="/">Erel Segal-Halevi</a>.</p>
+  <div id="bio">
+    <p>A brief bio or something witty.</p>
+    <p>
+      Edit me in <code>_includes/sidebar.html</code>
+    </p>
+  </div>
+  <div id="social">
+    {% include social.html %}
+  </div>
+</nav>

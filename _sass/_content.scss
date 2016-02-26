@@ -1,0 +1,48 @@
+ul.topics, ul.publications {
+   list-style-type: none;
+   /*width: 500px;*/
+
+    h3 {
+      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+    }
+
+    > li img {
+      float: left;
+      margin: 0 15px 0 0;
+      width: 100px;
+      display: block;
+    }
+
+    > li {
+      padding: 10px;
+      overflow: auto;
+    }
+
+    > li:hover {
+      background: #eee;
+      cursor: pointer;
+    }
+}
+
+ul.topics {    
+    > li > a {
+        color: #222;
+        text-decoration: none;
+
+        &:visited {
+            color: #666;
+        }
+
+        &:hover {
+            color: #222;
+            text-decoration: none;
+        }
+    }
+}
+
+img.topic {
+    float:right;
+    width:160px;
+}
+
+

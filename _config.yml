@@ -3,11 +3,76 @@
 # Site settings
 title: Erel Segal-Halevi
 email: erelsgl@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "url:"
   Erel Segal-Halevi new homepage
 url: "http://erelsgl.github.io" # the base hostname & protocol for your site
 baseurl: #empty
 github_username:  erelsgl
+wikipedia_username:  Erel Segal
+permalink: pretty    # no .html suffix
 
 # Build settings
 markdown: kramdown
+
+collections:
+  topics:
+    output: true
+  publications:
+    output: false
+
+
+defaults:
+  -
+    scope:
+      path: _posts
+    values:
+      layout: post
+  -
+    scope:
+      path: pages
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: topics
+    values:
+      layout: topic
+  -
+    scope:
+      path: _posts/en
+    values:
+      lang: en
+      direction: ltr
+      permalink: /:title/en/
+  -
+    scope:
+      path: _posts/he
+    values:
+      lang: he
+      direction: rtl
+      permalink: /:title/he/
+  -
+    scope:
+      path: pages/en
+    values:
+      lang: en
+      direction: ltr
+  -
+    scope: 
+      path: pages/he
+    values:
+      lang: he
+      direction: rtl
+  -
+    scope:
+      path: topics/en
+    values:
+      lang: en
+      direction: ltr
+  -
+    scope: 
+      path: topics/he
+    values:
+      lang: he
+      direction: rtl

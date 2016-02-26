@@ -1,7 +1,7 @@
 ---
-layout: page
-title: About
-permalink: /about/
+id: fairness
+title: חלוקה הוגנת
+description: התאמת אלגוריתמי חלוקת עוגה לחלוקה הוגנת של קרקעות בשני מימדים.
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)

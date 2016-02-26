@@ -1,8 +1,12 @@
 <header class="site-header">
 
-  <div class="wrapper">
+<div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <div class="site-title trigger">
+     <a href="{{ site.baseurl }}/">
+       <img src="{{ site.baseurl }}/images/erel35y.jpg" alt="Erel Segal-Halevi" title="Erel Segal-Halevi"/>
+     </a>
+    </div>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -13,15 +17,31 @@
         </svg>
       </a>
 
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+      <!-- Multi-lingual code from Sylvain Durand -->
+      <div class="langs trigger" dir='ltr'>
+        {% assign pages=site.pages | where:"id", page.id | sort: 'path' %}
+        {% for p in pages %}
+        <a href="{{ p.url | prepend: site.baseurl }}" class="{{ p.lang }}"><img src="{{ site.baseurl }}/images/{{ p.lang }}.png" alt="This page in {{ p.lang }}"/></a>
+        {% endfor %}
+        
+        {% assign pages=site.topics | where:"id", page.id | sort: 'path' %}
+        {% for p in pages %}
+        <a href="{{ p.url | prepend: site.baseurl }}" class="{{ p.lang }}"><img src="{{ site.baseurl }}/images/{{ p.lang }}.png" alt="This page in {{ p.lang }}"/></a>
+        {% endfor %}
+      </div>
+
+    </nav>
+     <div class='page-links'>
+      <!-- Adapted From Jekyll default template -->
+        {% assign pages=site.pages | where:"lang", page.lang | sort: 'path' %}
+        {% for p in pages %}
+          {% if p.title == page.title %}
+          <b class="page-link current">{{ p.title }}</b>
+          {% elsif p.title %}
+          <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
-    </nav>
-
-  </div>
+</div><!-- wrapper -->
 
 </header>
