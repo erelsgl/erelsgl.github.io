@@ -19,7 +19,7 @@
 
       <!-- Multi-lingual code from Sylvain Durand -->
       <div class="langs trigger" dir='ltr'>
-        {% assign pages=site.pages | where:"id", page.id | sort: 'path' %}
+        {% assign pages=site.pages | where:"ident", page.ident | sort: 'path' %}
         {% for p in pages %}
         <a href="{{ p.url | prepend: site.baseurl }}" class="{{ p.lang }}"><img src="{{ site.baseurl }}/images/{{ p.lang }}.png" alt="This page in {{ p.lang }}"/></a>
         {% endfor %}

@@ -1,5 +1,5 @@
 ---
-id: auctions
+ident: auctions
 title: Double Auctions
 description: Developing auction mechanisms that induce both buyers and sellers to behave truthfully.
 date: 2016-01-01

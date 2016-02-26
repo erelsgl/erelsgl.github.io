@@ -3,7 +3,7 @@ layout: page
 ---
 <div>
 <h2>Journal papes and book-chapters</h2>
-{% assign publications=site.publications | where:"level", "journal" | sort: 'date' | reverese %}
+{% assign publications=site.publications | where:"level", "journal" | sort: 'date' | reverse %}
 <ul class='publications'>
   {% for p in publications %}
     <li><b>{{p.title}}</b>: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}</li>
@@ -11,7 +11,7 @@ layout: page
 </ul>
 
 <h2>Archival conferences</h2>
-{% assign publications=site.publications | where:"level", "conference-archival" | sort: 'date' | reverese %}
+{% assign publications=site.publications | where:"level", "conference-archival" | sort: 'date' | reverse %}
 <ul class='publications'>
   {% for p in publications %}
     <li><b>{{p.title}}</b>: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}</li>
@@ -19,7 +19,7 @@ layout: page
 </ul>
 
 <h2>Non-archival conferences</h2>
-{% assign publications=site.publications | where:"level", "conference" | sort: 'date' | reverese %}
+{% assign publications=site.publications | where:"level", "conference" | sort: 'date' | reverse %}
 <ul class='publications'>
   {% for p in publications %}
     <li><b>{{p.title}}</b>: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}</li>
@@ -27,7 +27,7 @@ layout: page
 </ul>
 
 <h2>Other working papers</h2>
-{% assign publications=site.publications | where:"level", "working" | sort: 'date' | reverese %}
+{% assign publications=site.publications | where:"level", "working" | sort: 'date' | reverse %}
 <ul class='publications'>
   {% for p in publications %}
     <li><b>{{p.title}}</b>: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}</li>

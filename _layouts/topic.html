@@ -1,13 +1,14 @@
 ---
 layout: page
 ---
+{{page.ident}}
 <img class='topic' src="{{site.baseurl}}/images/{{page.image}}" />
 <h1>{{page.title}}</h1>
 <p class='description'>
 {{page.content | markdownify}}
 </p>
 <div>
-{% assign publications=site.publications | where:"topic", page.topic | sort: 'date' %}
+{% assign publications=site.publications | where:"topic", page.ident | sort: 'date' %}
 <h2>Publications and working-papers</h2>
 {% if publications.size > 0 %}
   <ul class='publications'>

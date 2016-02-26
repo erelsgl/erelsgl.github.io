@@ -1,5 +1,5 @@
 ---
-id: about
+ident: about
 layout: page
 title: אודות
 ---

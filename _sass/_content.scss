@@ -40,9 +40,15 @@ ul.topics {
     }
 }
 
-img.topic {
+img.topic:lang(en) {
     float:right;
     width:160px;
 }
+
+img.topic:lang(he) {
+    float:left;
+    width:160px;
+}
+
 
 

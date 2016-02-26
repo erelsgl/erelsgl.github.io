@@ -1,5 +1,5 @@
 ---
-topic: fairness
+ident: fairness
 title: Fair Division
 description: Adapting cake-cutting algorithms to fair division of land-estates in two dimensions.
 image: indy_farmland_thumb.png

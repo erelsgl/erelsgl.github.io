@@ -1,15 +1,24 @@
 ---
-id: fairness
+ident: fairness
 title: חלוקה הוגנת
-description: התאמת אלגוריתמי חלוקת עוגה לחלוקה הוגנת של קרקעות בשני מימדים.
+description: התאמת אלגוריתמים של חלוקת-עוגה לחלוקה הוגנת של קרקעות
+image: indy_farmland_thumb.png
+date: 2016-02-01
 ---
+בעקבות מצוקת הדיור בישראל (ובמקומות רבים אחרים בעולם),
+התחלתי לחפש דרכים הוגנות ויעילות לחלק קרקעות.
+התברר לי שיש שתי גישות לחלוקה:
+* **כלכלנים** מדגישים 
+את הערך האישי שכל אדם מייחס לכל פיסת-קרקע. 
+במחקר הקלאסי על   בעיית 
+[חלוקת העוגה](https://en.wikipedia.org/wiki/Fair_cake-cutting) 
+כל פרוסת-עוגה צריכה להכיל מספיק ערך עבור מי שקיבל אותה.
+אבל, הם בדרך-כלל לא מתייחסים לצורה הגיאומטרית של הפרוסה.
+* **גיאומטראים** מדגישים 
+את הצורה הגיאומטרית של הפרוסות. 
+במחקר על בעיית 
+[חלוקת המצולעים](https://en.wikipedia.org/wiki/Polygon_partition),
+כל פרוסה צריכה להיות ריבועית או מלבנית או בצורה פשוטה אחרת.
+אבל, הם לא מתייחסים לערכים השונים של פרוסות במקומות שונים.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+כשמשלבים את שתי הגישות, מגלים תגליות מעניינות.
