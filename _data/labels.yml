@@ -1,0 +1,29 @@
+# Translations of labels
+papers: 
+  en: "Publications and working papers"
+  he:  "פירסומים ומאמרי עבודה" 
+nopapers:
+  en: "Under construction..."
+  he: "בבניה..."
+levels:  # see also paperlevels.yml
+  book: 
+    en: Books
+    he: ספרים
+  journal:
+    en: Journals and book-chapters
+    he:  כתבי-עת 
+  conference+:
+    en: Highly-refereed conferences
+    he: כנסים מבוקרים
+  conference-:
+    en: Other conferences
+    he: כנסים אחרים
+  working:
+    en: Other working papers
+    he: מאמרים בעבודה 
+  video:
+    en: Video talks
+    he: הרצאות בוידאו 
+  website:
+    en: Web sites
+    he:  אתרי אינטרנט 

@@ -3,7 +3,7 @@
  */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+dl, dd, /*ol, ul, */figure {
     margin: 0;
     padding: 0;
 }
@@ -195,7 +195,6 @@ pre {
 
     > svg, > img  {
         display: inline-block;
-        width: 16px;
         height: 16px;
         vertical-align: middle;
     
@@ -205,4 +204,16 @@ pre {
     }
 }
 
+.iconwide {
+
+    > svg, > img  {
+        display: inline-block;
+        height: 24px;
+        vertical-align: middle;
+    
+        path {
+            fill: $grey-color;
+        }
+    }
+}
 

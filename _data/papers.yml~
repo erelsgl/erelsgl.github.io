@@ -1,0 +1,201 @@
+#### My papers and other publications
+
+# Fair Division:
+-
+    id: WasteMakesHaste
+    lang: en
+    title: Waste Makes Haste - Bounded Time Protocols for Envy-Free Cake Cutting with Free Disposal
+    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+    date: 2015-05-24
+    topic: fairness
+    level: conference+
+    content: >
+        Published in [AAMAS 2015 confernence](http://dl.acm.org/citation.cfm?id=2773268) (8 pages) and much improved in the [preprint](http://arxiv.org/abs/1511.02599) (39 pages).
+-
+    id: CakeCuttingMonotonicity
+    lang: en
+    title: Resource-monotonicity and Population-monotonicity in Cake-cutting 
+    authors: Erel Segal-Halevi, Balázs Sziklai
+    date: 2016-01-01
+    topic: fairness
+    level: working
+    content: >
+        [Preprint](http://arxiv.org/abs/1510.05229) (43 pages).
+-
+    id: EnvyFreeAndSquare
+    lang: en
+    title: Envy-Free Cake-Cutting in Two Dimensions
+    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+    date: 2015-01-10
+    topic: fairness
+    level: conference+
+    content: >
+        Published in [AAAI 2015 conference](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages) and much improved in the [working paper](http://erelsgl.github.io/papers/EF2D-JET-23.pdf) (41 pages).
+-
+    id: GroupCakeCutting
+    title: Fair cake-cutting among groups
+    authors: Erel Segal-Halevi, Shmuel Nitzan
+    date: 2016-01-02
+    topic: fairness
+    level: working
+    content: >
+        [Working paper](http://arxiv.org/abs/1510.03903) (25 pages)
+-
+    id: FairAndSquare
+    lang: en
+    title: Fair and Square - Cake-Cutting in Two Dimensions
+    authors: Erel Segal-Halevi, Shmuel Nitzan, Avinatan Hassidim, Yonatan Aumann
+    date: 2015-01-01
+    topic: fairness
+    level: conference-
+    content: >
+        Presented in [Euro CG conference 2016](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) (4 pages) and [Extended preprint](http://arxiv.org/abs/1510.03170) (54 pages)
+        
+        
+# NLP and NegoChat:
+-
+    id: DialogNLP
+    lang: en
+    title: Dialog Natural Language Understanding using a Generic Textual Inference System 
+    authors: Erel Segal-Halevi, Ido Dagan
+    date: 2013-07-01
+    topic: negochat
+    level: conference-
+    content: >
+        Presented in [ACLP speech processing conference 2013](http://events.eventact.com/afeka/aclp2012/Dialogue%20Natural%20Language%20Understanding_Segal-halevi%20et%20al.pdf) (5 pages)
+-
+    id: FirstSteps
+    lang: en
+    title: First Steps in Chat-Based Negotiating Agents  
+    authors: Inon Zuckerman, Erel Segal-Halevi, Avi Rosenfeld, Sarit Kraus
+    date: 2015-02-17
+    topic: negochat
+    level: journal
+    content: >
+        Published in [Next Frontier in Agent-based Complex Automated Negotiation, Book Chapter, 2015](http://link.springer.com/chapter/10.1007%2F978-4-431-55525-4_6) (21 pages)
+-
+    id: NegoChatA
+    lang: en
+    title: NegoChat-A - a chat-based negotiation agent with bounded rationality 
+    authors: Avi Rosenfeld, Inon Zuckerman, Erel Segal-Halevi, Osnat Drein, Sarit Kraus
+    date: 2015-02-17
+    topic: negochat
+    level: journal
+    content: >
+        Published in [Autonomous Agents and Multi-Agent Systems Journal, 2016](http://link.springer.com/article/10.1007%2Fs10458-015-9281-9) (22 pages)
+-
+    id: PLIS
+    lang: en
+    title: PLIS - a Probabilistic Lexical Inference System  
+    authors: Eyal Shnarch, Erel Segal-haLevi, Jacob Goldberger, Ido Dagan
+    date: 2013-08-01
+    topic: negochat
+    level: conference+
+    content: >
+        Published in [ACL 2013 conference](http://u.cs.biu.ac.il/~nlp/downloads/publications/85acl13.pdf) (6 pages)
+-
+    id: HebrewMorph
+    lang: en
+    title: A Corpus Based Morphological Analyzer for Unvocalized Modern Hebrew
+    authors: Alon Itai, Erel Segal-Halevi
+    date: 2003-01-01
+    topic: nlp
+    level: conference+
+    content: >
+        Published in [Proceedings of Machine Translation for Semitic Languages: Issues and Approaches, Workshop at MT Summit IX (MT-SUMMIT-IX) 2003](http://mt-archive.info/MTS-2003-Itai.pdf) (8 pages)
+
+# Jewish Economy - Yovel and Ribit0:
+-
+    id: YovelAkdamot
+    lang: he
+    title: מצוות חלוקת הנחלות והיובל מראשית הציונות ועד ימינו
+    entitle: Land division and Jubilee since the wake of Zionism to our time
+    authors: אראל סגל-הלוי 
+    date: 2013-03-15
+    topic: jewecon
+    level: journal
+    content: >
+        פורסם ב[אקדמות כח - אדר ה'תשע"ג 2013](http://www.bmj.org.il/akdama/37/m). יש גם [מהדורת רשת](http://tora.us.fm/tryg/mamr/yovl_etc.html).
+
+-
+    id: YovelBdd
+    lang: he
+    title: אלגוריתם היובל - תהליך הדרגתי לחלוקת נחלות בימינו
+    entitle: The Jubilee Algorithm - a procedure for gradual land division
+    authors: אראל סגל-הלוי 
+    date: 2013-12-15
+    topic: jewecon
+    level: journal
+    content: >
+        פורסם ב[בדד 28 - כסלו ה'תשע"ד 2013](http://www.biupress.co.il/website/index.asp?id=928). נמצא גם [כאן](http://www.tora.us.fm/tryg/yovl/bdd/yovel-bdd-28.pdf).
+
+-
+    id: GmachsBanks
+    lang: he
+    title: הצעה לשילוב גמ"ח כספים במערך הפעילות הבנקאית
+    entitle: Cooperation between banks and free-loan organizations
+    authors: אראל סגל-הלוי
+    date: 2012-10-15
+    topic: jewecon
+    level: journal
+    content: >
+        פורסם ב[רבעון הישראלי לבנקאות מס' 173 - תשרי ה'תשע"ג (2012)](). יש גם [מהדורת רשת](http://tora.us.fm/tryg/ribit0/bnq3.html).
+-
+    id: ShmitaTalk
+    lang: he
+    title: שנת השמיטה - השבת של הטבע
+    entitle: The Sabbatical Year for the Land
+    authors: אראל סגל-הלוי
+    date: 2014-11-13
+    topic: jewecon
+    level: video
+    content: >
+        הרצאה ב[כנס ניצוצות שחר ה'תשע"ד](https://www.youtube.com/watch?v=wE4pnT0fKCc), חצי שעה.
+# ‎TNK:
+-
+    id: MishleyEQ
+    lang: he
+    title: אינטלגנציה רגשית בספר משלי
+    entitle: Emotional Intelligence in the Book of Proverbs
+    authors: אראל סגל-הלוי
+    date: 2011-09-15
+    topic: tnk
+    level: journal
+    content: >
+        פורסם ב[בדד 25 - אלול ה'תשע"א](http://www.biupress.co.il/website/index.asp?id=847).     
+-
+    id: SgulotMishley
+    lang: he
+    title: סגולות משלי - עצות מקוריות בנושאים מגוונים לפי ספר משלי ומפרשיו
+    entitle: The Advices of Solomon's Proverbs
+    authors: אראל סגל-הלוי
+    date: 2009-12-19
+    topic: tnk
+    level: book
+    content: >
+        ניתן להשיג [כאן](http://www.lulu.com/spotlight/erel).
+
+-
+    id: TNK
+    lang: he
+    title: אתר הניווט בתנ"ך
+    entitle: Tanakh Navigation Website
+    authors: אראל סגל-הלוי וכותבים נוספים
+    date: 2000-01-01
+    topic: tnk
+    level: website
+    content: אתר הניווט בתנך  tora.us.fm/tnk1
+
+# Etc:
+-
+    id: underground
+    lang: he
+    title: חיל תת קרקעי
+    entitle: Towards an underground force in the IDF
+    authors: אראל סגל-הלוי 
+    date: 2003-05-15
+    topic: defense
+    level: journal
+    content: >
+        פורסם ב[מערכות 389 - ה'תשס"ג 2003](http://maarachot.idf.il/71911-he/Maarachot.aspx).
+

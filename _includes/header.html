@@ -2,7 +2,7 @@
 
 <div class="wrapper">
 
-    <div class="site-title trigger">
+    <div class="site-title">
      <a href="{{ site.baseurl }}/">
        <img src="{{ site.baseurl }}/images/erel35y.jpg" alt="Erel Segal-Halevi" title="Erel Segal-Halevi"/>
      </a>
@@ -17,21 +17,8 @@
         </svg>
       </a>
 
-      <!-- Multi-lingual code from Sylvain Durand -->
-      <div class="langs trigger" dir='ltr'>
-        {% assign pages=site.pages | where:"ident", page.ident | sort: 'path' %}
-        {% for p in pages %}
-        <a href="{{ p.url | prepend: site.baseurl }}" class="{{ p.lang }}"><img src="{{ site.baseurl }}/images/{{ p.lang }}.png" alt="This page in {{ p.lang }}"/></a>
-        {% endfor %}
-        
-        {% assign pages=site.topics | where:"id", page.id | sort: 'path' %}
-        {% for p in pages %}
-        <a href="{{ p.url | prepend: site.baseurl }}" class="{{ p.lang }}"><img src="{{ site.baseurl }}/images/{{ p.lang }}.png" alt="This page in {{ p.lang }}"/></a>
-        {% endfor %}
-      </div>
-
-    </nav>
-     <div class='page-links'>
+      <div class="trigger" dir='ltr'>
+     <span class='page-links' dir='{{page.direction}}'>
       <!-- Adapted From Jekyll default template -->
         {% assign pages=site.pages | where:"lang", page.lang | sort: 'path' %}
         {% for p in pages %}
@@ -41,7 +28,23 @@
           <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
           {% endif %}
         {% endfor %}
+      </span>
+
+      <!-- Multi-lingual code from Sylvain Durand -->
+      <span class="langs" dir='ltr'>
+        {% assign pages=site.pages | where:"ident", page.ident | sort: 'path' %}
+        {% for p in pages %}
+        <a href="{{ p.url | prepend: site.baseurl }}" class="{{ p.lang }}"><img src="{{ site.baseurl }}/images/{{ p.lang }}.png" alt="This page in {{ p.lang }}"/></a>
+        {% endfor %}
+        
+        {% assign pages=site.documents | where:"ident", page.ident | sort: 'path' %}
+        {% for p in pages %}
+        <a href="{{ p.url | prepend: site.baseurl }}" class="{{ p.lang }}"><img src="{{ site.baseurl }}/images/{{ p.lang }}.png" alt="This page in {{ p.lang }}"/></a>
+        {% endfor %}
+      </span>
       </div>
+
+    </nav>
 </div><!-- wrapper -->
 
 </header>

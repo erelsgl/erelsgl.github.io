@@ -7,7 +7,20 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/css/jekyll.css" | prepend: site.baseurl }}">
-  <!-- link rel="stylesheet" href="{{ "/css/lagom.css" | prepend: site.baseurl }}" -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Multi-lingual code from Sylvain Durand -->
+    {% assign pages=site.pages | where:"ident", page.ident | sort: 'path' %}
+    {% for p in pages %}
+      {% if p.lang != page.lang %}    
+        <link rel="alternate" hreflang="{{p.lang}}" href="{{p.url}}" />
+      {% endif %}
+    {% endfor %}
+
+    {% assign pages=site.documents | where:"ident", page.ident | sort: 'path' %}
+    {% for p in pages %}
+      {% if p.lang != page.lang %}    
+        <link rel="alternate" hreflang="{{p.lang}}" href="{{p.url}}" />
+      {% endif %}
+    {% endfor %}
 </head>

@@ -3,34 +3,71 @@
   <div class="wrapper">
         <ul class="social-media-list" dir="ltr">
           <li>
-             <a href="mailto:{{ site.email }}" title="E-mail">{{ site.email }}</a>
+             <a href="mailto:{{site.data.usernames.email}}" title="E-mail">{{site.data.usernames.email}}</a>
           </li>
-            
-          {% if site.github_username %}
+
+          {% if site.data.usernames.googlescholar %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            <a href="https://scholar.google.co.il/citations?user={{site.data.usernames.googlescholar}}"  title="Google Scholar Citations">
+                <span class="icon icon--google">
+                    <img src="{{site.baseurl}}/images/Google.png"/>
+                </span>
+                <span class="username">GoogleScholar</span>
+            </a>
           </li>
           {% endif %}
 
-          {% if site.wikipedia_username %}
+          {% if site.data.usernames.github %}
           <li>
-            {% include icon-wikipedia.html username=site.wikipedia_username %}
+            <a href="https://github.com/{{site.data.usernames.github}}"  title="GitHub projects">
+                <span class="icon icon--github">{% include icon-github.svg %}</span>
+                <span class="username">GitHub</span>
+            </a>
           </li>
           {% endif %}
 
-          {% if site.arxiv_username %}
+          {% if site.data.usernames.wikipedia %}
           <li>
-            {% include icon-arxiv.html username=site.arxiv_username %}
+            <a href="https://{{page.lang}}.wikipedia.org/wiki/User:{{site.data.usernames.wikipedia}}" title="Wikipedia user page">
+                <span class="icon icon--wikipedia">
+                    <img src="{{site.baseurl}}/images/icon-wikipedia.svg"/>
+                </span>
+                <span class="username">Wikipedia</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.data.usernames.stackexchange %}
+          <li>
+            <a href="http://stackexchange.com/users/{{site.data.usernames.stackexchange}}?tab=accounts" title="Stackexchange accounts">
+                <span class="iconwide">
+                    <img src="{{site.baseurl}}/images/icon-stackexchange.png"/>
+                </span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.data.usernames.arxiv %}
+          <li>
+            <a href="http://arxiv.org/find/grp_cs/1/au:+{{site.data.usernames.arxiv}}/0/1/0/all/0/1" title="arXiv papers">
+                <span class="username">arXiv</span>
+            </a>
           </li>
           {% endif %}
           
-          {% if site.twitter_username %}
+          {% if site.data.usernames.twitter %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            <a href="https://twitter.com/{{site.data.usernames.twitter}}">
+                <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
+                <span class="username">Twitter</span>
+            </a>
           </li>
           {% endif %}
           
         </ul>
+        <p dir='ltr' class='updatetime'>
+        Updated: {{site.time}}
+        </p>
   </div>
 
 </footer>

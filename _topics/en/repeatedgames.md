@@ -1,5 +1,5 @@
 ---
-id: fairness
+ident: repeatedgames
 title: Repeated Games
 description: Generalizing repeated games and folk theorems to players with different risk attitudes.
 date: 2015-12-01

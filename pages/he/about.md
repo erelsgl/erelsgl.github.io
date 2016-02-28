@@ -1,9 +1,10 @@
 ---
 ident: about
 layout: page
-title: אודות
+title:  בית
 ---
-שלום! אני אראל סגל-הלוי. 
-אני דוקטורנט באוניברסיטת בר-אילן.
+שלום! אני אראל סגל-הלוי, דוקטורנט בבר-אילן,  וזה האתר האקדמי שלי.
 
-המחקר שלי משלב מדעי-המחשב, מתמטיקה וכלכלה. ראו ב"נושאים".
+[1]: {{site.baseurl}}/topics/{{page.lang}}/fairness
+[2]: {{site.baseurl}}/topics/{{page.lang}}/auctions
+[3]: {{site.baseurl}}/topics/{{page.lang}}/repeatedgames

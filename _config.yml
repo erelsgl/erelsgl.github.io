@@ -2,13 +2,10 @@
 
 # Site settings
 title: Erel Segal-Halevi
-email: erelsgl@gmail.com
 description: > # this means to ignore newlines until "url:"
   Erel Segal-Halevi new homepage
 url: "http://erelsgl.github.io" # the base hostname & protocol for your site
 baseurl: #empty
-github_username:  erelsgl
-wikipedia_username:  Erel Segal
 permalink: pretty    # no .html suffix
 
 # Build settings
@@ -17,9 +14,6 @@ markdown: kramdown
 collections:
   topics:
     output: true
-  publications:
-    output: false
-
 
 defaults:
   -

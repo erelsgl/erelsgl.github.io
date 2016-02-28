@@ -1,5 +1,5 @@
 ---
-topic: negochat
+ident: negochat
 title: Natural Language Negotiation
 description: Creating computerized agents that can negotiate with humans in English.
 image: handshake_human_robot.png

@@ -1,36 +1,17 @@
 ---
 layout: page
 ---
-<div>
-<h2>Journal papes and book-chapters</h2>
-{% assign publications=site.publications | where:"level", "journal" | sort: 'date' | reverse %}
-<ul class='publications'>
-  {% for p in publications %}
-    <li><b>{{p.title}}</b>: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}</li>
+{{page.content}}
+{% for level in site.data.paperlevels %}
+{% assign papers=site.data.papers | where:"level", level | where:"lang", page.lang | sort: 'date' | reverse %}
+{% if papers.size > 0 %}
+<h2>{{site.data.labels.levels[level][page.lang]}}</h2>
+<ol class='publications'>
+  {% for p in papers %}
+    <li>
+        &quot;<b title="{{p.entitle}}">{{p.title}}</b>&quot;: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}
+    </li>
   {% endfor %}
-</ul>
-
-<h2>Archival conferences</h2>
-{% assign publications=site.publications | where:"level", "conference-archival" | sort: 'date' | reverse %}
-<ul class='publications'>
-  {% for p in publications %}
-    <li><b>{{p.title}}</b>: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}</li>
-  {% endfor %}
-</ul>
-
-<h2>Non-archival conferences</h2>
-{% assign publications=site.publications | where:"level", "conference" | sort: 'date' | reverse %}
-<ul class='publications'>
-  {% for p in publications %}
-    <li><b>{{p.title}}</b>: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}</li>
-  {% endfor %}
-</ul>
-
-<h2>Other working papers</h2>
-{% assign publications=site.publications | where:"level", "working" | sort: 'date' | reverse %}
-<ul class='publications'>
-  {% for p in publications %}
-    <li><b>{{p.title}}</b>: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}</li>
-  {% endfor %}
-</ul>
-</div>
+</ol>
+{% endif %}
+{% endfor %}
