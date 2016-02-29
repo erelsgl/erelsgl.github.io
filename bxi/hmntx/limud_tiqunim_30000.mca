@@ -1,0 +1,56 @@
+% LIMUD_TIQUNIM.MCA - qovec ^argumen@im llimmud pqudot tiqqun miqorpus mnuttax.
+
+% orek meravi $ell maxrozet = 30 tawim.
+% ha-maxrozot "case-sensitive".
+
+
+
+
+%%%%%%% maxrozot %%%%%%%%
+{
+QorpusLoMnutx:                  tqstim/harc               % kolel @eqs@ l^imun &abur $lav hamila
+QorpusMnutx:                    tqstim/train.wdots.orig   % kolel gamm @eqs@im l^imun wgamm @eqs@ lbdiqa. &' "TxiltXlqImunJlvZug".
+
+%SyomtQovcQltTocaotJlvMila:    .nts            % muttar lhi$tamme$ raqq ^im niktvu koll toca^ot $lav hamilla! (KtovKlTocaotJlvMila = 1).
+SyomtQovcPltTocaotJlvMila:    .nts            % &' lma@@a bami$tanne "KtovKlTocaotJlvMila".
+
+%MamrLNituxAlYdiMjtmj:    tqstim/harc10a        % mamr lnittux &"y ^adam.
+%MamrLNituxAlYdiTokna:    tqstim/harc10a        % mamr lnittux &"y max$ev.
+
+MslulLogim:              tqstim                % qvacei halog yikatvu l-"tqstim/*.ma2"
+MslulMilon:              .                     % qvacei hamillon yiqar^u me-"./milon/*.ma".
+
+QovcTiqunim:             milon/tiqunim30.ma     % kdei lo^ lvacce& ^et $lav hazug, nitan la$im % lifnei $ura zo.
+%QovcCmcumim:             milon/cimcumim.ma     % kdei lo^ lvacce& ^et $lav hami$pa@, nitan la$im % lifnei $ura zo.
+}
+
+
+
+
+%%%%%%% misparim %%%%%%%
+{
+
+% hami$tannim haba^im mxallqim ^et ha-"QorpusMnutx" lxalaqim, &abur ^immun w-bdiqa.
+TxiltXlqImunJlvZug:      470            %
+SofXlqImunJlvZug:        999999         % ^im SofXlqImunJlvZug=TxiltXlqImunJlvZug -- lo^ yillammdu tiqqunim xada$im.
+TxiltXlqImunJlvMila:     999999         %
+SofXlqImunJlvMila:       999999         % ^im SofXlqImunJlvMila=TxiltXlqImunJlvMila -- histabbruyot yxu$$vu miqorpus lo^ mnuttax.
+
+TxiltXlqBdiqa:           0              %
+SofXlqBdiqa:             469            %
+
+CyunQtnByotrLTiqun:      5              % raqq pqudot tiqqun $emtaqqnut lfaxot 5 $gi^ot yillammdu.
+
+
+% ^exad bdyuq mehami$tannim haba^im carik lihyot 1, wha$^ar 0.
+PltCfuf:                        1   % hatokna tiktov lqovec hapele@ (*.out) bform@ cafuf, $enittan lqri^a &al-ydei hatokna.
+PltBrur:                        0   % hatokna tiktov lqovec hapele@ (*.out) bform@ barur, $enittan lqri^a &al-ydei ^adam.
+PltHstbruyot:                   0   % hatokna tiktov lqovec hapele@ (*.out) lo^ raqq ^et hanittux hanaokn, ^ela^ ^et hahistabbruyot $ell koll hanittuxim.
+
+HmjkNitux:                      0   % ham$ek nittux &al-ydei hami$tamme$ ^o hatokna (muttar lhi$tamme$ raqq ^im qovec hapelet niktav bforma@ cafuf)!
+
+KtovEtKlTocaotJlvHMila:         1   % 1 = ktov ^et koll hatoca^ot (kolel hahistabruyot hacuraniyot &avur koll milla).
+	% 0 = ktov raqq ^et hamivnim haqcarim yoter
+
+MilonYcirti:                    0   % 1=hamillon yaxzir yoter toca^ot.
+}

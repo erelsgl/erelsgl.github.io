@@ -7,16 +7,31 @@ layout: page
 {{page.content | markdownify}}
 </p>
 <div>
+{% assign papers=site.data.papers | where:"topic", page.ident | where:"onlinedemoexists", true | sort: 'date' %}
+{% if papers.size > 0 %}
+<h2>{{site.data.labels.onlinedemos[page.lang]}}</h2>
+  <ul class='publications'>
+    {% for p in papers %}
+    <li><div dir='{{site.data.dirs[p.lang]}}' style='text-align:{{site.data.directions[p.lang]}}'>
+        <a href='{{p.onlinedemo.url}}' class='onlinedemo'>{{p.onlinedemo.title}}</a>
+    </div></li>
+    {% endfor %}
+  </ul>
+{% endif %}
+</div>
+
 {% assign papers=site.data.papers | where:"topic", page.ident | sort: 'date' %}
 <h2>{{site.data.labels.papers[page.lang]}}</h2>
 {% if papers.size > 0 %}
-  <ul class='publications' dir='ltr'>
+  <ol class='publications'>
     {% for p in papers %}
-    <li>
+    {% if p.level != "website" %}
+    <li><div dir='{{site.data.dirs[p.lang]}}' style='text-align:{{site.data.directions[p.lang]}}'>
         &quot;<b title="{{p.entitle}}">{{p.title}}</b>&quot;: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}
-    </li>
+    </div></li>
+    {% endif %}
     {% endfor %}
-  </ul>
+  </ol>
 {% else %}
 {{site.data.labels.nopapers[page.lang]}}
 {% endif %}

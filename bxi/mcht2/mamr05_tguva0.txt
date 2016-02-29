@@ -1,0 +1,440 @@
+> ******************************************************************
+> **********
+> *
+> > Reviewer A
+> >
+> >  #: 01-27
+> >
+> > Title: A corpus based morphological analyzer for unvocalized 
+> Modern Hebrew
+> >
+> > The paper describes a system for morphological disambiguation of
+> > modern Hebrew text. The system comprises three components: a
+> > morphological analyzer which gives plausibility scores to competing
+> > analyses; a module that re-scores the analyses based on bigram
+> > co-occurrences; and a syntactic parser that attempts to construct
+> > maximal spanning constituents over the morphological categories. The
+> > results of experiments suggest that the highest disambiguation
+> > accuracy is achieved when the results of all three components are
+> > combined.
+> >
+> > section 1: there is no mention of a third successful corpus-based
+> > method for POS tagging: Constraint Grammar. The rules are written
+> > manually but typically are refined by inspection of the results of
+> > applying them to corpora.
+> >
+> > There is a claim here that the fairly free word order of Hebrew makes
+> > bigram based methods difficult to apply, but the reader is left in
+> > confusion when noticing later that the second module of the system
+> > uses transformation rules learned purely over bigrams.
+> >
+> > No evidence is given for the claim that Markov Model based POS tagging
+> > needs larger training corpora than for transformation-based learning.
+> > Weischedel et al (CL 1993) show that accuracy is degraded only
+> > slightly for a 2nd order HMM tagger when training on a relatively
+> > small corpus of 64K words rather than 1 million. This misconception
+> > about HMM tagging is repeated in sections 3b and 4a.
+> >
+> > Although the word stage is described as being "based on Levinger
+> > (1995)", section 3c outlines a number of seemingly large differences
+> > (e.g. that Levinger et al use a large untagged corpus but this work
+> > uses a small tagged corpus). Again this is confusing.
+> >
+> > section 1a: A number of previous morphological analysers for Hebrew
+> > are apparently ruled out because their "sources are proprietary". If
+> > they are otherwise suitable this seems like an arbitrary decision. It
+> > needs better justification. The Segal (2000) reference is missing. The
+> > work of Herz and Rimon on morphological disambiguation of Hebrew
+> > (papers in EACL-91 and IWPT-91) should be discussed. This description
+> > of previous work is much too brief.
+> >
+> > section 3b: "English corpus based methods treat each conjugation as a
+> > separate word" -- this is an incorrect generalization. The Xerox
+> > approach to morphological disambiguation for several languages
+> > (building on the Cutting et al paper in Applied ACL 1992) uses
+> > morphological analyzers rather than full form lexicons. The same goes
+> > for systems derived from the original Helsinki Constraint Grammar for
+> > English.
+> >
+> > The CL readership does not need an intuitive presentation of
+> > Good-Turing smoothing. The equations are sufficient. But there should
+> > be a brief description of Empirical Bayes and the Euler transformation
+> > which are less familiar.
+> >
+> > section 4a: it would be clearer to say that the purpose of this module
+> > is to re-rank the initial hypotheses. Florian et al (EMNLP/VLC
+> > workshop 2000) present a related probabilistic extension of
+> > transformation-based learning which this work should be compared to.
+> >
+> > section 4c: where does this "plus 10" come from? It's not in the
+> > description of the algorithm in the previous subsection.
+> >
+> > section 4d: there seems to be some text missing at the bottom of page
+> > 12. There's no lead-in to the formula for p on page 13, and I presume
+> > the reference to Wiium (2000) should be here. This is a very weak
+> > reference. Refer to a standard textbook on statistics.
+> >
+> > The graphs and tables are very scrappy and difficult to interpret.
+> > What are "article A" and "article B"? Why are they presented
+> > separately since they look as though they give rise to very similar
+> > results? The columns of figures are incorrectly aligned with the
+> > column headings. The scales of the abscissas of the 3 graphs should be
+> > the same so that they line up properly. The legend on the second graph
+> > is truncated and the white symbols do not show up since the background
+> > is white.
+> >
+> > section 5a: give more details about the grammar, e.g. how many
+> > terminals/non-terminals, percentage of correctly-tagged sentences
+> > receiving a full parse, average degree of ambiguity? On the other hand
+> > there is no need to describe how a context-free parser works.
+> >
+> > section 5b: combining the syntactic and morphological scores by taking
+> > their "average" (presumably their arithmetic mean?) is unmotivated.
+> > There is a lot of work reported in the literature on principled ways
+> > of combining scores from different information sources. See for
+> > example Shirai et al (EMNLP 1998) and Skut & Brants (WVLC 1998).
+> >
+> > section 5c: the procedure for finding the best analysis need not be
+> > heuristic. It can be done exactly and efficiently with a dynamic
+> > programming approach. The morphological probability of a constituent
+> > is the product of the morphological probabilities of its daughters.
+> > Compute only the highest probability structure for every constituent
+> > of the same non-terminal category covering the same span. Then a
+> > slightly adapted syntactic scoring method would allow the use of the
+> > dag-shortest-path algorithm or similar to find the best analysis
+> > overall (see van Noord chapter in Robustness in Language and Speech
+> > Technology, Kluwer, 2001).
+> >
+> > section 6: in the reported evaluation the word and pair stages
+> > combined give an error rate of 7%, and adding the parsing stage halves
+> > this rate. But with a 5000-word training corpus the experiment is
+> > little more than a proof of concept. With modest automated dictionary
+> > support it should be possible to manually tag text at a rate of at
+> > least 500 words an hour. I suggest putting in a couple of weeks effort
+> > to produce a more realistic training corpus of around 40000 words and
+> > re-running the experiment. The results would be much more convincing.
+> >
+> > But even with more reliable results, your main conclusions are not
+> > particularly novel. For English, using just unigram probabilities
+> > gives around 90% accuracy, and adding bigram or trigram information
+> > increases this to around 96%. Eisner has demonstrated -- using
+> > stochastic dependency parsing -- that tagging of English can be
+> > improved by adding a good parser (An empirical comparison of
+> > probability models for dependency grammar. Technical report
+> > IRCS-96-11, IRCS, Univ. of Pennsylvania. 1996) Eisner chose the
+> > analysis that maximised the product of the tree probability (using
+> > only tree-local information) and the 2nd order Markov probability, and
+> > found that the tagging performance was better than when using the
+> > Markov probability on its own.
+> >
+> > What is the speed of the complete system? The paper gives worst-case
+> > complexity results for the 3 stages, with an overall complexity of
+> > O(n^4). This is worse than CFG parsing and especially bad considering
+> > that the goal of the system is only morphological disambigution. Is
+> > there any prospect of the system being fast enough to be used in
+> > real-world applications?
+> >
+> > ====================================================================
+> >
+> > Reviewer B
+> >
+> > Comments to be sent to the author:
+> > ---------------------------------
+> >
+> > Paper #: 01-27
+> >
+> > Title: A Corpus Based Morphological Analyzer for Unvocalized 
+> Modern Hebrew
+> >
+> >
+> > The paper describes what is doubtlessly the best freely available
+> > morphological analyzer for Modern Hebrew. The reported results are
+> > excellent: given the magnitude of the problem, less than 4% error rate
+> > is an extremely good result. Furthermore, this result was obtained
+> > with a very small training corpus, due to the lack of resources for
+> > Hebrew, in particular tagged or annotated corpora.
+> >
+> > While the engineering achievement is substantial, the paper does not
+> > report new techniques for morphological analysis or disambiguation. In
+> > other words, this is an application of well-known and established
+> > approaches to a new language. While the problems posed by Hebrew (and
+> > other Semitic languages) are very different from those known from
+> > European languages, the paper does not show any novel and innovative
+> > solutions. In page 2 you claim: "we show how several learning methods
+> > can be combined to solve a problem, which cannot be solved by any one
+> > of the methods alone." This is inaccurate: rather than combine
+> > methods, you simply apply them sequentially. And as your analysis in
+> > section 6 reveals, the problem can be solved by any of the methods
+> > alone: applying several methods only improves the accuracy of the
+> > result.
+> >
+> > As is rather common in works that apply data-driven methods, some of
+> > the design decisions are  arbitrary. In particular, the modification
+> > of the "morphological score" in the word-pair stage is not justified;
+> > and the decision to average the syntactic score with the morphological
+> > score is puzzling. There are several other aspects of the algorithms
+> > you describe that should be better motivated.
+> >
+> > Another drawback of the paper is the lacking evaluation of the
+> > results. The word pair stage is evaluated on a corpus of some 5000
+> > words; the sentence stage is evaluated on "two articles". It is hard
+> > to determine how well the reported results would scale up. Also, you
+> > provide (rather informal) complexity analyses, but do not supply any
+> > performance data. As the complexity results are not favorable (surely
+> > an algorithm whose complexity is n^4 is useless for many
+> > applications), it would be instrumental to have an idea of the times
+> > involved.
+> >
+> > You never mention the fact that Hebrew has two standards for
+> > unvocalized orthography, one in which more vowels are explicit (ktiv
+> > male), and one which resembles more the vocalized script (ktiv
+> > xaser). In Modern Hebrew, these two writing systems tend to be
+> > intermingled, so that many of the words have in practice more than one
+> > form. On page 5 you say that "for each analysis t there is exactly one
+> > word-token w for which it can be the correct analysis", and I
+> > disagree. In fact, the very example that you use throughout the paper,
+> > $QMTY, is more than two-way ambiguous: I am sure that the average
+> > native speaker will read "$iqqamti" before "$iqmati". Perhaps the
+> > corpus you used was conservative in this sense; but if your analyzer
+> > is to be applied to other texts, this problem must be taken into
+> > consideration.
+> >
+> > As for the presentation, the paper is well organized and usually clear
+> > and well written, with several useful examples. However, the
+> > algorithms you specify are extremely informal; so much so that it
+> > becomes very difficult to follow them (in particular, the rule
+> > acquisition algorithm is very poorly presented). Furthermore,
+> > complexity analyses are extremely informal and sometimes are better
+> > omitted (see the first paragraph of section 4d on page 12 for an
+> > example). Figure 1 on page 13 is cryptic.
+> >
+> > Another problem is too little reference to other systems. In section
+> > 1a you mention Rav Milim, the IBM analyzer and Levinger's 1992
+> > thesis. Rav Milim is not just an analyzer, it also disambiguates;
+> > admittedly there is very little information about it, but you should
+> > have compared your system with it, at least in functionality and
+> > performance, if not at the algorithm level. I found the lack of
+> > comparison with Levinger (1992) and Levinger at al. (1995) more
+> > problematic. Such a discussion is a prerequisite for publication.
+> >
+> > I believe that this work is worthy of publication, assuming the
+> > presentation is improved, but I'm not sure that Computational
+> > Linguistics is the right journal. It seems to fit better the Journal
+> > of Natural Language Engineering, or perhaps even Hebrew Linguistics
+> > (in Hebrew).
+> >
+> >
+> > Specific comments:
+> >
+> > Abstract: you say that the average number of analyses per word in
+> > Hebrew is 2.4; how is this computed? I've seen figures ranging from
+> > 2.1 (Levinger et al., 1995) to 2.7 (Bentur et al., 1992) to almost
+> > three (Ornan and Gutter, 2000) to more than four (Ornan, 1977). Also,
+> > you mention on page 3 that this is the average for word-tokens, and I
+> > was wondering what the average would be for word-types.
+> >
+> > Section 1, paragraph 2: "short words... prepended to the word token" -
+> > there are also suffixes, such as possessives (for nouns) and object
+> > clitics (for verbs, which you ignore in this work).
+> >
+> > Section 1a: mention that Rav Milim also disambiguates.
+> >
+> > Page 3, paragraph 3: there is a standard notation for linguistic
+> > examples using three-line glosses. The examples will be clearer if you
+> > use it. I wouldn't gloss the suffix "-ti" as "ANI", but as "1sg".
+> > Also, "-ti" is not really a pronoun but an inflectional affix.
+> >
+> > Section 2b, last line: I would assume that two occurrences of object
+> > clitics in a corpus of 4900 words suffice to make the phenomenon part
+> > of the language.
+> >
+> > Section 3a: this is a long and tedious discussion whose conclusion is
+> > that you pick the most frequent analysis of each word. I don't see why
+> > you need all the calculations, and in particular the many assumptions,
+> > to reach this sensible conclusion.
+> >
+> > Page 6, top: "English verbs have at most 4 forms" - take, takes, took,
+> > taken, taking
+> >
+> > Page 6, top: you compare Hebrew with English here, but what about
+> > other languages? How is this problem solved for, say, Turkish, an
+> > agglutinative language for which good morphological analyzers exist?
+> >
+> > Page 6, first formula: what does the intersection symbol denote?
+> >
+> > Page 6, following the second formula, "The statistical independence
+> > assumption is not always true": is it EVER true?
+> >
+> > Page 6: since the lack of annotated corpora is such a problem, did you
+> > consider creating such corpora, or at least extending the small one
+> > you had? Can the tree-bank project of Sima'an et al. (2001) help?
+> >
+> > Page 6, last formula: I did not understand why this holds.
+> >
+> > Section 3b, last paragraph: after a two-page discussion of what you do
+> > NOT do, you dedicate two lines to the solution you opted for. I doubt
+> > that many readers are familiar with Thisted (1976), in particular with
+> > "formula (4.3) there"...
+> >
+> > Section 3b: to summarize, I did not understand what a corpus of 4900
+> > words can say about words which are not included in it. Surely this
+> > stage cannot excel for rare words.
+> >
+> > Section 3d: you report that "83% of the word-tokens were assigned the
+> > correct morphological analysis." What is the base line (assuming each
+> > word obtains its most frequent analysis)? How was the "correct
+> > analysis" determined? What is the inter-coder agreement for this task?
+> >
+> > Section 4a, general comment: the word stage was described as choosing
+> > ONE analysis, whereas in fact it ranks all analyses in order of their
+> > probabilities. The presentation of the first stage should be modified
+> > to reflect that.
+> >
+> > Section 4a, second paragraph: how can a factor of 1000 guarantee no
+> > fractions?
+> >
+> > Page 8, line -3: the "normalize" step is unclear and is not explained.
+> >
+> > Section 4a, the transformation rules: this is a major drawback of your
+> > presentation. It seems that you have in mind some formal language for
+> > rules, but you never define is formally. In particular, what are
+> > patterns? Is there a pre-defined set of patterns? Is "verb agreeing by
+> > gender" or "anything but aux verb" two of them? What is the syntax of
+> > the rules, and what is their semantics?
+> >
+> > Page 9, second rule: the rule increases the score of an adjective as
+> > the second word, while the first word might still be a construct state
+> > noun; this is weird, since construct state nouns are not likely to be
+> > followed by adjectives. It would make more sense to increase the
+> > scored of the first word analysis as an absolute noun by MORE than 70.
+> >
+> > Page 9, third rule: what is an auxiliary verb in Hebrew? Isn't the
+> > verb form (infinitive, in this case) of w2 crucial here?
+> >
+> > Section 4b, the rule acquisition algorithm: this is not really an
+> > algorithm. In particular, what exactly is the output? How are the
+> > corrections to the score determined? When you say "Generate all rules
+> > that can fix an error", there may be infinitely many such rules due to
+> > the correction factors. In short, the presentation must be more
+> > formal. Also, try to avoid "our" in the presentation of the algorithm;
+> > it can be replaced by "the".
+> >
+> > Page 11, paragraph 1: this is not a proof, it is a note.
+> >
+> > Page 11, line -14, "omitting all morphological features except the
+> > parts of speech...": why? Where is this explained?
+> >
+> > Page 11, line -6, the resulting rule: why is the second pattern "noun
+> > without prefixes"? Why not "noun", or "everything but verb"? Much more
+> > detail is required here! Also, explain the scores in the following
+> > "less general" rules.
+> >
+> > Section 4d, paragraph 1: this is hardly a complexity analysis. Either
+> > omit it or analyse the complexity of the algorithm after it is
+> > rewritten as an algorithm.
+> >
+> > Page 12, line -4, "5361 words": types or tokens?
+> >
+> > Page 13, figure 1: when depicting graphs, indicate what the axes
+> > describe. Add captions to each graph, and add a textual description in
+> > the body of the paper. Is a page missing here? The formula at the
+> > bottom appears out of the blue, the symbols are not explained and the
+> > figures (in particular, 0.938 at the top of page 14) are not accounted
+> > for.
+> >
+> > Section 5a: this is a long discussion of what bottom-up chart parsing
+> > is. It's a well-defined concept, so the discussion is redundant. The
+> > reference to Allen (1995) is unfair - the concept is due to Kaplan
+> > (1973) and Kay (1973). Your definition of a "constituent" is not
+> > clear. Instead of showing a trivial example of parsing, it would be
+> > much more instrumental to see a few of the rules you used. Finally,
+> > the reference to HPSG is bizarre, as nothing you describe is related
+> > to it.
+> >
+> > Page 15, line -8, "There is no grammar rule whose RHS includes a
+> > construct number followed by a verb": this is exactly the kind of
+> > short-context rules that the word-pair stage should have captured.
+> > Could you explain why there is no transformation rule which accounts
+> > for this phenomenon?
+> >
+> > Section 5, a general comment: why do you need full-blown parsing
+> > anyway? Did you consider defining a cascade of shallow rules, a la
+> > Abney, which can be applied in linear time? If a component of the
+> > system has to be manually crafted, it seems better to design a set of
+> > finite-state based rules rather than a context-free grammar.
+> >
+> > Section 5c: again, the algorithm is too informal.
+> >
+> > Section 5d, paragraph 1: this should be part of the algorithm, not its
+> > complexity analysis.
+> >
+> > Section 5c: did you consider applying techniques from robust parsing
+> > to cope with the exponential number of permutations? Some work has
+> > been done on parsing word grids which might be applicable to your
+> > case.
+> >
+> > Tyops, English usage, etc.:
+> >
+> > Section 1, line 6: either Levinger (1992) or Levinger et
+> > al. (1995). This error recurs throughout the paper.
+> >
+> > Section 1, line 8: "short word" -> "short words"
+> >
+> > Section 1, line 15: "tagged corpus" -> "tagged corpora"
+> >
+> > Page 2, line 1: "according" -> "according to"
+> >
+> > Page 3, line 1: omit first "the"
+> >
+> > Page 3, line 4: "amount" -> "degree"
+> >
+> > Page 3, para 2, line 2: "single" -> "unique"
+> >
+> > Page 3, para 2, line 3: "phonologic" -> "phonological"
+> >
+> > Page 3, para 3, ,line 2: "kshera'iti" -> "ukshera'iti"
+> >
+> > Page 3, line -16: "connectives" -> "conjunctions"
+> >
+> > Page 3, line -14: "form" -> "state"
+> >
+> > Page 3, line -11: "pronouns" -> "possessive and object"
+> >
+> > Page 6, line 3: "24 forms" -> "24 different inflections"
+> >
+> > Page 6, line -5: "will be have" -> "will have"
+> >
+> > Section 3c, line 2: "context-free probabilities" - what is it?
+> >
+> > Section 3c, line 4: "In his" -> "In this"
+> >
+> > Section 3c, line 5: "1/k" - what is k?
+> >
+> > Section 3d, para 3: the length of the texts is irrelevant.
+> >
+> > Section 4a, line 3: "context-sensitive" -> "context-dependent"
+> >
+> > Section 4a, line 4: "It keeps" -> "They keep"
+> >
+> > Section 4a, line 6: "studied" -> "acquired"
+> >
+> > Page 10, line 7: "subjects" -> "a subject"
+> >
+> > Page 17, line 6: "analysis" -> "analyses"
+> >
+> > Section 6, table: align the rightmost column correctly.
+> >
+> > Page 18, line 5: "occupied" -> "applied"
+> >
+> > Page 19, last line: "2000" -> "2001"
+> >
+> > Page 20, Ben-Tur et al.: "Lavi" -> "Lavie"
+> >
+> > Page 21, Hopcroft and Ullman: "." -> ","
+> >
+> > Page 21, "Justeson and Slava" -> "Justeson and Katz"
+> >
+> > Page 21, Levinger (1992): add "Moshe"
+> >
+> > Page 21, "MATAH" - why not "Choueka, 199?"?
+

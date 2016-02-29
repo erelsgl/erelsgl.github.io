@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	TODO:
+
+	1. hierarchy to some structures should be added. For now some of this
+		hierarchy is represented using attributes for now -- and the
+		proper representation will be in the next version using XML
+		Schema.
+	2. "em pywlh" should be a more specific type of a noun.
+	3. The current version of this DTD is not a valid DTD do to
+		some syntax errors. This should be fixed.
+	4. The next version of this definition should be in XML schema
+		rather than in DTD.
+	5. The XML schema must be validated.
+	6. dependencies between elements and attributes and between
+		attributes and attributes should be enforced and if
+		not possible -- documented.
+	7. At least one example XML document conforming to this DTD or 
+		to a future XML Schema should be created as an example.
+	8. Some sub representations of XML documents should be considered
+		and proper XSLT should be available in order to convert
+		an XML document in this format to the desired subformat.
+	9. A different document definition should be defined for 
+		representation of a LEXICON to be used by morphological
+		analyzers for Hebrew.
+	10. XCES/EAGLES offer XML Schema for representing tagged corpora.
+		This resource(s) should be checked.
+-->
+
+<!--
+	DTD proposal for a morphologically annotated Hebrew corpus.
+
+	This version should be considered as a draft and it can change anytime
+	without any obligation to backward compatibility, although it will 
+	probably be backward compatible.
+
+	VERSION:
+		0.02 $Revision: 1.10 $
+
+	DATE:
+		$Date: 2003/03/20 11:54:59 $
+		
+	AUTHOR:
+		Shlomo Yona
+		shlomo@cs.haifa.ac.il
+		http://cs.haifa.ac.il/~shlomo/
+
+	NOTE:
+		The writer of the XML documents written according to this 
+		definition should be aware of the default character set and
+		encoding of XML document. It is suggested and recommended 
+		that the user declares the character set and encoding used
+		to avoid confusion with other users of the documents such
+		as XML parsers expecting one character set or encoding and
+		facing another.
+-->
+
+
+<!-- 
+	This is the root of any XML document obeying this DTD.
+	A CORPUS defines a collection of articles.
+
+	'name' 
+	This attribute should reflect the name you want the corpus 
+	to have. In case you want a version assigned to the corpus
+	- add it to this attribute.
+
+	'version'
+	This attribute describes the version of the DTD used for the
+	corpus. It is NOT the version of the corpus, but instead it
+	is the version of DTD describing the structure (and perhaps
+	also part of the semantics) of the corpus.
+
+-->
+<!DOCTYPE CORPUS [
+<!ELEMENT CORPUS	(ARTICLE*) >
+<!ATTLIST CORPUS
+			name		CDATA	#REQUIRED
+			version		CDATA	#REQUIRED
+		>
+
+<!-- 
+	An ARTICLE is a sequence of sentences, or a senquence of words.
+	This means that an article does not have to be partitioned into
+	sentences, and can be partitioned into words directly, or after
+	being partitioned into sentences.
+
+	The structure of an ARTICLE is bound to be a source for argument.
+	Some will wonder why listing sentences is importand while others
+	might wonder how come paragraphs and other structural information
+	of the article (e.g. title) are missing. My answer is that knowledge
+	of sentence boundaries is useful for several morphological 
+	disambiguators (i.e. POS taggers) while other information such as
+	paragraph boundaries is not used.
+
+	'id'
+	This attribute should contain some unique id to identify this
+	article from other articles in this corpus (or even reflect
+	some unique id in a much general system).
+
+	'takenFrom'
+	This should be a string describing where this article was taken 
+	from, e.g. a URL.
+-->
+<!ELEMENT ARTICLE	(SENTENCE*) >
+<!ATTLIST ARTICLE
+			id		ID	#REQUIRED
+			takenFrom	CDATA	#IMPLIED
+		>
+<!--
+	A SENTENCE is a sequence of MORPHUNITs. MORPHUNITs are abstract 
+	structures representing tokens (surface forms) and their analyses. 
+
+	A MORPHUNIT is one unit output from the tokenizer.
+
+	'id'
+	This attribute should contain some unique id to identify this
+	sentence from other sentence in the article. The usage should
+	be natural, for example give the value '1' to the 1st sentence
+	in the article, the value '2' to the 2nd, and so on.
+-->
+<!ELEMENT SENTENCE	(MORPHUNIT)	>
+<!ATTLIST SENTENCE
+			id		ID	#REQUIRED
+		>
+
+<!--
+	A MORPHUNIT describes a token seen in the article (or in a sentence
+	within the article) and a series (perhaps empty) of morphological
+	analyses for that token.
+
+	By word I mean a series of characters over the alphabet of Hebrew 
+	(plus a few extra utility characters such as {",',-}) delimited by
+	chatacters from the complement set of characters (anything but the
+	alphabet characters and those utility characters). This is a very
+	gross description of a tokenization. A more detailed one should be
+	discussed and the results of that discussion should probably influence
+	this DTD. 
+
+	'id'
+	This attribute should contain some unique id to identify this
+	word from other words in the article (in case the element
+	SENTENCE is not used), to identify this word within a sentence in
+	the article (if the element SENTENCE is used). The usage should
+	be natural, for example give the value '1' to the 1st word in the 
+	article/sentence, the value '2' to the 2nd, and so on.
+
+	'surfaceForm'
+	This attribute is the surface form string to analyze.
+	This should be in UTF-8.
+
+	'transliterated'
+	This optional attribute is a tranliteration representation of the surface 
+	form string. This transliteration will not be enforced by this standard.
+	The tranliteration is a mapping of the Hebrew alphabet to plain ASCII.
+	An example of such a transliteration can be:
+		a b g d h w z x v i k l m n s y p c q r e t
+	This transliteration, for example, does not differentiate final-letters
+	from non-final-letters.
+	This attribute is redundant as this representation can be easily
+	acheived from the 'surfaceForm' representation by an easy conversion of 
+	character sets and encoding followed by a simple tr///. This can also be
+	easily extracted using an XSLT conversion of the XML document.
+	Having this redundant information only inflates the already big file, 
+	and also introduces a limitation that now the encoding used by the writer
+	of the XML document has to use an encoding and a chatracter set that supports
+	plain ASCII.
+
+-->
+<!ELEMENT MORPHUNIT	(ANALYSIS*) >
+<!ATTLIST MORPHUNIT
+			id		ID	#REQUIRED
+			surfaceForm	CDATA	#REQUIRED
+			transliterated	CDATA	
+		>
+
+<!--
+	The ANALYSIS element contains a structure describing a morphological
+	analysis. The morphological analysis is a gross segmentation of the
+	token into a PREFIX a BASE and a SUFFIX. This view of a token assumes
+	concatenative morphology, which is not necessarily apropriate for 
+	describing the morphology of Hebrew, though might be sufficient for
+	practical applications. As far as I see it, the main obstacle in
+	properl analysis of tokens is the difficulty in extracting the lexeme
+	from the token. However, once a lexeme is extracted, we pretty much 
+	end up with this model of prefix-lexeme-suffix. Further information
+	on what is an analysis is available in the individual elements which
+	make up the ANALYSIS.
+
+	'id'
+	This attribute should contain some unique id to identify this analysis 
+	from other analyses in the for the token in context. The actual id is 
+	of no importance here, as there is no particular order in which the 
+	analyses are given. Just make sure the id you give is unique.
+-->
+<!ELEMENT ANALYSIS	(EXAMPLE?,
+			DOTTED*,
+			PREFIX?,
+			BASE,
+			SUFFIX?)>
+<!ATTLIST ANALYSIS
+			id		ID	#REQUIRED
+		>
+
+<!--
+	The EXAMPLE element might appear in order to list the example given by
+	the morphological analyzer.
+-->
+<!ELEMENT EXAMPLE	(#PCDATA)>
+
+<!--
+	The DOTTED element might appear in order to present a dotted 
+	representation of the token. If more than one acceptable dotted 
+	version for one analysis is allowed we should add a Kleene star
+	to the number of occurenced of this element at the parent element,
+	and also add an attribute to this element stating an id and perhaps
+	an attribute describing the dotting. (in any case, this element 
+	requires further discussion).
+
+-->
+<!ELEMENT DOTTED	(#PCDATA)>
+
+<!--
+	The optional PREFIX element contains one or more prefix particles.
+	These prefix particles (usually) follow this structure:
+
+	(w)?(h|e)?(ke|me|lke)?(b|k|l|m){0,2}(h)?
+
+	(Ignoring some forms which are rare or non-existing in modern Hebrew).
+
+	Since this structure is not verified but only assumed, we will not
+	limit prefixes only to this order, however the kinds of particles will
+	be limited.
+-->
+<!ELEMENT PREFIX	(PARTICLE+)>
+
+<!--
+	The PARTICLE element contains the surface form of the particle and
+	the attribute 'lexical' lists its lexical function.
+
+
+	'id'
+	This attribute should contain some unique id to identify this particle
+	from other particles in this PREFIX. The is should be unique and show 
+	the location of this particle among all particles in the PREFIX.
+	The value of the id attribute in consecutive PARTICLE elements should
+	be monotonically increasing with a difference of 1 between every two
+	consecutive PARTICLE elements.
+
+	'surfaceForm'
+	This attribute is the surface form (if available) of the prefix 
+	particle. Each prefix particle has one or more possible functions as
+	can be see next. Note that in case of the h- prefix particle, it may
+	be absent from the surface side but still a definite pronoun particle
+	can be part of the word. In other cases for each 'surfaceForm' 
+	attribute a suitable 'funcation' attribute should also appear.
+
+	m- Preposition
+	e- SubordinatingConjunction | Relativizer
+	h- DefiniteArticle | InterrogativePronoun | Relativizer | DefiniteArticleOrRelativizer
+	w- Conjunction | InversionWw
+	k- Preposition | Quantifier | PrepositionOrQuantifier
+	l- Preposition
+	b- Preposition
+	ke- SubordinatingConjunction
+	me- SubordinatingConjunction
+	lke- SubordinatingConjunction
+
+	NOTE: InterrogativePronoun h- and InversionWw w- are very rare and even
+	non existent in Modern Hebrew and perhaps should be ignored.
+
+	'function'
+	The grammatical function of the particle. Pick one from the enumerable
+	possibilities.
+
+-->
+<!ELEMENT PARTICLE	EMPTY>
+<!ATTLIST PARTICLE
+			id		ID	#REQUIRED
+			surfaceForm	(
+					m |
+					e |
+					h |
+					w |
+					k |
+					l |
+					b |
+					ke |
+					me |
+					lke
+					) 
+			function	(
+					conjunction |
+					definiteArticle |
+					interrogativePronoun |
+					inversionWw |
+					preposition |
+					quantifier |
+					relativizer |
+					definiteArticleOrRelativizer |
+					prepositionOrQuantifier |
+					subordinatingConjunction
+					)	#REQUIRED
+		>
+
+<!--
+	The BASE element contains information about the base of the word.
+
+	'surfaceForm'
+	is an optional attribute that contains the surface form of the base.
+
+	'lexeme'
+	is an obligatory attribute which contains the lexical entry of the
+	base in the dictionary.
+
+	'pos' stands for Part Of Speech. The value 'unknown' to the POS
+	attribute should be used when the base part of the word is unknown,
+	e.g. when the token is a foreign word. The value 'punctuation' 
+	should be used when the unknown token is some sort of a series of
+	non alphanumeric characters which might translate to some punctuation.
+
+	NOTE:
+	Current design of this BASE element ignores more POS categories and
+	also does not allow subcategorization or other hierarchal structure
+	of POS categorization. This issue should be discussed and the results
+	will have impact of future version of this DTD.
+
+	The value 'both' for the NUMBER attribute means that it can be either
+	Singular or Plural.
+
+	The optional TENSE attibute should be used only when the POS value is 
+	'verb'.
+
+	The optional STATUS attribute can be either 'construct' or 'absolute' 
+	or 'any'. The status sometimes is reflected in the suffix so this 
+	element might not be the most suitable place for it.
+
+	There is an optional ROOT attribute where the root can be listed. 
+	The root attribute should be of a type of a list of letters over
+	some restricted alphabet rather than the current type.
+	
+	The value of the optional PATTERN attribute should be listed like the
+	base itself only with the root's consonants replaced by the underscore
+	character: '_'.  (this requires a more formal definition).
+	The pattern attribute should be of a type of a list of letters (and _)
+	over some restricted alphabet rather than the current type.
+
+	pluralMorpheme attribute defines the morpheme used for the plural form
+	of the lexeme. It can be: im, wt, none ...
+-->
+<!ELEMENT BASE	EMPTY>
+<!ATTLIST BASE
+			surfaceForm	CDATA #REQUIRED
+			lexeme	CDATA	#REQUIRED
+			pluralMorpheme CDATA  #REQUIRED
+			pos	(
+				adjective |
+				adverb |
+				auxiliaryVerb |
+				gerund |
+				gerundNoun |
+				gerundVerb |
+				gerundAdjective |
+				conjunction |
+				determiner |
+				interrogative |
+				noun |
+				number |
+				particle |
+				preposition |
+				pronoun |
+				properName |
+				punctuation |
+				unknown |
+				verb 
+					)	#REQUIRED
+			number	(
+				singular |
+				plural |
+				both |
+				dual
+				)
+			gender (
+				masculine |
+				feminine |
+				both |
+				unknown
+				)
+			person (
+				1 |
+				2 |
+				3 |
+				any
+				)
+			tense	(
+				past |
+				present |
+				future |
+				imperative |
+				infinite |
+				toInfinite |
+				bareInfinitive |
+				)
+			status
+				(
+				absolute |
+				construct |
+				any
+				)
+			root	CDATA
+			pattern CDATA
+		>
+
+<!--
+	The optional SUFFIX element should contain the information
+	about the dependent possessive pronoun.
+	The status is not expressed here but in the BASE element
+	(this can be considered as a but and might require further discussion)
+	Another suffix represented here (which is mutual exclusive with the
+	dependent possessive pronoun) is the dependent accusative pronoun.
+
+	This is an empty element
+-->
+<!ELEMENT SUFFIX EMPTY>
+<!ATTLIST SUFFIX
+			function (
+				dependentPossessivePronoun |
+				dependentAccusativePronoun
+				)
+			number	(
+				singular |
+				plural |
+				both
+				)	#REQUIRED
+			gender (
+				Masculine |
+				Feminine |
+				Both |
+				Unknown
+				)	#REQUIRED
+			person (
+				1 |
+				2 |
+				3 |
+				any
+				)	#REQUIRED
+			surfaceForm (
+				h |
+				hm |
+				hn |
+				hw |
+				i |
+				ihm |
+				ihn |
+				ik |
+				ikm |
+				ikn |
+				inw |
+				k |
+				km |
+				kn |
+				m |
+				n |
+				ni |
+				nw |
+				w 
+			) #REQUIRED
+		>
+]>	<!-- of !DOCTYPE -->

@@ -1,0 +1,257 @@
+<html LANG="he" DIR="rtl">
+<head>
+<link rel='stylesheet' href='../../_script/klli.css' />
+<link rel='stylesheet' href='../_themes/klli.css' />
+<title>התוכנה</title>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=windows-1255" />
+<meta name="Microsoft Border" content="tlrb, default" />
+</head>
+<body><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<p align="center"><font size="6"><strong><img height='60' alt=התוכנה src="_derived/teud_tokna.html_cmp_balance100_bnr.gif" width='600' border=0></strong></font><br />
+<a href="teud_tokna_hrca.html"><img height='60' alt="הרצת התוכנה" src="_derived/teud_tokna_hrca.html_cmp_balance100_hbtn.gif" width='140' align =middle border=0 ></a>
+<p align="center">&nbsp;
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<a href="../../index.html"><img height='60' alt="לדף הראשי" src="../../_derived/home_cmp_balance100_vbtn.gif" width='140' border=0 ></a><br /><a href="../mcht/tqcir.html"><img height='60' alt=תקציר src="../mcht/_derived/tqcir.html_cmp_balance100_vbtn.gif" width='140' border=0></a><br /><a href="../mcht/teud.html"><img height='60' alt="החיבור כולו" src="../mcht/_derived/teud.html_cmp_balance100_vbtn.gif" width='140' border=0 ></a><br /><a href="milon/teud.html"><img height='60' alt=המילון src="milon/_derived/teud.html_cmp_balance100_vbtn.gif" width='140' border=0></a><br /><a href="tqstim/teud.html"><img height='60' alt="טקסטים עבריים" src="tqstim/_derived/teud.html_cmp_balance100_vbtn.gif" width='140' border=0 ></a><br /><a href="hdgma.html"><img height='60' alt="הדגמת המנתח הצורני" src="_derived/hdgma.html_cmp_balance100_vbtn.gif" width =140 border=0 ></a><br /><img height='60' alt=התוכנה src="_derived/teud_tokna.html_cmp_balance100_vbtn_p.gif" width='140' border=0>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<h1 align=center>
+מנתח צורני הסתברותי תחבירי - תיעוד
+התוכנה
+</h1>
+<h2>
+כללי
+</h2>
+<p>
+<a href="../hmntx.zip">באריזה זו</a>
+&nbsp;נמצאים כל הקבצים הדרושים לקומפילציה ולהרצה של המנתח הצורני.
+כל הקבצים הם קבצי טקסט. האריזה נוצרה על מחשב PC. לכן, כדי להתאים את הקבצים לעבודה
+על UNIX, יש להוריד מהם את תווי סוף-השורה. ניתן לבצע זאת באופן אוטומטי
+אם פותחים את האריזה בעזרת הפקודה
+<span dir="ltr">unzip -aa</span>
+(לפרטים נוספים: <span dir="ltr">man unzip</span>).
+
+<p> האריזה כוללת שלוש תוכניות: 
+<ul>
+<li>התכנית mc.exe היא מנתח צורני -- ללא הסתברות וללא הקשר
+(הוא רק מחזיר עבור כל מילה את כל הניתוחים האפשריים עבורה).
+<li>התכנית mch.exe היא מנתח צורני הסתברותי שמשתמש בפקודות
+תיקון, כלומר -- שלב המחרוזת ושלב הזוג (הוא מנתח קבצי טקסט שלמים).
+<li>התכנית mcht.exe היא מנתח צורני הסתברותי תחבירי,
+כלומר -- שלב המחרוזת, שלב הזוג ושלב המשפט.</li>
+</ul>
+<h2>תקציר על הקבצים</h2>
+<ul>
+	<li>הקבצים cpp/cpplib/*.cpp, cpp/cpplib/*.h הם קבצי-מקור
+	כלליים, שלא קשורים לשפות טבעיות.
+	<li>הקבצים cpp/morph/*.cpp, cpp/morph/*.h הם קבצי-מקור
+	שקשורים לניתוח צורני ותחבירי.
+	<li>הקבצים hmntx/milon/*.ma הם קבצי המילון, הדרושים להרצת
+	המנתחים הצורניים.&nbsp;<a href="milon/teud.html">הסבר על המילון</a>
+	<li>הקבצים hmntx/tqstim/*.txt הם קבצי טקסט שעליהם מתבצע
+	הניתוח. <a href="tqstim/tatiq.html" >הסבר על הטקסטים</a>
+	<li>הקבצים hmntx/tqstim/*.to הם קבצים שכוללים את הניתוח
+	הנכון לחלק מקבצי הטקסט. <a href="tqstim/teud_nitux_curni.html" >הסבר על&nbsp;הניתוח</a>
+	<li>הקבצים hmntx/tqstim/*.nts הם קבצי-פלט של שלב המילה
+	(הם נשמרים כדי שלא יהיה צורך להריץ את שלב המילה בכל פעם מחדש).
+	<li>
+	הקובץ hmntx/makefile הוא קובץ יצירה עבור התוכניות.
+	<li>הקובץ hmntx/hmntx.dsw הוא קובץ סביבת-עבודה עבור
+Microsoft Visual Studio 6.0. הקבצים hmntx/*.dsp הם קבצי פרוייקט המשמשים
+לבניית הפרוייקט על Windows.
+	<li>
+הקבצים hmntx/*.mca הם קבצי הגדרות
+עבור התוכנה. <a href="teud_tokna_hrca.html">הסבר על
+קבצי ההגדרות</a></li>
+</ul>
+<h2> בניית התוכניות</h2>
+<h3>על unix</h3>
+<p>יש להיכנס למדור hmntx ולכתוב: make [name].exe כאשר [name] הוא שם
+התוכנית. אפשר גם לכתוב make all או make כדי לבנות את שלוש התכניות. 
+<h3>על windows</h3>
+<p>יש לפתוח את הקובץ hmntx.dsw בMicrosoft Visual Studio, לבחור את התוכנית
+שרוצים לבנות, ובתפריט לבחור Build -&gt; Build.
+<p>על הרצת המנתח ניתן לקרוא <a href="teud_tokna_hrca.html">כאן</a>.
+<h2>פירוט&nbsp;הקבצים</h2>
+<p>
+אין תיעוד מפורט לתוכנה כולה, אך יש תיעוד ישן לחלק מהתוכנה (עד שלב
+המילה). ניתן להוריד אותו <a href="../mc/teud.html">כאן</a>.
+
+<hr />
+<p>
+כדי ליצור את המנתח הצורני שלא תלוי בהקשר (mc.exe) -- דרושים הקבצים (cpp)
+הבאים: 
+<ol>
+<li>קבצים שנמצאים בספריה cpplib (לא קשורים
+לשפות-טבעיות):
+	<ul>
+	<li>klli1.cpp -- שגרות-עזר כלליות
+	<li>cmdline1.cpp -- שגרות-עזר לטיפול בשורת הפקודה
+	<li>ui.cpp -- שגרות-עזר למנשק-משתמש בדו"ס
+	<li>stringt.cpp -- שגרות-עזר לטיפול במחרוזות</li>
+	</ul>
+<li>קבצים שנמצאים בספריה morph:
+	<ul>
+		<li>morphtyp.cpp -- הגדרת סוגים מורפולוגיים --
+חלק-דיבר, מין, מספר וכו'
+		<li>morphinf.cpp -- הגדרת המבנים שמייצגים ניתוח
+צורני של מילה אחת (MorphInfoBasic -- בלי ערך-מילוני; MorphInfo -- עם
+ערך מילוני).
+	<li>tavnit.cpp -- הגדרת "תבנית-מילה", מבנה שמשמש
+לזיהוי תבניות במחרוזות.
+<li>morphtav.cpp -- הגדרת תבניות-המילה שמשמשות את
+המנתח שלנו.
+<li>lexinf.cpp -- הגדרת סוגים שקשורים
+למידע-מילוני (המידע שצריך להיות כתוב במילון על כל מילה).
+<li>lexicon.cpp -- הגדרת המילון שמשמש את המנתח
+שלנו.
+<li>morphanl.cpp -- הגדרת המנתח הצורני.
+<li>morphanl.test.cpp -- התוכנית הראשית. זוהי
+תכנית-דוגמא שמאפשרת לכתוב מילה ולקבל את כל הניתוחים הצורניים האפשריים
+עבורה.</li>
+	</ul></li>
+</ol>
+<p>
+חוץ מהקבצים האלה דרושים עוד כמה קבצי-כותרת, שנמצאים באריזה.
+
+<hr />
+<p>
+כדי ליצור את המנתח הצורני ההסתברותי (mch.exe) דרושים, בנוסף לקבצים הנ"ל, גם
+הקבצים הבאים:
+
+<ul>
+<ul>
+<li>morphsik.cpp -- מבנה שמכיל את כל הניתוחים
+האפשריים למילה אחת, עם "סיכוי" שמותאם לכל ניתוח.
+<li>morphst2.cpp -- מבנה שמכיל את כל הניתוחים
+האפשריים לכל המילים, עם "סיכוי" שמותאם לכל ניתוח.
+<li>mone-nit.cpp -- מונה ניתוחים, לצורך חישוב
+ההסתברות של כל ניתוח.
+<li>cpplib/wordcnt.cpp -- מונה מילים שלמות, כנ"ל.
+<li>bw2fw.cpp -- מבנה שמתאים כל ערך מילוני לכל
+המילים השלמות שנגזרות ממנו.
+<li>similar.cpp -- יחידה שמגדירה את מושג ה'דמיון'
+בין מילים, עבור חישובים סטטיסטיים.
+<li>alghist.cpp -- אלגוריתם לחישוב ההסתברות של כל
+ניתוח (בלי הקשר).
+<li>mip.cpp -- תבנית של מידע צורני של מילה
+<li>tiqun3.cpp -- יחידה ללימוד של פקודות-תיקון
+ולשימוש בהן (כדי לתקן את הניתוח של מילה ע"פ המילה שלפניה והמילה
+שאחריה)
+<li>corpus.cpp -- מבנה לאחסון וניתוח טקסטים
+<li>sntncinf.cpp -- מבנה לאחסון וניתוח משפטים
+<li>morphui.cpp -- יחידה לקריאת ניתוח-צורני של
+מילה מהמקלדת
+<li>hpmaio.cpp -- יחידת ק"פ של התכנית הראשית
+<li>hpmamain.cpp -- עוד יחידת עזר של התכנית
+הראשית
+<li>addlex.cpp -- שגרות שקשורות להוספת מילים
+חדשות למילון (לא מתועד)
+<li>MntxCurniHstbruti.main.cpp -- התכנית הראשית,
+כוללת גם את מנשק-המשתמש.</li>
+</ul>
+</ul>
+<hr />
+<p>
+כדי ליצור את המנתח הצורני ההסתברותי שכולל מנתח תחבירי דרושים, בנוסף לקבצים
+הנ"ל, גם הקבצים הבאים:
+
+<ul>
+<ul>
+<li>soi.cpp -- מבנה-עזר למנתח התחבירי ההסתברותי.
+<li>cimcumim.cpp -- קובץ שמגדיר חוקי-צמצום
+תחביריים -- צמצום של כמה רכיבים לרכיב אחד.
+<li>sa-aux.h -- המנתח התחבירי
+<li>sntncas.cpp -- המנתח התחבירי ההסתברותי: מנסה
+למצוא את הניתוח הסביר ביותר למשפט בעזרת ניתוח-תחבירי שטחי.
+<li>MntxCurniHstbrutiTxbiri.main.cpp -- תוכנית
+ראשית שכוללת ניתוח תחבירי (קצת יותר מסובכת מהקודמת).</li>
+</ul>
+</ul>
+<hr />
+<div id='English'		dir=ltr lang='en'>
+<h1> Hebrew Probabilistic	Morphological Analyzer -- The Software</h1>
+<h2>General</h2>
+<p>
+<a href="../hmntx.zip">This zipfile </a>contains	all	files needed for
+	compiling	and	running	the	probabilistic morphological	analyzer. All files
+	are text files for PC. In	order to compile on	Unix, you should clean them
+	of the "Line Feed" (^M) characters. You can do this automatically	using
+	the command <code>unzip -aa</code>. (for
+	more info: <code>man unzip</code> ).
+
+<p>
+	The zipfile includes three different programs:
+
+<ul>
+		<li>
+			mc.exe -- a basic morphological analyzer,	which returns for each input word the set of all its morphological analyses.
+		<li>
+			mch.exe	-- a probabilistic morphological
+		analyzer with correction rules (i.e.: the word-token phase and the
+		word-pair phase). It can analyze entire	articles with or without
+		supervision.
+		<li>		mcht.exe -- an extension of mch.exe, that uses
+syntactic rules (i.e.: the word-token phase, the word-pair phase and the
+sentence phase).
+	</ul>
+<h2>File summary</h2>
+	<ul>
+		<li>
+		The	files <code>cpp/cpplib/*.cpp</code> and <code>cpp/cpplib/*.h</code> are general source
+		files, not related to natural languages.
+		<li>>
+		The	files <code>cpp/morph/*.cpp</code> and <code>cpp/morph/*.h</code>	are	source files,
+		related	to morphological and syntactical analysis.
+		<li>
+		The	files <code>hmntx/milon/*.ma	</code>are the&nbsp;<a
+		href="milon/teud.html#English">lexicon data	files</a>.
+		<li>
+		The	files <code>hmntx/tqstim/*.txt </code>are the&nbsp;<a
+		href="tqstim/tatiq.html#English">input text	files</a>.
+		<li>
+		The	files <code>hmntx/tqstim/*.to </code>are	the&nbsp;<a
+		href="tqstim/teud_nitux_curni.html#English" >correct	analysis
+		files</a>.
+		<li>
+		The	files <code>hmntx/tqstim/*.nts </code>are output
+		files of the word-token	phase. They	are	kept here to save time.
+		<li>>
+		The	file <code>hmntx/makefile</code> is the makefile for all
+programs.
+<li>The file <CODE>hmntx/hmntx.dsw</CODE> is a workspace file for
+Microsoft Visual Studio 6.0. The files&nbsp; <CODE>hmntx/hmntx.dsp
+</CODE>are project files for building the projects on a Windows
+system.</li>
+<li>The files hmntx/*.mca are argument files for
+<a href="teud_tokna_hrca.html#English">running the programs</a>.</li>
+	</ul>
+<h2>Making the programs</h2>
+<h3>On Unix</h3>
+<p>change to directory "hmntx", and write
+<code>make [name].exe</code>
+where [name] is the program name.
+You can also write
+<code>make</code> or
+<code>make all</code> to make all three programs.
+<h3>On Windows</h3>
+Open the file hmntx.dsw with Microsoft Visual Studio 6.0, choose the program you wish to build, and choose menu Build -> Build.
+Read <a href="teud_tokna_hrca.html#English">here</a> about running the analyzer.
+<h2>File detail</h2>
+<p>Curently there is no full documentation for the
+entire software. There are only several old files that document the basic
+morphological analyzer and the word-token phase. They can be downloaded <a
+href="../mc/teud.html#English">here</a>.
+<p>&nbsp;
+	<p>
+	<hr />
+</div>&nbsp;<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+<p lang='en' DIR='ltr' style="color: #66ccff; BORDER-TOP-style: outset; BORDER-RIGHT-style: outset; BORDER-LEFT-style: outset; BACKGROUND-color: #000000; BORDER-BOTTOM-style: outset"
+><font size="1">This page
+should be viewed using Microsoft Internet Explorer 4+, with&nbsp; Hebrew
+support. If you don't have Hebrew support, or don't read Hebrew, you can read a
+partial&nbsp; English translation <a href="#English">here</a>.</font>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+כתובת האתר: <a href="http://www.cs.technion.ac.il/~erelsgl"> http://www.cs.technion.ac.il/~erelsgl</a>
+<p>
+להערות ותגובות: <a href="mailto:erelsgl@cs.technion.ac.il">erelsgl@cs.technion.ac.il</a>
+
+</td></tr><!--msnavigation--></table></body>

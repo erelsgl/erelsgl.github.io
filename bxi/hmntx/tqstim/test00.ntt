@@ -1,0 +1,168 @@
+EFRWT
+	(<6>/[<0><6><8><9>] NNT-ZR EFRWT)
+	(<9>/[<0><6><8><9>] DT EFRWT)
+	(<0>/[<0><6><8><9>] CDT-ZR EFRWT)
+	(<8>/[<0><6><8><9>] CDT-ZR-H EFRWT)
+without rule numbers:
+	EFRWT
+	(NNT-ZR EFRWT)
+	(DT EFRWT)
+	(CDT-ZR EFRWT)
+	(CDT-ZR-H EFRWT)
+Possible segmentations into morphemes:
+	EFRWT
+ANFIM
+	(<0>/[<0><5>] NN-ZR ANFIM)
+	(<5>/[<0><5>] NNG-ZR ANFIM)
+without rule numbers:
+	ANFIM
+	(NN-ZR ANFIM)
+	(NNG-ZR ANFIM)
+Possible segmentations into morphemes:
+	ANFIM
+MGIEIM
+	(<3b>/[<3c><3a><3b>] VB-ZR2H MGIEIM)
+	(<3c>/[<3c><3a><3b>] VB-ZR3H MGIEIM)
+	(<3a>/[<3c><3a><3b>] VB-ZR1H MGIEIM)
+without rule numbers:
+	MGIEIM
+	(VB-ZR2H MGIEIM)
+	(VB-ZR3H MGIEIM)
+	(VB-ZR1H MGIEIM)
+Possible segmentations into morphemes:
+	MGIEIM
+MTAILND
+	(<0>/[<0>] IN M) (<10a>/[<10c><10a><10b>] NNP-ZY TAILND)
+	(<0>/[<0>] IN M) (<10b>/[<10c><10a><10b>] NNP-ZR TAILND)
+	(<0>/[<0>] IN M) (<10c>/[<10c><10a><10b>] NNP-ZB TAILND)
+without rule numbers:
+	MTAILND
+	(IN M) (NNP-ZY TAILND)
+	(IN M) (NNP-ZR TAILND)
+	(IN M) (NNP-ZB TAILND)
+Possible segmentations into morphemes:
+	M TAILND
+LIFRAL
+	(<0>/[<0>] IN L) (<10c>/[<10c><10a><10b>] NNP-BB IFRAL)
+	(<0>/[<0>] IN L) (<10a>/[<10c><10a><10b>] NNP-BY IFRAL)
+	(<0>/[<0>] IN L) (<10b>/[<10c><10a><10b>] NNP-BR IFRAL)
+without rule numbers:
+	LIFRAL
+	(IN L) (NNP-BB IFRAL)
+	(IN L) (NNP-BY IFRAL)
+	(IN L) (NNP-BR IFRAL)
+Possible segmentations into morphemes:
+	L IFRAL
+KFHM
+	(<27a>/[<27a><27b><27c>] COM KF) (<0>/[<0><15>] PRP-ZR3 HM)
+	(<27a>/[<27a><27b><27c>] COM KF) (<15>/[<0><15>] AGR-ZR HM)
+	(<27b>/[<27a><27b><27c>] REL KF) (<0>/[<0><15>] PRP-ZR3 HM)
+	(<27c>/[<27a><27b><27c>] IN KF) (<15>/[<0><15>] AGR-ZR HM)
+	(<27c>/[<27a><27b><27c>] IN KF) (<0>/[<0><15>] PRP-ZR3 HM)
+	(<27b>/[<27a><27b><27c>] REL KF) (<15>/[<0><15>] AGR-ZR HM)
+without rule numbers:
+	KFHM
+	(COM KF) (PRP-ZR3 HM)
+	(COM KF) (AGR-ZR HM)
+	(REL KF) (PRP-ZR3 HM)
+	(IN KF) (AGR-ZR HM)
+	(IN KF) (PRP-ZR3 HM)
+	(REL KF) (AGR-ZR HM)
+Possible segmentations into morphemes:
+	KF HM
+NRFMIM
+	(<3a>/[<3c><3a><3b>] VB-ZR1H NRFMIM)
+	(<3b>/[<3c><3a><3b>] VB-ZR2H NRFMIM)
+	(<3c>/[<3c><3a><3b>] VB-ZR3H NRFMIM)
+without rule numbers:
+	NRFMIM
+	(VB-ZR1H NRFMIM)
+	(VB-ZR2H NRFMIM)
+	(VB-ZR3H NRFMIM)
+Possible segmentations into morphemes:
+	NRFMIM
+KMTNDBIM
+	(<0>/[<0>] IN K) (<5>/[<0><5>] NNG-ZR MTNDBIM)
+	(<0>/[<0>] IN K) (<0>/[<0><5>] NN-ZR MTNDBIM)
+without rule numbers:
+	KMTNDBIM
+	(IN K) (NNG-ZR MTNDBIM)
+	(IN K) (NN-ZR MTNDBIM)
+Possible segmentations into morphemes:
+	K MTNDBIM
+,
+	(<0>/[<0>] yyCM yyCM)
+without rule numbers:
+	,
+	(yyCM yyCM)
+Possible segmentations into morphemes:
+	yyCM
+AK
+	(<26e>/[<26a><26b><26c><26d><26e>] RB AK)
+	(<26c>/[<26a><26b><26c><26d><26e>] REL AK)
+	(<26b>/[<26a><26b><26c><26d><26e>] COM AK)
+	(<26a>/[<26a><26b><26c><26d><26e>] IN AK)
+	(<26d>/[<26a><26b><26c><26d><26e>] CC AK)
+without rule numbers:
+	AK
+	(RB AK)
+	(REL AK)
+	(COM AK)
+	(IN AK)
+	(CC AK)
+Possible segmentations into morphemes:
+	AK
+LMEFH
+	(<14>/[<0><14>] MOD LMEFH)
+	(<0>/[<0><14>] RB LMEFH)
+without rule numbers:
+	LMEFH
+	(MOD LMEFH)
+	(RB LMEFH)
+Possible segmentations into morphemes:
+	LMEFH
+MFMFIM
+	(<3a>/[<3c><3a><3b>] VB-ZR1H MFMFIM)
+	(<3b>/[<3c><3a><3b>] VB-ZR2H MFMFIM)
+	(<3c>/[<3c><3a><3b>] VB-ZR3H MFMFIM)
+without rule numbers:
+	MFMFIM
+	(VB-ZR1H MFMFIM)
+	(VB-ZR2H MFMFIM)
+	(VB-ZR3H MFMFIM)
+Possible segmentations into morphemes:
+	MFMFIM
+EWBDIM
+	(<5>/[<0><5>] NNG-ZR EWBDIM)
+	(<0>/[<0><5>] NN-ZR EWBDIM)
+without rule numbers:
+	EWBDIM
+	(NNG-ZR EWBDIM)
+	(NN-ZR EWBDIM)
+Possible segmentations into morphemes:
+	EWBDIM
+FKIRIM
+	(<0>/[<0><16>] JJ-ZR FKIRIM)
+	(<16>/[<0><16>] NN-ZR FKIRIM)
+without rule numbers:
+	FKIRIM
+	(JJ-ZR FKIRIM)
+	(NN-ZR FKIRIM)
+Possible segmentations into morphemes:
+	FKIRIM
+ZWLIM
+	(<16>/[<0><16>] NN-ZR ZWLIM)
+	(<0>/[<0><16>] JJ-ZR ZWLIM)
+without rule numbers:
+	ZWLIM
+	(NN-ZR ZWLIM)
+	(JJ-ZR ZWLIM)
+Possible segmentations into morphemes:
+	ZWLIM
+.
+	(<0>/[<0>] yyDOT yyDOT)
+without rule numbers:
+	.
+	(yyDOT yyDOT)
+Possible segmentations into morphemes:
+	yyDOT

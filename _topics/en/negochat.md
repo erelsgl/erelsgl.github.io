@@ -1,7 +1,7 @@
 ---
 ident: negochat
 title: Natural Language Negotiation
-description: Creating computerized agents that can negotiate with humans in English.
+description: Creating computerized agents that can negotiate with humans in English. Don't miss the online demo!
 image: handshake_human_robot.png
 date: 2014-01-01
 ---

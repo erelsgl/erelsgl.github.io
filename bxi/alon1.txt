@@ -1,0 +1,42 @@
+The formula for calculating the confidence intervals of probability estimations comes from the normal distribution, so it makes sense to calculate the expectation and variance of a product of two normal random variables.
+
+Let X1,X2 be two independent random variables, such that:
+	 X1~N[m1,s1^2]         X2~N[m2,s2^2]
+Then:
+	E(X1^2)=s1^2+m1^2,  E(X2^2)=s2^2+m2^2
+	E(X1X2) = E(X1) E(X2) = m1 m2
+	V(X1X2) = E(X1^2) E(X2^2) - E^2(X1) E^2(X2)
+		= s1^2 s2^2 + s1^2 m2^2 + s2^2 m1^2
+
+If X1 is a normal random variable that estimates a probability, it's paramters are:
+	m1 = p1
+	s1^2 = p1 q1 / N     (where q1=1-p1  and  N is the size of the article).
+Therefore:
+	E(X1X2)	= p1 p2 = p12
+		(this means that X1X2 is a random variable that estimates the probability: p12 = p1 p2.)
+	V(X1X2)	= p1 q1 p2 q2 / N^2  +  p1 q1 p2^2 / N  +  p2 q2 p1^2 / N
+		= p1 p2 / N * (q1 q2 / N  +  q1 p2  +  p1 q2)
+		= (p1 p2 q1 q2 / N)  *  (1/N  +  p1/q1  +  p2/q2)
+If we estimate this probability directly, we get:
+	E(X12) = p12
+	V(X12) = p12 q12 / N
+
+If p12 is very small, q12 is negligible. Therefore we get:
+	V(X1X2) / V(X12)  =  q1 q2 * (1/N + p1/q1 + p2/q2)
+
+This means that when p12 is small, using an indirect estimation (counting X1, then counting X2, then multiplying) gives a much smaller variance than using direct estimation (counting X12 directly).
+
+For example, if p1=p2=1/100, and N=10000, we get:
+	V(X1X2) / V(X12)  ~= 2/100
+
+I don't know if X1X2 is a normal variable. If it is, then the confidence interval using X1X2 will be smaller by the factor:
+	sqrt (2/100) ~= 0.141
+
+ 
+ -----Original Message-----
+From:	Alon Itai [SMTP:itai@cs.technion.ac.il]
+Sent:	ג מאי 16 2000 13:16
+To:	erelsgl
+Subject:	computing the confidence intervals
+
+ << File: ATT00000.txt; charset = windows-1255 >> 

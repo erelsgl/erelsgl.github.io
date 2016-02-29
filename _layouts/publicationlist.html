@@ -10,6 +10,9 @@ layout: page
   {% for p in papers %}
     <li>
         &quot;<b title="{{p.entitle}}">{{p.title}}</b>&quot;: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}
+        {% if p.onlinedemo %}
+        <a class='onlinedemo' href='{{p.onlinedemo.url}}'>{{site.data.labels.onlinedemo[page.lang]}}</a>
+        {% endif %}
     </li>
   {% endfor %}
 </ol>

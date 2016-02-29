@@ -1,0 +1,165 @@
+> ******************************************************************
+> **********
+> *
+> > Reviewer A
+>
+> > section 1: there is no mention of a third successful corpus-based
+> > method for POS tagging: Constraint Grammar. The rules are written
+> > manually but typically are refined by inspection of the results of
+> > applying them to corpora.
+> >
+> > section 1a: A number of previous morphological analysers for Hebrew
+> > are apparently ruled out because their "sources are proprietary". If
+> > they are otherwise suitable this seems like an arbitrary decision. It
+> > needs better justification. The
+> > work of Herz and Rimon on morphological disambiguation of Hebrew
+> > (papers in EACL-91 and IWPT-91) should be discussed. This description
+> > of previous work is much too brief.
+> >
+> > But there should
+> > be a brief description of Empirical Bayes and the Euler transformation
+> > which are less familiar.
+> >
+> > ??? section 4a: Florian et al (EMNLP/VLC
+> > workshop 2000) present a related probabilistic extension of
+> > transformation-based learning which this work should be compared to. ???
+> >
+> > section 4d: This is a very weak
+> > reference. Refer to a standard textbook on statistics.
+> >
+> > section 5a: give more details about the grammar, e.g. average degree of ambiguity???
+> >
+> > section 5b: combining the syntactic and morphological scores by taking
+> > their "average" (presumably their arithmetic mean?) is unmotivated.
+> > There is a lot of work reported in the literature on principled ways
+> > of combining scores from different information sources. See for
+> > example Shirai et al (EMNLP 1998) and Skut & Brants (WVLC 1998).
+> >
+> > section 5c: the procedure for finding the best analysis need not be
+> > heuristic. It can be done exactly and efficiently with a dynamic
+> > programming approach. The morphological probability of a constituent
+> > is the product of the morphological probabilities of its daughters.
+> > Compute only the highest probability structure for every constituent
+> > of the same non-terminal category covering the same span. Then a
+> > slightly adapted syntactic scoring method would allow the use of the
+> > dag-shortest-path algorithm or similar to find the best analysis
+> > overall (see van Noord chapter in Robustness in Language and Speech
+> > Technology, Kluwer, 2001).
+> >
+> > section 6: I suggest putting in a couple of weeks effort
+> > to produce a more realistic training corpus of around 40000 words and
+> > re-running the experiment. The results would be much more convincing.
+> >
+> > ====================================================================
+
+
+
+> > Reviewer B
+> >
+> > As is rather common in works that apply data-driven methods, some of
+> > the design decisions are  arbitrary. In particular, the modification
+> > of the "morphological score" in the word-pair stage is not justified;
+> > and the decision to average the syntactic score with the morphological
+> > score is puzzling. There are several other aspects of the algorithms
+> > you describe that should be better motivated.
+> >
+> > Another drawback of the paper is the lacking evaluation of the
+> > results. The word pair stage is evaluated on a corpus of some 5000
+> > words; the sentence stage is evaluated on "two articles". It is hard
+> > to determine how well the reported results would scale up. 
+> >  
+> > On page 5 you say that "for each analysis t there is exactly one
+> > word-token w for which it can be the correct analysis", and I
+> > disagree. In fact, the very example that you use throughout the paper,
+> > $QMTY, is more than two-way ambiguous: I am sure that the average
+> > native speaker will read "$iqqamti" before "$iqmati". Perhaps the
+> > corpus you used was conservative in this sense; but if your analyzer
+> > is to be applied to other texts, this problem must be taken into
+> > consideration.
+> >
+> > However, the
+> > algorithms you specify are extremely informal; so much so that it
+> > becomes very difficult to follow them (in particular, the rule
+> > acquisition algorithm is very poorly presented). Furthermore,
+> > complexity analyses are extremely informal and sometimes are better
+> > omitted. 
+> >
+> > Another problem is too little reference to other systems. In section
+> > 1a you mention Rav Milim, the IBM analyzer and Levinger's 1992
+> > thesis. Rav Milim is not just an analyzer, it also disambiguates;
+> > admittedly there is very little information about it, but you should
+> > have compared your system with it, at least in functionality and
+> > performance, if not at the algorithm level. I found the lack of
+> > comparison with Levinger (1992) and Levinger at al. (1995) more
+> > problematic. Such a discussion is a prerequisite for publication.
+> >
+> >
+> > Specific comments:
+> >
+> > Also,
+> > you mention on page 3 that this is the average for word-tokens, and I
+> > was wondering what the average would be for word-types.
+> >
+> > Page 6, top: you compare Hebrew with English here, but what about
+> > other languages? How is this problem solved for, say, Turkish, an
+> > agglutinative language for which good morphological analyzers exist?
+> >
+> > Page 6: since the lack of annotated corpora is such a problem, did you
+> > consider creating such corpora, or at least extending the small one
+> > you had? Can the tree-bank project of Sima'an et al. (2001) help?
+> >
+> > Page 6, last formula: I did not understand why this holds.
+> >
+> > Section 3b, last paragraph: after a two-page discussion of what you do
+> > NOT do, you dedicate two lines to the solution you opted for. I doubt
+> > that many readers are familiar with Thisted (1976), in particular with
+> > "formula (4.3) there"...
+> >
+> > Section 3b: to summarize, I did not understand what a corpus of 4900
+> > words can say about words which are not included in it. Surely this
+> > stage cannot excel for rare words.
+> >
+> > Section 3d: you report that "83% of the word-tokens were assigned the
+> > correct morphological analysis." What is the base line (assuming each
+> > word obtains its most frequent analysis)? What is the inter-coder agreement for this task?
+> >
+> > Page 9, second rule: the rule increases the score of an adjective as
+> > the second word, while the first word might still be a construct state
+> > noun; this is weird, since construct state nouns are not likely to be
+> > followed by adjectives. It would make more sense to increase the
+> > score of the first word analysis as an absolute noun by MORE than 70.
+> >
+> > Page 9, third rule: what is an auxiliary verb in Hebrew? Isn't the
+> > verb form (infinitive, in this case) of w2 crucial here?
+> >
+> > Page 11, line -14, "omitting all morphological features except the
+> > parts of speech...": why? Where is this explained?
+> >
+> > Page 11, line -6, the resulting rule: why is the second pattern "noun
+> > without prefixes"? Why not "noun", or "everything but verb"? Much more
+> > detail is required here!
+> >
+> > Section 5a: The
+> > reference to Allen (1995) is unfair - the concept is due to Kaplan
+> > (1973) and Kay (1973). Instead of showing a trivial example of parsing, 
+> > it would be much more instrumental to see a few of the rules you used. 
+> >
+> > Page 15, line -8, "There is no grammar rule whose RHS includes a
+> > construct number followed by a verb": this is exactly the kind of
+> > short-context rules that the word-pair stage should have captured.
+> > Could you explain why there is no transformation rule which accounts
+> > for this phenomenon?
+> >
+> > Section 5, a general comment: why do you need full-blown parsing
+> > anyway? Did you consider defining a cascade of shallow rules, a la
+> > Abney, which can be applied in linear time? If a component of the
+> > system has to be manually crafted, it seems better to design a set of
+> > finite-state based rules rather than a context-free grammar.
+> >
+> > Section 5c: again, the algorithm is too informal.
+> >
+> > Section 5c: did you consider applying techniques from robust parsing
+> > to cope with the exponential number of permutations? Some work has
+> > been done on parsing word grids which might be applicable to your
+> > case.
+

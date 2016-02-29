@@ -1,0 +1,198 @@
+<html lang='he' dir='rtl'><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1255" />
+<link rel='stylesheet' href='../../_script/klli.css' />
+<link rel='stylesheet' href='../_themes/klli.css' />
+<title>הרצת התוכנה</title>
+<meta name="Microsoft Border" content="tlrb, default" />
+</head>
+<body><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<p align="center"><font size="6"><strong><img src="_derived/teud_tokna_hrca.html_cmp_balance100_bnr.gif" width="600" height="60" border="0" alt="הרצת התוכנה"></strong></font><br />
+
+<p align="center">&nbsp;
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<a href="../../index.html"><img src="../../_derived/home_cmp_balance100_vbtn.gif" width="140" height="60" border="0" alt="לדף הראשי"></a>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<div>
+<h1>הרצת המנתח הצורני</h1>
+<p>
+<span>כדי להריץ את התוכנית mcht.exe או mch.exe יש לכתוב:</span>
+<p dir='ltr'>
+<span>&lt;program-name&gt; &lt;argument-file&gt;</span>
+<p>
+<span>כאשר &lt;program-name&gt; הוא שם התוכנית ( mcht.exe או mch.exe ), ו &lt;argument-file&gt; הוא שם של קובץ שמגדיר את אופן הריצה.</span>
+<h3>
+<span>קבצי הגדרות לדוגמה</span></h3>
+<p>
+<ol>
+<li><a href="nitux_ay_tokna.mca">
+nitux_ay_tokna.mca</a>. אם תורץ התוכנה עם הקובץ הזה (mcht.exe nitux_ay_tokna.mca) התוכנה תקרא את המאמר
+<a href="tqstim\harc10a.txt">tqstim/harc10a.txt</a> , תבצע עליו ניתוח צורני (שלב המילה ושלב הזוג בלבד, ללא תחביר), ותכתוב את הפלט לקובץ tqstim/harc10a.out. הפלט ייכתב ב
+<a href="#PltHstbruyot">פורמט הסתברויות</a>.</span>
+<li><a href="limud_tiqunim_20.mca">limud_tiqunim_20.mca</a></span>
+<span>. קובץ זה מורה לתוכנה ללמוד הסתברויות מתוך הקורפוס הלא מנותח
+harc20 </span>
+<span> כולו, ואז ללמוד פקודות תיקון מתוך הקורפוס המנותח
+harc20 </span>
+<span>(שמכיל 5374 מילים), פרט ל469 המילים הראשונות שלו (שנשמרות לצורך בדיקה). יילמדו כל התיקונים שהציון שלהם לפחות 2. ההסתברויות משלב המילה יישמרו בקובץ
+harc20.nts </span>
+<span>, ופקודות התיקון שיילמדו יישמרו בקובץ tiqunim3.ma </span>
+<span> במדור המילון.
+<li><a href="limud_tiqunim.mca">limud_tiqunim.mca</a>
+<span>. קובץ זה מורה לתוכנה ללמוד הסתברויות מתוך הקורפוס הלא מנותח
+harc </span>
+<span>(שכולל כ170000 מילים), ואז ללמוד פקודות תיקון מתוך הקורפוס המנותח
+harc20 </span>
+<span>(שמכיל 5374 מילים), פרט ל469 המילים הראשונות שלו (שנשמרות לצורך בדיקה). יילמדו רק התיקונים שהציון שלהם לפחות 5. ההסתברויות משלב המילה יישמרו בקובץ
+harc.nts </span>
+<span>, ופקודות התיקון שיילמדו יישמרו בקובץ tiqunim3.ma </span>
+<span> במדור המילון.</span>
+<li><a href="bdiqa.mca">bdiqa.mca</a>
+<span>. קובץ זה מבצע את שלב המילה בעזרת ההסתברויות שנשמרו מההרצה הקודמת; את שלב הזוג בעזרת פקודות התיקון האחרונות שנלמדו; וגם את שלב המשפט. הניתוח שמתקבל מושווה לניתוח האמיתי עבור 469 המילים הראשונות של הקורפוס המנותח. התוצאות אחרי כל שלב מודפסות על המסך. כשמריצים את התוכנית עם קובץ זה, ועם קובץ פקודות-התיקון שנוצר מההרצה בסעיף 2, מקבלים בסוף 19 שגיאות, מתוכן 17 בערך המילוני. כשמריצים את התוכנית עם קובץ זה, ועם קובץ פקודות-התיקון שנוצר מההרצה בסעיף 3, מקבלים בסוף 23 שגיאות, מתוכן 20 בערך המילוני.</span></ul>
+<p>
+<p>
+<h3>מבנה קובץ ההגדרות</h3>
+<p>
+<span>כל טקסט בין סימן של אחוז (%) לסוף השורה נחשב להערה והתוכנה מתעלמת ממנו.</span>
+<p>
+<span>קובץ ההגדרות מכיל שתי קבוצות של הגדרות: בקבוצה הראשונה יש הגדרות של משתני-מחרוזת, ובקבוצה השניה יש הגדרות של משתנים מספריים. כל קבוצה מוקפת בסוגריים מסולסלים ({}). כל הגדרה מורכבת משם של משתנה, אחריו נקודתיים (:), ואחריהן ערך המשתנה (מחרוזת עד 30 תוים, או מספר).</span>
+<p>
+<span>להלן פירוט משמעות ההגדרות:</span>
+<ul type='disc'>
+<li>
+<span><b>QorpusLoMnutx</b> - שם של קובץ קורפוס לא מנותח, ללא הסיומת (הסיומת היא תמיד txt , התעתיק מפורט
+<a href="tqstim\tatiq.html">כאן</a>). קורפוס זה משמש ללימוד הסתברויות עבור שלב המילה.</span></li>
+<li>
+<a name='QorpusMnutx'></a><span><b>QorpusMnutx</b> - שם של קובץ קורפוס מנותח, ללא סיומת. קובץ זה יכול לשמש ללימוד מדוייק יותר של הסתברויות עבור שלב המילה, לימוד פקודות תיקון, ובדיקה. החלוקה בין האימון לבדיקה נקבעת ע&quot;י משתנים מספריים שיתוארו ב
+<a href="#TxiltXlqImunJlvZug">המשך</a>.</span></li>
+<ul type='circle'>
+<li>
+<span>שם זה, בתוספת הסיומת txt , הוא הטקסט הגולמי של הקורפוס (ללא ניתוח).</span></li>
+<li>
+<span>שם זה, בתוספת הסיומת to , הוא הניתוח הנכון של הקורפוס. הפורמט של הניתוח מפורט
+<a href="tqstim\teud_nitux_curni.html">כאן</a>.</span></li> </ul>
+<li>
+<span>משתני-מחרוזת <b>SyomtQovcQltTocaotJlvMila</b>, <b>SyomtQovcPltTocaotJlvMila</b>, ומשתנה מספרי <b>KtovEtKlTocaotJlvHMila</b> : משתנים אלה נועדו לאפשר למשתמש לשמור בקובץ את התוצאות של שלב המילה (חישוב ההסתברויות עבור כל ניתוח ללא תלות בהקשר), כדי לטעון אותן בהרצות הבאות ולחסוך את זמן הריצה של שלב המילה. שם הקובץ שבו יישמרו התוצאות של שלב המילה זהה לשם של קובץ הקורפוס, בתוספת סיומת:</span></li>
+<ul type='circle'>
+<li>
+<span>SyomtQovcQltTocaotJlvMila - משתנה זה מציין, אם הוא קיים, את הסיומת של קובץ הקלט של תוצאות שלב המילה. אם משתנה זה אינו מוגדר - שלב המילה יורץ מחדש בהפעלה הנוכחית, כלומר ההסתברויות של כל ניתוח יחושבו מחדש מתוך הקורפוס הבלתי-מנותח.</span></li>
+<li>
+<span>SyomtQovcPltTocaotJlvMila - משתנה זה מציין, אם הוא קיים, את הסיומת של קובץ הפלט של תוצאות שלב המילה. לקובץ זה יישמרו תוצאות החישוב של שלב המילה בהרצה הנוכחית. </span></li>
+<li>
+<span>תוצאות החישוב של שלב-המילה כוללות כמה מבני-נתונים; חלקם יחסית קצרים (כגון מבנה-נתונים שסופר כמה פעמים מופיע בקורפוס כל ערך מילוני), וחלקם הרבה יותר ארוכים (כגון מבנה-הנתונים שמחזיק את ההסתברויות הסופיות עבור כל מילה). ניתן לשמור את כל הנתונים (ואז הקובץ יוצא מאד גדול), או רק את הנתונים הקצרים יותר. המשתנה שלפיו נקבע כמה נתונים לשמור הוא - KtovEtKlTocaotJlvHMila - משתנה זה יכול להיות 0 או 1; אם הוא 1 ייכתבו כל הנתונים, ואם הוא 0 ייכתבו רק מבני הנתונים הקצרים. אם כותבים רק את מבני הנתונים הקצרים, ובהפעלה הבאה טוענים אותם - התוצאות יהיו פחות מדוייקות, ולכן לא רצוי להשתמש באפשרות זו.</span></li> </ul>
+<li><b>
+<span>MamrLNituxAlYdiMjtmj</span></b>
+<span> : שם של קובץ מאמר לניתוח ע&quot;י המשתמש. אם משתנה זה מוגדר, התוכנה תקרא את קובץ הטקסט ששמו=משתנה זה עם סיומת txt , תנתח אותו, תציג למשתמש את הניתוח עבור כל מילה בנפרד, ותאפשר לו לאשר או לתקן. הפלט יישמר בקובץ ששמו=משתנה זה עם סיומת out.</span></li> </ul>
+<ul type='disc'>
+<ul type='circle'>
+<li>
+<span>לתוכנית יש מנשק-משתמש פשוט ולא-ידידותי במיוחד (רץ על DOS). היא מציגה בפני המשתמש את הניתוח המשוער למאמר, מילה אחרי מילה, ומבקשת את אישורו (כדאי לפתוח את המאמר המנותח בחלון נפרד כדי לבדוק אם הניתוח נכון ). </span></li>
+<li>
+<span>אם הניתוח נכון -- לוחצים על A ועוברים למילה הבאה. </span></li>
+<li>
+<span>אם הניתוח לא נכון -- לוחצים על T ואז מקבלים רשימה של כל הניתוחים האפשריים וצריך לבחור מתוכם את הניתוח הנכון. </span></li>
+<li>
+<span>אם מתחרטים -- לוחצים על X כדי לחזור למילה הקודמת. </span></li>
+<li>
+<span>אם רוצים לשמור את הניתוח שניתחנו עד כה (כדי שלא יאבד אם המחשב יפול) לוחצים על K. </span></li>
+<li>
+<span>כדי לשמור ולסיים לוחצים על S. </span></li>
+<li>
+<a name='HmjkNitux'></a>
+<span>אם מפסיקים את העבודה לפני סוף המאמר (ע&quot;י לחיצה על S), ניתן להמשיך את הניתוח מהאמצע ע&quot;י שינוי המשתנה המספרי <b>HmjkNitux</b> ל1. אבל זה יעבוד רק אם הפורמט שנקבע עבור קובץ הפלט הוא
+<a href="#PltCfuf">PltCfuf</a>.</span></li> </ul> </ul>
+<ul type='disc'>
+<li><b>
+<span>MamrLnituxAlYdiTokna</span></b>
+<span> : שם של קובץ מאמר לניתוח ע&quot;י המחשב. אם משתנה זה מוגדר, התוכנה תקרא את קובץ הטקסט ששמו=משתנה זה עם סיומת txt , תנתח אותו ותכתוב את הניתוח הנכון לקובץ ששמו=משתנה זה עם סיומת out . פורמט הניתוח נקבע ע&quot;י המשתנים המספריים הבאים (אחד מהם בדיוק חייב להיות 1, והשאר 0):</span></li>
+<ul type='circle'>
+<li>
+<a name='PltCfuf'></a><b>
+<span>PltCfuf</span></b>
+<span> : אם משתנה זה הוא 1, הפלט יהיה בפורמט צפוף, כמו שמתואר
+<a href="tqstim\teud_nitux_curni.html">כאן</a>. זהו הפורמט היחיד שהתוכנה יודעת גם לקרוא, ולכן אם רוצים
+<a href="#HmjkNitux">להמשיך את הניתוח לאחר מכן</a> - יש להשתמש בפורמט זה.</span></li>
+<li><b>
+<span>PltBrur</span></b>
+<span> : אם משתנה זה הוא 1, הפלט יהיה בפורמט ברור, כלומר הניתוח של כל מילה יוצג במילים שאדם דובר-עברית יכול להבין. מטרת הפורמט הזה היא לתת לקורא התרשמות כללית על הניתוח הצורני.</span></li>
+<li>
+<a name='PltHstbruyot'></a><b>
+<span>PltHstbruyot</span></b>
+<span> : אם משתנה זה הוא 1, הפלט יהיה - עבור כל מילה במאמר - מספר הניתוחים האפשריים עבור כל מילה, ורשימת הניתוחים האפשריים, כאשר לפני כל ניתוח כתובה ההסתברות שלו (מוכפלת ב1000). </span></li> </ul>
+<li><b>
+<span>MslulLogim</span></b>
+<span> : שם התיקיה שאליה ייכתבו קבצי הלוג של התוכנה תוך כדי ריצה.</span></li>
+<li><b>
+<span>MslulMilon</span></b>
+<span> : שם התיקיה שממנה ייקראו קבצי ה
+<a href="milon\teud.html">מילון</a> עבור המנתח הצורני הבסיסי.</span></li>
+<li><b>
+<span>QovcTiqunim</span></b>
+<span> : שם קובץ של פקודות-תיקון עבור שלב הזוג. אם משתנה זה אינו מוגדר, שלב הזוג לא יבוצע. כדי שהמנתח ילמד פקודות תיקון חדשות מתוך קורפוס מנותח, יש להשתמש במשתנים המספריים
+<a href="#TxiltXlqImunJlvZug">TxiltXlqImunJlvZug</a>, SofXlqImunJlvZug.</span></li>
+<li><b>
+<span>QovcCmcumim</span></b>
+<span> : שם קובץ של חוקי-צמצום עבור שלב המשפט. אם משתנה זה אינו מוגדר, שלב המשפט לא יבוצע.</span></li>
+<li>
+<a name='TxiltXlqImunJlvZug'></a>
+<span>המשתנים המספריים , <b>CyunQtnByotrLTiqun TxiltXlqImunJlvZug</b> , <b>SofXlqImunJlvZug</b> : משתנים אלה משמשים ללימוד פקודות תיקון חדשות מתוך
+<a href="#QorpusMnutx">קורפוס מנותח</a>. </span></li>
+<ul type='circle'>
+<li>
+<span>שני המשתנים הראשונים מציינים את האיזור, בקורפוס המנותח, שבו יש להשתמש ללימוד פקודות תיקון (ממילה מספר TxiltXlqImunJlvZug עד מילה מספר SofXlqImunJlvZug ). אם לשני המשתנים האלה יש אותו ערך - לא יילמדו פקודות תיקון חדשות.</span></li>
+<li>
+<span>המשתנה CyunQtnByotrLTiqun מציין את הציון הקטן ביותר שיכול להיות לפקודת תיקון בשלב האימון. ככל שהציון הזה קטן יותר, יילמדו יותר תיקונים, אבל האיכות של התיקונים האחרונים תהיה נמוכה יותר. אין טעם לשים במשתנה זה מספר קטן מ2, כי פקודת תיקון עם ציון 1 היא פקודת תיקון שמתקנת רק טעות אחת בקורפוס הלימוד, ומאד לא סביר שפקודה כזאת תביא תועלת בעתיד.</span></li> </ul>
+<li>
+<span>המשתנים המספריים <b>TxiltXlqImunJlvMila</b> , <b>SofXlqImunJlvMila</b> : משתנים אלה משמשים ללימוד הסתברויות מתוך
+<a href="#QorpusMnutx">קורפוס מנותח</a>, עבור שלב המילה. הם מציינים את האיזור, בקורפוס המנותח, שבו יש להשתמש ללימוד הסתברויות אלו (ממילה מספר TxiltXlqImunJlvMila עד מילה מספר SofXlqImunJlvMila ). אם לשני המשתנים האלה יש אותו ערך - לא יילמדו הסתברויות מתוך הקורפוס המנותח, אלא רק מתוך הקורפוס הלא מנותח.
+<i>יש לוודא שאין חפיפה בין האיזור המשמש ללימוד פקודות תיקון לבין האזור המשמש ללימוד הסתברויות, כי אחרת פקודות התיקון לא יהיו אמינות!</i></span> </ul>
+</div>
+<div id='English' dir='ltr' lang='en'>
+<h1>Running the Hebrew Probabilistic Morphological Analyzer</h1>
+<p>In order to run the program <code>mch.exe</code> (or <code>mcht.exe</code>) write:
+<blockquote><code>
+&lt;program-name&gt; &lt;argument-file&gt;
+</code>
+</blockquote>
+where <code>&lt;program-name&gt;</code> is <code>mch.exe</code> or <code>mcht.exe</code>, and <code>&lt;argument-file&gt;</code> is a file that contains arugments for the program.
+<h3>Example argument files</h3>
+The argument files are simple text files that can be edited to change the behaviour of the programs.
+<ol>
+<li><a href="nitux_ay_tokna.mca"><code>nitux_ay_tokna.mca</code></a>: run with this argument file (<code>mcht.exe nitux_ay_tokna.mca</code>), the program will read the article <code><a href='tqstim/harc10a.txt'>tqstim/harc10a.txt</a></code>, analyze it morphologically, and write the output to the file <code>tqstim/harc10a.out</code>. The output file will include probability data. You can change the output format by changing the argument PltHstbruyot to 0.
+<li><a href="limud_tiqunim_20.mca">limud_tiqunim_20.mca</a>: This file tells the program to study context-indepenent probabilities from the unannotated corpus <code>harc20</code>, and then study correction-rules from the annotated corpus <code>harc20</code> (which contains 5374 words), except for its first 469 words which are kept for testing. The threshold for learning new rules is 2 (that is: the program will learn no rule that corrects less than 2 errors). The probabilities calculated in the word phase will be saved in the file <code>harc20.nts</code>, and the correction rules will be saved in the file <code>milon/tiqunim3.ma</code>.
+<li><a href="limud_tiqunim.mca">limud_tiqunim.mca</a>:
+This file tells the program to study context-independent probabilities from the entire unannotated corpus
+<code>harc</code>
+(which includes about 170000 words),
+and then study correction-rules from the annotated corpus
+<code>harc20</code> (which contains 5374 words), except for its first 469 words which are kept for testing.
+The threshold for learning new rules is 5 (that is: the program will learn no rule that corrects less than 5 errors). The probabilities calculated in the word phase will be saved in the file <code>harc20.nts</code>, and the correction rules will be saved in the file <code>milon/tiqunim3.ma</code>.
+<li><a href="bdiqa.mca">bdiqa.mca</a>:
+This file runs the word-phase using the probabilities calculated in the last run. It then runs the pair-phase using the correction rules learned in the last run. It then runs the sentence-phase.
+The resulting analysis is compared with the
+correct analysis for the first 469 words of the analyzed corpus.
+The results after each phase are printed to the console.
+<br />Running the program using this argument file, after learning correction rules using the argument file of (2), results with 19 errors, 17 of which are in the lexical value.
+<br />Running the program using this argument file, after learning correction rules using the argument file of (3), results with 23 errors, 20 of which are in the lexical value.
+</ol>
+<p>
+<p>
+<h3>The structure of the argument file</h3>
+<p>The argument files are plain-text files.
+<p>Text between the percent symbol (%) and the end of the line is ignored by the program (it is a comment).
+<p>The argument file includes two sets of arguments: the first set is for string-arguments, and the second set is for numerical arguments. Each set is surrounded by a pair of braces ({}).
+<p>Each argument-definition includes the argument name, then - a colon (:), and then - the argument value (a string up to 30 chars long, or an integer).
+<p>The rest of this section was not translated to English yet...
+</div>
+<p>&nbsp;
+<p>&nbsp;
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+<p lang='en' DIR='Ltr' style="color: #66CCFF; background-color: #000000; border-style: outset"><font size="1">This page
+should be viewed using Microsoft Internet Explorer 4+, with&nbsp; Hebrew
+support. If you don't have Hebrew support, or don't read Hebrew, you can read a
+partial&nbsp; English translation <a href="#English">here</a>.</font>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+כתובת האתר: <a href="http://www.cs.technion.ac.il/~erelsgl"> http://www.cs.technion.ac.il/~erelsgl</a>
+<p>
+להערות ותגובות: <a href="mailto:erelsgl@cs.technion.ac.il">erelsgl@cs.technion.ac.il</a>
+
+</td></tr><!--msnavigation--></table></body> </html>

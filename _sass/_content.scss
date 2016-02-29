@@ -32,6 +32,16 @@ ul.topics, ul.publications {
     }
 }
 
+.onlinedemo {
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    margin: 0 3em;
+}
+
+
+
+
 ul.topics {    
     > li > a {
         color: #222;

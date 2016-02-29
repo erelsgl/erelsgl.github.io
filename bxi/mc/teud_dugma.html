@@ -1,0 +1,629 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+<link rel='stylesheet' href='../../_script/klli.css' />
+<link rel='stylesheet' href='../_themes/klli.css' />
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.1.4 (Linux)">
+	<META NAME="CREATED" CONTENT="20051103;19232400">
+	<META NAME="CHANGED" CONTENT="20051103;19381600">
+	<STYLE>
+	<!--
+		@page { size: 21cm 29.7cm; margin: 2cm }
+		P { margin-bottom: 0.21cm; text-align: right }
+		H1 { margin-bottom: 0.21cm; text-align: right }
+		H1.western { font-family: "Albany", sans-serif; font-size: 16pt }
+		H1.cjk { font-family: "Mincho"; font-size: 16pt }
+		H1.ctl { font-family: "Tahoma", "Raanana", "Lucidasans", "Lucida Sans", "Arial Unicode MS"; font-size: 16pt }
+		H2 { margin-bottom: 0.21cm; text-align: right }
+		H2.western { font-family: "Albany", sans-serif; font-size: 14pt; font-style: italic }
+		H2.cjk { font-family: "Mincho"; font-size: 14pt; font-style: italic }
+		H2.ctl { font-size: 14pt; font-style: italic }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="" DIR="RTL">
+<H1 CLASS="ctl"><FONT SIZE=6><B>תהליך הניתוח – הסבר
+ע</B></FONT><FONT FACE="Albany, sans-serif"><FONT SIZE=6><SPAN LANG="he-IL"><B>&quot;</B></SPAN></FONT></FONT><FONT SIZE=6><B>י
+דוגמה</B></FONT></H1>
+<P STYLE="margin-bottom: 0cm; font-weight: medium">מסמך זה נועד
+להסביר בפירוט את פעולתו של המנתח הצורני<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+</SPAN></FONT>המנתח נמצא בקובץ <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">morphanl.cpp;
+</SPAN></FONT>מומלץ לקרוא מסמך זה תוך כדי עיון
+בקוד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">הפרוצדורה
+העיקרית של הניתוח היא<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+natax.</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">במסמך זה
+נבחן מה קורה כשקוראים לפרוצדורה זו עם
+הקלט <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>ומלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+(</SPAN></FONT>בתעתיק<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+WMLXMT).</SPAN></FONT>ד
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<H2 CLASS="ctl"><FONT SIZE=5 STYLE="font-size: 20pt">פרק א –
+ניתוח התחיליות</FONT></H2>
+<P STYLE="margin-bottom: 0cm; font-weight: medium">זו מגיעה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>לאחר כמה פעולות טכניות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>ל<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+ntx_txiliot = </SPAN></FONT>ניתוח האותיות התחיליות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">זו בודקת את
+האות הראשונה של המילה וממשיכה בהתאם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">;
+</SPAN></FONT>מכיוון שהמילה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>ומלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+</SPAN></FONT>מתחילה
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">באות ו<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>הביצוע עובר לפרוצדורה
+<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_txiliot_vav.</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">כאן הביצוע
+מתפצל<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>כי יש שתי אפשרויות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+</SPAN></FONT>ייתכן שהאות ו<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>שבתחילת המילה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>היא חלק
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">מהערך
+המילוני<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>וייתכן שהיא ו החיבור <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>אנחנו
+כבר יודעים שמדובר ב<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>ו
+החיבור<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>אבל
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">התוכנה עדיין
+לא יודעת <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+</SPAN></FONT>היא צריכה לבדוק את שתי האפשרויות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+</SPAN></FONT>למשל עבור המילה
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>ורד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;,
+</SPAN></FONT>האות ו היא חלק מהערך המילוני ולא
+ו החיבור<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">).
+</SPAN></FONT>לכן בשלב זה אנחנו קוראים
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">לשתי
+פרוצדורות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">א<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+ntx_bhnxa_jein_txiliot - </SPAN></FONT>נתח בהנחה שאין
+תחיליות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+</SPAN></FONT>נתח את המילה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>בהנחה שהאות
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">ו היא חלק
+מהערך המילוני<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">;
+</SPAN></FONT>נתח את המילה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>ומלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+</SPAN></FONT>בהנחה שלא צריך יותר להוריד
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">ממנה שום
+אות תחילית <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>אנחנו
+כבר יודעים שמהקריאה הזאת לא ייצא שום
+דבר<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">, </SPAN></FONT>כי
+המילה
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>ומלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+</SPAN></FONT>לא נמצאת במילון<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">;
+</SPAN></FONT>אבל התוכנה עדיין לא יודעת את
+זה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">).</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">ב<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+ntx_WITHOUT_TXILIT_VAV(1,ntx_txiliot_jiabud) - </SPAN></FONT>נתח
+את המילה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>בהנחה שהאות ו
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">היא ו החיבור<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">נתמקד עכשיו
+בפרוצדורה ב<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+</SPAN></FONT>זהו למעשה קטע<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>מאקרו<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>שמבצע כמה דברים<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium">&nbsp;<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">*
+&quot;</SPAN></FONT>זוכר<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+</SPAN></FONT>ע<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>י
+משתנה מקומי שיש ו החיבור<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">;</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium">&nbsp;<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">*
+</SPAN></FONT>מוריד את האות הראשונה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>כלומר
+את ו החיבור<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">);
+</SPAN></FONT>נשארה לנו המילה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;.</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium">&nbsp;<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">*
+</SPAN></FONT>קורא לפרוצדורה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_txiliot_jiabud
+</SPAN></FONT>עם המילה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;.</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">הפרוצדורה
+<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_txiliot_jiabud
+</SPAN></FONT>פועלת ע<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>פ
+עיקרון דומה לפרוצדורה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_txiliot_vav:
+</SPAN></FONT>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">אם יש אפשרות
+כלשהי שהאותיות הראשונות של המילה הן
+אותיות של תחילית<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>שיעבוד
+<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>ש<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">כש<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>לכש<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>שכש<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">)
+- </SPAN></FONT>היא קוראת לשתי פרוצדורות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+</SPAN></FONT>פרוצדורה אחת מניחה שהאותיות
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">הראשונות
+הן אכן תחיליות שיעבוד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>והשניה מניחה שהן חלק מהערך
+המילוני<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+</SPAN></FONT>אך במקרה
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">שלנו<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>המילה שנשארה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+&quot;</SPAN></FONT>מלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+- </SPAN></FONT>מתחילה באות מ<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>ולכן נעבור מייד לפרוצדורה הבאה
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+ntx_txiliot_yaxas_w_yidua</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">גם זו פועלת
+על<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>פי
+עיקרון דומה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+</SPAN></FONT>אם יש אפשרות כלשהי שהאותיות
+הראשונות של המילה
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">הן אותיות
+יחס או יידוע <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>ב<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>כ<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>ל<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>מ<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>ה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">)
+- </SPAN></FONT>היא קוראת לשתי פרוצדורות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+</SPAN></FONT>אחת מניחה
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">שהאותיות
+הנ<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>ל
+הן חלק מהערך המילוני<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>והשניה מניחה שהאותיות הנ<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>ל
+הן אותיות
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">יחס<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">/</SPAN></FONT>יידוע<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">ג<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+ntx_bhnxa_jein_txiliot &nbsp;- </SPAN></FONT>נתח בהנחה שאין
+תחיליות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>כלומר נתח את המילה
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+</SPAN></FONT>בהנחה שהאות הראשונה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+</SPAN></FONT>מ <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+</SPAN></FONT>היא חלק מהערך המילוני <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>במקרה
+זה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">, </SPAN></FONT>אנחנו
+כבר
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">יודעים שזוהי
+האפשרות הנכונה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">)</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">ד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+ntx_WITHOUT_TXILIT_YAXAS_w_YIDUA(1,ntx_bhnxa_jein_txiliot,OY_MEM,NONE)
+- </SPAN></FONT>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">נתח בהנחה
+שהאות הראשונה היא אות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>יחס
+מ<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">; </SPAN></FONT>זהו<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>שוב<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>קטע מאקרו שמוריד את האות
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">הראשונה
+<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>מ<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">),
+</SPAN></FONT>זוכר שיש לנו אות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>יחס
+מסוג מ<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>וקורא ל<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+ntx_bhnxa_jein_txiliot </SPAN></FONT>עם
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">המילה שנשארה
+<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>לחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">).</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">********
+</SPAN></FONT>סיכום ביניים <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">**********</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium">פרוצדורת
+הניתוח שלנו תבצע שלוש קריאות לתת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>פרוצדורה
+<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_bhnxa_jein_txiliot:</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium">&nbsp;<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">*
+1. </SPAN></FONT>עבור המילה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>ומלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium">&nbsp;<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">*
+2. </SPAN></FONT>עבור המילה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium">&nbsp;<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">*
+3. </SPAN></FONT>עבור המילה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>לחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">[</SPAN></FONT>זמן
+כתיבת פרק זה – <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">30
+</SPAN></FONT>דקות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">]</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+<H2 CLASS="ctl"><FONT SIZE=5 STYLE="font-size: 20pt">פרק ב –
+ניתוח שם עצם</FONT></H2>
+<P>הגענו לפרוצדורה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_bhnxa_jein_txiliot;
+</SPAN></FONT>פרוצדורה זו נקראת <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">3
+</SPAN></FONT>פעמים<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+</SPAN></FONT>פעם אחת
+
+<P>עבור <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>ומלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;,
+</SPAN></FONT>פעם שניה עבור <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+</SPAN></FONT>ופעם שלישית עבור <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>לחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;.</SPAN></FONT>
+<P><BR><BR>
+
+<P>התוכנה לא יודעת מראש האם המילה הזאת
+היא שם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>פועל וכו<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">',
+</SPAN></FONT>ולכן היא מנתחת כל
+
+<P>אחת מהמילים הללו כמה פעמים <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+</SPAN></FONT>בכל פעם היא מניחה חלק<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>דיבר
+מסויים ומנתחת בהתאם
+
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>הדבר
+דומה לאוטומט אי<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>דטרמיניסטי<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">).</SPAN></FONT>
+<P><BR><BR>
+
+<P>לאחר כמה בדיקות טכניות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>מגיעים לניתוחים ע<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>פ
+חלקי דיבר<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:</SPAN></FONT>
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_bhnxa_jze_MISPAR
+- </SPAN></FONT>ניתוח המילה בהנחה שהיא מספר או
+שם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>מספר
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_bhnxa_jze_ECEM
+- </SPAN></FONT>ניתוח המילה בהנחה שהיא שם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>עצם
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_bhnxa_jze_TOAR
+- </SPAN></FONT>ניתוח המילה בהנחה שהיא שם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>תואר
+<P>וכן הלאה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">...</SPAN></FONT>
+<P><BR><BR>
+
+<P>חלק מהקריאות מותנות באותיות התחיליות
+שמצאנו בחלק הקודם של הניתוח<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>למשל <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+</SPAN></FONT>
+
+<P>הקריאה ל<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+ntx_bhnxa_jze_POAL_HOWE (= </SPAN></FONT>נתח בהנחה שהמילה
+היא פועל בזמן הווה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">)
+</SPAN></FONT>
+
+<P>תתבצע רק אם בשלב הקודם של הניתוח<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>לא התגלו אותיות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>יחס
+<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>זה
+אכן המצב במקרה של
+
+<P>המילה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>ומלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+</SPAN></FONT>והמילה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;;
+</SPAN></FONT>אבל כשנגיע לנתח את המילה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>לחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;,
+</SPAN></FONT>לא תתבצע
+
+<P>קריאה זו<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>כי כשהמילה ללא תחיליות היא
+<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>לחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;,
+</SPAN></FONT>זה אומר שהמילה כוללת אות יחס
+
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מ<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;).
+</SPAN></FONT>בדיקה זו מוודאת שהמנתח לא יזהה
+מילים כמו כמו <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>בהולך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+= </SPAN></FONT>ב<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">+</SPAN></FONT>הולך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.</SPAN></FONT>
+<P><BR><BR>
+
+<P>באותו אופן<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>הקריאה ל<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_bhnxa_jze_POAL_AVAR
+&nbsp;(=</SPAN></FONT>נתח בהנחה שהמילה היא פועל
+בזמן
+
+<P>עבר<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">)
+</SPAN></FONT>תתבצע רק אם בשלב הקודם של הניתוח
+לא התגלו אותיות יחס וגם לא תחיליות
+
+<P>יידוע<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">;
+</SPAN></FONT>וכך גם קריאות נוספות שאתה יכול
+לקרוא בקוד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">...</SPAN></FONT>
+<P><BR><BR>
+
+<P>כעת נסביר אחת מתוך הפרוצדורות הללו <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+</SPAN></FONT>הפרוצדורה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_bhnxa_jze_ECEM.
+</SPAN></FONT>
+
+<P><BR><BR>
+
+<P><BR><BR>
+
+<P><BR><BR>
+
+<P>באופן כללי<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>הניתוח בפרוצדורה זו מסתמך על
+תבניות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+</SPAN></FONT>המנתח קורא אוסף של תבניות
+
+<P>מתוך קובץ התבניות <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+</SPAN></FONT>שניתן למצוא כאן<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:</SPAN></FONT>
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">http://www.tora.us.fm/bxi/hmntx/milon/tavniot.ma</SPAN></FONT>
+<P><BR><BR>
+
+<P>כל תבנית למעשה מאפשרת לפרק מילה מורכבת
+ל<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">: </SPAN></FONT>מילה
+פשוטה יותר <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">+
+</SPAN></FONT>תכונות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.</SPAN></FONT>
+<P><BR><BR>
+
+<P>למשל<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>את המילה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+</SPAN></FONT>ניתן לפרק למילה הפשוטה יותר<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+&quot;</SPAN></FONT>מלחמה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;,
+</SPAN></FONT>בתוספת התכונות
+
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>נסמך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;.</SPAN></FONT>
+<P><BR><BR>
+
+<P>פירוק זה מתבצע ע<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>י
+התבנית<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:</SPAN></FONT>
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">?T: &nbsp;0
+?H*E****YS***</SPAN></FONT>
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>תבנית
+שנמצאת בשורה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">21
+</SPAN></FONT>בקובץ<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">).</SPAN></FONT>
+<P><BR><BR>
+
+<P>כל תבנית היא למעשה כלל<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>המרה
+שיש לו כמה חלקים<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+</SPAN></FONT>
+
+<P>&nbsp;<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">*
+</SPAN></FONT>החלק השמאלי <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>לפני
+הנקודתיים<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">)
+</SPAN></FONT>הוא תבנית שמתאימה לקלט <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+</SPAN></FONT>במקרה זה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;?</SPAN></FONT>ת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+(</SPAN></FONT>התו <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">?
+</SPAN></FONT>
+
+<P>הוא תו כללי שמתאים לכל רצף של תוים<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.)</SPAN></FONT>
+<P>&nbsp;<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">*
+</SPAN></FONT>החלק השני <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>מייד
+אחרי הנקודתיים<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">)
+</SPAN></FONT>הוא מספר שמקשר את התבנית למילון
+<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">- </SPAN></FONT>במקרה
+זה
+
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">0 (</SPAN></FONT>נתעלם
+ממנו בינתיים<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">);</SPAN></FONT>
+<P>&nbsp;<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">*
+</SPAN></FONT>החלק השלישי <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>אחרי
+המספר<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>לפני הכוכבית הראשונה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">)
+</SPAN></FONT>הוא תבנית שמתארת את מילת
+
+<P>הפלט <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+</SPAN></FONT>במקרה זה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;?</SPAN></FONT>ה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;.</SPAN></FONT>
+<P>&nbsp;<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">*
+</SPAN></FONT>החלק הרביעי <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>אחרי
+הכוכבית הראשונה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">)
+</SPAN></FONT>הוא התכונות שניתן ללמוד על המילה
+מתוך
+
+<P>התבנית <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+</SPAN></FONT>כל אות שאינה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;*&quot;
+</SPAN></FONT>מציינת תכונה אחת <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>יש
+חשיבות למיקום<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">).
+</SPAN></FONT>במקרה זה יש <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">3
+</SPAN></FONT>
+
+<P>תכונות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+&nbsp;&quot;*E****YS***&quot;, E = </SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+Y = </SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+S = </SPAN></FONT>סמיכות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">;
+</SPAN></FONT>
+
+<P><BR><BR>
+
+<P>כלומר<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>מתוך התבנית הזאת ניתן ללמוד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>שהמילה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+</SPAN></FONT>היא למעשה המילה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;,
+</SPAN></FONT>
+
+<P>שהיא שם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>נסמך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.</SPAN></FONT>
+<P><BR><BR>
+
+<P><BR><BR>
+
+<P><BR><BR>
+
+<P>עכשיו נחזור לפרוצדורה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_bhnxa_jze_ECEM.</SPAN></FONT>
+<P><BR><BR>
+
+<P>לאחר כמה פעולות טכניות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>היא קוראת ל<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+ntx_siomot_jayakut - </SPAN></FONT>נתח סיומות שייכות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.</SPAN></FONT>
+<P><BR><BR>
+
+<P>זו עוברת על כל התבניות הקשורות לסיומות
+שייכות בקובץ התבניות <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(</SPAN></FONT>האוסף
+הראשון
+
+<P>בקובץ<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">),
+</SPAN></FONT>ומנסה להתאים את מילת הקלט לכל
+אחת מהתבניות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.</SPAN></FONT>
+<P><BR><BR>
+
+<P>נניח שמילת הקלט היא <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;.
+</SPAN></FONT>מילה זו מתאימה לשתי תבניות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:</SPAN></FONT>
+<P><BR><BR>
+
+<P>א<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+</SPAN></FONT>התבנית שראינו קודם <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+</SPAN></FONT>
+
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">?T: &nbsp;0
+?H*E****YS***</SPAN></FONT>
+<P>תבנית שהפלט שלה הוא <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>נסמך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;.</SPAN></FONT>
+<P><BR><BR>
+
+<P>ב<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+</SPAN></FONT>התבנית הראשונה באוסף<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:</SPAN></FONT>
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">?: &nbsp;0
+?*E****YB***</SPAN></FONT>
+<P>תבנית שמתאימה לכל מילה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>והפלט שלה הוא המילה עצמה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>שהיא שם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>
+
+<P>נסמך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>או<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>נפרד
+<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">(B); </SPAN></FONT>במקרה
+זה הפלט יהיה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>נסמך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>או<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>נפרד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;.</SPAN></FONT>
+<P><BR><BR>
+
+<P>באותו אופן<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>עבור שאר מילות הקלט<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>נקבל שתי התאמות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:</SPAN></FONT>
+<P><BR><BR>
+
+<P>ג<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+&quot;</SPAN></FONT>ומלחמה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>נסמך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>
+<P>ד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+&quot;</SPAN></FONT>ומלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>נסמך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>או<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>נפרד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>
+<P>ה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+&quot;</SPAN></FONT>לחמה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>נסמך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>
+<P>ו<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+&quot;</SPAN></FONT>לחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>נסמך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>או<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>נפרד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;.</SPAN></FONT>
+<P><BR><BR>
+
+<P><BR><BR>
+
+<P>עבור כל התאמה בין מילת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>הקלט
+לבין תבנית כלשהי<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>הפרוצדורה בודקת האם התבנית
+
+<P>מחזירה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+</SPAN></FONT>או <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>רבים<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;;
+</SPAN></FONT>אם היא מחזירה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+- </SPAN></FONT>קוראים לפרוצדורה
+
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;ntx_ecem_bli_siomot&quot;
+(=</SPAN></FONT>נתח שם עצם בהנחה שאין לו סיומות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">);
+</SPAN></FONT>אם היא מחזירה
+
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>רבים<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+- </SPAN></FONT>קוראים לפני<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>כן
+לפרוצדורה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;ntx_siomot_ribui&quot;
+(=</SPAN></FONT>בצע ניתוח דומה בעזרת
+
+<P>אוסף התבניות שמתאר את סיומות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>הריבוי
+האפשריות לשמות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">).</SPAN></FONT>
+<P><BR><BR>
+
+<P>במקרה זה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>שתי התבניות המתאימות מחזירות
+<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;,
+</SPAN></FONT>ולכן בכל המקרים נעבור מייד
+
+<P>לפרוצדורה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_ecem_bli_siomot.</SPAN></FONT>
+<P><BR><BR>
+
+<P>בסך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>הכל<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>הפרוצדורה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_ecem_bli_siomot
+</SPAN></FONT>תיקרא <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">6
+</SPAN></FONT>פעמים<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:
+</SPAN></FONT>עבור <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>ומלחמה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;,
+&quot;</SPAN></FONT>ומלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;,
+</SPAN></FONT>
+
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;,
+&quot;</SPAN></FONT>מלחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;,
+&quot;</SPAN></FONT>לחמה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;,
+&quot;</SPAN></FONT>לחמת<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;.</SPAN></FONT>
+<P><BR><BR>
+
+<P><BR><BR>
+
+<P><BR><BR>
+
+<P>הפרוצדורה <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">ntx_ecem_bli_siomot
+- </SPAN></FONT>עיקר תפקידה הוא לחפש את המילה
+במילון של
+
+<P>שמות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-</SPAN></FONT>העצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.
+</SPAN></FONT>מילון זה נמצא כאן<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:</SPAN></FONT>
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">http://www.tora.us.fm/bxi/hmntx/milon/lex0e.ma</SPAN></FONT>
+<P>מכל <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">6
+</SPAN></FONT>האפשרויות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>היחידה שנמצאת במילון היא <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;.</SPAN></FONT>
+<P><BR><BR>
+
+<P>לכן<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>בסופו של דבר<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>נקבל רק ניתוח אחד <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">-
+</SPAN></FONT>הניתוח <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>נסמך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;.
+</SPAN></FONT>
+
+<P><BR><BR>
+
+<P>בניתוח זה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>המנתח <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>זכר<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;
+</SPAN></FONT>שהוא הוריד את ו החיבור<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>ולכן הניתוח הסופי שיתקבל יהיה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">:</SPAN></FONT>
+<P><BR><BR>
+
+<P><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;</SPAN></FONT>מלחמה<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>עצם<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>יחיד<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>נסמך<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">,
+</SPAN></FONT>עם ו החיבור<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">&quot;.</SPAN></FONT>
+<P><BR><BR>
+
+<P>דילגתי על הרבה פרטים טכניים כדי להדגיש
+את העיקר<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">.</SPAN></FONT>
+<P><BR><BR>
+
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">[</SPAN></FONT>זמן
+כתיבת פרק זה – <FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">50
+</SPAN></FONT>דקות<FONT FACE="Nimbus Roman No9 L, serif"><SPAN LANG="he-IL">]</SPAN></FONT>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+
+</body>
+</HTML>

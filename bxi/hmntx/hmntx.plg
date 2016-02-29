@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: hmntx - Win32 Debug--------------------
+</h3>
+
+g++ -c -o ../cpp/cpplib/cmdline1.o -I../cpp -I/devcpp/g++  ../cpp/cpplib/cmdline1.cpp
+In file included from ..\cpp\cpplib\cmdline1.h:5,
+                 from ../cpp/cpplib/cmdline1.cpp:8:
+..\cpp\cpplib\typedefs.h:32: iostream.h: No such file or directory
+In file included from ../cpp/cpplib/cmdline1.cpp:8:
+..\cpp\cpplib\cmdline1.h:6: iostream.h: No such file or directory
+..\cpp\cpplib\cmdline1.h:7: fstream.h: No such file or directory
+In file included from ../cpp/cpplib/cmdline1.cpp:9:
+..\cpp\cpplib\klli1.h:51: fstream.h: No such file or directory
+make: *** [../cpp/cpplib/cmdline1.o] Error 1
+Error executing make.
+
+
+
+<h3>Results</h3>
+hmntx.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

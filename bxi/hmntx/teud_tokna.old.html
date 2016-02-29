@@ -1,0 +1,403 @@
+<html LANG="he" DIR="rtl">
+<head>
+<link rel='stylesheet' href='../../_script/klli.css' />
+<link rel='stylesheet' href='../_themes/klli.css' />
+<title>התוכנה</title>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=windows-1255" />
+<meta name="Microsoft Border" content="tlrb, default" />
+</head>
+<body><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<p align="center"><font size="6"><strong></strong></font><br />
+
+<p align="center">&nbsp;
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<h1 align=center>
+מנתח צורני הסתברותי תחבירי - תיעוד
+התוכנה
+</h1>
+<h2>
+כללי
+</h2>
+<p>
+<a href="../hmntx.zip">באריזה זו</a>
+&nbsp;נמצאים כל הקבצים הדרושים לקומפילציה ולהרצה של המנתח הצורני.
+כל הקבצים הם קבצי טקסט. האריזה נוצרה על מחשב PC. לכן, כדי להתאים את הקבצים לעבודה
+על UNIX, יש להוריד מהם את תווי סוף-השורה. ניתן לבצע זאת באופן אוטומטי
+אם פותחים את האריזה בעזרת הפקודה
+<span dir="ltr">unzip -aa</span>
+(לפרטים נוספים: <span dir="ltr">man unzip</span>).
+
+<p> האריזה כוללת שלוש תוכניות: 
+<ul>
+<li>התכנית mc.exe היא מנתח צורני -- ללא הסתברות וללא הקשר
+(הוא רק מחזיר עבור כל מילה את כל הניתוחים האפשריים עבורה).
+<li>התכנית mch.exe היא מנתח צורני הסתברותי שמשתמש בפקודות
+תיקון, כלומר -- שלב המחרוזת ושלב הזוג (הוא מנתח קבצי טקסט שלמים).
+<li>התכנית mcht.exe היא מנתח צורני הסתברותי תחבירי,
+כלומר -- שלב המחרוזת, שלב הזוג ושלב המשפט.</li>
+</ul>
+<h2>תקציר על הקבצים</h2>
+<ul>
+	<li>הקבצים cpp/cpplib/*.cpp, cpp/cpplib/*.h הם קבצי-מקור
+	כלליים, שלא קשורים לשפות טבעיות.
+	<li>הקבצים cpp/morph/*.cpp, cpp/morph/*.h הם קבצי-מקור
+	שקשורים לניתוח צורני ותחבירי.
+	<li>הקבצים hmntx/milon/*.ma הם קבצי המילון, הדרושים להרצת
+	המנתחים הצורניים.&nbsp;<a href="milon/teud.html">הסבר על המילון</a>
+	<li>הקבצים hmntx/tqstim/*.txt הם קבצי טקסט שעליהם מתבצע
+	הניתוח. <a href="tqstim/tatiq.html" >הסבר על הטקסטים</a>
+	<li>הקבצים hmntx/tqstim/*.to הם קבצים שכוללים את הניתוח
+	הנכון לחלק מקבצי הטקסט. <a href="tqstim/teud_nitux_curni.html" >הסבר על&nbsp;הניתוח</a>
+	
+	<li>הקבצים hmntx/tqstim/*.nts הם קבצי-פלט של שלב המילה
+	(הם נשמרים כדי שלא יהיה צורך להריץ את שלב המילה בכל פעם מחדש).
+	<li>
+	הקובץ hmntx/makefile הוא קובץ יצירה עבור התוכניות.
+	<li>הקובץ hmntx/hmntx.dsw הוא קובץ סביבת-עבודה עבור
+Microsoft Visual Studio 6.0. הקבצים hmntx/*.dsp הם קבצי פרוייקט המשמשים לבניית הפרוייקט על
+Windows.</li>
+</ul>
+<h2> בניית התוכניות</h2>
+<h3>על unix</h3>
+<p>יש להיכנס למדור hmntx ולכתוב: make [name].exe כאשר [name] הוא שם
+התוכנית. אפשר גם לכתוב make all או make כדי לבנות את שלוש התכניות. 
+<h3>על windows</h3>
+<p>יש לפתוח את הקובץ hmntx.dsw בMicrosoft Visual Studio, לבחור את התוכנית
+שרוצים לבנות, ובתפריט לבחור Build -&gt; Build.
+<h2>הרצת המנתח</h2>
+<p>
+יש כמה דרכים להריץ את המנתח. הדרך הקצרה ביותר, אם רוצים רק לנתח מאמר נתון,
+היא:
+
+<p align=center dir='ltr'>
+&nbsp;mcht.exe -b harc harc10a -g tqstim -s -d -n
+
+<p>הסבר: 
+<ul>
+<li>
+harc -- השם (בלי סיומת) של הקובץ שמכיל את
+ה"קורפוס" -- טקסט האימון הגדול. (הטקסט נמצא בקובץ harc.txt -- מצורף
+לאריזה). ה"קורפוס" צריך להכיל גם את טקסט-האימון וגם את המאמר שרוצים
+לנתח, כלומר יש להוסיף את המאמר שרוצים לנתח בסוף קובץ זה!!!
+<li>
+harc10a -- השם של הקובץ שמכיל את המאמר שרוצים
+לנתח. (הטקסט נמצא בקובץ harc10a.txt).
+<li>
+tqstim -- השם של התיקיה שבה נמצאים כל הקבצים
+האלה (לתיקיה הזאת ייכתבו גם קבצי-המעקב -- logfiles. ולשם גם הניתוח
+שיתקבל לבסוף ייכתב לקובץ-הפלט: harc10a.out).
+<li>
+המתג n- אומר שמריצים את התוכנית בלי ניתוח
+תחבירי (זה חוסך הרבה זמן: הניתוח התחבירי לוקח כשעתיים על פנטיום 133).
+<li>
+המתג b- אומר שמריצים את התוכנית בלי התערבות
+משתמש -- כלומר הניתוח ייכתב מייד לקובץ הפלט. אם רוצים להריץ את התוכנית
+עם התערבות -- צריך לכתוב i- במקום b-.
+	<ul>
+	<li>לתוכנית יש מנשק-משתמש פשוט ולא-ידידותי במיוחד
+(רץ על DOS). היא מציגה בפני המשתמש את הניתוח המשוער למאמר, מילה אחרי
+מילה, ומבקשת את אישורו (כדאי לפתוח את המאמר המנותח בחלון נפרד כדי
+לבדוק אם הניתוח נכון).
+		<li>אם הניתוח נכון -- לוחצים על A ועוברים למילה
+הבאה.
+		<li>אם הניתוח לא נכון -- לוחצים על T ואז מקבלים
+רשימה של כל הניתוחים האפשריים וצריך לבחור מתוכם את הניתוח הנכון.
+		<li>אם מתחרטים -- לוחצים על X כדי לחזור למילה
+הקודמת.
+		<li>אם רוצים לשמור את הניתוח שניתחנו עד כה (כדי
+שלא יאבד אם המחשב יפול) לוחצים על K.
+		<li>כדי לשמור ולסיים לוחצים על S.
+		<li>אם מפסיקים את העבודה לפני סוף המאמר (ע"י לחיצה על S), ניתן להמשיך את
+		הניתוח מהאמצע ע"י הרצת:<br />&nbsp;mcht.exe -h harc harc10a -g tqstim -s -d -n</li>
+</ul>
+<li>המתג s- אומר שלא מריצים את שלב המילה מחדש, אלא משתמשים בפלט המוכן שלו.
+הפלט אמור להיות בקובץ: harc.nts. אם רוצים להריץ את שלב המילה מחדש (למשל: אם
+הקובץ harc.nts לא קיים) צריך להריץ כך: <br />mcht.exe -b harc harc10a -g tqstim
+-d -n <br />פקודה זו תבצע את אלגוריתם לימוד ההסתברויות מתוך טקסט אימון לא-מנותח
+(הטקסט harc.txt). אם רוצים ללמוד הסתברויות מתוך טקסט-אימון מנותח -- צריך
+להריץ: <br />mcht.exe -b harc harc10a -g tqstim -o testa5 -d -n <br />כאשר
+testa5 הוא שמו של טקסט האימון המנותח (הטקסט נמצא בקובץ testa5.txt
+והניתוח הנכון נמצא בקובץ testa5.to - שניהם מצורפים לאריזה).
+<li>אם רוצים ללמוד פקודות-תיקון חדשות מתוך טקסט-אימון מנותח -- צריך להריץ:
+<br />mcht.exe -b
+harc harc10a -g tqstim -x testa5 -s -d -n</li>
+</ul>
+<h2>פירוט&nbsp;הקבצים</h2>
+<p>
+אין תיעוד מפורט לתוכנה כולה, אך יש תיעוד ישן לחלק מהתוכנה (עד שלב
+המילה). ניתן להוריד אותו <a href="../mc/teud.html">כאן</a>.
+
+<hr />
+<p>
+כדי ליצור את המנתח הצורני שלא תלוי בהקשר (mc.exe) -- דרושים הקבצים (cpp)
+הבאים: 
+<ol>
+<li>קבצים שנמצאים בספריה cpplib (לא קשורים
+לשפות-טבעיות):
+	<ul>
+	<li>klli1.cpp -- שגרות-עזר כלליות
+	<li>cmdline1.cpp -- שגרות-עזר לטיפול בשורת הפקודה
+	<li>ui.cpp -- שגרות-עזר למנשק-משתמש בדו"ס
+	<li>stringt.cpp -- שגרות-עזר לטיפול במחרוזות</li>
+	</ul>
+<li>קבצים שנמצאים בספריה morph:
+	<ul>
+		<li>morphtyp.cpp -- הגדרת סוגים מורפולוגיים --
+חלק-דיבר, מין, מספר וכו'
+		<li>morphinf.cpp -- הגדרת המבנים שמייצגים ניתוח
+צורני של מילה אחת (MorphInfoBasic -- בלי ערך-מילוני; MorphInfo -- עם
+ערך מילוני).
+	<li>tavnit.cpp -- הגדרת "תבנית-מילה", מבנה שמשמש
+לזיהוי תבניות במחרוזות.
+<li>morphtav.cpp -- הגדרת תבניות-המילה שמשמשות את
+המנתח שלנו.
+<li>lexinf.cpp -- הגדרת סוגים שקשורים
+למידע-מילוני (המידע שצריך להיות כתוב במילון על כל מילה).
+<li>lexicon.cpp -- הגדרת המילון שמשמש את המנתח
+שלנו.
+<li>morphanl.cpp -- הגדרת המנתח הצורני.
+<li>morphanl.test.cpp -- התוכנית הראשית. זוהי
+תכנית-דוגמא שמאפשרת לכתוב מילה ולקבל את כל הניתוחים הצורניים האפשריים
+עבורה.</li>
+	</ul></li>
+</ol>
+<p>
+חוץ מהקבצים האלה דרושים עוד כמה קבצי-כותרת, שנמצאים באריזה.
+
+<hr />
+<p>
+כדי ליצור את המנתח הצורני ההסתברותי (mch.exe) דרושים, בנוסף לקבצים הנ"ל, גם
+הקבצים הבאים:
+
+<ul>
+<ul>
+<li>morphsik.cpp -- מבנה שמכיל את כל הניתוחים
+האפשריים למילה אחת, עם "סיכוי" שמותאם לכל ניתוח.
+<li>morphst2.cpp -- מבנה שמכיל את כל הניתוחים
+האפשריים לכל המילים, עם "סיכוי" שמותאם לכל ניתוח.
+<li>mone-nit.cpp -- מונה ניתוחים, לצורך חישוב
+ההסתברות של כל ניתוח.
+<li>cpplib/wordcnt.cpp -- מונה מילים שלמות, כנ"ל.
+<li>bw2fw.cpp -- מבנה שמתאים כל ערך מילוני לכל
+המילים השלמות שנגזרות ממנו.
+<li>similar.cpp -- יחידה שמגדירה את מושג ה'דמיון'
+בין מילים, עבור חישובים סטטיסטיים.
+<li>alghist.cpp -- אלגוריתם לחישוב ההסתברות של כל
+ניתוח (בלי הקשר).
+<li>mip.cpp -- תבנית של מידע צורני של מילה
+<li>tiqun3.cpp -- יחידה ללימוד של פקודות-תיקון
+ולשימוש בהן (כדי לתקן את הניתוח של מילה ע"פ המילה שלפניה והמילה
+שאחריה)
+<li>corpus.cpp -- מבנה לאחסון וניתוח טקסטים
+<li>sntncinf.cpp -- מבנה לאחסון וניתוח משפטים
+<li>morphui.cpp -- יחידה לקריאת ניתוח-צורני של
+מילה מהמקלדת
+<li>hpmaio.cpp -- יחידת ק"פ של התכנית הראשית
+<li>hpmamain.cpp -- עוד יחידת עזר של התכנית
+הראשית
+<li>addlex.cpp -- שגרות שקשורות להוספת מילים
+חדשות למילון (לא מתועד)
+<li>MntxCurniHstbruti.main.cpp -- התכנית הראשית,
+כוללת גם את מנשק-המשתמש.</li>
+</ul>
+</ul>
+<hr />
+<p>
+כדי ליצור את המנתח הצורני ההסתברותי שכולל מנתח תחבירי דרושים, בנוסף לקבצים
+הנ"ל, גם הקבצים הבאים:
+
+<ul>
+<ul>
+<li>soi.cpp -- מבנה-עזר למנתח התחבירי ההסתברותי.
+<li>cimcumim.cpp -- קובץ שמגדיר חוקי-צמצום
+תחביריים -- צמצום של כמה רכיבים לרכיב אחד.
+<li>sa-aux.h -- המנתח התחבירי
+<li>sntncas.cpp -- המנתח התחבירי ההסתברותי: מנסה
+למצוא את הניתוח הסביר ביותר למשפט בעזרת ניתוח-תחבירי שטחי.
+<li>MntxCurniHstbrutiTxbiri.main.cpp -- תוכנית
+ראשית שכוללת ניתוח תחבירי (קצת יותר מסובכת מהקודמת).</li>
+</ul>
+</ul>
+<hr />
+<div id='English'		dir=ltr lang='en'>
+<h1		dir=ltr lang='en'>
+	Hebrew Probabilistic	Morphological Analyzer -- The Software
+</h1>
+<h2		dir=ltr lang='en'>
+	General
+</h2>
+<p dir='ltr' lang='en'>
+<a href="../hmntx.zip">This zipfile </a>contains	all	files needed for
+	compiling	and	running	the	probabilistic morphological	analyzer. All files	
+	are text files for PC. In	order to compile on	Unix, you should clean them	
+	of the "Line Feed" (^M) characters. You can do this automatically	using
+	the command <span		
+style="FONT-FAMILY: monospace">unzip -aa</span>. (for
+	more info: <span style="FONT-FAMILY: monospace">man unzip</span> ).
+
+<p dir='ltr' lang='en'>
+	The zipfile includes three different programs:
+
+	<ul dir='ltr'>
+		<li>
+			mc.exe -- a basic morphological analyzer,	which returns for each input word the set of all its morphological analyses.
+			
+		<li>&gt;
+			mch.exe	-- a probabilistic morphological
+		analyzer with correction rules (i.e.: the word-token phase and the
+		word-pair phase). It can analyze entire	articles with or without
+		supervision.
+		
+		<li>		mcht.exe -- an extension of mch.exe, that uses
+syntactic rules (i.e.: the word-token phase, the word-pair phase and the
+sentence phase).</li>
+					
+			
+		
+	</ul>
+<h2			dir=ltr lang='en' align=left>
+	File summary
+</h2>
+	<ul>
+		<li>
+		The	files <span	
+			style="FONT-FAMILY: monospace"
+>cpp/cpplib/*.cpp</span> and <span
+			style="FONT-FAMILY: monospace"
+>cpp/cpplib/*.h</span> are general source	
+		files, not related to natural languages.
+		<li>&gt;
+		The	files <span	
+			style="FONT-FAMILY: monospace"
+>cpp/morph/*.cpp</span> and <span	
+			
+style="FONT-FAMILY: monospace">cpp/morph/*.h</span>	are	source files,
+		related	to morphological and syntactical analysis.
+		<li>
+		The	files <span	
+			style="FONT-FAMILY: monospace"
+>hmntx/milon/*.ma	</span>are the&nbsp;<a
+		href="milon/teud.html">lexicon data	files</a>.
+		<li>
+		The	files <span	
+			style="FONT-FAMILY: monospace"
+>hmntx/tqstim/*.txt </span>are the&nbsp;<a
+		href="tqstim/tatiq.html">input text	files</a>.
+		<li>
+		The	files <span	
+			style="FONT-FAMILY: monospace"
+>hmntx/tqstim/*.to </span>are	the&nbsp;<a	
+		href="tqstim/teud_nitux_curni.html" >correct	analysis
+		files</a>.
+		<li>
+		The	files <span	
+			style="FONT-FAMILY: monospace"
+>hmntx/tqstim/*.nts </span>are output	
+		files of the word-token	phase. They	are	kept here to save time.
+		<li>&gt;
+		The	file <span
+			style
+="FONT-FAMILY: monospace">hmntx/makefile <FONT	face=Arial
+>is the
+		makefile for all programs.</FONT></span></li>
+	</ul>
+	<h2>Making the programs</h2>
+<p>In order to make&nbsp;a program, change to directory "hmntx", and
+write&nbsp; <span
+style="FONT-FAMILY: monospace">make&nbsp;</span> or&nbsp; <span style="FONT-FAMILY: monospace">make
+all</span>. You can also build a single program by
+writing<span style="FONT-FAMILY: monospace">&nbsp;
+make&nbsp;[name].exe</span>&nbsp; where [name] is the
+program name. 
+<h2>Running the analyzer</h2>
+<p>There are several ways to run the analyzer. The
+shortest way (If all you want is to analyze a given document) is
+<p align=center dir='ltr' style="FONT-FAMILY: monospace">&nbsp;mcht.exe -b
+harc harc10a -g tqstim -s -d -n 
+<p align=left dir='ltr'>Argument explanation:
+<ul dir='ltr'>
+<li>
+<div align=left>harc -- the name (without extension) of the untagged
+training corpus. The filename of the training corpus is
+harc.txt.&nbsp;You should attach the article you want to analyze to the
+training corpus! </div>
+<li>
+<div align=left>harc10a -- the name of the article you want to analyze.
+The filename is harc10a.txt.</div>
+<li>
+<div align=left>-g tqstim -- the name of the directory of these text
+files (relative to the current directory). This directory will also
+contain the log files, and the output file -- harc10a.out</div>
+<li>
+<div align=left>-n -- a switch that means to run the analyzer without
+syntactic analysis (the syntactic analysis takes about 2 hours on a
+Pentium 133 MHz).</div>
+<li>
+<div align=left>-b -- a switch that means to run the analyzer in batch
+mode (without user interruption). To run interactively, use -i instead
+of -b.</div>
+<ul>
+<li>
+<div align=left>The interactive program has a very rough interface. It
+goes over the article word by word, displays its analysis for the
+current word and asks the user what to do.</div>
+<li>
+<div align=left>If the analysis is correct: press A to
+confirm.</div>
+<li>
+<div align=left>If the analysis is wrong: press T to get a list of all
+possible analyses and choose the correct one.</div>
+<li>
+<div align=left>Press X to go back one word.</div>
+<li>
+<div align=left>Press K to write the current analysis to the output
+file (harc10a.out).</div>
+<li>
+<div align=left>Press S to write the current analysis to the output
+file and exit.</div>
+<li>
+<div align=left>After pressing S, you can continue analyzing the
+article by running:<br /><span
+style="FONT-FAMILY: monospace">&nbsp;mcht.exe <strong>-h</strong> harc
+harc10a -g tqstim -s -d -n </span></div></li></ul>
+<li>
+<div align=left>-s -- a switch that says not to rerun the word-token
+phase, but rather to read its output from a file. The file name is
+harc.nts. If the file harc.nts does not exist, you can rerun the
+word-token phase (and recreate this file) by:<br /><span
+style="FONT-FAMILY: monospace">mcht.exe -b harc harc10a -g tqstim -d
+-n.</span><br />To learn probabilities from a tagged corpus,
+write:<br /><span style="FONT-FAMILY: monospace">mcht.exe -b harc harc10a
+-g tqstim <strong>-o testa5</strong> -d -n</span> <br />where testa5 is
+the name of the tagged corpus&nbsp; (the text is in testa5.txt and the
+correct analysis is in testa5.to, as explained <a
+href="tqstim/teud.html">there</a>).</div>
+<li>
+<div align=left>It is also possible to rerun the&nbsp;algorithm for
+studying correction commands:<br /><span
+style="FONT-FAMILY: monospace">mcht.exe -b harc harc10a -g tqstim
+<strong>-x testa5</strong> -s -d -n&nbsp;</span> </div>
+<li>
+<div align=left>&nbsp;</div></li></ul>
+<p>File detail
+<p>Curently there is no full documentation for the
+entire software. There are only several old files that document the basic
+morphological analyzer and the word-token phase. They can be downloaded <a
+href="../mc/teud.html">here</a>.
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+	<p>	
+	<hr />
+</div>&nbsp;<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+<p lang='en' DIR='Ltr' style="color: #66CCFF; background-color: #000000; border-style: outset"><font size="1">This page
+should be viewed using Microsoft Internet Explorer 4+, with&nbsp; Hebrew
+support. If you don't have Hebrew support, or don't read Hebrew, you can read a
+partial&nbsp; English translation <a href="#English">here</a>.</font>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+כתובת האתר: <a href="http://www.cs.technion.ac.il/~erelsgl"> http://www.cs.technion.ac.il/~erelsgl</a>
+<p>
+להערות ותגובות: <a href="mailto:erelsgl@cs.technion.ac.il">erelsgl@cs.technion.ac.il</a>
+
+</td></tr><!--msnavigation--></table></body>

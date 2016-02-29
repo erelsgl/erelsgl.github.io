@@ -1,10 +1,16 @@
 # Translations of labels
 papers: 
   en: "Publications and working papers"
-  he:  "פירסומים ומאמרי עבודה" 
+  he:  "פירסומים ומאמרים"
 nopapers:
   en: "Under construction..."
   he: "בבניה..."
+onlinedemos: 
+  en: "Online demos"
+  he: "הדגמות ברשת"
+onlinedemo: 
+  en: "&rarr; Online demo"
+  he: "&larr; הדגמה ברשת"
 levels:  # see also paperlevels.yml
   book: 
     en: Books

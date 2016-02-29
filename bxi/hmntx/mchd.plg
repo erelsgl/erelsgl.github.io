@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mchd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP9174.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"./mchd.pdb" /debug /machine:I386 /out:"./mchd.dll" /implib:"./mchd.lib" /pdbtype:sept 
+\temp\debug\addlex.obj
+\temp\debug\alghist.obj
+\temp\debug\argsfile.obj
+\temp\debug\bw2fw.obj
+\temp\debug\cmdline1.obj
+\temp\debug\corpus.obj
+\temp\debug\hpmainit.obj
+\temp\debug\hpmaio.obj
+\temp\debug\hpmamain.obj
+\temp\debug\ivrit.obj
+\temp\debug\klli1.obj
+\temp\debug\lexicon.obj
+\temp\debug\lexinf.obj
+\temp\debug\mip.obj
+"\temp\debug\mone-nit.obj"
+\temp\debug\morphanl.obj
+\temp\debug\morphinf.obj
+\temp\debug\morphsik.obj
+\temp\debug\morphst2.obj
+\temp\debug\morphtav.obj
+\temp\debug\morphtyp.obj
+\temp\debug\morphui.obj
+\temp\debug\sgt.obj
+\temp\debug\similar.obj
+\temp\debug\sntncinf.obj
+\temp\debug\stringt.obj
+\temp\debug\tavnit.obj
+\temp\debug\tiqun3.obj
+\temp\debug\ui.obj
+\temp\debug\wordcnt.obj
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP9174.TMP"
+<h3>Output Window</h3>
+Linking...
+LINK : LNK6004: ./mchd.dll not found or not built by the last incremental link; performing full link
+
+
+
+<h3>Results</h3>
+mchd.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

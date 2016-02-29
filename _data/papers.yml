@@ -33,6 +33,7 @@
         Published in [AAAI 2015 conference](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages) and much improved in the [working paper](http://erelsgl.github.io/papers/EF2D-JET-23.pdf) (41 pages).
 -
     id: GroupCakeCutting
+    lang: en
     title: Fair cake-cutting among groups
     authors: Erel Segal-Halevi, Shmuel Nitzan
     date: 2016-01-02
@@ -82,7 +83,11 @@
     topic: negochat
     level: journal
     content: >
-        Published in [Autonomous Agents and Multi-Agent Systems Journal, 2016](http://link.springer.com/article/10.1007%2Fs10458-015-9281-9) (22 pages)
+        Published in [Autonomous Agents and Multi-Agent Systems Journal, 2016](http://link.springer.com/article/10.1007%2Fs10458-015-9281-9) (22 pages).
+    onlinedemoexists: true
+    onlinedemo:
+      url: http://biu-ai.com:4014/demo
+      title: Negotiate with our chat-bots!
 -
     id: PLIS
     lang: en
@@ -99,10 +104,25 @@
     title: A Corpus Based Morphological Analyzer for Unvocalized Modern Hebrew
     authors: Alon Itai, Erel Segal-Halevi
     date: 2003-01-01
-    topic: nlp
+    topic: hebnlp
     level: conference+
     content: >
         Published in [Proceedings of Machine Translation for Semitic Languages: Issues and Approaches, Workshop at MT Summit IX (MT-SUMMIT-IX) 2003](http://mt-archive.info/MTS-2003-Itai.pdf) (8 pages)
+-
+    id: HebrewGen
+    lang: he
+    title: מבחן ההבנה הגדול - האם אתם יודעים להבחין בין טקסט אמיתי לטקסט שנוצר באקראי? 
+    authors: נדב שנרב (רעיון), משה קופל (יעוץ מדעי), רוני ורד, ולדימיר טורגוביצקי, יורי יברבאום ואראל סגל-הלוי (תיכנות)
+    date: 2011-01-01
+    topic: hebnlp
+    level: working
+    content: >
+                [הרעיון הכללי](http://woland.ph.biu.ac.il/?page_id=154) 
+    onlinedemoexists: true
+    onlinedemo:
+      url: http://tora.us.fm/imitator
+      title:  הקובץ התשיעי - האם אתם מבינים את כתבי הרב קוק? הרמב"ם? הרצל? 
+      sourcecode: https://github.com/erelsgl/parody-generator
 
 # Jewish Economy - Yovel and Ribit0:
 -
@@ -139,7 +159,7 @@
     topic: jewecon
     level: journal
     content: >
-        פורסם ב[רבעון הישראלי לבנקאות מס' 173 - תשרי ה'תשע"ג (2012)](). יש גם [מהדורת רשת](http://tora.us.fm/tryg/ribit0/bnq3.html).
+        פורסם ב[רבעון הישראלי לבנקאות מס' 173 - תשרי ה'תשע"ג (2012)](http://erelsgl.github.io/papers/BankingQuarterly_2012_LoanMediation.pdf). יש גם [מהדורת רשת](http://tora.us.fm/tryg/ribit0/bnq3.html).
 -
     id: ShmitaTalk
     lang: he
@@ -174,17 +194,6 @@
     level: book
     content: >
         ניתן להשיג [כאן](http://www.lulu.com/spotlight/erel).
-
--
-    id: TNK
-    lang: he
-    title: אתר הניווט בתנ"ך
-    entitle: Tanakh Navigation Website
-    authors: אראל סגל-הלוי וכותבים נוספים
-    date: 2000-01-01
-    topic: tnk
-    level: website
-    content:  tora.us.fm/tnk1
 
 # Etc:
 -

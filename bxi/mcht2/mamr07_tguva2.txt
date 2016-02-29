@@ -1,0 +1,212 @@
+From: itai@cs.technion.ac.il
+Sent: 04 ιεμι 2003 12:34
+To: erelsgl@cs.technion.ac.il
+Subject: Fwd: MT Summit Workshop Submission
+
+
+Erel,
+kpi $e-atta ro^e ha-maamar hitqabbel. e@appel ba-pra@im k$e-axzor ba-$abu& ha-
+ba^.
+lhitra^^ot,
+Alon
+----- Forwarded message from Nizar Habash <habash@umiacs.umd.edu> -----
+    Date: Thu, 03 Jul 2003 12:35:00 -0400
+    From: Nizar Habash <habash@umiacs.umd.edu>
+Reply-To: Nizar Habash <habash@umiacs.umd.edu>
+ Subject: MT Summit Workshop Submission
+      To: itai@cs.technion.ac.il
+
+Dear colleague,
+
+   On behalf of the Program Committee of the MT Summit Workshop on
+Machine Translation for Semitic Languages, we are pleased to inform
+you that your submission to the conference has been accepted.
+Congratulations!
+
+   Below, you will find a copy of the Comments to the author(s) which
+the reviewers have provided for your paper. We suggest you read the
+comments and try, if possible, to incorporate the suggested changes in
+order to further improve your paper.
+
+   Please note that the deadline for the submission of the final
+version of your paper is JULY 31, 2003. By that date, we must receive
+a copy of your paper in TWO FORMS: 1) an electronic version (either in
+PDF or RTF/MS-Word format); and 2) a camera-ready printed version. We
+cannot guarantee that papers received after July 31 will be printed in
+the Proceedings. Instructions to authors on how to format their
+submissions will be posted on the conference Web site. It is your
+responsibility to ensure that your paper conforms to those
+instructions. Also note that the maximum number of pages of the camera
+ready version of your paper is 8 pages.
+
+   Finally, we would ask you to confirm your intention to present your
+paper at the Summit in New Orleans by sending me an email to that
+effect as soon as possible, and no later than JULY 14. (Please include
+your Summit submission number in the subject field.) We remind you
+that you must register for the conference in order to present your
+paper. Unfortunately, we are unable to waive registration fees for the
+authors of accepted papers.
+
+   Should you have any further questions, feel free to contact any of
+us.
+
+   We look forward to seeing you in New Orleans!
+
+   Best regards,
+   Violetta Cavalli-Sforza, Alon Lavie and Nizar Habash
+
+===== Review 1/4 =====
+
+This work is publishable but there are two problems with it in the
+context of this conference. First of all, the importance of the work
+in relation to MT is not addressed in the paper, so in its current
+form it is not clearly related to the theme of this
+conference. Second, the paper needs more careful structuring, and the
+formatting must be tidied up. References must be completed and the
+appendices have to be tied in more closely with the text.
+
+===== Review 2/4 =====
+
+It would be desirable to actually compare HMM performance on this
+(very small) training corpus.
+
+Evaluation: baseline - memory based system with a default rule of most
+common tag for unseen words?
+
+1.1 - Orly Albeck reference should include year.
+
+3.1 - The rule box is not clear (what does 'its' refer to?). Example
+at top of page 4 helps, but this could be fixed.
+
+The example below the rule box is not clear. Specify the starting
+values for the competing analyses.
+
+How are the numerical weights chosen, and from what set of possible
+values?
+
+4 - More details on the parser, in particular performance, would be
+useful. How was the handcrafted grammar evaluated?
+
+5 - The scores start off as probabilities, but clearly after the
+transformations they are no longer probabilities. The morphological
+score seems heuristic, and the syntactic score is certainly
+heuristic. The trade-off between these scores should be better
+explained.
+
+What weight is used? How was this weight found?
+
+6 - Give details on statistical test. Which test was used?
+
+Table 1: what is the statistical significance of 'Yes No Yes' vs. 'Yes
+Yes Yes'? Is the pair stage motivated if the sentence stage can be
+more easily improved?
+
+7 - Give details of error analysis
+
+===== Review 3/4 =====
+
+(NO COMMENTS)
+
+===== Review 4/4 =====
+
+This paper describes a system which performs morphological
+disambiguation of Hebrew. While the techniques used by the system are
+not novel, the adaptation of existing technology to a language with
+rich morphology (and problematic orthography) such as Hebrew is
+important and deserves publication. The reported results are also very
+promising.
+
+While the paper is in general well-structured and quite clear, there
+are a few severe problems of presentation. In particular, the
+algorithms are described too briefly, and in certain cases are simply
+omitted.
+
+For example, the single paragraph in section 2 leaves the "word stage"
+completely unexplained. In section 1 you say that you "approximate,
+for each possible analysis, the probability that it is the correct
+analysis, independent of the context". How can this be done with an
+annotated corpus of less than 5000 forms? What kind of approximation
+do you use?
+
+Section 3, the "pair stage", is much better explained. What is missing
+is a better description of the patterns used for specifying
+transformation rules. It looks like you have a formal language for
+defining patterns - why don't you explicate it? The learning algorithm
+in section 3.2 requires more detail.
+
+The "sentence stage" described in section 4 also is puzzling. Did you
+implement a parser for Hebrew or just a CFG for language, using an
+off-the-self parser for CFGs? Is a CFG really needed for this task?
+You say that "There are about 10 nontrminals" in the grammar, "one for
+each basic part-of-speech". If there are no other non-terminals, the
+grammar is not recursive and hence its language is finite. Why don't
+you simply use a finite-state parser with hand-crafted short context
+rules, as alluded to in section 7?
+
+As for the evaluation: you never specify the baseline. You say that
+after the pair stage, "93.8% of the words on average are assigned
+their correct analysis". What is the performance after the word stage?
+Also, how do you determine the correct analyses? If this is done using
+the 4900 word manually annotated corpus, then I suspect that the
+results may be biased. Finally, please specify whenever you use
+"words" in this context whether you mean types or tokens. What is the
+performance in terms of word types?
+
+Also relevant for evaluation: you never compare your work with the
+results reported in two other papers which attempt to solve the same
+problem: Levinger at al. (1995), which you cite, and Carmel and Maarek
+(1999), which you don't. This is a major drawback which has to be
+fixed in the final version of the paper.
+
+Minor comments:
+
+Section 1, 2nd paragraph, "In Hebrew..." - Hebrew is not special in
+this sense.
+Same paragraph - how do tags correspond to POS tags in English, and
+what's the relation to Kempe?
+Page 2, first line: "is" -> "are"
+Page 2, line 3, "yield in" -> "yield"
+Page 2, line 4: "It does so..." - who does so?
+Page 2, line 5: "is much smaller" -> "much smaller"
+Section 1.1, line 5: "so we used" -> "we used"
+Section 1.1, 2nd paragraph: what's the point in a literature survey if
+you don't relate it to your work? Also, carmel:maarek:99 is missing -
+please cite it and discuss the differences from your approach.
+Section 1.2, line 2: "all the morphological information" - define!
+Section 2, line 1: "the similar words algorithm" - what is it?
+Section 2, line 2: "the sparseness" -> "the data sparseness"
+Page 2, last line: remove the reference to a pc.
+Page 3, middle: "ungrammatical" -> "unlikely"
+Section 3.2, penultimate sentence: what is N?
+Section 3.2, last sentence: this sentence has no meaning. Remove it.
+Section 5, line 5: "if" -> "If"
+Section 5, second bullet: I didn't understand the idea.
+Section 6, first line: "analysis has been" -> "analyses have been"
+Section 7, line 2: how do you see from the error analysis "that there
+is still a lot to be done"?
+Section 7, line 5: "is creating" -> "are creating"
+Bibliography: please use s decent style. A year is missing in "Albeck";
+details are missing in "Kempe". The lines in my version were cut.
+Appendices: I don't think they're needed.
+
+
+@InProceedings{carmel:maarek:99
+        ,title        = {Morphological disambiguation for {H}ebrew 
+search systems}
+        ,author       = {Carmel, David and Maarek, Yoelle}
+        ,year         = {1999}
+        ,month        = {July}
+        ,booktitle    = {Proceedings of the 4th international workshop, 
+{NGITS-99}}
+        ,publisher    = {Springer}
+        ,number       = {1649}
+        ,series       = {Lecture notes in computer science}
+        ,pages        = {312-325}
+        }
+
+===== END =====
+
+
+
+----- End forwarded message -----
+

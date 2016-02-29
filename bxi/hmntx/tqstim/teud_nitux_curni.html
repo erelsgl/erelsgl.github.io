@@ -1,0 +1,386 @@
+<html LANG="he" DIR="rtl">
+<head>
+<link rel='stylesheet' href='../../../_script/klli.css' />
+<link rel='stylesheet' href='../../_themes/klli.css' />
+<title>פורמט הניתוח הצורני</title>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1255" />
+<meta name="Microsoft Border" content="tlrb, default" />
+</head>
+<body><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<p align="center"><font size="6"><strong><img src="_derived/teud_nitux_curni.html_cmp_balance100_bnr.gif" width="600" height="60" border="0" alt="פורמט הניתוח הצורני"></strong></font><br />
+
+<p align="center">&nbsp;
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<a href="../../../index.html"><img src="../../../_derived/home_cmp_balance100_vbtn.gif" width="140" height="60" border="0" alt="לדף הראשי"></a><br /><a href="tatiq.html"><img src="_derived/tatiq.html_cmp_balance100_vbtn.gif" width="140" height="60" border="0" alt="התעתיק"></a><br /><img src="_derived/teud_nitux_curni.html_cmp_balance100_vbtn_p.gif" width="140" height="60" border="0" alt="פורמט הניתוח הצורני">
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<h2 align=right dir='rtl'>פתיחה</h2>
+<p align=right dir='rtl'>קבצי הניתוח הצורני הם קבצי-טקסט (ASCII). הם כתובים בפורמט
+שנועד לענות על שתי דרישות סותרות: 
+<ul dir='rtl'>
+<li>
+<div align=right>
+מצד אחד
+- לדאוג שקבצי הניתוח
+יהיו קטנים יחסית, ושלמחשב יהיה נוח לקרוא ולכתוב אותם.
+</div>
+<li>
+<div align=right>
+מצד שני - לדאוג
+שגם קוראים אנושיים יוכלו לקרוא אותם, לצורך ניפוי שגיאות.
+</div></li></ul>
+<p dir='rtl'>
+הפורמט שהתקבל הוא פשרה בין שתי דרישות אלו:
+הוא ניתן לקריאה ע"י
+קוראים אנושיים, אך לא
+בקלות. מסמך זה נועד לסייע לקוראים להבין את הפורמט.
+
+<h2 align=right dir='rtl'>דוגמאות</h2>
+<p dir='rtl'>נתבונן במילים הראשונות מתוך קובץ המקור --
+<a href='harc20.txt'>harc20.txt</a>: 
+<p dir='ltr' style="FONT-FAMILY: monospace">
+	&amp;$RWT AN$IM MGI&amp;IM MTAILND LI$RAL K$HM NR$MIM KMTNDBIM , AK LM&amp;$H ...
+
+<p dir='rtl'>
+	המילים האלו הן <a href="tatiq.html">התעתיק
+הלטיני</a>
+	של המשפט העברי:
+
+<BLOCKQUOTE dir='rtl' style="MARGIN-LEFT: 0px">
+<p style="FONT-FAMILY: monospace">"עשרות אנשים מגיעים מתאילנד לישראל כשהם נרשמים כמתנדבים, אך
+למעשה..."
+</BLOCKQUOTE>
+<p dir='rtl'>
+כעת נתבונן במילים הראשונות מתוך קובץ הניתוח
+<a href='harc20.to'>harc20.to</a>:
+
+<p dir='ltr' style="FONT-FAMILY: monospace">
+&amp;$R*M**LZRS***
+AI$*E**LZRF*** HGI&amp;*P*ZRAH TAILND*p*mZ I$RAL*p*lB HWA*gK*LZR3 NR$M*P*ZRAH
+MTNDB*E*kLZRF*** ,*x* AK*x* LM&amp;$H*t* ...
+
+<hr />
+<p dir='rtl'>כל 'מילה' בקובץ הניתוח מייצגת את הניתוח הצורני של המילה המקבילה לה
+בקובץ המקור. למשל: המילה הראשונה בקובץ המקור היא 
+<p style="TEXT-ALIGN: center">
+<span dir='ltr' style="FONT-FAMILY: monospace">&amp;$RWT</span>
+<span dir='rtl' style="FONT-FAMILY: monospace">(עשרות).</span>
+
+<p dir='rtl'>
+הניתוח שלה נמצא במילה הראשונה של קובץ הניתוח:
+
+<p dir='ltr' style="FONT-FAMILY: monospace; TEXT-ALIGN: center">
+&amp;$R*M**LZRS***
+
+<p dir='rtl'>הניתוח מורכב משדות, המסודרים משמאל לימין. השדה הראשון הוא הערך המילוני של המילה
+(במקרה זה: "עשר"), ושאר השדות מורכבים כל אחד מתו אחד בדיוק. הטבלה הבאה מפרטת
+את משמעות השדות:
+<p dir='rtl'>
+<table align=center border=1 cellPadding=5 cellSpacing=1 width="75%" id='table1'>
+<tr>
+<td>השדה</td>
+<td>המשמעות</td>
+<td>ערכים חוקיים נוספים</td></tr>
+<tr>
+<td dir='ltr' style="FONT-FAMILY: monospace">&amp;$R</td>
+<td>ערך-מילוני = "עשר"</td>
+<td><a href="#erky_erk_miloni">מפורטים למטה</a> </td>
+</tr>
+<tr>
+<td dir='ltr'>*</td>
+<td>אין וו-חיבור</td>
+<td><a href="#erky_ww">מפורטים למטה</a> </td>
+</tr>
+<tr>
+<td dir='ltr'>M</td>
+<td>חלק-דיבר = שם-מספר</td>
+<td><a href="#erky_xlq_dibr">מפורטים למטה</a></td>
+</tr>
+<tr>
+<td dir='ltr'>*</td>
+<td>אין תחילית-שעבוד</td>
+<td><a href="#erky_jiabud">מפורטים למטה</a></td>
+</tr>
+<tr>
+<td dir='ltr'>*</td>
+<td>אין אות-יחס</td>
+<td><a href="#erky_ot_yxs">מפורטים למטה</a></td>
+</tr>
+<tr>
+<td dir='ltr'>L</td>
+<td>לא-מיודע</td>
+<td><a href="#erky_yidua">מפורטים למטה</a>
+</td>
+</tr>
+<tr>
+<td dir='ltr'>Z</td>
+<td>מין = זכר</td>
+<td><a href="#erky_min">מפורטים למטה</a> </td>
+</tr>
+<tr>
+<td dir='ltr'>R</td>
+<td>מספר = רבים</td>
+<td><a href="#erky_mspr">מפורטים למטה</a> </td>
+</tr>
+<tr>
+<td dir='ltr'>S</td>
+<td>מצב-סמיכות = נסמך</td>
+<td><a href="#erky_smikut">מפורטים למטה</a>
+</td>
+</tr>
+<tr>
+<td dir='ltr'>*</td>
+<td>מין כינוי-קנין = אין</td>
+<td><a href="#erky_siomt">מפורטים למטה</a>
+</td>
+</tr>
+<tr>
+<td dir='ltr'>*</td>
+<td>מספר כינוי-קנין = אין</td>
+<td>
+<p><a href="#erky_siomt">מפורטים למטה</a> </td>
+</tr>
+<tr>
+<td dir='ltr'>*</td>
+<td>גוף כינוי-קנין = אין</td>
+<td><a href="#erky_siomt">מפורטים
+למטה</a></td>
+</tr></table>
+<p dir='rtl'>
+כלומר: המילה "עשרות" שייכת לערך המילוני "עשר",
+שהוא שם-מספר; אין לפניה וו-חיבור, תחילית-שעבוד או אות-יחס; זהו
+שם-מספר
+לא-מיודע, ברבים ובצורת הנסמך; ואין לו כינוי-קנין.
+
+<hr />
+<p dir='rtl'>לדוגמה נוספת, נתבונן במילה השלישית מקובץ המקור: המילה 
+<p style="FONT-FAMILY: monospace; TEXT-ALIGN: center">
+<span dir='ltr'>MGI&amp;IM</span>
+<span dir='rtl'>(מגיעים).</span>
+
+<p dir='rtl'>
+הניתוח
+הצורני שלה נמצא במילה השלישית של קובץ הניתוח:
+
+<p dir='ltr' style="FONT-FAMILY: monospace; TEXT-ALIGN: center">
+HGI&amp;*P*ZRAH
+
+<p>
+משמעות השדות מפורטת בטבלה הבאה:
+
+<p>
+<table align=center border=1 cellPadding=5 cellSpacing=1 id='table1'
+width="75%" style="LEFT: 83px; TOP: 1557px">
+<tr>
+<td>השדה</td>
+<td>המשמעות</td>
+<td>ערכים חוקיים נוספים</td></tr>
+<tr>
+<td dir='ltr' style="FONT-FAMILY: monospace">HGI&amp;</td>
+<td>ערך-מילוני = "הגיע"</td>
+<td><a href="#erky_erk_miloni">מפורטים למטה</a></td></tr>
+<tr>
+<td dir='ltr'>*</td>
+<td>אין וו-חיבור</td>
+<td><a href="#erky_ww">מפורטים למטה</a></td></tr>
+<tr>
+<td dir='ltr'>P</td>
+<td>חלק-דיבר = פועל</td>
+<td><a href="#erky_xlq_dibr">מפורטים למטה</a></td></tr>
+<tr>
+<td dir='ltr'>*</td>
+<td>אין תחילית-שעבוד</td>
+<td><a href="#erky_jiabud">מפורטים למטה</a></td></tr>
+<tr>
+<td dir='ltr'>Z</td>
+<td>מין = זכר</td>
+<td><a href="#erky_min">מפורטים למטה</a></td></tr>
+<tr>
+<td dir='ltr'>R</td>
+<td>מספר = רבים</td>
+<td><a href="#erky_mspr" >מפורטים למטה</a></td></tr>
+<tr>
+<td dir='ltr'>A</td>
+<td>גוף = כלשהו</td>
+<td><a href="#erky_guf">מפורטים למטה</a></td></tr>
+<tr>
+<td dir='ltr'>H</td>
+<td> זמן = הווה</td>
+<td><a href="#erky_zmn">מפורטים
+למטה</a></td></tr>
+</table>
+<p>
+כלומר: המילה "מגיעים" שייכת לערך המילוני "הגיע", שהוא
+פועל. אין לפניה וו-החיבור
+או תחילית-שעבוד. זהו פועל בזכר רבים, בגוף
+כלשהו, ובזמן הווה.
+
+<p>עבור כל חלק-דיבר נשמרים רק השדות&nbsp; הרלבנטיים עבור חלק-דיבר זה; למשל -
+עבור פועל לא נשמרים השדות: אות-יחס, יידוע, מצב-סמיכות וכינוי-קניין.
+<hr />
+<p>לדוגמה שלישית, נתבונן במילה האחרונה בשורה שהובאה למעלה מקובץ המקור: 
+<p style="FONT-FAMILY: monospace; TEXT-ALIGN: center">
+<span dir='ltr'>LM&amp;$H</span>
+<span dir='rtl'>(למעשה).</span>
+
+<p>
+הניתוח שלה נמצא במילה:
+
+<p dir='ltr'
+style="FONT-FAMILY: monospace; TEXT-ALIGN: center">LM&amp;$H*t*&nbsp;
+<p>משמעות השדות מפורטת בטבלה הבאה:
+<table align=center border=1 cellPadding=5 cellSpacing=1 id='table1' width="75%">
+<tbody>
+<tr>
+<td>השדה</td>
+<td>המשמעות</td>
+<td>הערות</td></tr>
+<tr>
+<td dir='ltr' style="FONT-FAMILY: monospace"
+>LM&amp;$H</td>
+<td>ערך-מילוני = "למעשה"</td>
+<td><a href="#erky_erk_miloni">מפורטים למטה</a></td></tr>
+<tr>
+<td dir='ltr'>*</td>
+<td>אין וו-חיבור</td>
+<td><a href="#erky_ww">מפורטים למטה</a></td></tr>
+<tr>
+<td dir='ltr'>t</td>
+<td>חלק-דיבר = תואר-פועל</td>
+<td><a href="#erky_xlq_dibr">מפורטים למטה</a></td></tr>
+<tr>
+<td dir='ltr'>*</td>
+<td>אין תחילית-שעבוד</td>
+<td><a href="#erky_jiabud">מפורטים
+למטה</a></td></tr>
+</tbody></table>
+<p>
+כלומר: המילה "למעשה" שייכת לערך המילוני "למעשה", שהוא
+תואר-פועל. אין לפניה וו-החיבור או תחילית-שעבוד.
+
+<hr />
+<h2 align=right dir='rtl'>הערכים החוקיים לכל אחד מהשדות</h2>
+<p dir='rtl'> תזכורת:
+התוכנה רגישה להבחנה בין אותיות לטיניות גדולות וקטנות.
+<BLOCKQUOTE dir='rtl' style="MARGIN-LEFT: 0px">
+<p dir='rtl'><strong><a
+name=erky_erk_miloni><strong></strong></a>שדה הערך המילוני</strong>:<strong>
+</strong> עשוי להכיל כל מחרוזת של תוים מ<a
+href="tatiq.html">התעתיק הלטיני</a>. הוא מסתיים בתו * או בתו 1.
+<p dir='rtl'><strong><a
+name=erky_ww><strong></strong></a>שדה ו' החיבור</strong>: יכול לקבל * (אם אין
+ו') או 1 (אם יש ו').</BLOCKQUOTE>
+<BLOCKQUOTE dir='rtl' style="MARGIN-LEFT: 0px">
+<p><a name='erky_xlq_dibr'></a><strong>שדה חלק
+הדיבר</strong>: יכול לקבל אחד מתוך הערכים הבאים: E
+(שם-עצם), P (פועל), p (שם-פרטי), z (פועל-עזר), T (תואר), t (תואר-פועל), M
+(שם-מספר), m (מילית), x (מילת-חיבור), y (מילת-יחס), j (מילת-שאלה), g
+(מילת-גוף). 
+<p><strong><a name='erky_jiabud'><strong> </strong></a>שדה תחילית-השעבוד</strong> : יכול לקבל אחד מתוך הערכים הבאים: * (אין תחילית שעבוד),
+A (תחילית&nbsp; שעבוד כלשהי), J (התחילית 'ש-'), K (התחילית 'כש-'), L (התחילית
+'לכש-'), X (התחילית 'שכש-'), H (התחילית 'ה-'
+	<a href="#_ftn1" name='_ftnref1'> [1]	</a>),
+S (התחילית 'שה-'
+	<a href="#_ftn2" name='_ftnref2'> [2]	</a>).
+
+<p><strong><a name='erky_ot_yxs'><strong> </strong></a>שדה אות-היחס</strong> (רלבנטי רק עבור שמות-עצם ומספר): יכול לקבל
+אחד מתוך הערכים הבאים: * (אין אות יחס),&nbsp;
+A (אות-יחס כלשהי), b (האות ב), k (האות כ), l (האות ל), m (האות מ).
+<p><strong><a name='erky_yidua'><strong> </strong></a>שדה מצב-היידוע </strong>(רלבנטי רק
+עבור שמות-עצם, תואר ומספר): יכול לקבל אחד מתוך הערכים הבאים: L (לא-מיודע), K
+(מיודע), A או B (מצב יידוע כלשהו).
+<p><strong><a name='erky_min'><strong> </strong></a>שדה המין</strong>: יכול לקבל אחד
+מתוך הערכים הבאים:&nbsp;Z (זכר),&nbsp;N (נקבה), A או B (מין
+כלשהו).
+<p><strong><a name='erky_mspr'><strong> </strong></a>שדה המספר</strong>: יכול לקבל אחד
+מתוך הערכים הבאים:&nbsp;Y (יחיד),&nbsp;R (רבים), A או B (מספר
+כלשהו).
+<p><strong><a name='erky_smikut'><strong> </strong></a>שדה מצב-הסמיכות </strong>(רלבנטי רק
+עבור שמות-עצם, תואר ומספר): יכול לקבל אחד מתוך הערכים הבאים:&nbsp;F
+(נפרד),&nbsp;S (נסמך), A או B (מצב סמיכות כלשהו).
+<p><strong><a name='erky_guf'><strong> </strong></a>שדה הגוף </strong>(רלבנטי רק עבור
+פעלים ומילות-גוף): יכול לקבל אחד מתוך הערכים הבאים: 1 (גוף ראשון), 2 (גוף
+שני), 3 (גוף שלישי), A או B (גוף כלשהו).
+<p><strong><a name='erky_zmn'><strong> </strong></a>שדה הזמן </strong>(רלבנטי רק עבור
+פעלים): יכול לקבל אחד מתוך הערכים הבאים:&nbsp;V (עבר),&nbsp;H (הווה),&nbsp;S
+(הווה סביל), T (עתיד), C (ציווי), M (מקור או שם-הפועל).
+<p><strong><a name='erky_siomt'><strong> </strong></a>השדות&nbsp; של כינוי השייכות</strong>: אם אין כינוי שייכות אז בשלושת השדות יופיע הערך '*' (כמו
+בדוגמה שלמעלה). אם יש כינוי שייכות אז בשדות האלה יהיו ערכים של מין, מספר וגוף
+הכינוי. למשל, עבור המילה "ילדיו" (הילדים שלו) נקבל כינוי שייכות
+כזה:
+<p align=center dir='ltr'>
+	ZY3
+
+<p>
+כלומר: הילדים שייכים לאיש ממין
+זכר (Z), יחיד (Y), גוף שלישי
+(3).
+
+<p>
+הניתוח המלא של המילה "ילדיו"
+יהיה:
+
+<p dir='ltr' align=center style="FONT-FAMILY: monospace">
+	ILD*E**LZRFZY3
+
+<p align=right>כלומר: הערך המילוני הוא 'ילד' (ILD), אין
+ו' חיבור (*), חלק-הדיבר הוא שם-עצם (E), אין תחילית שעבוד (*), אין אות יחס (*),
+זהו שם-עצם לא מיודע (L), ממין זכר (Z), רבים (R), נפרד (F), וכינוי השייכות שלו
+הוא לזכר-יחיד-נפרד (ZY3)</BLOCKQUOTE>
+<h2 dir='rtl' style="MARGIN-LEFT: 0px">סימני הפיסוק</h2>
+<p dir='rtl' style="MARGIN-LEFT: 0px">סימני הפיסוק נחשבים למילות חיבור. למשל,
+המילה התשיעית בקובץ המקור היא
+<p align=center dir='rtl' style="MARGIN-LEFT: 0px">,
+<p align=right dir='rtl' style="MARGIN-LEFT: 0px">והניתוח שלה נמצא במילה התשיעית
+בקובץ הניתוח, שהיא:
+<p dir='ltr' align=center>
+,*x*
+
+<p>כלומר: הערך המילוני הוא ',', אין
+ו' חיבור (*), חלק-הדיבר הוא מילת-חיבור (x), ואין תחילית שעבוד (*).
+
+<h2>הערות</h2>
+<ul>
+<li>בקובץ המקור יש כ16 מאמרים שונים. המאמרים מופרדים ביניהם ע"י התו *. התו *
+לא מנותח, כלומר - אין לו מילה מקבילה בקובץ הניתוח.</li>
+<li>ניתן להשיג מחלקות בשפת JAVA שמטפלות במבנה של ניתוח צורני של מילה, כולל
+קריאה וכתיבה של המבנה מקובץ ניתוח בפורמט שתואר כאן.<![if !supportEmptyParas]><![endif]><![if !supportLists]><![endif]><![if !supportLists]><![endif]><![if !supportEmptyParas]><![endif]><![if !supportFootnotes]><br clear=all>
+<hr />
+<![endif]></li></ul>
+<BLOCKQUOTE dir='rtl' style="MARGIN-LEFT: 0px">
+<BLOCKQUOTE dir='rtl' style="MARGIN-LEFT: 0px">
+<div style="mso-element: footnote-list">
+<div style="mso-element: footnote" id='ftn1'>
+<p class='MsoFootnoteText' dir='rtl'><a href="#_ftnref1"
+name=_ftn1 style="mso-footnote-id: ftn1" title="" ><span dir='rtl'></span><span
+class=MsoFootnoteReference><span lang='he' style="FONT-FAMILY:
+David; FONT-SIZE: 12pt; mso-ansi-font-size: 10.0pt"><span dir='ltr' style="mso-special-character: footnote"><![if !supportFootnotes]>[1]<![endif]></span></span></span></a><span
+lang=HE style="FONT-FAMILY: David; FONT-SIZE: 12pt; mso-ansi-font-size: 10.0pt">
+כמו במשפט "מי השילוח&nbsp; </span><b>ההולכים</b>
+לאט".<o:p></O:P></span>
+</div>
+<div id='ftn2'>
+<p><a href="#_ftnref2"
+name=_ftn2 style="mso-footnote-id: ftn2" title="" ><span dir='rtl'></span><span
+class=MsoFootnoteReference><span lang='he' style="FONT-FAMILY:
+David; FONT-SIZE: 12pt; mso-ansi-font-size: 10.0pt"><span dir='ltr' style="mso-special-character: footnote"><![if !supportFootnotes]>[2]<![endif]></span></span></span></a><span
+lang=HE style="FONT-FAMILY: David; FONT-SIZE: 12pt; mso-ansi-font-size: 10.0pt">
+כמו במשפט "ההתחייבות <b>שהחתום</b> מטה קיבל על עצמו"<o:p></O:P></span>
+</div>
+</div></BLOCKQUOTE></BLOCKQUOTE>
+<div id="English" lang='en' dir='ltr'>
+<h1>The format of the morphological analysis</h1>
+<p>This page was not translated to English yet.
+<hr />
+</div>
+&nbsp;<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+<p lang='en' DIR='Ltr' style="color: #66CCFF; background-color: #000000; border-style: outset"><font size="1">This page
+should be viewed using Microsoft Internet Explorer 4+, with&nbsp; Hebrew
+support. If you don't have Hebrew support, or don't read Hebrew, you can read a
+partial&nbsp; English translation <a href="#English">here</a>.</font>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+כתובת האתר: <a href="http://www.cs.technion.ac.il/~erelsgl"> http://www.cs.technion.ac.il/~erelsgl</a>
+<p>
+להערות ותגובות: <a href="mailto:erelsgl@cs.technion.ac.il">erelsgl@cs.technion.ac.il</a>
+
+</td></tr><!--msnavigation--></table></body>
+</html>

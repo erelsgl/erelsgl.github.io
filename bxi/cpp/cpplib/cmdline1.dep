@@ -1,0 +1,15 @@
+cmdline1.o: ../cpp/cpplib/cmdline1.cpp \
+ /usr/local/lib/gcc-lib/sparc-sun-solaris2.6/2.95.1/../../../../sparc-sun-solaris2.6/include/assert.h \
+ /usr/include/ctype.h /usr/include/sys/feature_tests.h \
+ /usr/include/string.h /usr/include/stdlib.h ../cpp/cpplib/cmdline1.h \
+ ../cpp/cpplib/typedefs.h \
+ /usr/local/lib/gcc-lib/sparc-sun-solaris2.6/2.95.1/../../../../include/g++-3/iostream.h \
+ /usr/local/lib/gcc-lib/sparc-sun-solaris2.6/2.95.1/../../../../include/g++-3/streambuf.h \
+ /usr/local/lib/gcc-lib/sparc-sun-solaris2.6/2.95.1/../../../../include/g++-3/libio.h \
+ /usr/local/lib/gcc-lib/sparc-sun-solaris2.6/2.95.1/../../../../sparc-sun-solaris2.6/include/_G_config.h \
+ /usr/local/lib/gcc-lib/sparc-sun-solaris2.6/2.95.1/include/stddef.h \
+ ../cpp/cpplib/status.h /usr/include/stdio.h \
+ /usr/include/sys/va_list.h \
+ /usr/local/lib/gcc-lib/sparc-sun-solaris2.6/2.95.1/../../../../include/g++-3/fstream.h \
+ ../cpp/cpplib/klli1.h ../cpp/cpplib/io.h ../cpp/cpplib/format.h \
+ ../cpp/cpplib/stdtempl.h ../cpp/cpplib/mem.h

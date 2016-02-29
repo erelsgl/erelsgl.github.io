@@ -1,0 +1,18 @@
+stringt.o: d:/erel/cpp/cpplib/stringt.cpp d:\erel\cpp\cpplib\stringt.h \
+ d:\erel\cpp\cpplib\char2.h d:\erel\cpp\cpplib\typedefs.h \
+ D:\DEV-C++\BIN\..\lib\gcc-lib\i386-mingw32\2.95.2\..\..\..\..\include\string.h \
+ D:\DEV-C++\BIN\..\lib\gcc-lib\i386-mingw32\2.95.2\..\..\..\..\include\_mingw.h \
+ D:\DEV-C++\BIN\..\lib\gcc-lib\i386-mingw32\2.95.2\..\..\..\..\include\stddef.h \
+ D:\DEV-C++\BIN\..\lib\gcc-lib\i386-mingw32\2.95.2\..\..\..\..\include\g++-3\iostream.h \
+ D:\DEV-C++\BIN\..\lib\gcc-lib\i386-mingw32\2.95.2\..\..\..\..\include\g++-3\streambuf.h \
+ D:\DEV-C++\BIN\..\lib\gcc-lib\i386-mingw32\2.95.2\..\..\..\..\include\g++-3\libio.h \
+ D:\DEV-C++\BIN\..\lib\gcc-lib\i386-mingw32\2.95.2\..\..\..\..\include\_G_config.h \
+ d:\erel\cpp\cpplib\status.h \
+ D:\DEV-C++\BIN\..\lib\gcc-lib\i386-mingw32\2.95.2\..\..\..\..\include\assert.h \
+ D:\DEV-C++\BIN\..\lib\gcc-lib\i386-mingw32\2.95.2\..\..\..\..\include\stdio.h \
+ D:\DEV-C++\BIN\..\lib\gcc-lib\i386-mingw32\2.95.2\..\..\..\..\include\stdlib.h \
+ d:\erel\cpp\cpplib\klli1.h \
+ D:\DEV-C++\BIN\..\lib\gcc-lib\i386-mingw32\2.95.2\..\..\..\..\include\g++-3\fstream.h \
+ d:\erel\cpp\cpplib\io.h d:\erel\cpp\cpplib\format.h \
+ D:\DEV-C++\BIN\..\lib\gcc-lib\i386-mingw32\2.95.2\..\..\..\..\include\ctype.h \
+ d:\erel\cpp\cpplib\stdtempl.h d:\erel\cpp\cpplib\mem.h

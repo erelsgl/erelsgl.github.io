@@ -1,0 +1,42 @@
+% NITUX_MJPTIM.MCA - qovec ^argumen@im lnittux mi$pa@im &al-ydei hamax$ev.
+
+% orek meravi $ell maxrozet = 30 tawim.
+% ha-maxrozot "case-sensitive".
+
+
+
+
+%%%%%%% maxrozot %%%%%%%%
+{
+QorpusLoMnutx:                  tqstim/harc20   % kolel @eqs@ l^imun &abur $lav hamila
+QorpusMnutx:                    tqstim/harc20   % kolel gamm @eqs@im l^imun wgamm @eqs@ lbdiqa. &' "TxiltXlqImunJlvZug".
+
+SyomtQovcQltTocaotJlvMila:    .nts            % muttar lhi$tamme$ raqq ^im niktvu koll toca^ot $lav hamilla! (KtovKlTocaotJlvMila = 1).
+%SyomtQovcPltTocaotJlvMila:     .nts            % &' lma@@a bami$tanne "KtovKlTocaotJlvMila".
+
+MslulLogim:              tqstim                % qvacei halog yikatvu l-"tqstim/*.ma2"
+MslulMilon:              .                     % qvacei hamillon yiqar^u me-"./milon/*.ma".
+
+QovcTiqunim:            milon/tiqunim3_harc20.ma     % kdei lo^ lvacce& ^et $lav hazug, nitan la$im % lifnei $ura zo.
+%QovcCmcumim:            milon/cimcumim.ma     % kdei lo^ lvacce& ^et $lav hami$pa@, nitan la$im % lifnei $ura zo.
+}
+
+
+
+
+%%%%%%% misparim %%%%%%%
+{
+
+% hami$tannim haba^im mxallqim ^et ha-"QorpusMnutx" lxalaqim, &abur ^immun w-bdiqa.
+TxiltXlqImunJlvZug:      469            %
+SofXlqImunJlvZug:        469            % ^im SofXlqImunJlvZug=TxiltXlqImunJlvZug -- lo^ yillammdu tiqqunim xada$im.
+TxiltXlqImunJlvMila:     999999         %
+SofXlqImunJlvMila:       999999         % ^im SofXlqImunJlvMila=TxiltXlqImunJlvMila -- histabbruyot yxu$$vu miqorpus lo^ mnuttax.
+
+CyunQtnByotrLTiqun:      10             % raqq pqudot tiqqun $emtaqqnut lfaxot 10 $gi^ot yillammdu.
+
+KtovEtKlTocaotJlvHMila:         1   % 1 = ktov ^et koll hatoca^ot (kolel hahistabruyot hacuraniyot &avur koll milla).
+	% 0 = ktov raqq ^et hamivnim haqcarim yoter
+
+MilonYcirti:                    0   % 1=hamillon yaxzir yoter toca^ot.
+}
