@@ -207,4 +207,14 @@
     level: journal
     content: >
         פורסם ב[מערכות 389 - ה'תשס"ג 2003](http://maarachot.idf.il/71911-he/Maarachot.aspx).
+-
+    id: trustpatent
+    lang: en
+    title: Calculating Connectivity, Social Proximity and Trust Leven between Web Users
+    authors:  Tuvia Rosenthal, Erel Segal-Halevi, Erez Segal 
+    date: 2010-01-14
+    topic: trust
+    level: patent
+    content: >
+        [US Patent 20100010826](http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20100010826.PGNR.&OS=DN/20100010826&RS=DN/20100010826)
 
