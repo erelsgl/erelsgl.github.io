@@ -24,6 +24,9 @@ levels:  # see also paperlevels.yml
   conference-:
     en: Other conferences
     he: כנסים אחרים
+  patent:
+    en: Patents
+    he: פטנטים
   working:
     en: Other working papers
     he: מאמרים בעבודה 
