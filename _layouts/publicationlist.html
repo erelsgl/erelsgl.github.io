@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-{{page.content}}
+{{page.content | markdownify}}
 {% for level in site.data.paperlevels %}
 {% assign papers=site.data.papers | where:"level", level | where:"lang", page.lang | sort: 'date' | reverse %}
 {% if papers.size > 0 %}
