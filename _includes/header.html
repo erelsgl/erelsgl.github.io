@@ -34,12 +34,12 @@
       <span class="langs" dir='ltr'>
         {% assign pages=site.pages | where:"ident", page.ident | sort: 'path' %}
         {% for p in pages %}
-        <a href="{{ p.url | prepend: site.baseurl }}" class="{{ p.lang }}"><img src="{{ site.baseurl }}/images/{{ p.lang }}.png" alt="This page in {{ p.lang }}"/></a>
+        <a href="{{ p.url | prepend: site.baseurl }}" class="{{ p.lang }}"><img src="{{ site.baseurl }}/images/flags/{{ p.lang }}.png" alt="This page in {{ p.lang }}"/></a>
         {% endfor %}
         
         {% assign pages=site.documents | where:"ident", page.ident | sort: 'path' %}
         {% for p in pages %}
-        <a href="{{ p.url | prepend: site.baseurl }}" class="{{ p.lang }}"><img src="{{ site.baseurl }}/images/{{ p.lang }}.png" alt="This page in {{ p.lang }}"/></a>
+        <a href="{{ p.url | prepend: site.baseurl }}" class="{{ p.lang }}"><img src="{{ site.baseurl }}/images/flags/{{ p.lang }}.png" alt="This page in {{ p.lang }}"/></a>
         {% endfor %}
       </span>
       </div>
