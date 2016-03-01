@@ -5,5 +5,5 @@ title: Publications
 description: List of publications
 ---
 <small>
-[For Hebrew publications click here](http://erelsgl.github.io/pages/he/publications/).
+<a href='../../en/publications'>For Hebrew publications click here.</a>
 </small>
