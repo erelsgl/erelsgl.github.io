@@ -1,2 +1,2 @@
 # erelsgl.github.io
-Personal website
+The academic homepage of Erel Segal-Halevi
