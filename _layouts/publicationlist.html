@@ -1,7 +1,13 @@
 ---
 layout: page
 ---
-{{page.content | markdownify}}
+<small>
+{% if page.lang == "en" %}
+<a href='{{site.baseurl}}/pages/he/publications'>For Hebrew publications click here.</a>
+{% else %}
+<a href='{{site.baseurl}}/pages/en/publications'>לפירסומים באנגלית לחצו כאן.</a>
+{% endif %}
+</small>
 {% for level in site.data.paperlevels %}
 {% assign papers=site.data.papers | where:"level", level | where:"lang", page.lang | sort: 'date' | reverse %}
 {% if papers.size > 0 %}
