@@ -1,7 +1,7 @@
 ---
-ident: code
+ident: software
 layout: page
-title: Software
+title: Code
 ---
 In parallel to research, I love to learn new programming languages and technologies. 
 Here are some of my recent acquisitions and what I did with them.
