@@ -17,7 +17,7 @@ with [Prof. Sarit Kraus][sk] and [Prof. Ido Dagan][id]. Developed the infrastruc
 Taught automata and formal languages with [teaching-grade 9.64][afl] and data structures with [teaching-grade 9.17][dts].
 
 **2007-2009**: CTO in TROS - a startup company that developed
-a [patented][patent] algorithm for calculating trust in social networks and dating sites.
+a [patented][pat] algorithm for calculating trust in social networks and dating sites.
 
 **2004-2006**: [Computer-science-teaching diploma][grm] and a freelance website builder.
 
