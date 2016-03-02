@@ -1,7 +1,7 @@
 ---
 ident: wishlist
 layout: page
-title: Code
+title: Software
 ---
 In parallel to research, I love to learn new programming languages and technologies. 
 Here are some of my recent acquisitions and what I did with them.
@@ -11,7 +11,7 @@ Here are some of my recent acquisitions and what I did with them.
 2. [SageMath][S1] and Python: an [automatic prover][S2] for our [envy-free cake-cutting algorithm][S3].
 
 3. [Node.js][N1]: **[limdu][N2]** - a machine-learning framework, used for natural-language understanding in the [negochat][N3] system.
-**[computational-geometry][N4]** - implementation and demonstration of square-covering, maximum disjoint set, and 2-D cake-cutting.
+**[computational-geometry][N4]** - implementation and demonstration of square-covering, maximum disjoint set and [2-D fair cake-cutting][N5].
 
 
 [J1]: http://jekyllrb.com/
@@ -23,3 +23,4 @@ Here are some of my recent acquisitions and what I did with them.
 [N2]: https://github.com/erelsgl/limdu
 [N3]: {{site.baseurl}}/topics/negochat
 [N4]: https://github.com/erelsgl/computational-geometry
+[N5]: {{site.baseurl}}/topics/fairness
