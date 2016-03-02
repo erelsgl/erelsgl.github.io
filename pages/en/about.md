@@ -4,9 +4,11 @@ layout: page
 title: Home
 permalink: /
 ---
-Welcome to my academic homepage! I am Erel Segal-Halevi, a Ph.D. student in the computer-science department in Bar-Ilan university. 
+# Erel Segal-Halevi - Academic Homepage
 
-My research interests are multi-disciplinary and range from theory to practice. Currently I do research in **computational economics** (specifically [fairness][1],  [auctions][2] and [game theory][3]). In the past I did research in **natural language processing** (specifically [English negotiation][4] and [Hebrew morphology][5]). 
+I am currently a Ph.D. student in the computer-science department in Bar-Ilan university. 
+
+My research interests are diverse and range from theory to practice. Currently I do research in **computational economics** ([fairness][1],  [auctions][2] and [game theory][3]). In the past I did research in **natural language processing** ([English negotiation][4] and [Hebrew morphology][5]). 
 
 I am also a [highly multilingual programmer][6].
 
