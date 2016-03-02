@@ -3,8 +3,8 @@
 <div class="wrapper">
 
     <div class="site-title">
-     <a href="{{ site.baseurl }}/">
-       <img src="{{ site.baseurl }}/images/erel35y.jpg" alt="Erel Segal-Halevi" title="Erel Segal-Halevi"/>
+     <a href="{{site.baseurl}}/">
+       <img src="{{site.baseurl}}/images/erel35y.jpg" alt="Erel Segal-Halevi" title="Erel Segal-Halevi"/>
      </a>
     </div>
 
@@ -20,7 +20,7 @@
       <div class="trigger" dir='ltr'>
      <span class='page-links' dir='{{page.direction}}'>
       <!-- Adapted From Jekyll default template -->
-        {% assign pages=site.pages | where:"lang", page.lang | sort: 'path' %}
+        {% assign pages=site.pages | where:"lang", page.lang | sort: 'ident' %}
         {% for p in pages %}
           {% if p.title == page.title %}
           <b class="page-link current">{{ p.title }}</b>
