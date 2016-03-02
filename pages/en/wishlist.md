@@ -33,6 +33,6 @@ See my [economics.SE question](http://economics.stackexchange.com/q/9916) for de
 See our fair-and-square papers ([extended abstract](http://erelsgl.github.io/publications/fairness/FairAndSquare-EuroCG-16.pdf) and [full preprint](http://arxiv.org/abs/1510.03170)) for details.
 
 4. **What is the minimal number of rectangles required to complete a partial-rectangular-allocation to a full partition?**
-See [my cstheory.SE question](http://cstheory.stackexchange.com/q/33744) for details.
+See my [cstheory.SE question](http://cstheory.stackexchange.com/q/33744) for details and my [redivision paper](http://arxiv.org/abs/1603.00286) for motivation.
 
 [1]: {{site.baseurl}}/topics/{{page.lang}}/fairness

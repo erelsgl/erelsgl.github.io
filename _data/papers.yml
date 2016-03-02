@@ -42,6 +42,16 @@
     content: >
         [Working paper](http://arxiv.org/abs/1510.03903) (25 pages)
 -
+    id: Redivision
+    lang: en
+    title: How to re-divide a cake fairly
+    authors: Erel Segal-Halevi
+    date: 2016-03-01
+    topic: fairness
+    level: working
+    content: >
+        [Working paper](http://arxiv.org/abs/1603.00286) (18 pages)
+-
     id: FairAndSquare
     lang: en
     title: Fair and Square - Cake-Cutting in Two Dimensions
