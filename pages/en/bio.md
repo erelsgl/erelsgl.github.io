@@ -9,7 +9,9 @@ I research [fair division of land][1], [double auctions][2] and [repeated games]
 
 **2011-2013**: Research assistant in Bar-Ilan University 
 with [Prof. Sarit Kraus][sk] and [Prof. Ido Dagan][id]. Developed the infrastructure and natural-language component for
-[negochat][4] - an agent for negotiating with humans in English. Also developed [Limdu][lim] - an open-source machine-learning framework for Node.js.
+[negochat][4] - an agent for negotiating with humans in English. 
+
+* Also developed [Limdu][lim] - an open-source machine-learning framework for Node.js.
 
 **2010**: Teaching assistant in [JCT college - Mechon Tal](http://www.jct.ac.il/en/tal-campus).
 Taught automata and formal languages with [teaching-grade 9.64][afl] and data structures with [teaching-grade 9.17][dts].
