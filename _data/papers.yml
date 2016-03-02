@@ -61,6 +61,10 @@
     level: conference-
     content: >
         Presented in [Euro CG conference 2016](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) (4 pages) and [Extended preprint](http://arxiv.org/abs/1510.03170) (54 pages)
+    onlinedemoexists: true
+    onlinedemo:
+      url: http://tora.us.fm/geometry/fair-division.html
+      title: Fair-and-square cake-cutting
         
         
 # NLP and NegoChat:
