@@ -9,8 +9,8 @@ onlinedemos:
   en: "Online demos"
   he: "הדגמות ברשת"
 onlinedemo: 
-  en: "&rarr; Online demo"
-  he: "&larr; הדגמה ברשת"
+  en: "&rarr; Live demo"
+  he: "&larr; הדגמה חיה"
 levels:  # see also paperlevels.yml
   book: 
     en: Books

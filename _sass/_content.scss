@@ -35,8 +35,12 @@ ul.topics, ul.publications {
 .onlinedemo {
     font-weight: bold;
     font-style: italic;
-    display: block;
+    display: inline;
     margin: 0 3em;
+    padding: 3px; 
+    border: green 1px solid; 
+    border-radius: 10px;
+    background: #efe;
 }
 
 

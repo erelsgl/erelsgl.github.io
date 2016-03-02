@@ -17,20 +17,23 @@ with [Prof. Sarit Kraus][sk] and [Prof. Ido Dagan][id]. Developed the infrastruc
 Taught automata and formal languages with [teaching-grade 9.64][afl] and data structures with [teaching-grade 9.17][dts].
 
 **2007-2009**: CTO in TROS - a startup company that developed
-a [patented][pat] algorithm for calculating trust in social networks and dating sites.
+a [patented][pat] algorithm for calculating trust in social networks 
+and implemented it in a [dating website][mzg].
 
 **2004-2006**: [Computer-science-teaching diploma][grm] and a freelance website builder.
 
-**1999-2004**: IAF software unit. Participated in developing a software system based on statistical data-fusion algorithms. The system won the IAF commander prize (2000).
+**1999-2004**: Senior academic officer in IAF software unit.
+Participated in developing a real-time system based on statistical data-fusion algorithms.
+The system won the IAF commander award (2000).
 
 **1998-1999**: M.Sc. in computer science in the Technion.
-[Final grade 94][grb]. In my thesis I built [the first morphological analyzer for 
+[Final grade 94][grb]. The thesis was [the first morphological analyzer for 
 modern Hebrew][5].
 
 **1993-1997**: B.Sc. in computer engineering in the Technion. 
 [Mean grade 97.2][gra].
 
-**1975** I was born :)
+**1975**: Born :)
 
 [1]: {{site.baseurl}}/topics/{{page.lang}}/fairness
 [2]: {{site.baseurl}}/topics/{{page.lang}}/auctions
@@ -48,3 +51,4 @@ modern Hebrew][5].
 [id]: http://u.cs.biu.ac.il/~dagan/
 [lim]: https://github.com/erelsgl/limdu
 [pat]: http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20100010826.PGNR.&OS=DN/20100010826&RS=DN/20100010826
+[mzg]: http://www.meezoog.com
