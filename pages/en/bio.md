@@ -5,27 +5,21 @@ title:  Bio
 ---
 **2013-2016 (present)**: Ph.D. student in Bar-Ilan University computer-science department. 
 My advisors are [Prof. Yonatan Aumann][ya] and [Dr. Avinatan Hassidim][ah]. 
-I research 
-[fair division of land][1], 
-[double auctions][2]
-and 
-[repeated games][3].
+I research [fair division of land][1], [double auctions][2] and [repeated games][3].
 
 **2011-2013**: Research assistant in Bar-Ilan University 
-with [Prof. Sarit Kraus][sk] and [Prof. Ido Dagan][id]. We worked on the
-[negochat][4] project - negotiation agents understanding natural language.
+with [Prof. Sarit Kraus][sk] and [Prof. Ido Dagan][id]. Developed the infrastructure and natural-language component for
+[negochat][4] - an agent for negotiating with humans in English. Also developed [Limdu][lim] - an open-source machine-learning framework for Node.js.
 
 **2010**: Teaching assistant in [JCT college - Mechon Tal](http://www.jct.ac.il/en/tal-campus).
 Taught automata and formal languages with [teaching-grade 9.64][afl] and data structures with [teaching-grade 9.17][dts].
 
 **2007-2009**: CTO in TROS - a startup company that developed
-a patented algorithm for calculating trust in social networks and dating sites.
+a [patented][patent] algorithm for calculating trust in social networks and dating sites.
 
-**2004-2006**: Learned for [Computer-science-teaching diploma][grm]
-and made a living as a freelance website builder.
+**2004-2006**: [Computer-science-teaching diploma][grm] and a freelance website builder.
 
-**1999-2004**: Served in the IAF software unit and developed
-some secret statistical data-fusion algorithms.
+**1999-2004**: IAF software unit. Participated in developing a software system based on statistical data-fusion algorithms. The system won the IAF commander prize (2000).
 
 **1998-1999**: M.Sc. in computer science in the Technion.
 [Final grade 94][grb]. In my thesis I built [the first morphological analyzer for 
@@ -50,3 +44,5 @@ modern Hebrew][5].
 [ah]: http://u.cs.biu.ac.il/~avinatan/
 [sk]: http://u.cs.biu.ac.il/~sarit/
 [id]: http://u.cs.biu.ac.il/~dagan/
+[lim]: https://github.com/erelsgl/limdu
+[pat]: http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20100010826.PGNR.&OS=DN/20100010826&RS=DN/20100010826
