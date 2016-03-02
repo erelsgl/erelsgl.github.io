@@ -8,10 +8,8 @@ Here are some of my recent acquisitions and what I did with them.
 
 1. [Jekyll][1]: this website, with [bilingual support][1a].
 
-2. Node.js:
-
-** [Limdu][2a] - a machine-learning framework, used for natural-language understanding in the [negochat][2b] system.
-** [Computational-geometry] - implementation and demonstration of square-covering, maximum disjoint set, and 2-D cake-cutting.
+2. Node.js: **[limdu][2a]** - a machine-learning framework, used for natural-language understanding in the [negochat][2b] system.
+**[computational-geometry]** - implementation and demonstration of square-covering, maximum disjoint set, and 2-D cake-cutting.
 
 
 [1]: http://jekyllrb.com/
