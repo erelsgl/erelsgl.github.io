@@ -24,7 +24,7 @@
 }
 
 .page-links {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 80px;
     letter-spacing: -1px;
@@ -36,15 +36,16 @@
     }
 }
 
-.page-links a.page-link {
-    background: #eee; 
-    margin: 10px;
+.page-links .page-link {
+    margin: 5px;
     padding: 10px;
 }
 
+.page-links a.page-link {
+        background: #eee; 
+}
+
 .page-links b.page-link {
-    margin: 10px;
-    padding: 10px;
     border: solid 1px black;
 }
 
