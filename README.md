@@ -1,2 +1,1 @@
-# erelsgl.github.io
-The academic homepage of Erel Segal-Halevi
+My academic website. Built using Jekyll. Bilingual: English and Hebrew.
