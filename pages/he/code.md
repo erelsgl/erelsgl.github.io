@@ -5,40 +5,40 @@ title: תיכנות
 ---
 במקביל למחקר, אני אוהב ללמוד שפות תיכנות וטכנולוגיות חדשות. הנה כמה שפות שלמדתי, בסדר זמן יורד, ומה עשיתי בכל אחת:
 
-<div dir='ltr'>
+1. [Jekyll][J1] <span dir='ltr'>(2016)</span>: האתר הזה, עם  [דו-לשוניות מובנית][J2].
 
-1. [Jekyll][J1] (2016): this website, featuring [bilingual support][J2].
+2. [SageMath][S1]+Python <span dir='ltr'>(2015-2016)</span>: תוכנת [הוכחה אוטומטית][S2] עבור [האלגוריתם שלנו לחלוקה ללא קנאה][S3].
 
-2. [SageMath][S1]+Python (2015-2016): an [automatic prover][S2] for our [envy-free cake-cutting algorithm][S3].
-
-3. [Node.js][N1] (2013-2016): the infrastructure for [negochat][N3], as well as:
-  * [limdu][N2] - a machine-learning framework;
-  * [computational-geometry][N4] - covering algorithms and [2-D fair cake-cutting][N5].
+3. [Node.js][N1] <span dir='ltr'>(2013-2016)</span>: התשתית לפרוייקט [negochat][N3], וגם:
+  * [limdu][N2] - ספריית למידת-מכונה.
+  * [computational-geometry][N4] - אלגוריתמי כיסוי גיאומטריים ו [חלוקה הוגנת בשני ממדים][N5].
 <br/><br/>
 
-4. [PHP][P1]+MySQL+Javascript+CSS (2005-2016): many websites, for example:
-  * [MeeZoog][P2] - a dating site powered by our [social network trust patent][pat].
-  * [Temple Mount Sifting Project Unidentified Finds Research Forum][P3].
-  * [Textia][P4] - a wiki-game that anyone can edit.
-  * [Tanakh Navigation Kit][P5] and my [Tanakh Navigation Site][P7].
+4. [PHP][P1]+MySQL+Javascript+CSS <span dir='ltr'>(2005-2016)</span>: הרבה אתרי אינטרנט, ביניהם:
+  * [מיזוג][P2] - אתר היכרויות עם  [מנוע פטנטי לחישוב אמון ברשת חברתית][pat].
+  * [פורום דיון על ממצאים ארכיאולוגיים מפרוייקט סינון עפר הר הבית][P3].
+  * [טקסטיה][P4] - ויקי-משחק שכל אחד יכול לערוך בטקסט.
+  * [כלי ניווט בתנ"ך][P5] וכן [אתר הניווט בתנ"ך][P7].
 <br/><br/>
 
-5. Perl (2007-2014): automatic testing scripts for [MeeZoog][P2] and bots for [WikiSource][HW].
+5. Perl <span dir='ltr'>(2007-2014)</span>: כלי בדיקה אוטומטית ל[מיזוג][P2] וכן בוטים עבור [ויקיטקסט][HW].
 
-6. Java (2011-2013): natural-language projects, including:
-  * The [Hebrew parody generator][J2];
-  * [Dialog understanding with textual entailment][J3];
-  * [Probabilistic-Lexical-Inference-System demo][J4].
+6. Java <span dir='ltr'>(2011-2013)</span>: פרוייקטים בעיבוד שפה טבעית, ביניהם:
+  * [מחולל טקסטים אקראיים בעברית][J2];
+  * [הבנת דיאלוג בעזרת גרירה טקסטואלית][J3];
+  * [הדגמה של מערכת היסק לקסיקלי][J4].
 <br/><br/>
 
-7. [NetLogo][L1] (2011-2012): agent-based simulations of land division and Jubilee [simple][L2] and [with income effects][L3].
+7. [NetLogo][L1] <span dir='ltr'>(2011-2012)</span>: הדמיה מבוססת-סוכנים של חלוקת קרקעות ומצוות היובל: 
+ [פשוטה][L2] ועם [השפעות הכנסה][L3].
 
-8. C++: [my M.Sc. thesis][C2] (1997-1999), real-time programming during my IAF service (1999-2004) and teaching data structures (2010).
+8. C++: 
+[התואר השני שלי][C2] <span dir='ltr'>(1997-1999)</span>,
+ תיכנות זמן-אמת בשירות הצבאי, <span dir='ltr'>(1999-2004)</span> והוראת מבני נתונים <span dir='ltr'>(2010)</span>.
 
-9. Matlab (1999-2004): simulation programming during my IAF service.
+9. Matlab <span dir='ltr'>(1999-2004)</span>: הדמיות במשך השירות הצבאי.
 
-10. [BASIC][B1] (1982): my first programming language :) 
-</div>
+10. [BASIC][B1] <span dir='ltr'>(1982)</span>: שפת התיכנות הראשונה שלי...
 
 [J1]: http://jekyllrb.com/
 [J2]: https://www.sylvaindurand.org/making-jekyll-multilingual/
