@@ -5,6 +5,7 @@ title: תיכנות
 ---
 במקביל למחקר, אני אוהב ללמוד שפות תיכנות וטכנולוגיות חדשות. הנה כמה שפות שלמדתי, בסדר זמן יורד, ומה עשיתי בכל אחת:
 
+<div dir='ltr'>
 1. [Jekyll][J1] (2016): this website, featuring [bilingual support][J2].
 
 2. [SageMath][S1]+Python (2015-2016): an [automatic prover][S2] for our [envy-free cake-cutting algorithm][S3].
@@ -36,6 +37,7 @@ title: תיכנות
 9. Matlab (1999-2004): simulation programming during my IAF service.
 
 10. [BASIC][B1] (1982): my first programming language :) 
+</div>
 
 [J1]: http://jekyllrb.com/
 [J2]: https://www.sylvaindurand.org/making-jekyll-multilingual/
