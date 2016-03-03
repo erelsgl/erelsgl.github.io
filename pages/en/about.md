@@ -9,6 +9,7 @@ permalink: /
 I am currently a Ph.D. student in the computer-science department in Bar-Ilan university. 
 
 My research interests are diverse and range from theory to practice. Currently I do research in **computational economics** ([fairness][1],  [auctions][2] and [game theory][3]). In the past I did research in **natural language processing** ([English negotiation][4] and [Hebrew morphology][5]). 
+The inspiration to these diverse topics comes from the [Bible][7].
 
 I am also a [highly multilingual programmer][6].
 
@@ -18,4 +19,5 @@ I am also a [highly multilingual programmer][6].
 [4]: {{site.baseurl}}/topics/{{page.lang}}/negochat
 [5]: {{site.baseurl}}/topics/{{page.lang}}/hebnlp
 [6]: {{site.baseurl}}/pages/{{page.lang}}/code
+[7]: {{site.baseurl}}/topics/{{page.lang}}/tnk
 
