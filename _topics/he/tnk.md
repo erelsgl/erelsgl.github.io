@@ -5,7 +5,18 @@ description: עצות ורעיונות לימינו מתוך התנ"ך ובמי�
 image: sgulot.png
 date: 1980-01-01
 ---
-התנ"ך הוא ההשראה והמקור למחקרים שלי בבלשנות חישובית ובחלוקה הוגנת.
+התנ"ך הוא ההשראה והמקור למחקרים שלי.
+
+כשלימדתי מתמודדים לחידון התנ"ך, רציתי לפתח תוכנה שיוצרת שאלות באופן אוטומטי.
+כך הגעתי לתואר השני שלי בנושא [בלשנות חישובית עברית][T5] 
+ואחר כך גם [אנגלית][T4].
+
+מתוך לימוד מצוות חלוקת הנחלות והיובל בתורה, הגעתי למחקר הדוקטורט שלי בנושא
+[חלוקה הוגנת של קרקע][T1]
+ואחר כך גם  [תיכנון מכניזמים כללי][T2] 
+וגם
+[תורת המשחקים][T3].
+
 אני מנהל החל משנת ה'תש"ס את
 [אתר הניווט בתנ"ך][1]
 ומשתתף בניהול 
@@ -20,3 +31,8 @@ date: 1980-01-01
 [2]: http://he.wikisource.org/wiki/User:Erel_Segal
 [P4]: https://github.com/erelsgl/textia
 [P5]: https://github.com/erelsgl/tnk
+[T1]: {{site.baseurl}}/topics/{{page.lang}}/fairness
+[T2]: {{site.baseurl}}/topics/{{page.lang}}/auctions
+[T3]: {{site.baseurl}}/topics/{{page.lang}}/repeatedgames
+[T4]: {{site.baseurl}}/topics/{{page.lang}}/negochat
+[T5]: {{site.baseurl}}/topics/{{page.lang}}/hebnlp
