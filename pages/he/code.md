@@ -6,6 +6,7 @@ title: תיכנות
 במקביל למחקר, אני אוהב ללמוד שפות תיכנות וטכנולוגיות חדשות. הנה כמה שפות שלמדתי, בסדר זמן יורד, ומה עשיתי בכל אחת:
 
 <div dir='ltr'>
+
 1. [Jekyll][J1] (2016): this website, featuring [bilingual support][J2].
 
 2. [SageMath][S1]+Python (2015-2016): an [automatic prover][S2] for our [envy-free cake-cutting algorithm][S3].
