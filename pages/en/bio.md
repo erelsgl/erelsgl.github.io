@@ -45,7 +45,7 @@ modern Hebrew][5].
 [gra]: {{site.baseurl}}/diplomas/toara_1.jpg
 [grb]: {{site.baseurl}}/diplomas/toarb_1.jpg
 [grm]: {{site.baseurl}}/diplomas/toarmore_2.jpg
-[ya]: http://cs.biu.ac.il/node/540
+[ya]: https://sites.google.com/site/aumannbiu/
 [ah]: http://u.cs.biu.ac.il/~avinatan/
 [sk]: http://u.cs.biu.ac.il/~sarit/
 [id]: http://u.cs.biu.ac.il/~dagan/
