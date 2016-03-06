@@ -10,9 +10,9 @@ I am currently a Ph.D. student in Bar-Ilan University computer-science departmen
 My advisors are [Prof. Yonatan Aumann][ya] and [Dr. Avinatan Hassidim][ah]. 
 
 My research interests are diverse and range from theory to practice. Currently I do research in **computational economics** ([fairness][1],  [auctions][2] and [game theory][3]). In the past I did research in **natural language processing** ([English negotiation][4] and [Hebrew morphology][5]). 
-The inspiration to these diverse topics comes from the [Bible][7].
+The inspiration to research these diverse topics comes from the [Bible][7].
 
-I am also a veteran [multi-lingual programmer][6].
+In addition to research, I have many years of experience [programming in various languages][6].
 
 [1]: {{site.baseurl}}/topics/{{page.lang}}/fairness
 [2]: {{site.baseurl}}/topics/{{page.lang}}/auctions
