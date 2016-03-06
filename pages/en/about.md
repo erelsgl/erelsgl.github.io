@@ -21,3 +21,5 @@ In addition to research, I have many years of experience [programming in various
 [5]: {{site.baseurl}}/topics/{{page.lang}}/hebnlp
 [6]: {{site.baseurl}}/pages/{{page.lang}}/code
 [7]: {{site.baseurl}}/topics/{{page.lang}}/tnk
+[ya]: http://cs.biu.ac.il/node/540
+[ah]: http://u.cs.biu.ac.il/~avinatan/
