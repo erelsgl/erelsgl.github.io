@@ -198,6 +198,18 @@
     content: >
         פורסם ב[בדד 25 - אלול ה'תשע"א](http://www.biupress.co.il/website/index.asp?id=847).     
 -
+    id: Monopoly
+    lang: he
+    title: הסוד היהודי של משחק המונופול
+    entitle: The Biblical theme in the game of Monopoly
+    authors: אראל סגל-הלוי וצוות ניצוצות שחר
+    date: 2013-04-03
+    topic: jewecon
+    level: conference-
+    content: >
+        [פוסטר בכנס תורה ומדע - ה'תשע"ג 2013](http://erelsgl.github.io/papers/monopoly/toraumada_5773_monopoly.pdf).
+        
+-
     id: SgulotMishley
     lang: he
     title: סגולות משלי - עצות מקוריות בנושאים מגוונים לפי ספר משלי ומפרשיו
