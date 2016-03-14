@@ -60,7 +60,7 @@
     topic: fairness
     level: conference-
     content: >
-        Presented in [Euro CG conference 2016](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) (4 pages) and [Extended preprint](http://arxiv.org/abs/1510.03170) (54 pages)
+        Presented in [Euro CG conference 2016](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) (4 pages) and [under revision for Journal of Mathematical Economics](http://arxiv.org/abs/1510.03170) (54 pages)
     onlinedemoexists: true
     onlinedemo:
       url: http://tora.us.fm/geometry/fair-division.html
@@ -175,6 +175,21 @@
     content: >
         פורסם ב[רבעון הישראלי לבנקאות מס' 173 - תשרי ה'תשע"ג (2012)](http://erelsgl.github.io/papers/BankingQuarterly_2012_LoanMediation.pdf). יש גם [מהדורת רשת](http://tora.us.fm/tryg/ribit0/bnq3.html).
 -
+    id: KosherBank
+    lang: he
+    title: על מפתנו של הבנק הכשר לכתחילה 
+    entitle: Towards a Kosher Bank
+    authors: אראל סגל-הלוי
+    date: 2016-02-01
+    topic: jewecon
+    level: journal
+    content: >
+   
+        פורסם ב[רבעון הישראלי לבנקאות מס' 173 - תשרי ה'תשע"ג (2012)](http://erelsgl.github.io/papers/BankingQuarterly_2012_LoanMediation.pdf). יש גם [מהדורת רשת](http://tora.us.fm/tryg/ribit0/bnq3.html).
+
+KosherBank-SegalHalevi-Culmus.pdf
+
+-
     id: ShmitaTalk
     lang: he
     title: שנת השמיטה - השבת של הטבע
@@ -207,7 +222,7 @@
     topic: jewecon
     level: conference-
     content: >
-        [פוסטר בכנס תורה ומדע - ה'תשע"ג 2013](http://erelsgl.github.io/papers/monopoly/toraumada_5773_monopoly.pdf). יש גם [מהדורת רשת](http://tora.us.fm/tryg/ribit0/
+        [פוסטר בכנס תורה ומדע - ה'תשע"ג 2013](http://erelsgl.github.io/papers/monopoly/toraumada_5773_monopoly.pdf).
         
 -
     id: SgulotMishley
@@ -236,7 +251,7 @@
 -
     id: trustpatent
     lang: en
-    title: Calculating Connectivity, Social Proximity and Trust Leven between Web Users
+    title: Calculating Connectivity, Social Proximity and Trust Level between Web Users
     authors:  Tuvia Rosenthal, Erel Segal-Halevi, Erez Segal 
     date: 2010-01-14
     topic: trust

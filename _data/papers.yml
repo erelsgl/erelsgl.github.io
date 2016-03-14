@@ -175,6 +175,17 @@
     content: >
         פורסם ב[רבעון הישראלי לבנקאות מס' 173 - תשרי ה'תשע"ג (2012)](http://erelsgl.github.io/papers/BankingQuarterly_2012_LoanMediation.pdf). יש גם [מהדורת רשת](http://tora.us.fm/tryg/ribit0/bnq3.html).
 -
+    id: KosherBank
+    lang: he
+    title: על מפתנו של הבנק הכשר לכתחילה 
+    entitle: Towards a Kosher Bank
+    authors: אראל סגל-הלוי
+    date: 2016-02-01
+    topic: jewecon
+    level: journal
+    content: >
+           פורסם ב[קולמוס - הירחון של עיתון "משפחה", שבט ה'תשע"ו (2016)](http://erelsgl.github.io/papers/KosherBank-SegalHalevi-Culmus.pdf).
+-
     id: ShmitaTalk
     lang: he
     title: שנת השמיטה - השבת של הטבע

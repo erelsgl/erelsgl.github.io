@@ -27,7 +27,12 @@ layout: page
     {% for p in papers %}
     {% if p.level != "website" %}
     <li><div dir='{{site.data.dirs[p.lang]}}' style='text-align:{{site.data.directions[p.lang]}}'>
-        &quot;<b title="{{p.entitle}}">{{p.title}}</b>&quot;: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}
+        {% if p.entitle and page.lang == "en" and p.lang == "he" %}
+        <div class='entitle' dir='ltr'>{{p.entitle}} [Hebrew]:</div>
+        &quot;<b>{{p.title}}</b>&quot;: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}
+        {% else %}
+        &quot;<b>{{p.title}}</b>&quot;: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}
+        {% endif %}
     </div></li>
     {% endif %}
     {% endfor %}

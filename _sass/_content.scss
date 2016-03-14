@@ -32,6 +32,13 @@ ul.topics, ul.publications {
     }
 }
 
+/* English title for a Hebrew paper: */
+.entitle {
+    text-align: left;
+    font-weight: normal;
+    font-style: italic;
+}
+
 .onlinedemo {
     font-weight: bold;
     font-style: italic;
