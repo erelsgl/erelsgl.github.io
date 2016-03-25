@@ -34,8 +34,6 @@ See the Wikipedia page I wrote on [envy-free cake-cutting](https://en.wikipedia.
 2. **Does there always exist a Pareto-efficient envy-free allocation of "family goods"?**
 See my [economics.SE question](http://economics.stackexchange.com/q/9916) for details and our [group cake-cutting paper](http://arxiv.org/abs/1510.03903) for a related problem.
 
-## Geometry
-
 3. **Is it possible to divide the unbounded two-dimensional plane "fair-and-square"?** 
 See our fair-and-square papers ([extended abstract](http://erelsgl.github.io/publications/fairness/FairAndSquare-EuroCG-16.pdf) and [full preprint](http://arxiv.org/abs/1510.03170)) for details.
 
