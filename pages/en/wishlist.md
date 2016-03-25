@@ -26,8 +26,6 @@ better ways and I would like to check how they can be implemented.
 # Open Questions 
 I would very much like to know the answer to the following questions.
 
-## Fair Division
-
 1. **Is it possible to find an envy-free and proportional cake-allocation in bounded time?** 
 See the Wikipedia page I wrote on [envy-free cake-cutting](https://en.wikipedia.org/wiki/Envy-free_cake-cutting) for background and our [waste-makes-haste paper](http://arxiv.org/abs/1511.02599) for current status.
 
