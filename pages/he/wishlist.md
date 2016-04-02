@@ -43,9 +43,5 @@ title: משאלות
 [תקציר](http://erelsgl.github.io/publications/fairness/FairAndSquare-EuroCG-16.pdf) 
 ו[מאמר מלא](http://arxiv.org/abs/1510.03170).
 
-4. **מה המספר המינימלי של מלבנים שצריך כדי להשלים הקצאה מלבנית חלקית של מלבן לחלוקה שלמה שלו?**
-ראו  [שאלה מפורטת כאן](http://cstheory.stackexchange.com/q/33744).
-המוטיבציה לשאלה מגיעה מ[בעיית החלוקה-מחדש](http://arxiv.org/abs/1603.00286).
-
 
 [1]: {{site.baseurl}}/topics/{{page.lang}}/fairness
