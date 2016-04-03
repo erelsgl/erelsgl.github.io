@@ -7,7 +7,7 @@ This is a list of questions and topics I would like to research.
 If you are interested and want to collaborate, drop me an email.
 
 # Working papers
-These papers need collaborators to implement their full potential.
+These papers need collaborators to realize their full potential.
 
 1. [How to re-divide a cake fairly?](http://arxiv.org/abs/1603.00286): dynamic fair division, geometric cake-cutting, and the price-of-fairness.
 
