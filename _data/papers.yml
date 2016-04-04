@@ -18,9 +18,9 @@
     authors: Erel Segal-Halevi, Balázs Sziklai
     date: 2016-01-01
     topic: fairness
-    level: working
+    level: conference-
     content: >
-        [Preprint](http://arxiv.org/abs/1510.05229) (43 pages).
+        Presented in GAM-SOC 2015; about to be presented in GAMES 2016. Here is the [Preprint](http://arxiv.org/abs/1510.05229) (43 pages).
 -
     id: EnvyFreeAndSquare
     lang: en
@@ -40,7 +40,7 @@
     topic: fairness
     level: working
     content: >
-        [Working paper](http://arxiv.org/abs/1510.03903) (25 pages)
+        [Working paper](http://arxiv.org/abs/1510.03903) (25 pages); collaborators are welcome.
 -
     id: Redivision
     lang: en
@@ -50,7 +50,7 @@
     topic: fairness
     level: working
     content: >
-        [Working paper](http://arxiv.org/abs/1603.00286) (18 pages)
+        [Working paper](http://arxiv.org/abs/1603.00286) (18 pages); collaborators are welcome.
 -
     id: FairAndSquare
     lang: en

@@ -18,9 +18,9 @@
     authors: Erel Segal-Halevi, Balázs Sziklai
     date: 2016-01-01
     topic: fairness
-    level: working
+    level: conference-
     content: >
-        [Preprint](http://arxiv.org/abs/1510.05229) (43 pages).
+        Presented in GAM-SOC 2015; about to be presented in GAMES 2016. Here is the [Preprint](http://arxiv.org/abs/1510.05229) (43 pages).
 -
     id: EnvyFreeAndSquare
     lang: en
@@ -143,7 +143,7 @@
     id: YovelAkdamot
     lang: he
     title: מצוות חלוקת הנחלות והיובל מראשית הציונות ועד ימינו
-    entitle: Land division and Jubilee since the wake of Zionism to our time
+    entitle: Fair land-division and land-Jubilee since the wake of Zionism to our time
     authors: אראל סגל-הלוי 
     date: 2013-03-15
     topic: jewecon
@@ -161,13 +161,14 @@
     topic: jewecon
     level: journal
     content: >
-        פורסם ב[בדד 28 - כסלו ה'תשע"ד 2013](http://www.biupress.co.il/website/index.asp?id=928). נמצא גם [כאן](http://www.tora.us.fm/tryg/yovl/bdd/yovel-bdd-28.pdf).
+        פורסם ב[בדד 28 - כסלו ה'תשע"ד 2013](http://www.biupress.co.il/website/index.asp?id=928).
+        נמצא גם [כאן](http://www.tora.us.fm/tryg/yovl/bdd/yovel-bdd-28.pdf).
 
 -
     id: GmachsBanks
     lang: he
     title: הצעה לשילוב גמ"ח כספים במערך הפעילות הבנקאית
-    entitle: Cooperation between banks and free-loan organizations
+    entitle: Towards cooperation between banks and non-profit interest-free loan givers
     authors: אראל סגל-הלוי
     date: 2012-10-15
     topic: jewecon
@@ -184,11 +185,7 @@
     topic: jewecon
     level: journal
     content: >
-   
-        פורסם ב[רבעון הישראלי לבנקאות מס' 173 - תשרי ה'תשע"ג (2012)](http://erelsgl.github.io/papers/BankingQuarterly_2012_LoanMediation.pdf). יש גם [מהדורת רשת](http://tora.us.fm/tryg/ribit0/bnq3.html).
-
-KosherBank-SegalHalevi-Culmus.pdf
-
+           פורסם ב[קולמוס - הירחון של עיתון "משפחה", שבט ה'תשע"ו (2016)](http://erelsgl.github.io/papers/KosherBank-SegalHalevi-Culmus.pdf).
 -
     id: ShmitaTalk
     lang: he
@@ -211,7 +208,8 @@ KosherBank-SegalHalevi-Culmus.pdf
     topic: tnk
     level: journal
     content: >
-        פורסם ב[בדד 25 - אלול ה'תשע"א](http://www.biupress.co.il/website/index.asp?id=847).     
+        פורסם ב[בדד 25 - אלול ה'תשע"א](http://www.biupress.co.il/website/index.asp?id=847). 
+        נמצא גם [כאן](http://erelsgl.github.io/papers/EmotionalIntelligenceInProverbs.pdf).
 -
     id: Monopoly
     lang: he
