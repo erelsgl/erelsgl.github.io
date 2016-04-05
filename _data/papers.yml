@@ -52,6 +52,16 @@
     content: >
         [Working paper](http://arxiv.org/abs/1603.00286) (18 pages); collaborators are welcome.
 -
+    id: CakeWithToppings
+    lang: en
+    title: Cutting a Cake without Harming the Toppings
+    authors: Erel Segal-Halevi
+    date: 2016-04-05
+    topic: geometry
+    level: working
+    content: >
+        [Working paper](http://arxiv.org/abs/1604.00960) (12 pages); collaborators are welcome.
+-
     id: FairAndSquare
     lang: en
     title: Fair and Square - Cake-Cutting in Two Dimensions
