@@ -5,7 +5,7 @@ title: תיכנות
 ---
 במקביל למחקר, אני אוהב ללמוד שפות תיכנות וטכנולוגיות חדשות. הנה כמה שפות שלמדתי, בסדר זמן יורד, ומה עשיתי בכל אחת:
 
-1. [Jekyll][J1] <span dir='ltr'>(2016)</span>: האתר הזה, עם  [דו-לשוניות מובנית][J2].
+1. [Jekyll][Jek1] <span dir='ltr'>(2016)</span>: האתר הזה, עם  [דו-לשוניות מובנית][Jek2].
 
 2. [SageMath][S1]+Python <span dir='ltr'>(2015-2016)</span>: תוכנת [הוכחה אוטומטית][S2] עבור [האלגוריתם שלנו לחלוקה ללא קנאה][S3].
 
@@ -40,8 +40,8 @@ title: תיכנות
 
 10. [BASIC][B1] <span dir='ltr'>(1982)</span>: שפת התיכנות הראשונה שלי...
 
-[J1]: http://jekyllrb.com/
-[J2]: https://www.sylvaindurand.org/making-jekyll-multilingual/
+[Jek1]: http://jekyllrb.com/
+[Jek2]: https://www.sylvaindurand.org/making-jekyll-multilingual/
 [S1]: http://www.sagemath.org/
 [S2]: https://github.com/erelsgl/envy-free
 [S3]: http://arxiv.org/abs/1511.02599
