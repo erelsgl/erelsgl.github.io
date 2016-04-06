@@ -6,7 +6,7 @@ title: Code
 In parallel to research, I love to learn new programming languages and technologies. 
 <br/>Here are some languages I know, in reverse chronological order, and some sample projects:
 
-1. [Jekyll][J1] (2016): this website, featuring [bilingual support][J2].
+1. [Jekyll][Jek1] (2016): this website, featuring [bilingual support][Jek2].
 
 2. [SageMath][S1]+Python (2015-2016): an [automatic prover][S2] for our [envy-free cake-cutting algorithm][S3].
 
@@ -38,8 +38,8 @@ In parallel to research, I love to learn new programming languages and technolog
 
 10. [BASIC][B1] (1982): my first programming language :) 
 
-[J1]: http://jekyllrb.com/
-[J2]: https://www.sylvaindurand.org/making-jekyll-multilingual/
+[Jek1]: http://jekyllrb.com/
+[Jek2]: https://www.sylvaindurand.org/making-jekyll-multilingual/
 [S1]: http://www.sagemath.org/
 [S2]: https://github.com/erelsgl/envy-free
 [S3]: http://arxiv.org/abs/1511.02599
