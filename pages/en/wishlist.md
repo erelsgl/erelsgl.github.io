@@ -4,14 +4,16 @@ layout: page
 title: Wishlist
 ---
 This is a list of questions and topics I would like to research.
-If you are interested and want to collaborate, drop me an email.
+If you find any of them interesting, drop me an email.
 
 # Working papers
-These papers need collaborators to realize their full potential.
+These papers need collaborators to realize their full potential:
 
-1. [How to re-divide a cake fairly?](http://arxiv.org/abs/1603.00286): dynamic fair division, geometric cake-cutting, and the price-of-fairness.
+1. [Fair cake-cutting among groups](http://arxiv.org/abs/1510.03903): This paper is mostly economic, with some algorithmic content. It is about fair division of resources that are enjoyed by a whole group, such as a family or a country, rather than by a single individual. I am looking for a collaborator to improve and add new results.
 
-2. [Fair cake-cutting among groups](http://arxiv.org/abs/1510.03903): fair division of resources that are enjoyed by a whole group, such as a family or a country, rather than by a single individual.
+2. [How to re-divide a cake fairly?](http://arxiv.org/abs/1603.00286): This paper combines computational geometry with economics and social choice. I am looking for experts in any of these fields in order to verify and improve the results.
+
+3. [Cutting a cake without harming the topping](https://arxiv.org/abs/1604.00960): This is a purely geometric paper, although it is motivated by the cake-redivision problem. I am looking for extensions to the results in this paper, and also for ideas where it can be published.
 
 # Reasearch projects
 
