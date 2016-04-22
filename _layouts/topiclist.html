@@ -3,7 +3,7 @@ layout: page
 ---
 <p>
 {{page.description}}:
-</p>site.topics
+</p>
 <div>
   <ul class='topics'>
     {% assign topics=site.topics | where:"lang", page.lang | sort: 'date' | reverse %}
