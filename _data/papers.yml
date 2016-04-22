@@ -40,7 +40,7 @@
     topic: fairness
     level: working
     content: >
-        [Working paper](http://arxiv.org/abs/1510.03903) (25 pages); collaborators are welcome.
+        [Working paper summarizes some simple results](http://arxiv.org/abs/1510.03903) (25 pages); extensions and improvements are welcome.
 -
     id: Redivision
     lang: en
@@ -50,7 +50,7 @@
     topic: fairness
     level: working
     content: >
-        [Working paper](http://arxiv.org/abs/1603.00286) (18 pages); collaborators are welcome.
+        [Working paper requires polishing](http://arxiv.org/abs/1603.00286) (18 pages); collaborators are welcome.
 -
     id: CakeWithToppings
     lang: en
@@ -60,7 +60,7 @@
     topic: geometry
     level: working
     content: >
-        [Working paper](http://arxiv.org/abs/1604.00960) (12 pages); collaborators are welcome.
+        [Working paper is self-contained and proves some nice focused results](http://arxiv.org/abs/1604.00960) (12 pages); extensions and generalizations are welcome.
 -
     id: FairAndSquare
     lang: en
@@ -70,13 +70,35 @@
     topic: fairness
     level: conference-
     content: >
-        Presented in [Euro CG conference 2016](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) (4 pages) and [under revision for Journal of Mathematical Economics](http://arxiv.org/abs/1510.03170) (54 pages)
+        Presented in [Euro CG conference 2016](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) (4 pages) and [currently being revised for Journal of Mathematical Economics](http://arxiv.org/abs/1510.03170) (54 pages)
     onlinedemoexists: true
     onlinedemo:
       url: http://tora.us.fm/geometry/fair-division.html
       title: Fair-and-square cake-cutting
         
-        
+-
+    id: FairnessEfficiencyTradeoff
+    lang: en
+    title: A Tradeoff between Fairness and Efficiency in Cake-cutting
+    authors: Erel Segal-Halevi
+    date: 2016-04-22
+    topic: fairness
+    level: working
+    content: > 
+        [Working paper contains some initial ideas](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf) (13 pages); collaborators are welcome.
+
+# Auctions:
+-
+    id: RSDA
+    lang: en
+    title: A Random-Sampling Double-Auction Mechanism
+    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+    date: 2016-04-01
+    topic: auctions
+    level: working
+    content: >
+        [Working paper](https://arxiv.org/abs/1604.06210) (44 pages)
+
 # NLP and NegoChat:
 -
     id: DialogNLP

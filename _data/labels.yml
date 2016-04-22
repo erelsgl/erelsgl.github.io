@@ -22,7 +22,7 @@ levels:  # see also paperlevels.yml
     en: Journals and book-chapters
     he:  כתבי-עת 
   conference+:
-    en: Highly-refereed conferences
+    en: Refereed conferences
     he: כנסים מבוקרים
   conference-:
     en: Other conferences

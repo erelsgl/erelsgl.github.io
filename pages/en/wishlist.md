@@ -4,16 +4,18 @@ layout: page
 title: Wishlist
 ---
 This is a list of questions and topics I would like to research.
-If you find any of them interesting, drop me an email.
+If you find any of them interesting and would like to collaborate, drop me an email.
 
 # Working papers
-These papers need collaborators to realize their full potential:
+These papers need co-authors in order to realize their full potential:
 
-1. [Fair cake-cutting among groups](http://arxiv.org/abs/1510.03903): This paper is mostly economic, with some algorithmic content. It is about fair division of resources that are enjoyed by a whole group, such as a family or a country, rather than by a single individual. I am looking for a collaborator to improve and add new results.
+1. [Fair cake-cutting among groups](http://arxiv.org/abs/1510.03903): Mostly related to economics but contains some algorithmic content. It is about fair division of resources that are enjoyed by a whole group, such as a family or a country, rather than by a single individual. I am looking for a collaborator to improve and add new results.
 
-2. [How to re-divide a cake fairly?](http://arxiv.org/abs/1603.00286): This paper combines computational geometry with economics and social choice. I am looking for experts in any of these fields in order to verify and improve the results.
+2. [How to re-divide a cake fairly?](http://arxiv.org/abs/1603.00286): Combines computational geometry, combinatoris, economics and social choice. I am looking for experts in any of these fields in order to help verify and improve the results.
 
-3. [Cutting a cake without harming the topping](https://arxiv.org/abs/1604.00960): This is a purely geometric paper, although it is motivated by the cake-redivision problem. I am looking for extensions to the results in this paper, and also for ideas where it can be published.
+3. [Cutting a cake without harming the topping](https://arxiv.org/abs/1604.00960): A purely geometric paper. I am looking for extensions to the results in this paper and for ideas about where it can be published.
+
+4. [A Tradeoff Between Fairness and Efficiency in Cake-Cutting](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf): Motivated by economics, but the techniques are mostly combinatorial. A collaborator who is proficient in combinatorics will surely find new results easily.
 
 # Reasearch projects
 
@@ -34,15 +36,12 @@ See [this draft][wet-squares] for formal statement and some directions. This is 
 2. **Is it possible to divide the unbounded two-dimensional plane "fair-and-square"?** 
 See our fair-and-square papers ([extended abstract][fairness-eurocg] and [full preprint][fairness-arxiv]) for details.
 
-3. **Is it possible to find an envy-free and proportional cake-allocation in bounded time?** 
-See the Wikipedia page I wrote on [envy-free cake-cutting](https://en.wikipedia.org/wiki/Envy-free_cake-cutting) for background and our [waste-makes-haste paper](http://arxiv.org/abs/1511.02599) for current status.
+3. **Is it possible to find in bounded time an envy-free and proportional cake-division with connected pieces?** See the Wikipedia page I wrote on [envy-free cake-cutting](https://en.wikipedia.org/wiki/Envy-free_cake-cutting) for background and our [waste-makes-haste paper](http://arxiv.org/abs/1511.02599) for current status.
 
 4. **Does there always exist a Pareto-efficient envy-free allocation of "family goods"?**
 See my [economics.SE question](http://economics.stackexchange.com/q/9916) for details and our [group cake-cutting paper](http://arxiv.org/abs/1510.03903) for a related problem.
 
-5. **What is the price of partial-proportionality?** See the Wikipedia page I wrote on [price of fairness](https://en.wikipedia.org/wiki/Price_of_fairness) for background. 
-The price of full-proportionality is very large - it goes to infinity when there are many partners. But if we only require partial-proportionality, the price-of-fairness 
-becomes a constant independent of the number of partners. Is this also true when the pieces must be connected?
+[//comment]: # 5. **What is the price of partial-proportionality?** See the Wikipedia page I wrote on [price of fairness](https://en.wikipedia.org/wiki/Price_of_fairness) for background and my  [fairness-efficiency-tradeoff paper](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf) for details.
 
 [fairness-eurocg]: {{site.baseurl}}/papers/FairAndSquare-EuroCG-16.pdf
 [fairness-arxiv]:  http://arxiv.org/abs/1510.03170
