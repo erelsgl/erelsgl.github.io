@@ -4,6 +4,7 @@ title: Repeated Games
 description: Generalizing repeated games and folk theorems to players with different risk attitudes.
 date: 2015-12-01
 image: 800px-Table_game_of_cards_birds_eye_view.JPG
+lang: en
 ---
 Repeated games explain how cooperation between selfish players is created, thanks to the possibility
 of punishing a "bad" player in future plays of the same game. There are many

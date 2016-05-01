@@ -2,6 +2,7 @@
 ident: software
 layout: page
 title: Code
+lang: en
 ---
 In parallel to research, I love to learn new programming languages and technologies. 
 <br/>Here are some languages I know, in reverse chronological order, and some sample projects:

@@ -2,6 +2,7 @@
 ident: wishlist
 layout: page
 title: Wishlist
+lang: en
 ---
 This is a list of questions and topics I would like to research.
 If you find any of them interesting and would like to collaborate, drop me an email.

@@ -4,6 +4,7 @@ title: Double Auctions
 description: Developing auction mechanisms that induce both buyers and sellers to behave truthfully.
 date: 2016-01-01
 image: stock-exchange-642896_960_720.jpg
+lang: en
 ---
 A [double auction](https://en.wikipedia.org/wiki/Double_auction) is an auction in which
 there are many buyers and many sellers of several commodities, like in stock markets.

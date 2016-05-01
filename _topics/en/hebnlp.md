@@ -4,6 +4,7 @@ title: Hebrew Language Processing
 description: Understanding and Generation of Hebrew Texts
 image: Hebrew_Alphabet.svg
 date: 1999-01-01
+lang: en
 ---
 In my M.Sc. thesis, I developed a
 **probabilistic morphological analyzer for Hebrew texts**.

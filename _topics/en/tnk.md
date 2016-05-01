@@ -4,6 +4,7 @@ title: Bible
 description: Bible - the inspiration.
 image: sgulot.png
 date: 1980-01-01
+lang: en
 ---
 The Bible is the inspiration to my diverse research interests.
 

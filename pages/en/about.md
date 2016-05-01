@@ -3,6 +3,7 @@ ident: about
 layout: page
 title: Home
 permalink: /
+lang: en
 ---
 # Erel Segal-Halevi - Academic Homepage
 

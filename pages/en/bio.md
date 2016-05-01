@@ -2,6 +2,7 @@
 ident: bio
 layout: page
 title:  Bio
+lang: en
 ---
 **2013-2016 (present)**: Ph.D. student in Bar-Ilan University computer-science department. 
 My advisors are [Prof. Yonatan Aumann][ya] and [Dr. Avinatan Hassidim][ah]. 
