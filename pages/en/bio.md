@@ -1,7 +1,7 @@
 ---
 ident: bio
 layout: page
-title:  Bio
+title:  CV
 lang: en
 ---
 **2013-2016 (present)**: Ph.D. student in Bar-Ilan University computer-science department. 
