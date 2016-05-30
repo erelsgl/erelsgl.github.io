@@ -217,7 +217,7 @@
     topic: jewecon
     level: journal
     content: >
-           פורסם ב[קולמוס - הירחון של עיתון "משפחה", שבט ה'תשע"ו (2016)](http://erelsgl.github.io/papers/KosherBank-SegalHalevi-Culmus.pdf).
+           פורסם ב[קולמוס - הירחון של עיתון "משפחה", שבט ה'תשע"ו (2016)](http://erelsgl.github.io/papers/KosherBank-SegalHalevi-Culmus.pdf). הוצג גם ב[כנס בנקאות יהודית](http://erelsgl.github.io/papers/Jewish-Banking-Conference-5776-Invitation.jpg) כ"ו ניסן ה'תשע"ו; [המצגת כאן](erelsgl.github.io/papers/KosherBank-Presentation.pdf).
 -
     id: ShmitaTalk
     lang: he
@@ -229,6 +229,20 @@
     level: video
     content: >
         הרצאה ב[כנס ניצוצות שחר ה'תשע"ד](https://www.youtube.com/watch?v=wE4pnT0fKCc), חצי שעה.
+
+
+-
+    id: Ribit0Talk
+    lang: he
+    title: מודלים לבנקאות יהודית כשרה לכתחילה
+    entitle: Models for Kosher Jewish Banking
+    authors: אראל סגל-הלוי
+    date: 2016-05-04
+    topic: jewecon-hidden
+    level: video-hidden
+    content: >
+        הרצאה ב[כנס בנקאות יהודית ה'תשע"ו](https://youtu.be/qJGTpDbdJ6o), חצי שעה; 
+
 # ‎TNK:
 -
     id: MishleyEQ
