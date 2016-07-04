@@ -50,9 +50,6 @@ Mainly a geometric question.
 [This draft][wet-squares] presents the question formally and gives some directions.
 Our fair-and-square papers ([extended abstract][fairness-eurocg] and [full preprint][fairness-arxiv]) present the economic motivation.
 
-[//comment]: # 5. **Is it possible to divide the unbounded two-dimensional plane "fair-and-square"?** 
-See our fair-and-square papers ([extended abstract][fairness-eurocg] and [full preprint][fairness-arxiv]) for details.
-[//comment]: # 6. **What is the price of partial-proportionality?** See the Wikipedia page I wrote on [price of fairness](https://en.wikipedia.org/wiki/Price_of_fairness) for background and my  [fairness-efficiency-tradeoff paper](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf) for details.
 [fairness-eurocg]: {{site.baseurl}}/papers/FairAndSquare-EuroCG-16.pdf
 [fairness-arxiv]:  http://arxiv.org/abs/1510.03170
 [wet-squares]:     {{site.baseurl}}/papers/WetSquaresInDesert-04.pdf
