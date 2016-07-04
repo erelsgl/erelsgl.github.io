@@ -31,6 +31,7 @@
     level: conference+
     content: >
         Published in [AAAI 2015 conference](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages) and much improved in the [working paper](http://erelsgl.github.io/papers/EF2D-JET-23.pdf) (41 pages).
+    review: Structure, readability and formal accuracy are very good
 -
     id: GroupCakeCutting
     lang: en
@@ -109,6 +110,7 @@
     content: >
         Accepted to [SAGT 2016 confernence](http://sagt16.csc.liv.ac.uk/accepted.php) (12 pages). 
         *"Simple but cute" (--an anonymous reviewer)*.
+    review: Simple but cute, and practically relevant
         
 # NLP and NegoChat:
 -
@@ -131,7 +133,8 @@
     level: journal
     content: >
         Published in [Next Frontier in Agent-based Complex Automated Negotiation, Book Chapter, 2015](http://link.springer.com/chapter/10.1007%2F978-4-431-55525-4_6) (21 pages)
--
+    review: From motivation, related work, system description to final discussion, this paper is very well written
+-   
     id: NegoChatA
     lang: en
     title: NegoChat-A - a chat-based negotiation agent with bounded rationality 
