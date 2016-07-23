@@ -92,7 +92,8 @@
 -
     id: MIDA
     lang: en
-    title: MIDA: A Multi Item-type Double Auction Mechanism
+    title: >
+        MIDA: A Multi Item-type Double Auction Mechanism
     authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
     date: 2016-04-01
     topic: auctions
@@ -102,7 +103,8 @@
 -
     id: SBBA
     lang: en
-    title: SBBA: A Strongly-Budget-Balanced Double-Auction Mechanism
+    title: >
+        SBBA: A Strongly-Budget-Balanced Double-Auction Mechanism
     authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
     date: 2016-09-19
     topic: auctions
