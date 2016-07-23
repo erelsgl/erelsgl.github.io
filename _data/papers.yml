@@ -35,13 +35,13 @@
 -
     id: GroupCakeCutting
     lang: en
-    title: Fair cake-cutting among groups
+    title: Fair Cake-cutting among Families
     authors: Erel Segal-Halevi, Shmuel Nitzan
     date: 2016-01-02
     topic: fairness
     level: working
     content: >
-        [Working paper summarizes some simple results](http://arxiv.org/abs/1510.03903) (25 pages); extensions and improvements are welcome.
+        [Working paper summarizes some simple results](http://arxiv.org/abs/1510.03903) (23 pages); extensions and improvements are welcome.
 -
     id: Redivision
     lang: en
@@ -93,7 +93,7 @@
     id: MIDA
     lang: en
     title: >
-        MIDA: A Multi Item-type Double Auction Mechanism
+        MIDA: a Multi Item-type Double Auction Mechanism
     authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
     date: 2016-04-01
     topic: auctions
@@ -104,7 +104,7 @@
     id: SBBA
     lang: en
     title: >
-        SBBA: A Strongly-Budget-Balanced Double-Auction Mechanism
+        SBBA: a Strongly-Budget-Balanced Double-Auction Mechanism
     authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
     date: 2016-09-19
     topic: auctions
@@ -153,7 +153,8 @@
 -
     id: PLIS
     lang: en
-    title: PLIS - a Probabilistic Lexical Inference System  
+    title: >
+        PLIS: a Probabilistic Lexical Inference System  
     authors: Eyal Shnarch, Erel Segal-haLevi, Jacob Goldberger, Ido Dagan
     date: 2013-08-01
     topic: negochat
