@@ -90,26 +90,26 @@
 
 # Auctions:
 -
-    id: RSDA
+    id: MIDA
     lang: en
-    title: A Random-Sampling Double-Auction Mechanism
+    title: MIDA: A Multi Item-type Double Auction Mechanism
     authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
     date: 2016-04-01
     topic: auctions
     level: working
     content: >
-        [Working paper](https://arxiv.org/abs/1604.06210) (44 pages)
+        [Working paper](https://arxiv.org/abs/1604.06210) (38 pages)
 -
     id: SBBA
     lang: en
-    title: SBBA - A Strongly-Budget-Balanced Double-Auction Mechanism
+    title: SBBA: A Strongly-Budget-Balanced Double-Auction Mechanism
     authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
     date: 2016-09-19
     topic: auctions
     level: conference+
     content: >
-        Accepted to [SAGT 2016 confernence](http://sagt16.csc.liv.ac.uk/accepted.php) (12 pages). 
-        *"Simple but cute" (--an anonymous reviewer)*.
+        Accepted to SAGT 2016 confernence.
+        *"Simple but cute" (--an anonymous reviewer)*. [Full version](https://arxiv.org/abs/1607.05139) (14 pages).
     review: Simple but cute, and practically relevant
         
 # NLP and NegoChat:
