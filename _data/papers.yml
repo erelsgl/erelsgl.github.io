@@ -8,9 +8,9 @@
     authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
     date: 2015-05-24
     topic: fairness
-    level: conference+
+    level: journal
     content: >
-        Published in [AAMAS 2015 confernence](http://dl.acm.org/citation.cfm?id=2773268) (8 pages) and much improved in the [preprint](http://arxiv.org/abs/1511.02599) (39 pages).
+        Accepted to ACM Transactions on Algorithms (TALG). Preliminary version presented in [AAMAS 2015 confernence](http://dl.acm.org/citation.cfm?id=2773268) (8 pages) and much improved in the [preprint](http://arxiv.org/abs/1511.02599) (39 pages).
 -
     id: CakeCuttingMonotonicity
     lang: en
@@ -20,7 +20,7 @@
     topic: fairness
     level: conference-
     content: >
-        Presented in GAM-SOC 2015; about to be presented in GAMES 2016. Here is the [Preprint](http://arxiv.org/abs/1510.05229) (43 pages).
+        Presented in GAM-SOC 2015, SCW 2016 and GAMES 2016. Here is the [Preprint](http://arxiv.org/abs/1510.05229) (43 pages).
 -
     id: EnvyFreeAndSquare
     lang: en
@@ -198,7 +198,7 @@
     topic: jewecon
     level: journal
     content: >
-        פורסם ב[אקדמות כח - אדר ה'תשע"ג 2013](http://www.bmj.org.il/akdama/37/m). יש גם [מהדורת רשת](http://tora.us.fm/tryg/mamr/yovl_etc.html).
+        פורסם ב[אקדמות כח - אדר ה'תשע"ג 2013](http://www.bmj.org.il/akdamot_content/37). יש גם [מהדורת רשת](http://tora.us.fm/tryg/mamr/yovl_etc.html).
 
 -
     id: YovelBdd
