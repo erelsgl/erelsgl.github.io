@@ -30,7 +30,7 @@
     topic: fairness
     level: conference+
     content: >
-        Published in [AAAI 2015 conference](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages) and much improved in the [working paper](http://erelsgl.github.io/papers/EF2D-JET-23.pdf) (41 pages).
+        Published in [AAAI 2015 conference](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages) and much improved in the [working paper](https://arxiv.org/abs/1609.03938) (42 pages). Extensions and improvements are welcome.
     review: Structure, readability and formal accuracy are very good
 -
     id: GroupCakeCutting
@@ -110,9 +110,22 @@
     topic: auctions
     level: conference+
     content: >
-        Accepted to SAGT 2016 confernence.
+        In International Symposium on Algorithmic Game Theory (SAGT) 2016, pages 260-272.
         *"Simple but cute" (--an anonymous reviewer)*. [Full version](https://arxiv.org/abs/1607.05139) (14 pages).
     review: Simple but cute, and practically relevant
+
+-
+    id: DDF
+    lang: en
+    title: >
+        Demand-Flow of Agents with Gross-Substitute Valuations
+    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+    date: 2016
+    topic: auctions
+    level: journal
+    content: >
+        Accepted to Operations Research Letters. [Full version](https://arxiv.org/abs/1607.01989) (7 pages).
+    review: 
         
 # NLP and NegoChat:
 -
