@@ -113,18 +113,18 @@
         In International Symposium on Algorithmic Game Theory (SAGT) 2016, pages 260-272.
         *"Simple but cute" (--an anonymous reviewer)*. [Full version](https://arxiv.org/abs/1607.05139) (14 pages).
     review: Simple but cute, and practically relevant
-
 -
     id: DDF
     lang: en
     title: >
         Demand-Flow of Agents with Gross-Substitute Valuations
     authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
-    date: 2016
+    date: 2016-08-25
     topic: auctions
     level: journal
     content: >
         Accepted to Operations Research Letters. [Full version](https://arxiv.org/abs/1607.01989) (7 pages).
+    review: As far as I can tell, the characterization is correct.
 
 # NLP and NegoChat:
 -
