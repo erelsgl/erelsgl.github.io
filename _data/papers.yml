@@ -10,11 +10,11 @@
     topic: fairness
     level: journal
     content: >
-        Accepted to ACM Transactions on Algorithms (TALG). Preliminary version presented in [AAMAS 2015 confernence](http://dl.acm.org/citation.cfm?id=2773268) (8 pages) and much improved in the [preprint](http://arxiv.org/abs/1511.02599) (39 pages).
+        Accepted to ACM Transactions on Algorithms (TALG) 2016. Preliminary version presented in [AAMAS 2015 confernence](http://dl.acm.org/citation.cfm?id=2773268) (8 pages) and much improved in the [preprint](http://arxiv.org/abs/1511.02599) (39 pages).
 -
     id: CakeCuttingMonotonicity
     lang: en
-    title: Resource-monotonicity and Population-monotonicity in Cake-cutting 
+    title: Resource-monotonicity and Population-monotonicity in Cake-cutting
     authors: Erel Segal-Halevi, Balázs Sziklai
     date: 2016-01-01
     topic: fairness
@@ -76,7 +76,7 @@
     onlinedemo:
       url: http://tora.us.fm/geometry/fair-division.html
       title: Fair-and-square cake-cutting
-        
+
 -
     id: FairnessEfficiencyTradeoff
     lang: en
@@ -85,7 +85,7 @@
     date: 2016-04-22
     topic: fairness
     level: working
-    content: > 
+    content: >
         [Working paper contains some initial ideas](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf) (13 pages); collaborators are welcome.
 
 # Auctions:
@@ -123,14 +123,14 @@
     topic: auctions
     level: journal
     content: >
-        [Operations Research Letters 44, pp. 757-760](http://dx.doi.org/10.1016/j.orl.2016.09.012). [Full version](https://arxiv.org/abs/1607.01989)
+        [Operations Research Letters 44 (2016), pages 757-760](http://dx.doi.org/10.1016/j.orl.2016.09.012). [Full version](https://arxiv.org/abs/1607.01989)
     review: As far as I can tell, the characterization is correct.
 
 # NLP and NegoChat:
 -
     id: DialogNLP
     lang: en
-    title: Dialog Natural Language Understanding using a Generic Textual Inference System 
+    title: Dialog Natural Language Understanding using a Generic Textual Inference System
     authors: Erel Segal-Halevi, Ido Dagan
     date: 2013-07-01
     topic: negochat
@@ -140,7 +140,7 @@
 -
     id: FirstSteps
     lang: en
-    title: First Steps in Chat-Based Negotiating Agents  
+    title: First Steps in Chat-Based Negotiating Agents
     authors: Inon Zuckerman, Erel Segal-Halevi, Avi Rosenfeld, Sarit Kraus
     date: 2015-02-17
     topic: negochat
@@ -148,10 +148,10 @@
     content: >
         Published in [Next Frontier in Agent-based Complex Automated Negotiation, Book Chapter, 2015](http://link.springer.com/chapter/10.1007%2F978-4-431-55525-4_6) (21 pages)
     review: From motivation, related work, system description to final discussion, this paper is very well written
--   
+-
     id: NegoChatA
     lang: en
-    title: NegoChat-A - a chat-based negotiation agent with bounded rationality 
+    title: NegoChat-A - a chat-based negotiation agent with bounded rationality
     authors: Avi Rosenfeld, Inon Zuckerman, Erel Segal-Halevi, Osnat Drein, Sarit Kraus
     date: 2015-02-17
     topic: negochat
@@ -166,7 +166,7 @@
     id: PLIS
     lang: en
     title: >
-        PLIS: a Probabilistic Lexical Inference System  
+        PLIS: a Probabilistic Lexical Inference System
     authors: Eyal Shnarch, Erel Segal-haLevi, Jacob Goldberger, Ido Dagan
     date: 2013-08-01
     topic: negochat
@@ -186,17 +186,17 @@
 -
     id: HebrewGen
     lang: he
-    title: מבחן ההבנה הגדול - האם אתם יודעים להבחין בין טקסט אמיתי לטקסט שנוצר באקראי? 
+    title: מבחן ההבנה הגדול - האם אתם יודעים להבחין בין טקסט אמיתי לטקסט שנוצר באקראי?
     authors: נדב שנרב (רעיון), משה קופל (יעוץ מדעי), רוני ורד, ולדימיר טורגוביצקי, יורי יברבאום ואראל סגל-הלוי (תיכנות)
     date: 2011-01-01
     topic: hebnlp
     level: working
     content: >
-                [הרעיון הכללי](http://woland.ph.biu.ac.il/?page_id=154) 
+                [הרעיון הכללי](http://woland.ph.biu.ac.il/?page_id=154)
     onlinedemoexists: true
     onlinedemo:
       url: http://tora.us.fm/imitator
-      title:  הקובץ התשיעי - האם אתם מבינים את כתבי הרב קוק? הרמב"ם? הרצל? 
+      title:  הקובץ התשיעי - האם אתם מבינים את כתבי הרב קוק? הרמב"ם? הרצל?
       sourcecode: https://github.com/erelsgl/parody-generator
 
 # Jewish Economy - Yovel and Ribit0:
@@ -205,7 +205,7 @@
     lang: he
     title: מצוות חלוקת הנחלות והיובל מראשית הציונות ועד ימינו
     entitle: Fair land-division and land-Jubilee since the wake of Zionism to our time
-    authors: אראל סגל-הלוי 
+    authors: אראל סגל-הלוי
     date: 2013-03-15
     topic: jewecon
     level: journal
@@ -217,7 +217,7 @@
     lang: he
     title: אלגוריתם היובל - תהליך הדרגתי לחלוקת נחלות בימינו
     entitle: The Jubilee Algorithm - a procedure for gradual land division
-    authors: אראל סגל-הלוי 
+    authors: אראל סגל-הלוי
     date: 2013-12-15
     topic: jewecon
     level: journal
@@ -239,7 +239,7 @@
 -
     id: KosherBank
     lang: he
-    title: על מפתנו של הבנק הכשר לכתחילה 
+    title: על מפתנו של הבנק הכשר לכתחילה
     entitle: Towards a Kosher Bank
     authors: אראל סגל-הלוי
     date: 2016-02-01
@@ -270,7 +270,7 @@
     topic: jewecon-hidden
     level: video-hidden
     content: >
-        הרצאה ב[כנס בנקאות יהודית ה'תשע"ו](https://youtu.be/qJGTpDbdJ6o), חצי שעה; 
+        הרצאה ב[כנס בנקאות יהודית ה'תשע"ו](https://youtu.be/qJGTpDbdJ6o), חצי שעה;
 
 # ‎TNK:
 -
@@ -283,7 +283,7 @@
     topic: tnk
     level: journal
     content: >
-        פורסם ב[בדד 25 - אלול ה'תשע"א](http://www.biupress.co.il/website/index.asp?id=847). 
+        פורסם ב[בדד 25 - אלול ה'תשע"א](http://www.biupress.co.il/website/index.asp?id=847).
         נמצא גם [כאן](http://erelsgl.github.io/papers/EmotionalIntelligenceInProverbs.pdf).
 -
     id: Monopoly
@@ -296,7 +296,7 @@
     level: conference-
     content: >
         [פוסטר בכנס תורה ומדע - ה'תשע"ג 2013](http://erelsgl.github.io/papers/monopoly/toraumada_5773_monopoly.pdf).
-        
+
 -
     id: SgulotMishley
     lang: he
@@ -315,7 +315,7 @@
     lang: he
     title: חיל תת קרקעי
     entitle: Towards an underground force in the IDF
-    authors: אראל סגל-הלוי 
+    authors: אראל סגל-הלוי
     date: 2003-05-15
     topic: defense
     level: journal
@@ -325,10 +325,9 @@
     id: trustpatent
     lang: en
     title: Calculating Connectivity, Social Proximity and Trust Level between Web Users
-    authors:  Tuvia Rosenthal, Erel Segal-Halevi, Erez Segal 
+    authors:  Tuvia Rosenthal, Erel Segal-Halevi, Erez Segal
     date: 2010-01-14
     topic: trust
     level: patent
     content: >
         [US Patent 20100010826](http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20100010826.PGNR.&OS=DN/20100010826&RS=DN/20100010826)
-
