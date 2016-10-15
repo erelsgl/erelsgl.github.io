@@ -10,7 +10,7 @@
     topic: fairness
     level: journal
     content: >
-        Accepted to ACM Transactions on Algorithms (TALG) 2016. Preliminary version presented in [AAMAS 2015 confernence](http://dl.acm.org/citation.cfm?id=2773268) (8 pages) and much improved in the [preprint](http://arxiv.org/abs/1511.02599) (39 pages).
+        ACM Transactions on Algorithms (TALG), Accepted 2016. Preliminary version presented in [AAMAS 2015 confernence](http://dl.acm.org/citation.cfm?id=2773268) (8 pages) and much improved in the [preprint](http://arxiv.org/abs/1511.02599) (39 pages).
 -
     id: CakeCuttingMonotonicity
     lang: en
@@ -123,7 +123,7 @@
     topic: auctions
     level: journal
     content: >
-        [Operations Research Letters 44 (2016), pages 757-760](http://dx.doi.org/10.1016/j.orl.2016.09.012). [Full version](https://arxiv.org/abs/1607.01989)
+        [Operations Research Letters, 2016, pages 757-760](http://dx.doi.org/10.1016/j.orl.2016.09.012). [Full version](https://arxiv.org/abs/1607.01989)
     review: As far as I can tell, the characterization is correct.
 
 # NLP and NegoChat:
@@ -146,7 +146,7 @@
     topic: negochat
     level: journal
     content: >
-        Published in [Next Frontier in Agent-based Complex Automated Negotiation, Book Chapter, 2015](http://link.springer.com/chapter/10.1007%2F978-4-431-55525-4_6) (21 pages)
+        [Next Frontier in Agent-based Complex Automated Negotiation, 2015, pages 89-109](http://link.springer.com/chapter/10.1007%2F978-4-431-55525-4_6) (21 pages)
     review: From motivation, related work, system description to final discussion, this paper is very well written
 -
     id: NegoChatA
@@ -157,7 +157,7 @@
     topic: negochat
     level: journal
     content: >
-        Published in [Autonomous Agents and Multi-Agent Systems Journal, 2016](http://link.springer.com/article/10.1007%2Fs10458-015-9281-9) (22 pages).
+        [Autonomous Agents and Multi-Agent Systems Journal, 2016, pages 60-81](http://link.springer.com/article/10.1007%2Fs10458-015-9281-9).
     onlinedemoexists: true
     onlinedemo:
       url: http://biu-ai.com:4014/demo
