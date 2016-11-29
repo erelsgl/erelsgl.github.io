@@ -10,7 +10,7 @@
     topic: fairness
     level: journal
     content: >
-        [ACM Transactions on Algorithms (TALG), 2016, Vol 13 No 1 Article 12](http://dl.acm.org/citation.cfm?doid=2997037.2988232). <small>Preliminary versions: [AAMAS 2015](http://dl.acm.org/citation.cfm?id=2773268) and [arXiv 2016](http://arxiv.org/abs/1511.02599)</small>.
+        [ACM Transactions on Algorithms (TALG), 2016, pages 12:1-12:32](http://dl.acm.org/citation.cfm?doid=2997037.2988232). <span style='font-size:8pt'>Preliminary versions: [AAMAS 2015](http://dl.acm.org/citation.cfm?id=2773268) and [arXiv 2016](http://arxiv.org/abs/1511.02599)</span>.
 -
     id: CakeCuttingMonotonicity
     lang: en
