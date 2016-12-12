@@ -14,9 +14,7 @@ These papers need co-authors in order to realize their full potential:
 
 2. [How to re-divide a cake fairly?](http://arxiv.org/abs/1603.00286): Combines computational geometry, combinatoris, economics and social choice. I am looking for experts in any of these fields in order to help verify and improve the results.
 
-3. [Cutting a cake without harming the topping](https://arxiv.org/abs/1604.00960): A discrete-geometric paper. I am looking for extensions to the results in this paper and for ideas about where it can be published.
-
-4. [A Tradeoff Between Fairness and Efficiency in Cake-Cutting](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf): Motivated by economics, but the techniques are mostly combinatorial. A collaborator who is proficient in combinatorics will surely find new results easily.
+3. [A Tradeoff Between Fairness and Efficiency in Cake-Cutting](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf): Motivated by economics, but the techniques are mostly combinatorial. A collaborator who is proficient in combinatorics will surely find new results easily.
 
 # Reasearch projects
 
