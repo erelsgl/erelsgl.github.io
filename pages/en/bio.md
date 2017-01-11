@@ -4,13 +4,17 @@ layout: page
 title:  CV
 lang: en
 ---
-**2013-2016 (present)**: Ph.D. student in Bar-Ilan University computer-science department. 
-My advisors are [Prof. Yonatan Aumann][ya] and [Dr. Avinatan Hassidim][ah]. 
+## [Full CV in PDF][cvpdf]
+
+## Short CV
+
+**2013-2016 (present)**: Ph.D. student in Bar-Ilan University computer-science department.
+My advisors are [Prof. Yonatan Aumann][ya] and [Dr. Avinatan Hassidim][ah].
 I research [fair division of land][1], [double auctions][2] and [repeated games][3].
 
-**2011-2013**: Research assistant in Bar-Ilan University 
+**2011-2013**: Research assistant in Bar-Ilan University
 with [Prof. Sarit Kraus][sk] and [Prof. Ido Dagan][id]. Developed the infrastructure and natural-language component for
-[negochat][4] - an agent for negotiating with humans in English. 
+[negochat][4] - an agent for negotiating with humans in English.
 
 * Also developed [Limdu][lim] - an open-source machine-learning framework for Node.js.
 
@@ -18,7 +22,7 @@ with [Prof. Sarit Kraus][sk] and [Prof. Ido Dagan][id]. Developed the infrastruc
 Taught automata and formal languages with [teaching-grade 9.64][afl] and data structures with [teaching-grade 9.17][dts].
 
 **2007-2009**: CTO in TROS - a startup company that developed
-a [patented][pat] algorithm for calculating trust in social networks 
+a [patented][pat] algorithm for calculating trust in social networks
 and implemented it in a [dating website][mzg].
 
 **2004-2006**: [Computer-science-teaching diploma][grm] and a freelance website builder.
@@ -28,10 +32,10 @@ Participated in developing a real-time system based on statistical data-fusion a
 The system won the IAF commander award (2000).
 
 **1998-1999**: M.Sc. in computer science in the Technion.
-[Final grade 94][grb]. The thesis was [the first morphological analyzer for 
+[Final grade 94][grb]. The thesis was [the first morphological analyzer for
 modern Hebrew][5].
 
-**1993-1997**: B.Sc. in computer engineering in the Technion. 
+**1993-1997**: B.Sc. in computer engineering in the Technion.
 [Mean grade 97.2][gra].
 
 **1975**: Born :)
@@ -53,3 +57,4 @@ modern Hebrew][5].
 [lim]: https://github.com/erelsgl/limdu
 [pat]: http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20100010826.PGNR.&OS=DN/20100010826&RS=DN/20100010826
 [mzg]: http://www.meezoog.com
+[cvpdf]: {{site.baseurl}}/cv/ErelSegalHalevi_Academic_CV.pdf
