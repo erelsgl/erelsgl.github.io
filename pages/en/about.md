@@ -7,7 +7,7 @@ lang: en
 ---
 # Erel Segal-Halevi - Academic Homepage
 
-I am currently a Ph.D. student in Bar-Ilan University computer-science department. 
+I have just submitted my Ph.D. thesis to the Bar-Ilan University computer-science department. 
 My advisors are [Prof. Yonatan Aumann][ya] and [Dr. Avinatan Hassidim][ah]. 
 
 My research interests are diverse and range from theory to practice. Currently I do research in **computational economics** ([fairness][1],  [auctions][2] and [game theory][3]). In the past I did research in **natural language processing** ([English negotiation][4] and [Hebrew morphology][5]). 
