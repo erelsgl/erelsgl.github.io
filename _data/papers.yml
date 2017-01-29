@@ -69,9 +69,9 @@
     authors: Erel Segal-Halevi, Shmuel Nitzan, Avinatan Hassidim, Yonatan Aumann
     date: 2015-01-01
     topic: fairness
-    level: conference-
+    level: journal
     content: >
-        Presented in [Euro CG conference 2016](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) (4 pages) and [currently being revised for Journal of Mathematical Economics](http://arxiv.org/abs/1510.03170) (54 pages)
+        [Under minor revision for Journal of Mathematical Economics](http://arxiv.org/abs/1510.03170) (54 pages) and presented in [Euro CG conference 2016](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) (4 pages) and 
     onlinedemoexists: true
     onlinedemo:
       url: http://tora.us.fm/geometry/fair-division.html
