@@ -6,12 +6,13 @@
     lang: en
     title: Fair and Square - Cake-Cutting in Two Dimensions
     authors: Erel Segal-Halevi, Shmuel Nitzan, Avinatan Hassidim, Yonatan Aumann
-    date: 2015-01-01
+    date: 2017-02-01
     topic: fairness
     level: journal
     content: >
-        [Journal of Mathematical Economics (JME), 2016, 70 pages 1-28](https://authors.elsevier.com/a/1Ueo915DiyDb~T). Extended abstract presented in [Euro CG conference 2016](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) (4 pages). Preprint available in [arXiv](http://arxiv.org/abs/1510.03170) (54 pages).
+        [Journal of Mathematical Economics (JME), 2016, 70 pages 1-28](https://authors.elsevier.com/a/1Ueo915DiyDb~T). 
         *"The paper is now a full treatise on the subject, with enough material to fill three or four regular length articles" (--an anonymous reviewer)*.
+        [4-page abstract for EuroCG 2016](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) and [54-page arXiv version](http://arxiv.org/abs/1510.03170).
     onlinedemoexists: true
     onlinedemo:
       url: http://tora.us.fm/geometry/fair-division.html
