@@ -2,6 +2,23 @@
 
 # Fair Division:
 -
+    id: FairAndSquare
+    lang: en
+    title: Fair and Square - Cake-Cutting in Two Dimensions
+    authors: Erel Segal-Halevi, Shmuel Nitzan, Avinatan Hassidim, Yonatan Aumann
+    date: 2015-01-01
+    topic: fairness
+    level: journal
+    content: >
+        [Journal of Mathematical Economics (JME), 2016, 70 pages 1-28](https://authors.elsevier.com/a/1Ueo915DiyDb~T). Extended abstract presented in [Euro CG conference 2016](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) (4 pages). Preprint available in [arXiv](http://arxiv.org/abs/1510.03170) (54 pages).
+        *"The paper is now a full treatise on the subject, with enough material to fill three or four regular length articles" (--an anonymous reviewer)*.
+    onlinedemoexists: true
+    onlinedemo:
+      url: http://tora.us.fm/geometry/fair-division.html
+      title: Fair-and-square cake-cutting
+    review: The paper is now a full treatise on the subject, with enough material to fill three or four regular length articles.
+
+-
     id: WasteMakesHaste
     lang: en
     title: Waste Makes Haste - Bounded Time Protocols for Envy-Free Cake Cutting with Free Disposal
@@ -62,20 +79,6 @@
     level: working
     content: >
         [Working paper is self-contained and proves some nice focused results](http://arxiv.org/abs/1604.00960) (12 pages); extensions and generalizations are welcome.
--
-    id: FairAndSquare
-    lang: en
-    title: Fair and Square - Cake-Cutting in Two Dimensions
-    authors: Erel Segal-Halevi, Shmuel Nitzan, Avinatan Hassidim, Yonatan Aumann
-    date: 2015-01-01
-    topic: fairness
-    level: journal
-    content: >
-        Accepted to the Journal of Mathematical Economics. Extended abstract presented in [Euro CG conference 2016](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) (4 pages). Preprint available in [arXiv](http://arxiv.org/abs/1510.03170) (54 pages).
-    onlinedemoexists: true
-    onlinedemo:
-      url: http://tora.us.fm/geometry/fair-division.html
-      title: Fair-and-square cake-cutting
 
 -
     id: FairnessEfficiencyTradeoff
