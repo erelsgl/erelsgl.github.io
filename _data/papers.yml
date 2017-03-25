@@ -12,7 +12,7 @@
     content: >
         [Journal of Mathematical Economics (JME), 2016, 70 pages 1-28](https://authors.elsevier.com/a/1Ueo915DiyDb~T). 
         *"The paper is now a full treatise on the subject, with enough material to fill three or four regular length articles" (--an anonymous reviewer)*.
-        [4-page abstract for EuroCG 2016](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) and [54-page arXiv version](http://arxiv.org/abs/1510.03170).
+        <span style='font-size:8pt'>Preliminary versions: [EuroCG 2016 (4 pages)](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) and [arXiv 2016 (54 pages)](http://arxiv.org/abs/1510.03170)</span>.
     onlinedemoexists: true
     onlinedemo:
       url: http://tora.us.fm/geometry/fair-division.html
@@ -28,7 +28,8 @@
     topic: fairness
     level: journal
     content: >
-        [ACM Transactions on Algorithms (TALG), 2016, pages 12:1-12:32](http://dl.acm.org/citation.cfm?doid=2997037.2988232). <span style='font-size:8pt'>Preliminary versions: [AAMAS 2015](http://dl.acm.org/citation.cfm?id=2773268) and [arXiv 2016](http://arxiv.org/abs/1511.02599)</span>.
+        [ACM Transactions on Algorithms (TALG), 2016, pages 12:1-12:32](http://dl.acm.org/citation.cfm?doid=2997037.2988232). 
+        <span style='font-size:8pt'>Preliminary versions: [AAMAS 2015](http://dl.acm.org/citation.cfm?id=2773268) and [arXiv 2016](http://arxiv.org/abs/1511.02599)</span>.
 -
     id: CakeCuttingMonotonicity
     lang: en
