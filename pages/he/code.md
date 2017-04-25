@@ -6,6 +6,8 @@ lang: he
 ---
 במקביל למחקר, אני אוהב ללמוד שפות תיכנות וטכנולוגיות חדשות. הנה כמה שפות שלמדתי, בסדר זמן יורד, ומה עשיתי בכל אחת:
 
+1. Python <span dir='ltr'>(2016-2017)</span>: [הרחבה לספריית ההעדפות][PrefLibTools] הכוללת את [האלגוריתם שלנו לזיהוי קונצנזוס מדרגה 1][level1] וניסויי הדמיה.
+
 1. [Jekyll][Jek1] <span dir='ltr'>(2016)</span>: האתר הזה, עם  [דו-לשוניות מובנית][Jek2].
 
 2. [SageMath][S1]+Python <span dir='ltr'>(2015-2016)</span>: תוכנת [הוכחה אוטומטית][S2] עבור [האלגוריתם שלנו לחלוקה ללא קנאה][S3].
@@ -68,3 +70,5 @@ lang: he
 [L2]: http://ccl.northwestern.edu/netlogo/models/community/land-random
 [L3]: http://ccl.northwestern.edu/netlogo/models/community/land-income
 [HW]: http://he.wikisource.org
+[PrefLibTools]: https://github.com/erelsgl/PrefLib-Tools/tree/develop
+[level1]: https://arxiv.org/abs/1704.06037

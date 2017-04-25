@@ -12,8 +12,11 @@ lang: en
 
 ## Short CV
 
-**2013-2016 (present)**: Ph.D. student in Bar-Ilan University computer-science department.
-My advisors are [Prof. Yonatan Aumann][ya] and [Dr. Avinatan Hassidim][ah].
+**2017**: Visitor in the Hebrew University of Jerusalem, Federman Center of Rationality. 
+Expanding to various topics.
+
+**2013-2016**: Ph.D. student in Bar-Ilan University computer-science department.
+Advisors: [Prof. Yonatan Aumann][ya] and [Dr. Avinatan Hassidim][ah].
 I research [fair division of land][1], [double auctions][2] and [repeated games][3].
 
 **2011-2013**: Research assistant in Bar-Ilan University

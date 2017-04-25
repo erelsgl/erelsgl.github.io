@@ -13,6 +13,10 @@
         [Journal of Mathematical Economics (JME), 2016, 70 pages 1-28](https://authors.elsevier.com/a/1Ueo915DiyDb~T). 
         *"The paper is now a full treatise on the subject, with enough material to fill three or four regular length articles" (--an anonymous reviewer)*.
         <span style='font-size:8pt'>Preliminary versions: [EuroCG 2016 (4 pages)](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) and [arXiv 2016 (54 pages)](http://arxiv.org/abs/1510.03170)</span>.
+    presentation: >
+      /papers/FairAndSquare-90minutes-2015-11-TelAvivCompGeom.pptx
+    presentation2: >
+      /papers/FairAndSquare-15minutes-2016-04-EuroCompGeom.pptx
     onlinedemoexists: true
     onlinedemo:
       url: http://tora.us.fm/geometry/fair-division.html
@@ -27,6 +31,8 @@
     date: 2015-05-24
     topic: fairness
     level: journal
+    presentation: >
+      /papers/WasteMakesHaste-60minutes-2016-05-BGU.pptx
     content: >
         [ACM Transactions on Algorithms (TALG), 2016, pages 12:1-12:32](http://dl.acm.org/citation.cfm?doid=2997037.2988232). 
         <span style='font-size:8pt'>Preliminary versions: [AAMAS 2015](http://dl.acm.org/citation.cfm?id=2773268) and [arXiv 2016](http://arxiv.org/abs/1511.02599)</span>.
@@ -38,8 +44,20 @@
     date: 2016-01-01
     topic: fairness
     level: conference-
+    presentation: >
+      /papers/Monotonicity-30minutes-2016-07-GAMES.pptx
     content: >
-        Presented in GAM-SOC 2015, SCW 2016 and GAMES 2016. Here is the [Preprint](http://arxiv.org/abs/1510.05229) (43 pages).
+        Presented in GAM-SOC 2015, SCW 2016 and GAMES 2016. [Working paper](http://arxiv.org/abs/1510.05229).
+-
+    id: CakeCuttingMonotonicityCon
+    lang: en
+    title: Resource-monotonicity and Population-monotonicity in Connected Cake-cutting
+    authors: Erel Segal-Halevi, Balázs Sziklai
+    date: 2017-03-27
+    topic: fairness
+    level: working
+    content: >
+        [Working paper](https://arxiv.org/abs/1703.08928).
 -
     id: EnvyFreeAndSquare
     lang: en
@@ -48,9 +66,22 @@
     date: 2015-01-10
     topic: fairness
     level: conference+
+    presentation: /papers/EnvyFreeAndSquare-Poster-2015-01-AAAI.ppt
     content: >
         Published in [AAAI 2015 conference](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages) and much improved in the [working paper](https://arxiv.org/abs/1609.03938) (42 pages). Extensions and improvements are welcome.
     review: Structure, readability and formal accuracy are very good
+
+-
+    id: Diminish
+    lang: en
+    title: Fair Allocation based on Diminishing Differences
+    authors: Erel Segal-Halevi, Avinatan Hassidim, Haris Aziz
+    date: 2017-04-24
+    topic: fairness
+    level: conference+
+    content: >
+        Accepted to IJCAI-2017.
+
 -
     id: GroupCakeCutting
     lang: en
@@ -60,7 +91,7 @@
     topic: fairness
     level: working
     content: >
-        [Working paper summarizes some simple results](http://arxiv.org/abs/1510.03903) (23 pages); extensions and improvements are welcome.
+        [Working paper summarizes some simple results](http://arxiv.org/abs/1510.03903); extensions and improvements are welcome.
 -
     id: Redivision
     lang: en
@@ -70,18 +101,17 @@
     topic: fairness
     level: working
     content: >
-        [Working paper requires polishing](http://arxiv.org/abs/1603.00286) (18 pages); collaborators are welcome.
+        [Working paper](http://arxiv.org/abs/1603.00286); collaborators are welcome.
 -
     id: CakeWithToppings
     lang: en
     title: Cutting a Cake without Harming the Toppings
-    authors: Erel Segal-Halevi
+    authors: Arseniy Akopyan, Erel Segal-Halevi
     date: 2016-04-05
     topic: geometry
     level: working
     content: >
-        [Working paper is self-contained and proves some nice focused results](http://arxiv.org/abs/1604.00960) (12 pages); extensions and generalizations are welcome.
-
+        [Working paper](http://arxiv.org/abs/1604.00960).
 -
     id: FairnessEfficiencyTradeoff
     lang: en
@@ -92,6 +122,29 @@
     level: working
     content: >
         [Working paper contains some initial ideas](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf) (13 pages); collaborators are welcome.
+-
+    id: GoodAndBad
+    lang: en
+    title: Cutting a Cake with both Good and Bad Parts 
+    authors: Erel Segal-Halevi
+    date: 2017-04-02
+    topic: fairness
+    level: working
+    content: >
+        [Working paper shows full solution for 3 agents](https://arxiv.org/abs/1704.00726); looking for ideas for extending to 4 or more agents.
+
+# Social choice:
+-
+    id: Level1
+    lang: en
+    title: >
+        On Level-1 Consensus Ensuring Stable Social Choice
+    authors: Mor Nitzan, Shmuel Nitzan, Erel Segal-Halevi
+    date: 2017-04-01
+    topic: auctions
+    level: working
+    content: >
+        Major revision for Social Choice and Welfare. [Working paper in arXiv](https://arxiv.org/abs/1704.06037).
 
 # Auctions:
 -
@@ -104,7 +157,7 @@
     topic: auctions
     level: working
     presentation: >
-      /papers/MIDA-presentation.pdf
+      /papers/MIDA-60minutes-2017-04-TAU.pdf
     content: >
         [Working paper](https://arxiv.org/abs/1604.06210)
 -
@@ -116,6 +169,8 @@
     date: 2016-09-19
     topic: auctions
     level: conference+
+    presentation: >
+      /papers/SBBA-20minutes-2016-09-SAGT.pptx
     content: >
         In International Symposium on Algorithmic Game Theory (SAGT) 2016, pages 260-272.
         *"Simple but cute" (--an anonymous reviewer)*. [Full version](https://arxiv.org/abs/1607.05139) (14 pages).
@@ -256,7 +311,7 @@
     presentation: >
       /papers/KosherBank-Presentation.pdf
     content: >
-           פורסם ב[קולמוס - הירחון של עיתון "משפחה", שבט ה'תשע"ו (2016)](http://erelsgl.github.io/papers/KosherBank-SegalHalevi-Culmus.pdf). הוצג גם ב[כנס בנקאות יהודית](http://erelsgl.github.io/papers/Jewish-Banking-Conference-5776-Invitation.jpg) כ"ו ניסן ה'תשע"ו; [המצגת כאן](http://erelsgl.github.io/papers/KosherBank-Presentation.pdf).
+           פורסם ב[קולמוס - הירחון של עיתון "משפחה", שבט ה'תשע"ו (2016)](http://erelsgl.github.io/papers/KosherBank-SegalHalevi-Culmus.pdf). הוצג גם ב[כנס בנקאות יהודית](http://erelsgl.github.io/papers/Jewish-Banking-Conference-5776-Invitation.jpg) כ"ו ניסן ה'תשע"ו.
     
 -
     id: ShmitaTalk
@@ -342,3 +397,14 @@
     level: patent
     content: >
         [US Patent 20100010826](http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20100010826.PGNR.&OS=DN/20100010826&RS=DN/20100010826)
+
+-
+    id: RandomSets
+    lang: en
+    title: Concentration Inequalities for Random Sets
+    authors: Erel Segal-Halevi, Avinatan Hassidim.
+    date: 2016-12-27
+    topic: probability
+    level: working
+    content: >
+        [Working paper](https://arxiv.org/abs/1612.08580).

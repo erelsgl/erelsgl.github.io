@@ -7,9 +7,11 @@ lang: en
 In parallel to research, I love to learn new programming languages and technologies. 
 <br/>Here are some languages I know, in reverse chronological order, and some sample projects:
 
-1. [Jekyll][Jek1] (2016): this website, featuring [bilingual support][Jek2].
+1. Python (2016-2017): my current love. A language like a language should be. Current project: [extending PrefLib-Tools][PrefLibTools] with our [algorithm for detecting level-1-consensus][level1] and simulation experiments.
 
-2. [SageMath][S1]+Python (2015-2016): an [automatic prover][S2] for our [envy-free cake-cutting algorithm][S3].
+2. [Jekyll][Jek1] (2016): this website, featuring [bilingual support][Jek2].
+
+2. [SageMath][S1] (2015-2016): an [automatic prover][S2] for our [envy-free cake-cutting algorithm][S3].
 
 3. [Node.js][N1] (2013-2016): the infrastructure for [negochat][N3], as well as:
   * [limdu][N2] - a machine-learning framework;
@@ -66,3 +68,5 @@ In parallel to research, I love to learn new programming languages and technolog
 [L2]: http://ccl.northwestern.edu/netlogo/models/community/land-random
 [L3]: http://ccl.northwestern.edu/netlogo/models/community/land-income
 [HW]: http://he.wikisource.org
+[PrefLibTools]: https://github.com/erelsgl/PrefLib-Tools/tree/develop
+[level1]: https://arxiv.org/abs/1704.06037

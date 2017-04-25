@@ -29,6 +29,10 @@ better ways and I would like to check how they can be implemented.
 # Open Questions 
 I would very much like to know the answer to the following questions.
 
+1. **When value-densities can be both positive and negative, does there always exist a connected envy-free division for 4 or more agents?**
+Mainly a question in algebraic topology. May be related to combinatorics.
+My [working paper](https://arxiv.org/abs/1704.00726) has a solution for 3 agents.
+
 1. **How many cuts are required for cake-cutting when the agents have different entitlements?**
 Mainly a combinatorics question. May be related to measure theory and topology.
 My [MathOverflow question](http://mathoverflow.net/q/242112) has some preliminary results.
