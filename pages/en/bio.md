@@ -64,6 +64,6 @@ modern Hebrew][5].
 [lim]: https://github.com/erelsgl/limdu
 [pat]: http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20100010826.PGNR.&OS=DN/20100010826&RS=DN/20100010826
 [mzg]: http://www.meezoog.com
-[cvpdf]: {{site.baseurl}}/cv/Erel+Segal-Halevi+CV.pdf
-[rs]: {{site.baseurl}}/cv/Erel+Segal-Halevi+Research+Statement.pdf
-[ts]: {{site.baseurl}}/cv/Erel+Segal-Halevi+Teaching+Statement.pdf
+[cvpdf]: {{site.baseurl}}/cv/Erel-Segal-Halevi-CV.pdf
+[rs]: {{site.baseurl}}/cv/Erel-Segal-Halevi-Research-Statement.pdf
+[ts]: {{site.baseurl}}/cv/Erel-Segal-Halevi-Teaching-Statement.pdf
