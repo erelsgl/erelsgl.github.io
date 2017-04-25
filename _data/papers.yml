@@ -103,8 +103,10 @@
     date: 2016-04-01
     topic: auctions
     level: working
+    presentation: >
+      /papers/MIDA-presentation.pdf
     content: >
-        [Working paper](https://arxiv.org/abs/1604.06210) (38 pages)
+        [Working paper](https://arxiv.org/abs/1604.06210)
 -
     id: SBBA
     lang: en
@@ -241,6 +243,7 @@
     level: journal
     content: >
         פורסם ב[רבעון הישראלי לבנקאות מס' 173 - תשרי ה'תשע"ג (2012)](http://erelsgl.github.io/papers/BankingQuarterly_2012_LoanMediation.pdf). יש גם [מהדורת רשת](http://tora.us.fm/tryg/ribit0/bnq3.html).
+
 -
     id: KosherBank
     lang: he
@@ -250,8 +253,11 @@
     date: 2016-02-01
     topic: jewecon
     level: journal
+    presentation: >
+      /papers/KosherBank-Presentation.pdf
     content: >
            פורסם ב[קולמוס - הירחון של עיתון "משפחה", שבט ה'תשע"ו (2016)](http://erelsgl.github.io/papers/KosherBank-SegalHalevi-Culmus.pdf). הוצג גם ב[כנס בנקאות יהודית](http://erelsgl.github.io/papers/Jewish-Banking-Conference-5776-Invitation.jpg) כ"ו ניסן ה'תשע"ו; [המצגת כאן](http://erelsgl.github.io/papers/KosherBank-Presentation.pdf).
+    
 -
     id: ShmitaTalk
     lang: he

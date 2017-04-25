@@ -19,6 +19,9 @@ layout: page
         {% if p.onlinedemo %}
         <a class='onlinedemo' href='{{p.onlinedemo.url}}'>{{site.data.labels.onlinedemo[page.lang]}}</a>
         {% endif %}
+        {% if p.presentation %}
+        <a class='presentation' href='{{p.presentation}}'>{{site.data.labels.presentation[page.lang]}}</a>
+        {% endif %}
     </li>
   {% endfor %}
 </ol>

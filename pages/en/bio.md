@@ -4,7 +4,11 @@ layout: page
 title:  CV
 lang: en
 ---
-## [Full CV in PDF][cvpdf]
+## PDFS
+[CV and publications][cvpdf] ;
+[Research statement][rs] ;
+[Teaching statement][ts] .
+
 
 ## Short CV
 
@@ -38,7 +42,7 @@ modern Hebrew][5].
 **1993-1997**: B.Sc. in computer engineering in the Technion.
 [Mean grade 97.2][gra].
 
-**1975**: Born :)
+**1975**: Born, in Israel.
 
 [1]: {{site.baseurl}}/topics/{{page.lang}}/fairness
 [2]: {{site.baseurl}}/topics/{{page.lang}}/auctions
@@ -57,4 +61,6 @@ modern Hebrew][5].
 [lim]: https://github.com/erelsgl/limdu
 [pat]: http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20100010826.PGNR.&OS=DN/20100010826&RS=DN/20100010826
 [mzg]: http://www.meezoog.com
-[cvpdf]: {{site.baseurl}}/cv/ErelSegalHalevi_Academic_CV.pdf
+[cvpdf]: {{site.baseurl}}/cv/Erel+Segal-Halevi+CV.pdf
+[rs]: {{site.baseurl}}/cv/Erel+Segal-Halevi+Research+Statement.pdf
+[ts]: {{site.baseurl}}/cv/Erel+Segal-Halevi+Teaching+Statement.pdf

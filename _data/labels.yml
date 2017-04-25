@@ -14,6 +14,9 @@ onlinedemos:
 onlinedemo: 
   en: "&rarr;&nbsp;Live&nbsp;demo"
   he: "&larr;&nbsp;הדגמה&nbsp;חיה"
+presentation: 
+  en: "&rarr;&nbsp;Presentation"
+  he: "&larr;&nbsp;מצגת"
 levels:  # see also paperlevels.yml
   book: 
     en: Books
