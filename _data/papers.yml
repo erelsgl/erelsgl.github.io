@@ -408,3 +408,13 @@
     level: working
     content: >
         [Working paper](https://arxiv.org/abs/1612.08580).
+-
+    id: RepeatedGames
+    lang: en
+    title: Repeated Games with Risk Averse Players
+    authors: Yonatan Aumann and Erel Segal-Halevi
+    date: 2017-01-16
+    topic: repeatedgames
+    level: working
+    content: >
+        [Working paper](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhdW1hbm5iaXV8Z3g6MTBlZjg1MmMwMjc2OGQ3).
