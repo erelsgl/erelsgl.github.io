@@ -80,7 +80,7 @@
     topic: fairness
     level: conference+
     content: >
-        Accepted to IJCAI-2017.
+        Accepted to IJCAI-2017. [Full version](https://arxiv.org/abs/1705.07993)
 
 -
     id: GroupCakeCutting
@@ -91,7 +91,7 @@
     topic: fairness
     level: working
     content: >
-        [Working paper summarizes some simple results](http://arxiv.org/abs/1510.03903); extensions and improvements are welcome.
+        [Major revision in Social Choice and Welfare](http://arxiv.org/abs/1510.03903); extensions and improvements are welcome.
 -
     id: Redivision
     lang: en
@@ -118,20 +118,34 @@
     title: A Tradeoff between Fairness and Efficiency in Cake-cutting
     authors: Erel Segal-Halevi
     date: 2016-04-22
-    topic: fairness
-    level: working
+    topic: fairness-old
+    level: working-old
     content: >
         [Working paper contains some initial ideas](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf) (13 pages); collaborators are welcome.
 -
     id: GoodAndBad
     lang: en
-    title: Cutting a Cake with both Good and Bad Parts 
+    title: Fairly Dividing a Cake after Some Parts were Burnt in the Oven
     authors: Erel Segal-Halevi
     date: 2017-04-02
+    presentation: >
+      /papers/CakeBurntInOven-60minutes-2017-06-BIUCombinatoricsSeminar.pdf
     topic: fairness
     level: working
     content: >
-        [Working paper shows full solution for 3 agents](https://arxiv.org/abs/1704.00726); looking for ideas for extending to 4 or more agents.
+        [Working paper shows full solution for 3 agents](https://arxiv.org/abs/1704.00726); looking for collaborators and ideas for extending to 4 or more agents.
+-
+    id: PHD
+    lang: en
+    title: Fair Division of Land (Ph.D. Thesis)
+    authors: Erel Segal-Halevi (supervised by Yonatan Aumann and Avinatan Hassidim)
+    date: 2017-04-02
+    presentation: >
+      /papers/FairDivisionOfLand-45minutes-2016-06-Dagstuhl.pptx
+    topic: fairness
+    level: book
+    content: >
+        [Submitted version](/papers/FairDivisionOfLand-PhDThesis.pdf).
 
 # Social choice:
 -

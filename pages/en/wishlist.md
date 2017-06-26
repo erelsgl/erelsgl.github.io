@@ -10,11 +10,11 @@ If you find any of them interesting and would like to collaborate, drop me an em
 # Working papers
 These papers need co-authors in order to realize their full potential:
 
-1. [Fair cake-cutting among groups](http://arxiv.org/abs/1510.03903): Mostly related to economics but contains some algorithmic content. It is about fair division of resources that are enjoyed by a whole group, such as a family or a country, rather than by a single individual. A collaborator could help to improve and add new results.
+1. [Fair cake-cutting among families](http://arxiv.org/abs/1510.03903): Mostly related to economics but contains some algorithmic content. It is about fair division of resources that are enjoyed by a whole group, such as a family or a country, rather than by a single individual. A collaborator could help to improve and add new results.
 
-2. [How to re-divide a cake fairly?](http://arxiv.org/abs/1603.00286): Combines computational geometry, combinatoris, economics and social choice. I am looking for experts in any of these fields in order to help verify and improve the results.
+2. [How to re-divide a cake fairly?](http://arxiv.org/abs/1603.00286) and [Price-of-Fairness](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf): Combines computational geometry, combinatorics, economics and social choice. I am looking for experts in any of these fields in order to help verify and improve the results.
 
-3. [A Tradeoff Between Fairness and Efficiency in Cake-Cutting](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf): Motivated by economics, but the techniques are mostly combinatorial. A collaborator who is proficient in combinatorics will surely find new results easily.
+3. [Fairly Dividing a Cake after Some Parts were Burnt in the Oven](https://arxiv.org/abs/1704.00726): Combines combinatorics and mild algebraic topology. I have a proof that a connected envy-free division exists for 3 agents, even when some valuations are positive and some are negative. I need a collaborator to help me find out if it is true for 4 or more agents.
 
 # Reasearch projects
 
@@ -29,10 +29,6 @@ better ways and I would like to check how they can be implemented.
 # Open Questions 
 I would very much like to know the answer to the following questions.
 
-1. **When value-densities can be both positive and negative, does there always exist a connected envy-free division for 4 or more agents?**
-Mainly a question in algebraic topology. May be related to combinatorics.
-My [working paper](https://arxiv.org/abs/1704.00726) has a solution for 3 agents.
-
 1. **How many cuts are required for cake-cutting when the agents have different entitlements?**
 Mainly a combinatorics question. May be related to measure theory and topology.
 My [MathOverflow question](http://mathoverflow.net/q/242112) has some preliminary results.
@@ -45,7 +41,7 @@ Our [group cake-cutting paper](http://arxiv.org/abs/1510.03903) solves a related
 3. **Is it possible to find in bounded time an envy-free and proportional cake-division with connected pieces?** 
 Mainly an algorithmic question.
 The Wikipedia page I wrote on [envy-free cake-cutting](https://en.wikipedia.org/wiki/Envy-free_cake-cutting) gives some background.
-Our [waste-makes-haste paper](http://arxiv.org/abs/1511.02599) presents the current status.
+Our [waste-makes-haste paper](http://arxiv.org/abs/1511.02599) presents the status as of 8/2016.
 
 4. **Given a collection of points in the plane, what is the largest possible collection of pairwise-disjoint wet-squares?**
 Mainly a geometric question. 
