@@ -18,6 +18,10 @@ lang: he
 
 בנוסף למחקר אני גם  [מתכנת במגוון רחב של שפות][6].
 
+<p style="text-align: left;">
+<img src='/images/temple_mount_20170727_012.jpg' alt='אשתי ואני על הר הבית, 2017-07-27'/>
+</p>
+
 [1]: {{site.baseurl}}/topics/{{page.lang}}/fairness
 [2]: {{site.baseurl}}/topics/{{page.lang}}/auctions
 [3]: {{site.baseurl}}/topics/{{page.lang}}/repeatedgames
@@ -28,4 +32,3 @@ lang: he
 [8]: {{site.baseurl}}/pages/{{page.lang}}/wishlist
 [ya]: https://sites.google.com/site/aumannbiu/
 [ah]: http://u.cs.biu.ac.il/~avinatan/
-

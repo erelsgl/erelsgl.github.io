@@ -19,6 +19,10 @@ For some open questions I find particularly interesting, see my [wishlist][8].
 
 In addition to research, I have many years of experience [programming in various languages][6].
 
+<p style="text-align: right;">
+<img src='/images/temple_mount_20170727_012.jpg' alt='My wife and I on the Temple Mount, 2017-07-27'/>
+</p>
+
 [1]: {{site.baseurl}}/topics/{{page.lang}}/fairness
 [2]: {{site.baseurl}}/topics/{{page.lang}}/auctions
 [3]: {{site.baseurl}}/topics/{{page.lang}}/repeatedgames
