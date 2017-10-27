@@ -7,10 +7,12 @@ lang: en
 ---
 # Erel Segal-Halevi - Academic Homepage
 
-I am a researcher currently "between affiliations".
-At 2016-12-31 I submitted my [Ph.D. thesis][phd] to the [Bar-Ilan University Computer-Science Department][biucs], where
+I am a new lecturer in Ariel university, computer science department.
+
+Before that I was visiting and doing some research projects in the [Federmann Center for the Study of Rationality][ratio].
+At 2016-12 I submitted my [Ph.D. thesis][phd] to the [Bar-Ilan University Computer-Science Department][biucs], where
 my advisors were [Prof. Yonatan Aumann][ya] and [Prof. Avinatan Hassidim][ah]. 
-Currently I am visiting the [Federmann Center for the Study of Rationality][ratio] and having a great time working with wonderful people on various research projects.
+Currently 
 
 My research interests are diverse and range from theory to practice. Currently I do research in **computational economics** ([fairness][1],  [auctions][2] and [game theory][3]). In the past I did research in **natural language processing** ([English negotiation][4] and [Hebrew morphology][5]). 
 The inspiration to research these diverse topics comes from the [Bible][7].
