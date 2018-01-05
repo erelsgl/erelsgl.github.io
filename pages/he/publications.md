@@ -1,5 +1,5 @@
 ---
-ident: publications
+ident: 4-publications
 layout: publicationlist
 title:  פירסומים
 description: רשימת פירסומים

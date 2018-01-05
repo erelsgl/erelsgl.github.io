@@ -1,5 +1,5 @@
 ---
-ident: software
+ident: 6-software
 layout: page
 title: Code
 lang: en
@@ -7,7 +7,13 @@ lang: en
 In parallel to research, I love to learn new programming languages and technologies. 
 <br/>Here are some languages I know, in reverse chronological order, and some sample projects:
 
-1. Python (2016-2017): my current love. A language like a language should be. Current project: [extending PrefLib-Tools][PrefLibTools]  (a social-choice toolkit) with our [algorithm for detecting level-1-consensus][level1] and simulation experiments.
+1. Java 8 (2017-2018): [a course in object-oriented programming][oop].
+
+1. Python (2016-2018): Simulations in various research-related topics, including:
+* [Bitcoin and its new Lightning network][bitcoin];
+* [Social choice][PrefLibTools] and preference profiles;
+* [Auctions][economics] and market equilibria.
+<br/><br/>
 
 2. [Jekyll][Jek1] (2016): this website, featuring [bilingual support][Jek2].
 
@@ -27,7 +33,7 @@ In parallel to research, I love to learn new programming languages and technolog
 
 5. Perl (2007-2014): automatic testing scripts for [MeeZoog][P2] and bots for [WikiSource][HW].
 
-6. Java (2011-2013): natural-language projects, including:
+6. Java 6 (2011-2013): natural-language projects, including:
   * The [Hebrew parody generator][J2];
   * [Dialog understanding with textual entailment][J3];
   * [Probabilistic-Lexical-Inference-System demo][J4].
@@ -70,3 +76,6 @@ In parallel to research, I love to learn new programming languages and technolog
 [HW]: http://he.wikisource.org
 [PrefLibTools]: https://github.com/erelsgl/PrefLib-Tools
 [level1]: https://arxiv.org/abs/1704.06037
+[oop]: https://github.com/erelsgl/ariel-oop-course
+[bitcoin]: https://github.com/erelsgl/bitcoin-simulations
+[economics]: https://github.com/erelsgl/economics

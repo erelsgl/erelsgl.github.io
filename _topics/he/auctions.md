@@ -2,7 +2,7 @@
 ident: auctions
 title: מכרזים דו -צדדיים
 description: פיתוח מנגנונים למכרזים שבהם גם למוכרים וגם לקונים כדאי להגיד את האמת.
-date: 2016-01-01
+date: 2018-01-01
 image: stock-exchange-642896_960_720.jpg
 lang: he
 ---

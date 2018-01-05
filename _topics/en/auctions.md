@@ -2,7 +2,7 @@
 ident: auctions
 title: Double Auctions
 description: Developing auction mechanisms that induce both buyers and sellers to behave truthfully.
-date: 2016-01-01
+date: 2018-01-01
 image: stock-exchange-642896_960_720.jpg
 lang: en
 ---

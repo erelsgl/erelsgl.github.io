@@ -1,9 +1,9 @@
 ---
 ident: fairness
-title: Fair Division
+title: Fair Division of Land
 description: Adapting cake-cutting algorithms to fair division of land-estates in two dimensions.
 image: indy_farmland_thumb.png
-date: 2016-02-01
+date: 2018-01-01
 lang: en
 ---
 As the world becomes more crowded, we need methods for fair division of land. The starting point 

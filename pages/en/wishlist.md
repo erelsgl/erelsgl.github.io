@@ -1,5 +1,5 @@
 ---
-ident: wishlist
+ident: 9-wishlist
 layout: page
 title: Wishlist
 lang: en
@@ -10,11 +10,9 @@ If you find any of them interesting and would like to collaborate, drop me an em
 # Working papers
 These papers need co-authors in order to realize their full potential:
 
-1. [Fair cake-cutting among families](http://arxiv.org/abs/1510.03903): Mostly related to economics but contains some algorithmic content. It is about fair division of resources that are enjoyed by a whole group, such as a family or a country, rather than by a single individual. A collaborator could help to improve and add new results.
+1. [Fairly Dividing a Cake after Some Parts were Burnt in the Oven](https://arxiv.org/abs/1704.00726): Combines combinatorics and mild algebraic topology. I have a proof that a connected envy-free division exists for 3 agents, even when some valuations are positive and some are negative. I need a collaborator to help me find out if it is true for 4 or more agents.
 
 2. [How to re-divide a cake fairly?](http://arxiv.org/abs/1603.00286) and [Price-of-Fairness](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf): Combines computational geometry, combinatorics, economics and social choice. I am looking for experts in any of these fields in order to help verify and improve the results.
-
-3. [Fairly Dividing a Cake after Some Parts were Burnt in the Oven](https://arxiv.org/abs/1704.00726): Combines combinatorics and mild algebraic topology. I have a proof that a connected envy-free division exists for 3 agents, even when some valuations are positive and some are negative. I need a collaborator to help me find out if it is true for 4 or more agents.
 
 # Reasearch projects
 
@@ -29,14 +27,11 @@ better ways and I would like to check how they can be implemented.
 # Open Questions 
 I would very much like to know the answer to the following questions.
 
-1. **How many cuts are required for cake-cutting when the agents have different entitlements?**
+1. **Two agents with different incomes have to divide a set of indivisible items. Does a competitive equilibrium exist for almost all incomes?** This question was raised by [Babaioff and Nisan and Talgam-Cohen](https://arxiv.org/abs/1703.08150). I [solved some related open problems](https://arxiv.org/abs/1705.04212) but the case of two additive agents is still open.
+
+2. **How many cuts are required for cake-cutting when the agents have different entitlements?**
 Mainly a combinatorics question. May be related to measure theory and topology.
 My [MathOverflow question](http://mathoverflow.net/q/242112) has some preliminary results.
-
-2. **Does there always exist a Pareto-efficient envy-free allocation of "family goods"?**
-Mainly an economics question.
-My [economics.SE question](http://economics.stackexchange.com/q/9916) has some more details. 
-Our [group cake-cutting paper](http://arxiv.org/abs/1510.03903) solves a related but easier problem.
 
 3. **Is it possible to find in bounded time an envy-free and proportional cake-division with connected pieces?** 
 Mainly an algorithmic question.

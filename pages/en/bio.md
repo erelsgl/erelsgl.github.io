@@ -1,5 +1,5 @@
 ---
-ident: bio
+ident: 2-bio
 layout: page
 title:  CV
 lang: en
@@ -11,6 +11,8 @@ lang: en
 
 
 ## Short CV
+
+**2018**: Tenure-track lecturer in Ariel University, Computer Science department.
 
 **2017**: Visitor in the Hebrew University of Jerusalem, Federman Center of Rationality. 
 Expanding to various topics.

@@ -72,17 +72,6 @@
     review: Structure, readability and formal accuracy are very good
 
 -
-    id: Diminish
-    lang: en
-    title: Fair Allocation based on Diminishing Differences
-    authors: Erel Segal-Halevi, Avinatan Hassidim, Haris Aziz
-    date: 2017-04-24
-    topic: fairness
-    level: conference+
-    content: >
-        [Accepted to IJCAI-2017](https://www.ijcai.org/proceedings/2017/174). [Full version](https://arxiv.org/abs/1705.07993)
-
--
     id: GroupCakeCutting
     lang: en
     title: Fair Cake-cutting among Families
@@ -108,7 +97,7 @@
     title: Cutting a Cake without Harming the Toppings
     authors: Arseniy Akopyan, Erel Segal-Halevi
     date: 2016-04-05
-    topic: geometry
+    topic: fairness
     level: working
     content: >
         [Working paper](http://arxiv.org/abs/1604.00960).
@@ -147,33 +136,112 @@
     content: >
         [Submitted version](/papers/FairDivisionOfLand-PhDThesis.pdf).
 
+# Fairness - indivisible items:
+
+
+-
+    id: Diminish
+    lang: en
+    title: Fair Allocation based on Diminishing Differences
+    authors: Erel Segal-Halevi, Avinatan Hassidim, Haris Aziz
+    date: 2017-04-24
+    topic: fairness-indivisible
+    level: conference+
+    content: >
+        [IJCAI-2017 pages pages 1254-1261](https://www.ijcai.org/proceedings/2017/174). [Full version](https://arxiv.org/abs/1705.07993)
+-
+    id: GroupItemAllocation
+    lang: en
+    title: On Democratic Fairness for Groups of Agents 
+    authors: Erel Segal-Halevi, Warut Suksompong
+    date: 2018-01-01
+    topic: fairness-indivisible
+    level: working
+    content: >
+        [Working paper](https://arxiv.org/abs/1709.02564).
+        
+        
+-
+    id: CEFAI
+    lang: en
+    title: Competitive Equiliibrium For almost All Incomes
+    authors: Erel Segal-Halevi
+    date: 2018-01-01
+    topic: fairness-indivisible
+    level: working
+    content: >
+        [Working paper](https://arxiv.org/abs/1705.04212).
+
+
+
+
 # Social choice:
 -
     id: Level1
     lang: en
     title: >
-        On Level-1 Consensus Ensuring Stable Social Choice
+        Flexible level-1 consensus ensuring stable social choice: analysis and algorithms
     authors: Mor Nitzan, Shmuel Nitzan, Erel Segal-Halevi
-    date: 2017-04-01
+    date: 2017-11-02
+    topic: voting
+    level: journal
+    content: >
+        [Social Choice and Welfare (SCWE), 2017, pages 1-23](https://link.springer.com/article/10.1007/s00355-017-1092-2). 
+        <span style='font-size:8pt'>Preliminary version: [arXiv 2017](https://arxiv.org/abs/1704.06037)</span>.
+
+# Bitcoin:
+-
+    id: lightning
+    lang: en
+    title: >
+        How to Charge Lightning
+    authors: Simina Branzei, Erel Segal-Halevi, Aviv Zohar
+    date: 2017-11-01
+    topic: bitcoin
+    level: conference-
+    presentation: >
+        https://youtu.be/3pd6xHjLbhs?t=1h2m20s
+    content: >
+        Presented at Scaling Bitcoin 2017.
+        [Working paper](https://arxiv.org/abs/1712.10222).
+
+
+# Auctions:
+-
+    id: bilateral
+    lang: en
+    title: >
+        Truthful Bilateral Trade is Impossible even with Fixed Prices
+    authors: Erel Segal-Halevi, Avinatan Hassidim
+    date: 2018-03-01
     topic: auctions
     level: working
     content: >
-        Major revision for Social Choice and Welfare. [Working paper in arXiv](https://arxiv.org/abs/1704.06037).
-
-# Auctions:
+        [Working paper](https://arxiv.org/abs/1711.08057)
 -
     id: MIDA
     lang: en
     title: >
         MIDA: a Multi Item-type Double Auction Mechanism
     authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
-    date: 2016-04-01
+    date: 2018-12-31
     topic: auctions
     level: working
     presentation: >
       /papers/MIDA-60minutes-2017-04-TAU.pdf
     content: >
         [Working paper](https://arxiv.org/abs/1604.06210)
+-
+    id: MUDA
+    lang: en
+    title: >
+        MUDA: a Truthful Multi Unit Double Auction Mechanism
+    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+    date: 2018-02-01
+    topic: auctions
+    level: conference+
+    content: >
+        Accepted to AAAI 2018. [Full version](https://arxiv.org/abs/1712.06848)
 -
     id: SBBA
     lang: en
@@ -199,7 +267,7 @@
     topic: auctions
     level: journal
     content: >
-        [Operations Research Letters, 2016, pages 757-760](http://dx.doi.org/10.1016/j.orl.2016.09.012). &nbsp;&nbsp;&nbsp; [(Full version)](https://arxiv.org/abs/1607.01989)
+        [Operations Research Letters, 2016, pages 757-760](http://dx.doi.org/10.1016/j.orl.2016.09.012). &nbsp;&nbsp;&nbsp; [Full version](https://arxiv.org/abs/1607.01989)
     review: As far as I can tell, the characterization is correct.
 
 # NLP and NegoChat:
@@ -416,8 +484,8 @@
     id: RandomSets
     lang: en
     title: Concentration Inequalities for Random Sets
-    authors: Erel Segal-Halevi, Avinatan Hassidim.
-    date: 2016-12-27
+    authors: Erel Segal-Halevi, Avinatan Hassidim
+    date: 2018-03-01
     topic: probability
     level: working
     content: >

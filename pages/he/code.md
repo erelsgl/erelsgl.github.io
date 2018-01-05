@@ -1,10 +1,12 @@
 ---
-ident: software
+ident: 6-software
 layout: page
 title: תיכנות
 lang: he
 ---
 במקביל למחקר, אני אוהב ללמוד שפות תיכנות וטכנולוגיות חדשות. הנה כמה שפות שלמדתי, בסדר זמן יורד, ומה עשיתי בכל אחת:
+
+1. Java 8 (2017-2018): [קורס בתיכנות מונחה עצמים][oop].
 
 1. Python <span dir='ltr'>(2016-2017)</span>: [הרחבה לספריית ההעדפות][PrefLibTools] הכוללת את [האלגוריתם שלנו לזיהוי קונצנזוס מדרגה 1][level1] וניסויי הדמיה.
 
@@ -72,3 +74,6 @@ lang: he
 [HW]: http://he.wikisource.org
 [PrefLibTools]: https://github.com/erelsgl/PrefLib-Tools/tree/develop
 [level1]: https://arxiv.org/abs/1704.06037
+[oop]: https://github.com/erelsgl/ariel-oop-course
+[bitcoin]: https://github.com/erelsgl/bitcoin-simulations
+[economics]: https://github.com/erelsgl/economics

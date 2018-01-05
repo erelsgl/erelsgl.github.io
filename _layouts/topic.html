@@ -33,6 +33,12 @@ layout: page
         {% else %}
         &quot;<b>{{p.title}}</b>&quot;: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}
         {% endif %}
+        {% if p.onlinedemo %}
+        <a class='onlinedemo' href='{{p.onlinedemo.url}}'>{{site.data.labels.onlinedemo[page.lang]}}</a>
+        {% endif %}
+        {% if p.presentation %}
+        <a class='presentation' href='{{p.presentation}}'>{{site.data.labels.presentation[page.lang]}}</a>
+        {% endif %}
     </div></li>
     {% endif %}
     {% endfor %}
