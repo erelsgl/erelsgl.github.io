@@ -10,7 +10,10 @@ If you find any of them interesting and would like to collaborate, drop me an em
 # Working papers
 These papers need co-authors in order to realize their full potential:
 
-1. [Fairly Dividing a Cake after Some Parts were Burnt in the Oven](https://arxiv.org/abs/1704.00726): Combines combinatorics and mild algebraic topology. I have a proof that a connected envy-free division exists for 3 agents, even when some valuations are positive and some are negative. I need a collaborator to help me find out if it is true for 4 or more agents.
+1. [Fairly Dividing a Cake after Some Parts were Burnt in the Oven](https://arxiv.org/abs/1704.00726):
+Given a cake and n agents with different valuations of its pieces, where the valuations can be positive or negative, does there always exist a connected envy-free division? The paper proves that the answer is yes when n=3.
+**Breaking news**:  Frédéric Meunier and Shira Zerbib have just [proved that the answer is yes when n=4 or n is a prime number](https://arxiv.org/abs/1804.00449).
+It is still open whether the answer is yes for all n. The proofs combine combinatorics and algebraic topology. 
 
 2. [How to re-divide a cake fairly?](http://arxiv.org/abs/1603.00286) and [Price-of-Fairness](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf): Combines computational geometry, combinatorics, economics and social choice. I am looking for experts in any of these fields in order to help verify and improve the results.
 
