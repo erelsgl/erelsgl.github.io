@@ -39,15 +39,16 @@
 -
     id: CakeCuttingMonotonicity
     lang: en
-    title: Resource-monotonicity and Population-monotonicity in Cake-cutting
+    title: Monotonicity and Competitive Equilibrium in Cake-cutting.
     authors: Erel Segal-Halevi, Balázs Sziklai
-    date: 2016-01-01
+    date: 2018-05-29
     topic: fairness
-    level: conference-
+    level: journal
     presentation: >
       /papers/Monotonicity-30minutes-2016-07-GAMES.pptx
     content: >
-        Presented in GAM-SOC 2015, SCW 2016 and GAMES 2016. [Working paper](http://arxiv.org/abs/1510.05229).
+        [Economic Theory, 1-39](https://rdcu.be/PkIk).
+        <span style='font-size:8pt'>[Preliminary working paper](http://arxiv.org/abs/1510.05229)</span>.
 -
     id: CakeCuttingMonotonicityCon
     lang: en
@@ -68,7 +69,7 @@
     level: conference+
     presentation: /papers/EnvyFreeAndSquare-Poster-2015-01-AAAI.ppt
     content: >
-        Published in [AAAI 2015 conference](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages) and much improved in the [working paper](https://arxiv.org/abs/1609.03938) (42 pages). Extensions and improvements are welcome.
+        [AAAI 2015](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages) and [arXiv 2016](https://arxiv.org/abs/1609.03938) (42 pages). Extensions and improvements are welcome.
     review: Structure, readability and formal accuracy are very good
 
 -
@@ -84,23 +85,23 @@
 -
     id: Redivision
     lang: en
-    title: How to re-divide a cake fairly
+    title: Redividing the Cake
     authors: Erel Segal-Halevi
-    date: 2016-03-01
+    date: 2018-07-15
     topic: fairness
-    level: working
+    level: conference+
     content: >
-        [Working paper](http://arxiv.org/abs/1603.00286); collaborators are welcome.
+        IJCAI 2018 and [arXiv 2018](http://arxiv.org/abs/1603.00286).
 -
     id: CakeWithToppings
     lang: en
-    title: Cutting a Cake without Harming the Toppings
+    title: Counting Blanks in Polygonal Arrangements
     authors: Arseniy Akopyan, Erel Segal-Halevi
-    date: 2016-04-05
+    date: 2018-01-01
     topic: fairness
-    level: working
+    level: journal
     content: >
-        [Working paper](http://arxiv.org/abs/1604.00960).
+        [SIAM Journal on Discrete Mathematics and Applications](http://arxiv.org/abs/1604.00960).
 -
     id: FairnessEfficiencyTradeoff
     lang: en
@@ -120,9 +121,9 @@
     presentation: >
       /papers/CakeBurntInOven-60minutes-2017-06-BIUCombinatoricsSeminar.pdf
     topic: fairness
-    level: working
+    level: conference+
     content: >
-        [Working paper shows full solution for 3 agents](https://arxiv.org/abs/1704.00726); looking for collaborators and ideas for extending to 4 or more agents.
+        AAMAS 2018 and [arXiv 2018](https://arxiv.org/abs/1704.00726).
 -
     id: PHD
     lang: en
@@ -152,13 +153,13 @@
 -
     id: GroupItemAllocation
     lang: en
-    title: On Democratic Fairness for Groups of Agents 
+    title: Democratic Fair Allocation of Indivisible Goods.
     authors: Erel Segal-Halevi, Warut Suksompong
     date: 2018-01-01
     topic: fairness-indivisible
-    level: working
+    level: conference+
     content: >
-        [Working paper](https://arxiv.org/abs/1709.02564).
+        IJCAI 2018 and [arXiv 2018](https://arxiv.org/abs/1709.02564).
         
         
 -
@@ -168,9 +169,9 @@
     authors: Erel Segal-Halevi
     date: 2018-01-01
     topic: fairness-indivisible
-    level: working
+    level: conference+
     content: >
-        [Working paper](https://arxiv.org/abs/1705.04212).
+        AAMAS 2018 and [arXiv 2018](https://arxiv.org/abs/1705.04212).
 
 
 
@@ -222,15 +223,15 @@
     id: MIDA
     lang: en
     title: >
-        MIDA: a Multi Item-type Double Auction Mechanism
+        Double Auctions in Markets for Multiple Kinds of Goods
     authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
-    date: 2018-12-31
+    date: 2018-07-15
     topic: auctions
-    level: working
+    level: conference+
     presentation: >
       /papers/MIDA-60minutes-2017-04-TAU.pdf
     content: >
-        [Working paper](https://arxiv.org/abs/1604.06210)
+        IJCAI 2018 and [arXiv 2018](https://arxiv.org/abs/1604.06210).
 -
     id: MUDA
     lang: en
@@ -241,7 +242,7 @@
     topic: auctions
     level: conference+
     content: >
-        Accepted to AAAI 2018. [Full version](https://arxiv.org/abs/1712.06848)
+        [AAAI 2018](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16593); [full version](https://arxiv.org/abs/1712.06848).
 -
     id: SBBA
     lang: en
@@ -269,6 +270,20 @@
     content: >
         [Operations Research Letters, 2016, pages 757-760](http://dx.doi.org/10.1016/j.orl.2016.09.012). &nbsp;&nbsp;&nbsp; [Full version](https://arxiv.org/abs/1607.01989)
     review: As far as I can tell, the characterization is correct.
+
+-
+    id: appraiser
+    lang: en
+    title: >
+        Eliciting Truthful Unverifiable Information (aka Making an Appraiser Work for You)
+    authors: 2. Shani Alkobi, David Sarne, Erel Segal-Halevi and Tomer Sharbaf
+    date: 2018-07-10
+    topic: auctions
+    level: conference+
+    content: >
+        AAMAS 2018 (extended abstract) and [arXiv 2018](https://arxiv.org/abs/1804.08314).
+
+
 
 # NLP and NegoChat:
 -
