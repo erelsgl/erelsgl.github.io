@@ -48,7 +48,7 @@
       /papers/Monotonicity-30minutes-2016-07-GAMES.pptx
     content: >
         [Economic Theory, 1-39](https://rdcu.be/PkIk).
-        <span style='font-size:8pt'>[Preliminary working paper](http://arxiv.org/abs/1510.05229)</span>.
+        <span style='font-size:8pt'>Preliminary version: [arXiv 2018](http://arxiv.org/abs/1510.05229)</span>.
 -
     id: CakeCuttingMonotonicityCon
     lang: en
@@ -92,6 +92,8 @@
     level: conference+
     content: >
         IJCAI 2018 and [arXiv 2018](http://arxiv.org/abs/1603.00286).
+    presentation: >
+      /papers/RedividingTheCake-60minutes-2016-11-GlasgowEconomicsSeminar.pdf
 -
     id: CakeWithToppings
     lang: en
@@ -149,7 +151,7 @@
     topic: fairness-indivisible
     level: conference+
     content: >
-        [IJCAI-2017 pages pages 1254-1261](https://www.ijcai.org/proceedings/2017/174). [Full version](https://arxiv.org/abs/1705.07993)
+        [IJCAI-2017 pages 1254-1261](https://www.ijcai.org/proceedings/2017/174). [Full version](https://arxiv.org/abs/1705.07993)
 -
     id: GroupItemAllocation
     lang: en
@@ -242,7 +244,9 @@
     topic: auctions
     level: conference+
     content: >
-        [AAAI 2018](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16593); [full version](https://arxiv.org/abs/1712.06848).
+        [AAAI 2018](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16593) and [arXiv 2018](https://arxiv.org/abs/1712.06848).
+    presentation: >
+      /papers/MUDA-poster-AAAI18.ppt
 -
     id: SBBA
     lang: en
