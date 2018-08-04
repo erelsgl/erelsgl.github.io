@@ -39,7 +39,7 @@
 -
     id: CakeCuttingMonotonicity
     lang: en
-    title: Monotonicity and Competitive Equilibrium in Cake-cutting.
+    title: Monotonicity and Competitive Equilibrium in Cake-cutting
     authors: Erel Segal-Halevi, Balázs Sziklai
     date: 2018-05-29
     topic: fairness
@@ -47,18 +47,19 @@
     presentation: >
       /papers/Monotonicity-30minutes-2016-07-GAMES.pptx
     content: >
-        [Economic Theory, 1-39](https://rdcu.be/PkIk).
+        [Economic Theory, 2018, pages 1-39](https://rdcu.be/PkIk).
         <span style='font-size:8pt'>Preliminary version: [arXiv 2018](http://arxiv.org/abs/1510.05229)</span>.
 -
     id: CakeCuttingMonotonicityCon
     lang: en
     title: Resource-monotonicity and Population-monotonicity in Connected Cake-cutting
     authors: Erel Segal-Halevi, Balázs Sziklai
-    date: 2017-03-27
+    date: 2018-09-01
     topic: fairness
-    level: working
+    level: journal
     content: >
-        [Working paper](https://arxiv.org/abs/1703.08928).
+        [Mathematical Social Sciences, 2018, pages 95:19-30](https://www.sciencedirect.com/science/article/pii/S0165489618300520).
+        <span style='font-size:8pt'>Preliminary version: [arXiv 2017](http://arxiv.org/abs/1703.08928)</span>.
 -
     id: EnvyFreeAndSquare
     lang: en
@@ -103,7 +104,7 @@
     topic: fairness
     level: journal
     content: >
-        [SIAM Journal on Discrete Mathematics and Applications](http://arxiv.org/abs/1604.00960).
+        [SIAM Journal on Discrete Mathematics and Applications (SIDMA)](http://arxiv.org/abs/1604.00960).
 -
     id: FairnessEfficiencyTradeoff
     lang: en
