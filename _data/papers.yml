@@ -98,13 +98,13 @@
 -
     id: CakeWithToppings
     lang: en
-    title: Counting Blanks in Polygonal Arrangements
+    title: Counting Blanks in Polygonal Arrangements (Previously called "Cutting a Cake without Harming the Toppings").
     authors: Arseniy Akopyan, Erel Segal-Halevi
-    date: 2018-01-01
+    date: 2018-09-06
     topic: fairness
     level: journal
     content: >
-        [SIAM Journal on Discrete Mathematics and Applications (SIDMA)](http://arxiv.org/abs/1604.00960).
+        [SIDMA 32(3), 2242–2257](https://epubs.siam.org/doi/abs/10.1137/16M110407X) and [arXiv 2018](http://arxiv.org/abs/1604.00960).
 -
     id: FairnessEfficiencyTradeoff
     lang: en
