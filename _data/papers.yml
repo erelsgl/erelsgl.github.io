@@ -1,4 +1,4 @@
-#### My papers and other publications
+﻿#### My papers and other publications
 
 # Fair Division:
 -
@@ -121,12 +121,12 @@
     title: Fairly Dividing a Cake after Some Parts were Burnt in the Oven
     authors: Erel Segal-Halevi
     date: 2017-04-02
-    presentation: >
-      /papers/CakeBurntInOven-60minutes-2017-06-BIUCombinatoricsSeminar.pdf
     topic: fairness
     level: conference+
     content: >
         AAMAS 2018 and [arXiv 2018](https://arxiv.org/abs/1704.00726).
+    presentation: >
+      /papers/CakeBurntInOven-60minutes-2017-06-BIUCombinatoricsSeminar.pdf
 -
     id: PHD
     lang: en
@@ -175,6 +175,8 @@
     level: conference+
     content: >
         AAMAS 2018 and [arXiv 2018](https://arxiv.org/abs/1705.04212).
+    presentation: >
+      /papers/CEFAI-15minutes-2018-07-AAMAS.pdf
 
 
 
