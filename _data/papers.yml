@@ -10,7 +10,7 @@
     topic: fairness
     level: journal
     content: >
-        [Journal of Mathematical Economics (JME), 2016, 70 pages 1-28](http://www.sciencedirect.com/science/article/pii/S0304406817300381). 
+        [Journal of Mathematical Economics (JME), 2016, 70 pages 1-28](http://www.sciencedirect.com/science/article/pii/S0304406817300381).
         *"The paper is now a full treatise on the subject, with enough material to fill three or four regular length articles" (--an anonymous reviewer)*.
         <span style='font-size:8pt'>Preliminary versions: [EuroCG 2016 (4 pages)](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) and [arXiv 2016 (54 pages)](http://arxiv.org/abs/1510.03170)</span>.
     presentation: >
@@ -34,7 +34,7 @@
     presentation: >
       /papers/WasteMakesHaste-60minutes-2016-05-BGU.pptx
     content: >
-        [ACM Transactions on Algorithms (TALG), 2016, pages 12:1-12:32](http://dl.acm.org/citation.cfm?doid=2997037.2988232). 
+        [ACM Transactions on Algorithms (TALG), 2016, pages 12:1-12:32](http://dl.acm.org/citation.cfm?doid=2997037.2988232).
         <span style='font-size:8pt'>Preliminary versions: [AAMAS 2015](http://dl.acm.org/citation.cfm?id=2773268) and [arXiv 2016](http://arxiv.org/abs/1511.02599)</span>.
 -
     id: CakeCuttingMonotonicity
@@ -83,6 +83,8 @@
     level: working
     content: >
         [Major revision in Social Choice and Welfare](http://arxiv.org/abs/1510.03903); extensions and improvements are welcome.
+    presentation: >
+      /papers/Families-60minutes-2018-10-Rome.pdf
 -
     id: Redivision
     lang: en
@@ -163,8 +165,8 @@
     level: conference+
     content: >
         IJCAI 2018 and [arXiv 2018](https://arxiv.org/abs/1709.02564).
-        
-        
+
+
 -
     id: CEFAI
     lang: en
@@ -192,7 +194,7 @@
     topic: voting
     level: journal
     content: >
-        [Social Choice and Welfare (SCWE), 2017, pages 1-23](https://link.springer.com/article/10.1007/s00355-017-1092-2). 
+        [Social Choice and Welfare (SCWE), 2017, pages 1-23](https://link.springer.com/article/10.1007/s00355-017-1092-2).
         <span style='font-size:8pt'>Preliminary version: [arXiv 2017](https://arxiv.org/abs/1704.06037)</span>.
 
 # Bitcoin:
@@ -416,7 +418,7 @@
       /papers/KosherBank-Presentation.pdf
     content: >
            פורסם ב[קולמוס - הירחון של עיתון "משפחה", שבט ה'תשע"ו (2016)](http://erelsgl.github.io/papers/KosherBank-SegalHalevi-Culmus.pdf). הוצג גם ב[כנס בנקאות יהודית](http://erelsgl.github.io/papers/Jewish-Banking-Conference-5776-Invitation.jpg) כ"ו ניסן ה'תשע"ו.
-    
+
 -
     id: ShmitaTalk
     lang: he
