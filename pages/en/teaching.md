@@ -37,6 +37,8 @@ The projects below involve understanding and improving existing open-source proj
 
 1. Add computational geometry algorithms to [GeoGebra](https://dev.geogebra.org/trac).
 
+1. Construct a system that will help politicians (e.g. in the parliament or municipal council) to quickly poll their supporters regarding upcoming votes. See [Open Knesset](https://oknesset.org/).
+
 # Courses I taught
 
 All the material for my courses is available in Hebrew below.
