@@ -39,6 +39,8 @@ The projects below involve understanding and improving existing open-source proj
 
 1. Construct a system that will help politicians (e.g. in the parliament or municipal council) to quickly poll their supporters regarding upcoming votes. See [Open Knesset](https://oknesset.org/).
 
+1. Build a component to automatiacally verify correctness of mathematical derivations in LaTeX (maybe as an addition to TeXStudio).
+
 # Courses I taught
 
 All the material for my courses is available in Hebrew below.
