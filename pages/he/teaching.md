@@ -40,6 +40,10 @@ lang: he
 1. בניית רכיב שיעזור לוודא נכונות של משוואות מתימטיות בשפת 
 LaTeX.
 
+1. הוספת יכולות לספריית 
+[sympy][sympy] - ספריית החישוב הסימבולי של פייתון.
+לדוגמה, הוספת טיפול באי-שיוויונים עם כמה משתנים.
+
 # קורסים שלימדתי
 
 החומר לכל הקורסים זמין בעברית בגיטהאב:
@@ -54,3 +58,5 @@ LaTeX.
 [oop5778]: https://github.com/erelsgl/ariel-oop-course
 [alg5778]: https://github.com/erelsgl/ariel-algorithms2m-5778
 [cpp5778]: https://github.com/erelsgl/ariel-cpp-5778
+[sympy]: https://www.sympy.org/en/index.html
+
