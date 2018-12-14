@@ -39,7 +39,10 @@ The projects below involve understanding and improving existing open-source proj
 
 1. Construct a system that will help politicians (e.g. in the parliament or municipal council) to quickly poll their supporters regarding upcoming votes. See [Open Knesset](https://oknesset.org/).
 
-1. Build a component to automatiacally verify correctness of mathematical derivations in LaTeX (maybe as an addition to TeXStudio).
+1. Build a component to automatically verify correctness of mathematical derivations in LaTeX (maybe as an addition to TeXStudio).
+
+1. Improve [sympy][sympy] -- Python's symbolic computation library. For example, handle inequalities with multiple parameters.
+
 
 # Courses I taught
 
@@ -54,3 +57,4 @@ All the material for my courses is available in Hebrew below.
 [oop5778]: https://github.com/erelsgl/ariel-oop-course
 [alg5778]: https://github.com/erelsgl/ariel-algorithms2m-5778
 [cpp5778]: https://github.com/erelsgl/ariel-cpp-5778
+[sympy]: https://www.sympy.org/en/index.html
