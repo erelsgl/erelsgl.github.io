@@ -8,12 +8,18 @@ lang: en
 # Erel Segal-Halevi - Academic Homepage
 
 I am a tenure-track lecturer in [Ariel university][arielcs], computer science department. 
-My research interests are diverse and range from theory to practice. Currently I do research in **computational economics** ([fairness][1],  [auctions][2] and [game theory][3]). In the past I did research in **natural language processing** ([English negotiation][4] and [Hebrew morphology][5]). 
+My main research goal is to develop algorithms for making human society better and fairer. In particular, I develop [fair division algorithms][1] and [truthful auction mechanisms][2]. 
+
+In the past I did research in natural language processing - [English negotiation][4] and [Hebrew morphology][5]. 
 The inspiration to research these diverse topics comes from the [Bible][7].
+
+I am looking for students for M.Sc., Ph.D. and post-doc positions. The requirements are: (1) an aspiration for making the world better, (2) creative imagination, and (3) excellent mathematical skills. Both Israeli and international students are welcome.
 
 For some open questions I find particularly interesting, see my [wishlist][8].
 
+<p style='display:none'>
 In addition to research, I have many years of experience [programming in various languages][6].
+</p>
 
 <p style="text-align: right;">
 <img src='/images/temple_mount_20170727_012.jpg' alt='My wife and I on the Temple Mount, 2017-07-27'/>
