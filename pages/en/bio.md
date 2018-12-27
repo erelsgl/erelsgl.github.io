@@ -12,14 +12,13 @@ lang: en
 
 ## Short CV
 
-**2018**: Tenure-track lecturer in Ariel University, Computer Science department.
+**2018-today**: Tenure-track lecturer in Ariel University, Computer Science department.
 
-**2017**: Visitor in the Hebrew University of Jerusalem, Federman Center of Rationality. 
-Expanding to various topics.
+**2017**: Visitor in the Hebrew University of Jerusalem, Federman Center of Rationality. [Fair division of various stuff][1] and [Anarchic coins][6].
 
 **2013-2016**: Ph.D. student in Bar-Ilan University computer-science department.
 Advisors: [Prof. Yonatan Aumann][ya] and [Dr. Avinatan Hassidim][ah].
-I research [fair division of land][1], [double auctions][2] and [repeated games][3].
+Topics: [fair division of land][1], [double auctions][2] and [repeated games][3].
 
 **2011-2013**: Research assistant in Bar-Ilan University
 with [Prof. Sarit Kraus][sk] and [Prof. Ido Dagan][id]. Developed the infrastructure and natural-language component for
@@ -54,6 +53,7 @@ modern Hebrew][5].
 [3]: {{site.baseurl}}/topics/{{page.lang}}/repeatedgames
 [4]: {{site.baseurl}}/topics/{{page.lang}}/negochat
 [5]: {{site.baseurl}}/topics/{{page.lang}}/hebnlp
+[6]: {{site.baseurl}}/topics/{{page.lang}}/bitcoin
 [afl]: {{site.baseurl}}/diplomas/TeachingFeedback_MechonTal_Automata.pdf
 [dts]: {{site.baseurl}}/diplomas/TeachingFeedback_MechonTal_DataStructures.pdf
 [gra]: {{site.baseurl}}/diplomas/toara_1.jpg
