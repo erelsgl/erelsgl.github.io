@@ -14,6 +14,8 @@ better ways and I would like to check how they can be implemented.
 
 1. **Fair division of state budget** among citizens and citizen-groups.
 
+1. **Fair division of cabinet ministries** among parties. Save precious time in constructing a governemt!
+
 1. **Fair division of electricity** among households, in villages in which the power supply is less than the demand.
 
 1. **Experiments in [fair division][fairness]**. Recently, [together with Josue Ortega and Maria Kyropoulou](https://arxiv.org/abs/1810.08243), we wrote a paper describing a lab experiment about manipulation and envy in cake-cutting. I will be happy to extend this research to other division procedures and settings.
@@ -57,7 +59,7 @@ Our fair-and-square papers ([extended abstract][fairness-eurocg] and [full prepr
 This is mainly a question in discrete geometry.
 
 
-# Open Questions in Double Auctions
+# Open Questions in Mechanism Design
 
 I developed several mechanisms for double-sided markets; I will be very happy to know if they can be extended to more general settings. In particular:
 
@@ -67,6 +69,7 @@ I developed several mechanisms for double-sided markets; I will be very happy to
 
 1. In a **multi-commodity multi-unit** market, our [MIDA mechanism](https://arxiv.org/abs/1604.06210) is prior-free, truthful, budget-balanced and asymptotically-efficient, but it works only when each seller specializes in a single-commodity. Is there a mechanism that attains the same properties when *both buyers and sellers* can trade multiple commodities?
 
+1. We have a mechanism that [makes an appraiser work for you](https://arxiv.org/abs/1804.08314) and report the true value of an object. However, it is truthful only when the cost of computing the information is sufficiently small. For example, when the prior distribution of the value is uniform, the cost should be at most 1/4 of the expected value. Is there a truthful mechanism for eliciting the information when the cost is higher?
 
 [fairness-eurocg]: {{site.baseurl}}/papers/FairAndSquare-EuroCG-16.pdf
 [fairness-arxiv]:  http://arxiv.org/abs/1510.03170
