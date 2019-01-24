@@ -284,13 +284,14 @@
     id: appraiser
     lang: en
     title: >
-        Eliciting Truthful Unverifiable Information (aka Making an Appraiser Work for You)
-    authors: 2. Shani Alkobi, David Sarne, Erel Segal-Halevi and Tomer Sharbaf
-    date: 2018-07-10
+        Obtaining Costly Unverifiable Valuations from a Single Agent (aka Making an Appraiser Work for You)
+    authors: Erel Segal-Halevi, Shani Alkobi, Tomer Sharbaf and David Sarne
+    date: 2019-01-24
     topic: auctions
     level: conference+
     content: >
-        AAMAS 2018 (extended abstract) and [arXiv 2018](https://arxiv.org/abs/1804.08314).
+        AAMAS 2019 and [arXiv 2018](https://arxiv.org/abs/1804.08314).
+    review: "very well written", "strikes me as very interesting"
 
 
 
