@@ -279,7 +279,6 @@
     content: >
         [Operations Research Letters, 2016, pages 757-760](http://dx.doi.org/10.1016/j.orl.2016.09.012). &nbsp;&nbsp;&nbsp; [Full version](https://arxiv.org/abs/1607.01989)
     review: As far as I can tell, the characterization is correct.
-
 -
     id: appraiser
     lang: en
@@ -291,7 +290,7 @@
     level: conference+
     content: >
         AAMAS 2019 and [arXiv 2018](https://arxiv.org/abs/1804.08314).
-    review: "very well written", "strikes me as very interesting"
+    review: Very well written... Strikes me as very interesting.
 
 
 
