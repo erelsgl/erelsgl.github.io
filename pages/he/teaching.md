@@ -17,7 +17,7 @@ lang: he
 1. תיכנות מונחה-עצמים:  [חורף ה'תשע"ח 2018][oop5778].
 
 
-[projects5780]: https://github.com/erelsgl-at-ariel/projects-5778
+[projects5780]: https://github.com/erelsgl-at-ariel/projects-5780
 [oop5778]: https://github.com/erelsgl-at-ariel/oop-5778
 [alg5778]: https://github.com/erelsgl-at-ariel/algorithms2m-5778
 [cpp5778]: https://github.com/erelsgl-at-ariel/cpp-5778
