@@ -5,11 +5,7 @@ title:  Teaching
 lang: en
 ---
 
-# Ideas for student projects
-
-Below are some ideas for projects. Some of them can be good as a final project for undergraduates. Others can be good for MA or PhD students.
-
-All the material for my courses is available in Hebrew below.
+All the material for the courses I have taught is available in Hebrew below.
 
 1. Undergraduate project topics: [2020][projects5780]. For master and Ph.D.  topics, see my [wishlist](/pages/en/wishlist/).
 
