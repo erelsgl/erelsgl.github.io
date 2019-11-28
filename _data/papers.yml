@@ -145,7 +145,7 @@
 -
     id: Entitlements
     lang: en
-    title: Cake-Cutting with Different Entitlements: How Many Cuts are Needed?
+    title: Cake-Cutting with Different Entitlements -- How Many Cuts are Needed?
     authors: Erel Segal-Halevi
     date: 2019-12-01
     topic: fairness
