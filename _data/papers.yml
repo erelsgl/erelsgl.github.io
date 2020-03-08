@@ -1,4 +1,4 @@
-﻿#### My papers and other publications
+#### My papers and other publications
 
 # Fair Division:
 -
@@ -10,7 +10,7 @@
     topic: fairness
     level: journal
     content: >
-        [Journal of Mathematical Economics 2017(70), 1--28](http://www.sciencedirect.com/science/article/pii/S0304406817300381).
+        [Journal of Mathematical Economics 2017, 70:1--28](http://www.sciencedirect.com/science/article/pii/S0304406817300381).
         *"The paper is now a full treatise on the subject, with enough material to fill three or four regular length articles" (--an anonymous reviewer)*.
         <span style='font-size:8pt'>Preliminary versions: [EuroCG 2016 (4 pages)](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) and [arXiv 2016 (54 pages)](http://arxiv.org/abs/1510.03170)</span>.
     presentation: >
@@ -34,7 +34,7 @@
     presentation: >
       /papers/WasteMakesHaste-60minutes-2016-05-BGU.pptx
     content: >
-        [ACM Transactions on Algorithms 2016, 12:1-12:32](http://dl.acm.org/citation.cfm?doid=2997037.2988232).
+        [ACM Transactions on Algorithms 2016, 12:1--32](http://dl.acm.org/citation.cfm?doid=2997037.2988232).
         <span style='font-size:8pt'>Preliminary versions: [AAMAS 2015](http://dl.acm.org/citation.cfm?id=2773268) and [arXiv 2016](http://arxiv.org/abs/1511.02599)</span>.
 -
     id: CakeCuttingMonotonicity
@@ -47,7 +47,7 @@
     presentation: >
       /papers/Monotonicity-30minutes-2016-07-GAMES.pptx
     content: >
-        [Economic Theory 68(2), 363--401](https://rdcu.be/PkIk).
+        [Economic Theory 2018, 68(2), 363--401](https://rdcu.be/PkIk).
         <span style='font-size:8pt'>Preliminary version: [arXiv 2018](http://arxiv.org/abs/1510.05229)</span>.
 -
     id: CakeCuttingMonotonicityCon
@@ -58,7 +58,7 @@
     topic: fairness
     level: journal
     content: >
-        [Mathematical Social Sciences 2018(95), 19--30](https://www.sciencedirect.com/science/article/pii/S0165489618300520).
+        [Mathematical Social Sciences 2018, 95:19--30](https://www.sciencedirect.com/science/article/pii/S0165489618300520).
         <span style='font-size:8pt'>Preliminary version: [arXiv 2017](http://arxiv.org/abs/1703.08928)</span>.
 -
     id: EnvyFreeAndSquare
@@ -67,10 +67,10 @@
     authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
     date: 2015-01-10
     topic: fairness
-    level: conference+
+    level:journal
     presentation: /papers/EnvyFreeAndSquare-Poster-2015-01-AAAI.ppt
     content: >
-        [AAAI 2015](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages) and [arXiv 2016](https://arxiv.org/abs/1609.03938) (42 pages). Extensions and improvements are welcome.
+		Mathematics of Operations Research 2020 and [AAAI 2015](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages) and [arXiv 2016](https://arxiv.org/abs/1609.03938) (42 pages). 
     review: Structure, readability and formal accuracy are very good
 
 -
@@ -82,7 +82,7 @@
     topic: fairness
     level: journal
     content: >
-        [Social Choice and Welfare 53(4), 709--740](https://link.springer.com/journal/355) and
+        [Social Choice and Welfare 2019, 53(4):709--740](https://link.springer.com/journal/355) and
         [arXiv 2019](http://arxiv.org/abs/1510.03903).
     presentation: >
       /papers/Families-60minutes-2018-10-Rome.pdf
@@ -107,7 +107,7 @@
     topic: fairness
     level: journal
     content: >
-        [SIAM Journal on Discrete Mathematics 32(3), 2242–2257](https://epubs.siam.org/doi/abs/10.1137/16M110407X) and [arXiv 2018](http://arxiv.org/abs/1604.00960).
+        [SIAM Journal on Discrete Mathematics 2018, 32(3):2242–-2257](https://epubs.siam.org/doi/abs/10.1137/16M110407X) and [arXiv 2018](http://arxiv.org/abs/1604.00960).
 -
     id: FairnessEfficiencyTradeoff
     lang: en
@@ -151,7 +151,7 @@
     topic: fairness
     level: journal
     content: >
-        [Journal of Mathematical Analysis 2019(123382)](https://doi.org/10.1016/j.jmaa.2019.123382) and [arXiv 2019](https://arxiv.org/abs/1803.05470).
+        [Journal of Mathematical Analysis 2019, 123382](https://doi.org/10.1016/j.jmaa.2019.123382) and [arXiv 2019](https://arxiv.org/abs/1803.05470).
 
 -
     id: pone
@@ -171,9 +171,9 @@
     authors: Maria Kyropoulou and Josue Ortega and Erel Segal-Halevi
     date: 2019-12-01
     topic: fairness
-    level: working
+    level: conference+
     content: >
-        [arXiv 2019](https://arxiv.org/abs/1810.08243).
+        EC 2019 and [arXiv 2019](https://arxiv.org/abs/1810.08243).
 
 
 
@@ -185,9 +185,9 @@
     authors: Erel Segal-Halevi, Avinatan Hassidim, Haris Aziz
     date: 2017-04-24
     topic: fairness-indivisible
-    level: conference+
+    level: journal
     content: >
-        [IJCAI 2017 pages 1254-1261](https://www.ijcai.org/proceedings/2017/174) and [arXiv 2019](https://arxiv.org/abs/1705.07993)
+        [Journal of Artificial Intelligence Research 2020, 67:471--507](https://www.jair.org/index.php/jair/article/view/11994) and [IJCAI 2017 pages 1254-1261](https://www.ijcai.org/proceedings/2017/174) and [arXiv 2019](https://arxiv.org/abs/1705.07993)
 -
     id: GroupItemAllocation
     lang: en
@@ -197,18 +197,18 @@
     topic: fairness-indivisible
     level: journal
     content: >
-        IJCAI 2018 and [Artificial Intelligence 277(103167)](https://doi.org/10.1016/j.artint.2019.103167) and [arXiv 2019](https://arxiv.org/abs/1709.02564).
+        IJCAI 2018 and [Artificial Intelligence 2019, 277(103167)](https://doi.org/10.1016/j.artint.2019.103167) and [arXiv 2019](https://arxiv.org/abs/1709.02564).
 
 -
     id: CEFAI
     lang: en
-    title: Competitive Equiliibrium For almost All Incomes
+    title: Competitive Equiliibrium For almost All Incomes: Existence and Fairness
     authors: Erel Segal-Halevi
     date: 2018-01-01
     topic: fairness-indivisible
-    level: conference+
+    level: journal
     content: >
-        AAMAS 2018 and [arXiv 2018](https://arxiv.org/abs/1705.04212).
+        [Journal of Autonomous Agents and Multiagent Systems 2020, 34:26:1--50](https://rdcu.be/b1ZX5) and AAMAS 2018 and [arXiv 2018](https://arxiv.org/abs/1705.04212).
     presentation: >
       /papers/CEFAI-15minutes-2018-07-AAMAS.pdf
 
@@ -222,6 +222,7 @@
     level: working
     content: >
         [arXiv 2019](https://arxiv.org/abs/1908.01669).
+
 -
     id: efm
     lang: en
@@ -232,7 +233,8 @@
     level: working
     content: >
         [arXiv 2019](https://arxiv.org/abs/1901.09527).
-
+    presentation: >
+      /papers/EFM-60minutes-2020-03-BIU-Combinatorics.pdf
 
 
 
