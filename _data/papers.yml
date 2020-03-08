@@ -70,7 +70,7 @@
     level: journal
     presentation: /papers/EnvyFreeAndSquare-Poster-2015-01-AAAI.ppt
     content: >
-        Mathematics of Operations Research 2020 and [arXiv 2016](https://arxiv.org/abs/1609.03938) (42 pages). 
+        Mathematics of Operations Research 2020 and [arXiv 2019](https://arxiv.org/abs/1609.03938) (42 pages). 
         <span style='font-size:8pt'>Preliminary version: [AAAI 2015](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages)</span>.
     review: Structure, readability and formal accuracy are very good
 
@@ -102,7 +102,7 @@
 -
     id: CakeWithToppings
     lang: en
-    title: Counting Blanks in Polygonal Arrangements (Previously called "Cutting a Cake without Harming the Toppings").
+    title: Counting Blanks in Polygonal Arrangements <small>(Previously called "Cutting a Cake without Harming the Toppings")</small>.
     authors: Arseniy Akopyan, Erel Segal-Halevi
     date: 2018-09-06
     topic: fairness
@@ -192,24 +192,26 @@
 -
     id: GroupItemAllocation
     lang: en
-    title: Democratic Fair Allocation of Indivisible Goods.
+    title: Democratic Fair Allocation of Indivisible Goods
     authors: Erel Segal-Halevi, Warut Suksompong
     date: 2019-12-01
     topic: fairness-indivisible
     level: journal
     content: >
-        [Artificial Intelligence 2019, 277(103167)](https://doi.org/10.1016/j.artint.2019.103167) and IJCAI 2018 and [arXiv 2019](https://arxiv.org/abs/1709.02564).
+        [Artificial Intelligence 2019, 277(103167)](https://doi.org/10.1016/j.artint.2019.103167) and [arXiv 2019](https://arxiv.org/abs/1709.02564).
+        <span style='font-size:8pt'>Preliminary version: IJCAI 2018</span>.
 
 -
     id: CEFAI
     lang: en
-    title: Competitive Equiliibrium For almost All Incomes - Existence and Fairness
+    title: Competitive Equilibrium For almost All Incomes - Existence and Fairness
     authors: Erel Segal-Halevi
     date: 2020-02-01
     topic: fairness-indivisible
     level: journal
     content: >
-        [Journal of Autonomous Agents and Multiagent Systems 2020, 34:26:1--50](https://rdcu.be/b1ZX5) and AAMAS 2018 and [arXiv 2018](https://arxiv.org/abs/1705.04212).
+        [Journal of Autonomous Agents and Multiagent Systems 2020, 34:26:1--50](https://rdcu.be/b1ZX5) and [arXiv 2020](https://arxiv.org/abs/1705.04212).
+        <span style='font-size:8pt'>Preliminary version: AAMAS 2018</span>.
     presentation: >
       /papers/CEFAI-15minutes-2018-07-AAMAS.pdf
 
