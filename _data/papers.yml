@@ -70,7 +70,7 @@
     level: journal
     presentation: /papers/EnvyFreeAndSquare-Poster-2015-01-AAAI.ppt
     content: >
-		Mathematics of Operations Research 2020 and [AAAI 2015](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages) and [arXiv 2016](https://arxiv.org/abs/1609.03938) (42 pages). 
+        Mathematics of Operations Research 2020 and [AAAI 2015](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages) and [arXiv 2016](https://arxiv.org/abs/1609.03938) (42 pages). 
     review: Structure, readability and formal accuracy are very good
 
 -
@@ -202,7 +202,7 @@
 -
     id: CEFAI
     lang: en
-    title: Competitive Equiliibrium For almost All Incomes: Existence and Fairness
+    title: Competitive Equiliibrium For almost All Incomes - Existence and Fairness
     authors: Erel Segal-Halevi
     date: 2018-01-01
     topic: fairness-indivisible
