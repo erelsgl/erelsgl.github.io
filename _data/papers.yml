@@ -174,7 +174,7 @@
     topic: fairness
     level: conference+
     content: >
-        EC 2019 and [arXiv 2019](https://arxiv.org/abs/1810.08243).
+        [EC 2019](https://dl.acm.org/doi/abs/10.1145/3328526.3329592) and [arXiv 2019](https://arxiv.org/abs/1810.08243).
 
 
 
@@ -188,7 +188,9 @@
     topic: fairness-indivisible
     level: journal
     content: >
-        [Journal of Artificial Intelligence Research 2020, 67:471--507](https://www.jair.org/index.php/jair/article/view/11994) and [IJCAI 2017 pages 1254-1261](https://www.ijcai.org/proceedings/2017/174) and [arXiv 2019](https://arxiv.org/abs/1705.07993)
+        [Journal of Artificial Intelligence Research 2020, 67:471--507](https://www.jair.org/index.php/jair/article/view/11994).
+        <span style='font-size:8pt'>Preliminary versions: [IJCAI 2017 pages 1254-1261](https://www.ijcai.org/proceedings/2017/174) and [arXiv 2019](https://arxiv.org/abs/1705.07993)</span>.
+         
 -
     id: GroupItemAllocation
     lang: en
@@ -210,8 +212,8 @@
     topic: fairness-indivisible
     level: journal
     content: >
-        [Journal of Autonomous Agents and Multiagent Systems 2020, 34:26:1--50](https://rdcu.be/b1ZX5) and [arXiv 2020](https://arxiv.org/abs/1705.04212).
-        <span style='font-size:8pt'>Preliminary version: AAMAS 2018</span>.
+        [Journal of Autonomous Agents and Multiagent Systems 2020, 34:26:1--50](https://rdcu.be/b1ZX5).
+        <span style='font-size:8pt'>Preliminary versions: AAMAS 2018 and [arXiv 2020](https://arxiv.org/abs/1705.04212)</span>.
     presentation: >
       /papers/CEFAI-15minutes-2018-07-AAMAS.pdf
 
