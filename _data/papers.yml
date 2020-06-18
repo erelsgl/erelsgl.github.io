@@ -163,19 +163,6 @@
     topic: fairness
     level: journal
     content: >
-        Discrete Applied Mathematics 2020 (forthcoming) and [arXiv 2019](https://arxiv.org/abs/1609.03938) (42 pages). 
-        <span style='font-size:8pt'>Preliminary version: [AAAI 2015](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages)</span>.
-    review: Structure, readability and formal accuracy are very good
-
--
-    id: Multicake
-    lang: en
-    title: Fair Multi-Cake Cutting
-    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
-    date: 2020-07-01
-    topic: fairness
-    level: journal
-    content: >
         Discrete Applied Mathematics 2020 (forthcoming) and [arXiv 2020](https://arxiv.org/abs/1812.08150) (32 pages). 
     review: Some of the ideas in this proof will become part of many cake-cutters’ toolkits.
 
