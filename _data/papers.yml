@@ -155,10 +155,47 @@
         [Journal of Mathematical Analysis 2019, 123382](https://doi.org/10.1016/j.jmaa.2019.123382) and [arXiv 2019](https://arxiv.org/abs/1803.05470).
 
 -
+    id: Multicake
+    lang: en
+    title: Fair Multi-Cake Cutting
+    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+    date: 2020-07-01
+    topic: fairness
+    level: journal
+    content: >
+        Discrete Applied Mathematics 2020 (forthcoming) and [arXiv 2019](https://arxiv.org/abs/1609.03938) (42 pages). 
+        <span style='font-size:8pt'>Preliminary version: [AAAI 2015](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages)</span>.
+    review: Structure, readability and formal accuracy are very good
+
+-
+    id: Multicake
+    lang: en
+    title: Fair Multi-Cake Cutting
+    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+    date: 2020-07-01
+    topic: fairness
+    level: journal
+    content: >
+        Discrete Applied Mathematics 2020 (forthcoming) and [arXiv 2020](https://arxiv.org/abs/1812.08150) (32 pages). 
+    review: Some of the ideas in this proof will become part of many cake-cutters’ toolkits.
+
+-
+    id: EnvyfreeGroups
+    lang: en
+    title: How to Cut a Cake Fairly - A Generalization to Groups
+    authors: Erel Segal-Halevi, Warut Suksompong
+    date: 2021-01-01
+    topic: fairness
+    level: journal
+    content: >
+        American Mathematical Monthly 2021 (forthcoming) and [arXiv 2020](https://arxiv.org/abs/2001.03327) (5 pages). 
+    review: The paper is extremely well-written.
+
+-
     id: pone
     lang: en
     title: Fair and Efficient Division among Families
-    authors: Sofie Bade and Erel Segal-Halevi
+    authors: Sophie Bade and Erel Segal-Halevi
     date: 2019-12-01
     topic: fairness
     level: working
@@ -179,6 +216,29 @@
 
 
 # Fairness - indivisible items:
+
+-
+    id: Rental
+    lang: en
+    title: Generalized Rental Harmony
+    authors: Erel Segal-Halevi
+    date: 2020-02-01
+    topic: fairness-indivisible
+    level: working
+    content: >
+        [arXiv 2020](https://arxiv.org/abs/1912.13249).
+
+-
+    id: MMS
+    lang: en
+    title: The Maximin Share Dominance Relation 
+    authors: Erel Segal-Halevi
+    date: 2019-12-18
+    topic: fairness-indivisible
+    level: working
+    content: >
+        [arXiv 2019](https://arxiv.org/abs/1912.08763).
+
 -
     id: Diminish
     lang: en
@@ -220,13 +280,24 @@
 -
     id: minshare
     lang: en
-    title: Fair Division with Minimal Sharing
+    title: Efficient Fair Division with Minimal Sharing
     authors: Fedor Sandomirskiy and Erel Segal-Halevi
     date: 2019-11-01
     topic: fairness-indivisible
     level: working
     content: >
         [arXiv 2019](https://arxiv.org/abs/1908.01669).
+
+-
+    id: boundshare
+    lang: en
+    title: Fair Division with Bounded Sharing
+    authors: Erel Segal-Halevi
+    date: 2019-11-01
+    topic: fairness-indivisible
+    level: working
+    content: >
+        [arXiv 2019](https://arxiv.org/abs/1912.00459).
 
 -
     id: efm
@@ -358,9 +429,9 @@
     authors: Erel Segal-Halevi, Shani Alkobi, Tomer Sharbaf and David Sarne
     date: 2019-01-24
     topic: auctions
-    level: conference+
+    level: journal
     content: >
-        AAMAS 2019 and [arXiv 2018](https://arxiv.org/abs/1804.08314).
+        AAMAS 2019 and JAAMAS 2020 and [arXiv 2018](https://arxiv.org/abs/1804.08314).
     review: Very well written... Strikes me as very interesting.
 
 

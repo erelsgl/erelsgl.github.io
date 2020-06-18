@@ -6,7 +6,7 @@ date
 echo -- add --
 /usr/bin/git add -A
 echo -- commit --
-/usr/bin/git commit -m "$1"
+/usr/bin/git commit -m "Update from home"
 echo -- pull --
 /usr/bin/git pull
 echo -- push --
