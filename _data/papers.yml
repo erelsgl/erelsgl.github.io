@@ -259,7 +259,7 @@
     topic: fairness-indivisible
     level: journal
     content: >
-        [Journal of Autonomous Agents and Multiagent Systems 2020, 34:26:1--50](https://rdcu.be/b1ZX5).
+        [Journal of Autonomous Agents and Multiagent Systems 2020, 34(26):1--50](https://rdcu.be/b1ZX5).
         <span style='font-size:8pt'>Preliminary versions: AAMAS 2018 and [arXiv 2020](https://arxiv.org/abs/1705.04212)</span>.
     presentation: >
       /papers/CEFAI-15minutes-2018-07-AAMAS.pdf
@@ -414,13 +414,13 @@
     title: >
         Obtaining Costly Unverifiable Valuations from a Single Agent (aka Making an Appraiser Work for You)
     authors: Erel Segal-Halevi, Shani Alkobi, Tomer Sharbaf and David Sarne
-    date: 2019-01-24
+    date: 2020-10-01
     topic: auctions
     level: journal
     content: >
-        AAMAS 2019 and JAAMAS 2020 and [arXiv 2018](https://arxiv.org/abs/1804.08314).
+        [Journal of Autonomous Agents and Multiagent Systems 2020, 34(2):1--25](https://rdcu.be/b44Bq).
+        <span style='font-size:8pt'>Preliminary versions: AAMAS 2019 and [arXiv 2019](https://arxiv.org/abs/1804.08314)</span>.
     review: Very well written... Strikes me as very interesting.
-
 
 
 # NLP and NegoChat:
