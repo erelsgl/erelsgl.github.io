@@ -18,7 +18,7 @@ I offer several kinds of projects:
 
 1. [Developing and implementing fair division algorithms][fairdivision]. Open for students taking the [economic algorithms][alg5781] course. Can be extended to an MA thesis.
 
-1. Developing an original research or educational game. Open for students taking the [game development][gamedev2021] course.
+1. Developing an original research or educational game. Open for students taking the [game development][gamedev5781] course.
 
 1. Contribution to open-source projects: [you can find some examples here][opensource], or suggest your own ideas. Open to all students.
 
