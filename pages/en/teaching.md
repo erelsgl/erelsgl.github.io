@@ -5,21 +5,42 @@ title:  Teaching
 lang: en
 ---
 
-All the material for the courses I have taught is available in Hebrew below.
+## Teaching in 2021
 
-1. Undergraduate project topics: [2020][projects5780]. For master and Ph.D.  topics, see my [wishlist](/pages/en/wishlist/).
+1. Winter: [Economic Algorithms][alg5781] and  [Game Development][gamedev5781].
 
-1. Economic algorithms (mechanism design): [Spring 2018][alg5778], [Spring 2019][alg5779].
+1. Spring: [System Programming (C++)][cpp5781].
 
-1. C++ and memory Structure: [Spring 2018][cpp5778], [Spring 2019][cpp5779].
 
-1. Object-oriented programming:  [Winter 2018][oop5778].
+## Student projects in 2021
+
+I offer several kinds of projects:
+
+1. [Developing and implementing fair division algorithms][fairdivision]. Open for students taking the [economic algorithms][alg5781] course. Can be extended to an MA thesis.
+
+1. Developing an original research or educational game. Open for students taking the [game development][gamedev2021] course.
+
+1. Contribution to open-source projects: [you can find some examples here][opensource], or suggest your own ideas. Open to all students.
+
+To suggest a project, please send an email with your uptodate grade sheet to: davidesh@ariel.ac.il
+
+
 
 [projects5780]: https://github.com/erelsgl-at-ariel/projects-5780
-[oop5778]: https://github.com/erelsgl-at-ariel/oop-5778
-[alg5778]: https://github.com/erelsgl-at-ariel/algorithms2m-5778
-[cpp5778]: https://github.com/erelsgl-at-ariel/cpp-5778
-[cpp5779]: https://github.com/erelsgl/ariel-cpp-5779
-[alg5779]: https://github.com/erelsgl/ariel-algorithms-5779
-[sympy]: https://www.sympy.org/en/index.html
+[opensource]: https://github.com/erelsgl-at-ariel/projects-5780/blob/master/open-source-projects.pdf
+[fairdivision]: https://github.com/erelsgl-at-ariel/projects-5780/blob/master/fair-division-algorithms.pdf
 
+[cpp5778]: https://github.com/erelsgl-at-ariel/cpp-5778
+[cpp5779]: https://github.com/erelsgl-at-ariel/cpp-5779
+[cpp5780]: https://github.com/erelsgl-at-ariel/cpp-5780
+[cpp5781]: https://github.com/erelsgl-at-ariel/cpp-5781
+
+[alg5778]: https://github.com/erelsgl-at-ariel/algorithms2m-5778
+[alg5779]: https://github.com/erelsgl-at-ariel/algorithms-5779
+[alg5780]: https://github.com/erelsgl-at-ariel/algorithms-5780
+[alg5781]: https://github.com/erelsgl-at-ariel/algorithms-5781
+
+[gamedev5780]: https://github.com/gamedev-at-ariel/gamedev-5780
+[gamedev5781]: https://github.com/gamedev-at-ariel/gamedev-5781
+
+[oop5778]: https://github.com/erelsgl-at-ariel/oop-5778
