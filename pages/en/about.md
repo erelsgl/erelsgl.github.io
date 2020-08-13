@@ -13,9 +13,10 @@ My main research goal is to develop algorithms for making human society better a
 In the past I did research in natural language processing - [English negotiation][4] and [Hebrew morphology][5]. 
 The inspiration to research these diverse topics comes from the [Bible][7].
 
-I am looking for students for M.Sc., Ph.D. and post-doc positions. The requirements are: (1) an aspiration for making the world better, (2) creative imagination, and (3) excellent mathematical skills. Both Israeli and international students are welcome.
+I am looking for students for M.Sc., Ph.D. and post-doc positions for the research program [fair division: from theory to practice][research] and similar topics. The requirements are: (1) an aspiration for making the world better, (2) creative imagination, and (3) excellent mathematical skills. Both Israeli and international students are welcome.
+Stipends are available for excellent students.
 
-For some open questions I find particularly interesting, see my [wishlist][8].
+For other open questions I find particularly interesting, see my [wishlist][8].
 
 <p style='display:none'>
 In addition to research, I have many years of experience [programming in various languages][6].
@@ -33,6 +34,7 @@ In addition to research, I have many years of experience [programming in various
 [6]: {{site.baseurl}}/pages/{{page.lang}}/code
 [7]: {{site.baseurl}}/topics/{{page.lang}}/tnk
 [8]: {{site.baseurl}}/pages/{{page.lang}}/wishlist
+[research]: {{site.baseurl}}/papers/ResearchProgram-ISF-712-20.pdf
 [ya]: https://sites.google.com/site/aumannbiu/
 [ah]: http://u.cs.biu.ac.il/~avinatan/
 [phd]: {{site.baseurl}}/papers/Erel-Segal-Halevi-PhD-Thesis.pdf
