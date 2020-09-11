@@ -40,14 +40,16 @@ davidesh@ariel.ac.il
 
 * **מעגלי המסחר** - בניית אתר אינטרנט להחלפת חפצים, תורנויות ועוד, בעזרת אלגוריתם המבטיח שהחלוקה תהיה יעילה-פארטו - כולם ירויחו ואף אחד לא יפסיד.
 מאת: אריק רחמני וטל קבסו.
-[קוד מקור][proj5780trade]
+[קוד מקור][proj5780trade],
+[אתר][proj5780tradesite]
 
 * **חלוקה הוגנת עם מינימום שיתופים** - מימוש, ייעול, בדיקה, ובניית אתר לאלגוריתם חדשני לחלוקה הוגנת של חפצים.
 מאת: אליהו ונחשון סתת, דניאל אברג'ל, אלישיב דרעי, נתנאן בן-ישכר, ירדן גאון.
 [קוד מקור][proj5780fair]
 
-* [השתתפות בפיתוח קורס משחקי מחשב ה'תש"ף][gamedev5780].
+* **השתתפות בפיתוח קורס משחקי מחשב ה'תש"ף**. 
 מאת: מעוז גרוסמן, מיכאל למברגר, אור הדר, גיא אנקרי.
+[החזון][proj5780gamedev], [הקורס][gamedev5780]
 
 
 
@@ -59,8 +61,11 @@ davidesh@ariel.ac.il
 [opensource]: https://github.com/erelsgl-at-ariel/projects-5780/blob/master/open-source-projects.pdf
 [fairdivision]: https://github.com/erelsgl-at-ariel/projects-5780/blob/master/fair-division-algorithms.pdf
 [seriousgames]: https://en.wikipedia.org/wiki/Serious_games
+[proj5780gamedev]: https://maoz-grossman.github.io/GameDev-Ariel/
 [proj5780fair]: https://github.com/DanielAbergel/Distribution-Algorithm
+[proj5780fairsite]: https://???
 [proj5780trade]: https://github.com/aricRach/final-project
+[proj5780tradesite]: https://multitrade.herokuapp.com/
 
 [cpp5778]: https://github.com/erelsgl-at-ariel/cpp-5778
 [cpp5779]: https://github.com/erelsgl-at-ariel/cpp-5779
