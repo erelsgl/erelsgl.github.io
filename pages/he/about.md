@@ -4,6 +4,9 @@ layout: page
 title:  בית
 lang: he
 ---
+
+[תפילת החוקר][tfila]
+
 # אראל סגל-הלוי - דף-בית אקדמי 
 
 אני חוקר ומרצה באוניברסיטת אריאל, במחלקה למדעי המחשב.
@@ -34,6 +37,7 @@ lang: he
 <img src='/images/temple_mount_20170727_012.jpg' alt='אשתי ואני על הר הבית, 2017-07-27'/>
 </p>
 
+[tfila]: {{site.baseurl}}/papers/tfila_a3.pdf
 [1]: {{site.baseurl}}/topics/{{page.lang}}/fairness
 [2]: {{site.baseurl}}/topics/{{page.lang}}/auctions
 [3]: {{site.baseurl}}/topics/{{page.lang}}/repeatedgames
