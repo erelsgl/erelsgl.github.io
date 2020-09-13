@@ -47,7 +47,7 @@
     presentation: >
       /papers/Monotonicity-30minutes-2016-07-GAMES.pptx
     content: >
-        [Economic Theory 2018, 68(2), 363--401](https://rdcu.be/PkIk).
+        [Economic Theory 2018, 68(2):363--401](https://rdcu.be/PkIk).
         <span style='font-size:8pt'>Preliminary version: [arXiv 2018](http://arxiv.org/abs/1510.05229)</span>.
 -
     id: CakeCuttingMonotonicityCon
@@ -64,13 +64,13 @@
     id: EnvyFreeAndSquare
     lang: en
     title: Envy-Free Division of Land 
-    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+    authors: Erel Segal-Halevi, Shmuel Nitzan, Avinatan Hassidim, Yonatan Aumann
     date: 2020-04-01
     topic: fairness
     level: journal
     presentation: /papers/EnvyFreeAndSquare-Poster-2015-01-AAAI.ppt
     content: >
-        Mathematics of Operations Research 2020 and [arXiv 2019](https://arxiv.org/abs/1609.03938) (42 pages). 
+        [Mathematics of Operations Research 2020, 45(3):896--922](https://pubsonline.informs.org/doi/abs/10.1287/moor.2019.1016) and [arXiv 2019](https://arxiv.org/abs/1609.03938) (42 pages). 
         <span style='font-size:8pt'>Preliminary version: [AAAI 2015](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages)</span>.
     review: Structure, readability and formal accuracy are very good
 
@@ -158,7 +158,7 @@
     id: Multicake
     lang: en
     title: Fair Multi-Cake Cutting
-    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+    authors: Erel Segal-Halevi
     date: 2020-07-01
     topic: fairness
     level: journal
@@ -200,6 +200,17 @@
     content: >
         [EC 2019](https://dl.acm.org/doi/abs/10.1145/3328526.3329592) and [arXiv 2019](https://arxiv.org/abs/1810.08243).
 
+
+-
+    id: realestate
+    lang: en
+    title: Fair Cake-Cutting Algorithms with Real Land-Value Data‏
+    authors: Itay Shtechman and Rica Gonen and Erel Segal-Halevi
+    date: 2020-05-01
+    topic: fairness
+    level: conference-
+    content: >
+        [AAMAS 2020](https://dl.acm.org/doi/abs/10.5555/3398761.3399056).
 
 
 # Fairness - indivisible items:
@@ -380,7 +391,7 @@
     topic: auctions
     level: conference+
     content: >
-        AAAI 2020 and [arXiv 2019](https://arxiv.org/abs/1911.08094).
+        [AAAI 2020](https://aaai.org/ojs/index.php/AAAI/article/view/5571) and [arXiv 2019](https://arxiv.org/abs/1911.08094).
 -
     id: SBBA
     lang: en
@@ -413,7 +424,7 @@
     lang: en
     title: >
         Obtaining Costly Unverifiable Valuations from a Single Agent (aka Making an Appraiser Work for You)
-    authors: Erel Segal-Halevi, Shani Alkobi, Tomer Sharbaf and David Sarne
+    authors: Erel Segal-Halevi, Shani Alkoby, Tomer Sharbaf and David Sarne
     date: 2020-10-01
     topic: auctions
     level: journal
@@ -495,6 +506,8 @@
       url: http://tora.us.fm/imitator
       title:  הקובץ התשיעי - האם אתם מבינים את כתבי הרב קוק? הרמב"ם? הרצל?
       sourcecode: https://github.com/erelsgl/parody-generator
+
+
 
 # Jewish Economy - Yovel and Ribit0:
 -
