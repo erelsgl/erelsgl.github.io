@@ -216,6 +216,17 @@
 # Fairness - indivisible items:
 
 -
+    id: Matroid
+    lang: en
+    title: On Fair Division under Heterogeneous Matroid Constraints
+    authors: Amitay Dror, Michal Feldman, Erel Segal Halevi
+    date: 2020-10-15
+    topic: fairness-indivisible
+    level: working
+    content: >
+        [arXiv 2020](https://arxiv.org/abs/2010.07280).
+
+-
     id: Rental
     lang: en
     title: Generalized Rental Harmony
