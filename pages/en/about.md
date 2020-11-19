@@ -18,6 +18,8 @@ Stipends are available for excellent students.
 
 For other open questions I find particularly interesting, see my [wishlist][8].
 
+I serve as PC member in IJCAI (2018-2021), AAAI (2019-2021), AAMAS (2019-2021) and EC (2021), and  have [reviewed for various journals](https://publons.com/researcher/517277/erel-segal-halevi/peer-review/).
+
 <p style='display:none'>
 In addition to research, I have many years of experience [programming in various languages][6].
 </p>
