@@ -157,13 +157,13 @@
 -
     id: Multicake
     lang: en
-    title: Fair Multi-Cake Cutting
+    title: Fair Multi-Cake Cutting <small>(Previously called "Fair Division of an Archipelago")</small>
     authors: Erel Segal-Halevi
-    date: 2020-07-01
+    date: 2021-03-01
     topic: fairness
     level: journal
     content: >
-        Discrete Applied Mathematics 2020 (forthcoming) and [arXiv 2020](https://arxiv.org/abs/1812.08150) (32 pages). 
+        [Discrete Applied Mathematics 2021, 291:15--35](https://authors.elsevier.com/a/1cDmy,3nuHiTqA) and [arXiv 2020](https://arxiv.org/abs/1812.08150) (32 pages). 
     review: Some of the ideas in this proof will become part of many cake-cutters’ toolkits.
 
 -
