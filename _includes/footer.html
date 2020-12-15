@@ -6,6 +6,17 @@
              <a href="mailto:{{site.data.usernames.email}}" title="E-mail">{{site.data.usernames.email}}</a>
           </li>
 
+          {% if site.data.usernames.orcid %}
+          <li>
+            <a href="https://orcid.org/{{site.data.usernames.orcid}}"  title="ORCID record">
+                <span class="icon icon--google">
+                    <img src="{{site.baseurl}}/images/orcid.svg"/>
+                </span>
+                <span class="username">ORCID</span>
+            </a>
+          </li>
+          {% endif %}
+
           {% if site.data.usernames.googlescholar %}
           <li>
             <a href="https://scholar.google.co.il/citations?user={{site.data.usernames.googlescholar}}"  title="Google Scholar Citations">

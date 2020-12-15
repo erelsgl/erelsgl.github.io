@@ -4,6 +4,6 @@ github: erelsgl
 wikipedia: Erel Segal
 stackexchange: 439169
 googlescholar: K8TsXIkAAAAJ        # also Y9MDS5gAAAAJ
-# orcid: 0000-0002-7497-5834       # http://orcid.org/{{site.data.usernames.orcid}}
+orcid: 0000-0002-7497-5834         # http://orcid.org/{{site.data.usernames.orcid}}
 # researchgate: Erel_Segal-Halevi  # https://www.researchgate.net/profile/{{site.data.usernames.researchgate}}
 # arxiv: Segal_Halevi_E
