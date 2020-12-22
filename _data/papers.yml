@@ -13,18 +13,6 @@
         AAAI 2021 and [arXiv 2020](https://arxiv.org/abs/2012.06682).
 
 -
-    id: Hypergraphs
-    lang: en
-    title: Fractionally balanced hypergraphs and rainbow KKM theorems  
-    authors: Ron Aharoni, Eli Berger, Joseph Briggs, Erel Segal-Halevi, Shira Zerbib
-    date: 2020-11-01
-    topic: fairness
-    level: working
-    content: >
-        [arXiv 2020](https://arxiv.org/abs/2011.01053).
-
-
--
     id: FairAndSquare
     lang: en
     title: Fair and Square - Cake-Cutting in Two Dimensions
