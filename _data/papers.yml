@@ -2,6 +2,29 @@
 
 # Fair Division:
 -
+    id: FairGap1
+    lang: en
+    title: Mind the Gap - Cake Cutting With Separation 
+    authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
+    date: 2021-02-01
+    topic: fairness
+    level: conference+
+    content: >
+        AAAI 2021 and [arXiv 2020](https://arxiv.org/abs/2012.06682).
+
+-
+    id: Hypergraphs
+    lang: en
+    title: Fractionally balanced hypergraphs and rainbow KKM theorems  
+    authors: Ron Aharoni, Eli Berger, Joseph Briggs, Erel Segal-Halevi, Shira Zerbib
+    date: 2020-11-01
+    topic: fairness
+    level: working
+    content: >
+        [arXiv 2020](https://arxiv.org/abs/2011.01053).
+
+
+-
     id: FairAndSquare
     lang: en
     title: Fair and Square - Cake-Cutting in Two Dimensions
@@ -231,15 +254,26 @@
 # Fairness - indivisible items:
 
 -
-    id: Matroid
+    id: FairMatroid
     lang: en
-    title: On Fair Division under Heterogeneous Matroid Constraints
-    authors: Amitay Dror, Michal Feldman, Erel Segal Halevi
-    date: 2020-10-15
+    title: On Fair Division under Heterogeneous Matroid Constraints  
+    authors: Amitay Dror, Michal Feldman, Erel Segal-Halevi
+    date: 2021-02-01
+    topic: fairness-indivisible
+    level: conference+
+    content: >
+        AAAI 2021 and [arXiv 2020](https://arxiv.org/abs/2010.07280).
+
+-
+    id: FairUtilitarian
+    lang: en
+    title: Computing Fair Utilitarian Allocations of Indivisible Goods  
+    authors: Haris Aziz, Xin Huang, Nicholas Mattei, Erel Segal-Halevi
+    date: 2020-12-01
     topic: fairness-indivisible
     level: working
     content: >
-        [arXiv 2020](https://arxiv.org/abs/2010.07280).
+        [arXiv 2020](https://arxiv.org/abs/2012.03979).
 
 -
     id: Rental
@@ -328,7 +362,7 @@
 -
     id: efm
     lang: en
-    title: Envy-Free Matchings in Bipartite Graphs
+    title: Envy-Free Matchings in Bipartite Graphs and their Applications to Fair Division
     authors: Elad Aigner-Horev and Erel Segal-Halevi
     date: 2019-11-01
     topic: fairness-indivisible
@@ -409,6 +443,17 @@
         [AAAI 2018](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16593) and [arXiv 2018](https://arxiv.org/abs/1712.06848).
     presentation: >
       /papers/MUDA-poster-AAAI18.ppt
+-
+    id: multilateraltree
+    lang: en
+    title: >
+        A Global Multi-Sided Market with Ascending-Price Mechanism
+    authors: Rica Gonen, Erel Segal-Halevi
+    date: 2021-03-01
+    topic: auctions
+    level: conference-
+    content: >
+        AAMAS 2021 (extended abstract)
 -
     id: multilateral
     lang: en
