@@ -7,13 +7,14 @@ lang: en
 In parallel to research, I love to learn new programming languages and technologies. 
 <br/>Here are some languages I know, in reverse chronological order, and some sample projects:
 
-1. Java 8 (2017-2018): [a course in object-oriented programming][oop].
-
-1. Python (2016-2018): Simulations in various research-related topics, including:
+1. Python (2016-2021): Simulations in various research-related topics, including:
+* [Fairpy - a library of fair division algorithms][fairpy];
 * [Bitcoin and its new Lightning network][bitcoin];
 * [Social choice][PrefLibTools] and preference profiles;
 * [Auctions][economics] and market equilibria.
 <br/><br/>
+
+2. Java 8 (2017-2018): [a course in object-oriented programming][oop].
 
 2. [Jekyll][Jek1] (2016): this website, featuring [bilingual support][Jek2].
 
@@ -41,7 +42,7 @@ In parallel to research, I love to learn new programming languages and technolog
 
 7. [NetLogo][L1] (2011-2012): agent-based simulations of land division and Jubilee [simple][L2] and [with income effects][L3].
 
-8. C++: [my M.Sc. thesis][C2] (1997-1999), real-time programming during my IAF service (1999-2004) and teaching data structures (2010).
+8. C++: [my M.Sc. thesis][C2] (1997-1999), real-time programming during my IAF service (1999-2004) and teaching systems programming (2018-2021).
 
 9. Matlab (1999-2004): simulation programming during my IAF service.
 
@@ -79,3 +80,4 @@ In parallel to research, I love to learn new programming languages and technolog
 [oop]: https://github.com/erelsgl/ariel-oop-course
 [bitcoin]: https://github.com/erelsgl/bitcoin-simulations
 [economics]: https://github.com/erelsgl/economics
+[fairpy]: https://github.com/erelsgl/fairpy
