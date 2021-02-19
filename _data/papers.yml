@@ -10,7 +10,9 @@
     topic: fairness
     level: conference+
     content: >
-        AAAI 2021 and [arXiv 2020](https://arxiv.org/abs/2012.06682).
+        [AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-1625.ElkindE.pdf) and [arXiv 2020](https://arxiv.org/abs/2012.06682).
+    presentation: >
+        https://virtual.2021.aaai.org/paper_AAAI-1625.html
 
 -
     id: FairAndSquare
