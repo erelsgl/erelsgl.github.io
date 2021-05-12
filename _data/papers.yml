@@ -17,6 +17,28 @@
 #        https://slideslive.com/embed/presentation/38949666?url=https%3A%2F%2Fvirtual.2021.aaai.org%2Fpaper_AAAI-1625.html&origin=https%3A%2F%2Fvirtual.2021.aaai.org&target_id=presentation-intro&auto_play=&zoom_ratio=&disable_fullscreen=&locale=en&demo=&vertical_enabled=&vertical_enabled_on_mobile=&vertical_when_width_lte=500&allow_hidden_controls_when_paused=true&debug_slideslive_player=&user_uuid=e22cbfd9-a525-4e46-8e48-c2d46e0acaff
 
 -
+    id: FairGap2
+    lang: en
+    title: Keep Your Distance - Land Division With Separation 
+    authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
+    date: 2021-05-01
+    topic: fairness
+    level: conference+
+    content: >
+        IJCAI 2021.
+
+-
+    id: FairGap3
+    lang: en
+    title: Graphical Cake Cutting via Maximin Share 
+    authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
+    date: 2021-05-01
+    topic: fairness
+    level: conference+
+    content: >
+        IJCAJ 2021 and [arXiv 2021](https://arxiv.org/abs/2105.04755).
+
+-
     id: FairAndSquare
     lang: en
     title: Fair and Square - Cake-Cutting in Two Dimensions
@@ -225,7 +247,7 @@
     topic: fairness
     level: conference-
     content: >
-        [AAMAS 2020](https://dl.acm.org/doi/abs/10.5555/3398761.3399056) (extended abstract).
+        [AAMAS 2020](https://dl.acm.org/doi/abs/10.5555/3398761.3399056), pages 2005--2007 (extended abstract).
 
 
 -
@@ -448,7 +470,7 @@
     topic: auctions
     level: conference-
     content: >
-        AAMAS 2021 (extended abstract)
+        [AAMAS 2021](http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1515.pdf), pages 1515--1516 (extended abstract).
 -
     id: multilateral
     lang: en
