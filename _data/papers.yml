@@ -276,7 +276,7 @@
     topic: fairness-indivisible
     level: conference+
     content: >
-        [AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-5368.DrorA.pdf) and [arXiv 2020](https://arxiv.org/abs/2010.07280).
+        [Proc. AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-5368.DrorA.pdf); [full version](https://arxiv.org/abs/2010.07280).
     presentation: >
         https://virtual.2021.aaai.org/paper_AAAI-5368.html
 #        https://slideslive.com/embed/presentation/38950265?url=https%3A%2F%2Fvirtual.2021.aaai.org%2Fpaper_AAAI-5368.html&origin=https%3A%2F%2Fvirtual.2021.aaai.org&target_id=presentation-intro&auto_play=&zoom_ratio=&disable_fullscreen=&locale=en&demo=&vertical_enabled=&vertical_enabled_on_mobile=&vertical_when_width_lte=500&allow_hidden_controls_when_paused=true&debug_slideslive_player=&user_uuid=e22cbfd9-a525-4e46-8e48-c2d46e0acaff
@@ -284,13 +284,13 @@
 -
     id: FairUtilitarian
     lang: en
-    title: Computing Fair Utilitarian Allocations of Indivisible Goods  
+    title: Computing Welfare-Maximizing Fair Allocations of Indivisible Goods  
     authors: Haris Aziz, Xin Huang, Nicholas Mattei, Erel Segal-Halevi
-    date: 2020-12-01
+    date: 2021-12-01
     topic: fairness-indivisible
     level: working
     content: >
-        [arXiv 2020](https://arxiv.org/abs/2012.03979).
+        Submitted. Preprint at [arXiv 2021](https://arxiv.org/abs/2012.03979).
 
 -
     id: Rental
@@ -299,9 +299,9 @@
     authors: Erel Segal-Halevi
     date: 2020-02-01
     topic: fairness-indivisible
-    level: working
+    level: journal
     content: >
-        [arXiv 2020](https://arxiv.org/abs/1912.13249).
+        Accepted to American Mathematical Monthly. Preprint in [arXiv 2020](https://arxiv.org/abs/1912.13249).
 
 -
     id: MMS
@@ -312,7 +312,7 @@
     topic: fairness-indivisible
     level: working
     content: >
-        [arXiv 2019](https://arxiv.org/abs/1912.08763).
+        Working paper with open questions. [arXiv 2019](https://arxiv.org/abs/1912.08763).
 
 -
     id: Diminish
@@ -374,7 +374,7 @@
     topic: fairness-indivisible
     level: working
     content: >
-        [arXiv 2019](https://arxiv.org/abs/1912.00459).
+        Working paper with many open questions. [arXiv 2019](https://arxiv.org/abs/1912.00459).
 
 -
     id: efm
@@ -385,7 +385,7 @@
     topic: fairness-indivisible
     level: working
     content: >
-        [arXiv 2019](https://arxiv.org/abs/1901.09527).
+        Major revision. Preprint at [arXiv 2020](https://arxiv.org/abs/1901.09527).
     presentation: >
       /papers/EFM-60minutes-2020-03-BIU-Combinatorics.pdf
 
