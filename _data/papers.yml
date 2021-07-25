@@ -25,7 +25,10 @@
     topic: fairness
     level: conference+
     content: >
-        IJCAI 2021.
+        IJCAI 2021 and [arXiv 2021](https://arxiv.org/abs/2105.06669).
+    presentation: >
+        https://recorder-v3.slideslive.com/?share=45936&s=479fbab7-19e4-4924-bb54-da7eda50b620
+#        https://youtu.be/SXLgGU4g7bY
 
 -
     id: FairGap3
@@ -37,6 +40,9 @@
     level: conference+
     content: >
         IJCAJ 2021 and [arXiv 2021](https://arxiv.org/abs/2105.04755).
+    presentation: >
+        https://recorder-v3.slideslive.com/#/share?share=43356&s=993e5f2f-8ef4-43c0-92fa-d9de41920614
+#        https://youtu.be/kHmQupNF5DI
 
 -
     id: FairAndSquare
@@ -243,11 +249,12 @@
     lang: en
     title: Fair Cake-Cutting Algorithms with Real Land-Value Data‏
     authors: Itay Shtechman and Rica Gonen and Erel Segal-Halevi
-    date: 2020-05-01
+    date: 2021-07-22
     topic: fairness
-    level: conference-
+    level: journal
     content: >
-        [AAMAS 2020](https://dl.acm.org/doi/abs/10.5555/3398761.3399056), pages 2005--2007 (extended abstract).
+        [JAAMAS 2021, 35:39](https://rdcu.be/cpHG0). 
+        <small>There is also a [2-page extended abstract](https://dl.acm.org/doi/abs/10.5555/3398761.3399056)</small>.
 
 
 -
@@ -276,7 +283,7 @@
     topic: fairness-indivisible
     level: conference+
     content: >
-        [Proc. AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-5368.DrorA.pdf); [full version](https://arxiv.org/abs/2010.07280).
+        [AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-5368.DrorA.pdf); [full version](https://arxiv.org/abs/2010.07280).
     presentation: >
         https://virtual.2021.aaai.org/paper_AAAI-5368.html
 #        https://slideslive.com/embed/presentation/38950265?url=https%3A%2F%2Fvirtual.2021.aaai.org%2Fpaper_AAAI-5368.html&origin=https%3A%2F%2Fvirtual.2021.aaai.org&target_id=presentation-intro&auto_play=&zoom_ratio=&disable_fullscreen=&locale=en&demo=&vertical_enabled=&vertical_enabled_on_mobile=&vertical_when_width_lte=500&allow_hidden_controls_when_paused=true&debug_slideslive_player=&user_uuid=e22cbfd9-a525-4e46-8e48-c2d46e0acaff
@@ -308,7 +315,7 @@
     lang: en
     title: The Maximin Share Dominance Relation 
     authors: Erel Segal-Halevi
-    date: 2022-02-01
+    date: 2019-12-31
     topic: fairness-indivisible
     level: working
     content: >
@@ -370,7 +377,7 @@
     lang: en
     title: Fair Division with Bounded Sharing
     authors: Erel Segal-Halevi
-    date: 2022-03-01
+    date: 2019-12-31
     topic: fairness-indivisible
     level: working
     content: >

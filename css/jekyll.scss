@@ -30,6 +30,11 @@ $on-laptop:        800px;
 
 
 
+span.level-he {display:none}
+span.level-en {font-size:8pt; color:$grey-color}
+
+
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -52,3 +57,5 @@ $on-laptop:        800px;
         "content",
         "syntax-highlighting"
 ;
+
+

@@ -8,12 +8,13 @@ layout: page
 <a href='{{site.baseurl}}/pages/en/publications'>לפירסומים באנגלית לחצו כאן.</a>
 {% endif %}
 </p>
-{% assign papers=site.data.papers | where:"lang", page.lang | sort: 'date' | reverse %}
+{% for level in site.data.paperlevels %}
+{% assign papers=site.data.papers | where:"level", level | where:"lang", page.lang | sort: 'date' | reverse %}
 {% if papers.size > 0 %}
-<h2>{{site.data.labels.papers[page.lang]}}</h2>
+<h2>{{site.data.labels.levels[level][page.lang]}}</h2>
 <ol class='publications'>
   {% for p in papers %}
-    <li><span class='level-{{p.lang}}'>[{{p.level}}]</span>
+    <li>
         &quot;<b title="{{p.entitle}}">{{p.title}}</b>&quot;: {{p.authors}}. &nbsp;&nbsp;&nbsp;&nbsp;  {{p.content | markdownify | remove: '<p>' | remove: '</p>'}}
         {% if p.onlinedemo %}
         <a class='onlinedemo' href='{{p.onlinedemo.url}}'>{{site.data.labels.onlinedemo[page.lang]}}</a>
@@ -25,3 +26,4 @@ layout: page
   {% endfor %}
 </ol>
 {% endif %}
+{% endfor %}
