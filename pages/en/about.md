@@ -41,5 +41,5 @@ In addition to research, I have many years of experience [programming in various
 [ah]: http://u.cs.biu.ac.il/~avinatan/
 [phd]: {{site.baseurl}}/papers/Erel-Segal-Halevi-PhD-Thesis.pdf
 [biucs]: http://cs.biu.ac.il/
-[arielcs]: http://www.ariel.ac.il/cs/en/
+[arielcs]: https://www.ariel.ac.il/wp/cs/en/
 [ratio]: http://www.ratio.huji.ac.il/
