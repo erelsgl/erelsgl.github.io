@@ -12,8 +12,37 @@
     content: >
         [AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-1625.ElkindE.pdf) and [arXiv 2020](https://arxiv.org/abs/2012.06682).
     presentation: >
-        https://virtual.2021.aaai.org/paper_AAAI-1625.html
+        https://www.youtube.com/watch?v=CmT4vpUGKEw
+#        https://virtual.2021.aaai.org/paper_AAAI-1625.html
 #        https://slideslive.com/embed/presentation/38949666?url=https%3A%2F%2Fvirtual.2021.aaai.org%2Fpaper_AAAI-1625.html&origin=https%3A%2F%2Fvirtual.2021.aaai.org&target_id=presentation-intro&auto_play=&zoom_ratio=&disable_fullscreen=&locale=en&demo=&vertical_enabled=&vertical_enabled_on_mobile=&vertical_when_width_lte=500&allow_hidden_controls_when_paused=true&debug_slideslive_player=&user_uuid=e22cbfd9-a525-4e46-8e48-c2d46e0acaff
+
+-
+    id: FairGap2
+    lang: en
+    title: Keep Your Distance - Land Division With Separation 
+    authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
+    date: 2021-05-01
+    topic: fairness
+    level: conference+
+    content: >
+        [IJCAI 2021 distinguished paper award](https://www.comp.nus.edu.sg/news/2021-ijcai/) and [arXiv 2021](https://arxiv.org/abs/2105.06669).
+    presentation: >
+        https://recorder-v3.slideslive.com/?share=45936&s=479fbab7-19e4-4924-bb54-da7eda50b620
+#        https://youtu.be/SXLgGU4g7bY
+
+-
+    id: FairGap3
+    lang: en
+    title: Graphical Cake Cutting via Maximin Share 
+    authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
+    date: 2021-05-01
+    topic: fairness
+    level: conference+
+    content: >
+        IJCAJ 2021 and [arXiv 2021](https://arxiv.org/abs/2105.04755).
+    presentation: >
+        https://recorder-v3.slideslive.com/#/share?share=43356&s=993e5f2f-8ef4-43c0-92fa-d9de41920614
+#        https://youtu.be/kHmQupNF5DI
 
 -
     id: FairAndSquare
@@ -189,7 +218,7 @@
     topic: fairness
     level: journal
     content: >
-        American Mathematical Monthly 2021 (forthcoming) and [arXiv 2020](https://arxiv.org/abs/2001.03327) (5 pages). 
+        [American Mathematical Monthly 2021, 128:79--83](https://www.tandfonline.com/doi/abs/10.1080/00029890.2021.1835338) and [arXiv 2020](https://arxiv.org/abs/2001.03327) (5 pages). 
     review: The paper is extremely well-written.
 
 -
@@ -220,11 +249,12 @@
     lang: en
     title: Fair Cake-Cutting Algorithms with Real Land-Value Data‏
     authors: Itay Shtechman and Rica Gonen and Erel Segal-Halevi
-    date: 2020-05-01
+    date: 2021-07-22
     topic: fairness
-    level: conference-
+    level: journal
     content: >
-        [AAMAS 2020](https://dl.acm.org/doi/abs/10.5555/3398761.3399056) (extended abstract).
+        [JAAMAS 2021, 35:39](https://rdcu.be/cpHG0). 
+        <small>There is also a [2-page extended abstract](https://dl.acm.org/doi/abs/10.5555/3398761.3399056)</small>.
 
 
 -
@@ -253,7 +283,7 @@
     topic: fairness-indivisible
     level: conference+
     content: >
-        [AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-5368.DrorA.pdf) and [arXiv 2020](https://arxiv.org/abs/2010.07280).
+        [AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-5368.DrorA.pdf); [full version](https://arxiv.org/abs/2010.07280).
     presentation: >
         https://virtual.2021.aaai.org/paper_AAAI-5368.html
 #        https://slideslive.com/embed/presentation/38950265?url=https%3A%2F%2Fvirtual.2021.aaai.org%2Fpaper_AAAI-5368.html&origin=https%3A%2F%2Fvirtual.2021.aaai.org&target_id=presentation-intro&auto_play=&zoom_ratio=&disable_fullscreen=&locale=en&demo=&vertical_enabled=&vertical_enabled_on_mobile=&vertical_when_width_lte=500&allow_hidden_controls_when_paused=true&debug_slideslive_player=&user_uuid=e22cbfd9-a525-4e46-8e48-c2d46e0acaff
@@ -261,35 +291,35 @@
 -
     id: FairUtilitarian
     lang: en
-    title: Computing Fair Utilitarian Allocations of Indivisible Goods  
+    title: Computing Welfare-Maximizing Fair Allocations of Indivisible Goods  
     authors: Haris Aziz, Xin Huang, Nicholas Mattei, Erel Segal-Halevi
-    date: 2020-12-01
+    date: 2021-12-01
     topic: fairness-indivisible
     level: working
     content: >
-        [arXiv 2020](https://arxiv.org/abs/2012.03979).
+        Submitted. Preprint at [arXiv 2021](https://arxiv.org/abs/2012.03979).
 
 -
     id: Rental
     lang: en
     title: Generalized Rental Harmony
     authors: Erel Segal-Halevi
-    date: 2020-02-01
+    date: 2022-01-01
     topic: fairness-indivisible
-    level: working
+    level: journal
     content: >
-        [arXiv 2020](https://arxiv.org/abs/1912.13249).
+        American Mathematical Monthly 2022 (forthcoming) and [arXiv 2020](https://arxiv.org/abs/1912.13249).
 
 -
     id: MMS
     lang: en
     title: The Maximin Share Dominance Relation 
     authors: Erel Segal-Halevi
-    date: 2019-12-18
+    date: 2019-12-31
     topic: fairness-indivisible
     level: working
     content: >
-        [arXiv 2019](https://arxiv.org/abs/1912.08763).
+        Working paper with open questions. [arXiv 2019](https://arxiv.org/abs/1912.08763).
 
 -
     id: Diminish
@@ -334,11 +364,11 @@
     lang: en
     title: Efficient Fair Division with Minimal Sharing
     authors: Fedor Sandomirskiy and Erel Segal-Halevi
-    date: 2019-11-01
+    date: 2021-06-01
     topic: fairness-indivisible
     level: working
     content: >
-        [arXiv 2019](https://arxiv.org/abs/1908.01669).
+        Major revision. Preprint at [arXiv 2020](https://arxiv.org/abs/1908.01669).
     presentation: >
       /papers/MinShare-30minutes-2019-WTAF.pdf
 
@@ -347,22 +377,22 @@
     lang: en
     title: Fair Division with Bounded Sharing
     authors: Erel Segal-Halevi
-    date: 2019-11-01
+    date: 2019-12-31
     topic: fairness-indivisible
     level: working
     content: >
-        [arXiv 2019](https://arxiv.org/abs/1912.00459).
+        Working paper with many open questions. [arXiv 2019](https://arxiv.org/abs/1912.00459).
 
 -
     id: efm
     lang: en
     title: Envy-Free Matchings in Bipartite Graphs and their Applications to Fair Division
     authors: Elad Aigner-Horev and Erel Segal-Halevi
-    date: 2019-11-01
+    date: 2021-06-01
     topic: fairness-indivisible
     level: working
     content: >
-        [arXiv 2019](https://arxiv.org/abs/1901.09527).
+        Major revision. Preprint at [arXiv 2020](https://arxiv.org/abs/1901.09527).
     presentation: >
       /papers/EFM-60minutes-2020-03-BIU-Combinatorics.pdf
 
@@ -447,7 +477,7 @@
     topic: auctions
     level: conference-
     content: >
-        AAMAS 2021 (extended abstract)
+        [AAMAS 2021](http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1515.pdf), pages 1515--1516 (extended abstract).
 -
     id: multilateral
     lang: en

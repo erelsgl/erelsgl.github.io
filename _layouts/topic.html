@@ -7,7 +7,7 @@ layout: page
 {{page.content | markdownify}}
 </p>
 <div>
-{% assign papers=site.data.papers | where:"topic", page.ident | where:"onlinedemoexists", true | sort: 'date' %}
+{% assign papers=site.data.papers | where:"topic", page.ident | where:"onlinedemoexists", true | sort: 'date' | reverse %}
 {% if papers.size > 0 %}
 <h2>{{site.data.labels.onlinedemos[page.lang]}}</h2>
   <ul class='publications'>
