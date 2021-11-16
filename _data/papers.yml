@@ -568,10 +568,10 @@
     level: journal
     content: >
         [Autonomous Agents and Multi-Agent Systems Journal, 2016, pages 60-81](http://link.springer.com/article/10.1007%2Fs10458-015-9281-9).
-    onlinedemoexists: true
-    onlinedemo:
-      url: http://biu-ai.com:4014/demo
-      title: Negotiate with our chat-bots!
+    # onlinedemoexists: false
+    # onlinedemo:
+    #   url: http://biu-ai.com:4014/demo
+    #   title: Negotiate with our chat-bots!
 -
     id: PLIS
     lang: en
