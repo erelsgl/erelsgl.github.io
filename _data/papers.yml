@@ -1,6 +1,9 @@
 #### My papers and other publications
 
 # Fair Division:
+
+
+
 -
     id: FairGap1
     lang: en
@@ -27,13 +30,14 @@
     content: >
         [IJCAI 2021 distinguished paper award](https://www.comp.nus.edu.sg/news/2021-ijcai/) and [arXiv 2021](https://arxiv.org/abs/2105.06669).
     presentation: >
-        https://recorder-v3.slideslive.com/?share=45936&s=479fbab7-19e4-4924-bb54-da7eda50b620
-#        https://youtu.be/SXLgGU4g7bY
+       https://www.youtube.com/watch?v=SXLgGU4g7bY
+#      https://recorder-v3.slideslive.com/?share=45936&s=479fbab7-19e4-4924-bb54-da7eda50b620
+
 
 -
     id: FairGap3
     lang: en
-    title: Graphical Cake Cutting via Maximin Share 
+    title: Graphical Cake Cutting via Maximin Share
     authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
     date: 2021-05-01
     topic: fairness
@@ -41,8 +45,8 @@
     content: >
         IJCAJ 2021 and [arXiv 2021](https://arxiv.org/abs/2105.04755).
     presentation: >
-        https://recorder-v3.slideslive.com/#/share?share=43356&s=993e5f2f-8ef4-43c0-92fa-d9de41920614
-#        https://youtu.be/kHmQupNF5DI
+       https://www.youtube.com/watch?v=kHmQupNF5DI
+#        https://recorder-v3.slideslive.com/#/share?share=43356&s=993e5f2f-8ef4-43c0-92fa-d9de41920614
 
 -
     id: FairAndSquare
@@ -57,9 +61,9 @@
         *"The paper is now a full treatise on the subject, with enough material to fill three or four regular length articles" (--an anonymous reviewer)*.
         <span style='font-size:8pt'>Preliminary versions: [EuroCG 2016 (4 pages)](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) and [arXiv 2016 (54 pages)](http://arxiv.org/abs/1510.03170)</span>.
     presentation: >
-      /papers/FairAndSquare-90minutes-2015-11-TelAvivCompGeom.pptx
+      ../../../papers/FairAndSquare-90minutes-2015-11-TelAvivCompGeom.pptx
     presentation2: >
-      /papers/FairAndSquare-15minutes-2016-04-EuroCompGeom.pptx
+      ../../../papers/FairAndSquare-15minutes-2016-04-EuroCompGeom.pptx
     onlinedemoexists: true
     onlinedemo:
       url: http://tora.us.fm/geometry/fair-division.html
@@ -75,7 +79,7 @@
     topic: fairness
     level: journal
     presentation: >
-      /papers/WasteMakesHaste-60minutes-2016-05-BGU.pptx
+      ../../../papers/WasteMakesHaste-60minutes-2016-05-BGU.pptx
     content: >
         [ACM Transactions on Algorithms 2016, 12:1--32](http://dl.acm.org/citation.cfm?doid=2997037.2988232).
         <span style='font-size:8pt'>Preliminary versions: [AAMAS 2015](http://dl.acm.org/citation.cfm?id=2773268) and [arXiv 2016](http://arxiv.org/abs/1511.02599)</span>.
@@ -88,7 +92,7 @@
     topic: fairness
     level: journal
     presentation: >
-      /papers/Monotonicity-30minutes-2016-07-GAMES.pptx
+      ../../../papers/Monotonicity-30minutes-2016-07-GAMES.pptx
     content: >
         [Economic Theory 2018, 68(2):363--401](https://rdcu.be/PkIk).
         <span style='font-size:8pt'>Preliminary version: [arXiv 2018](http://arxiv.org/abs/1510.05229)</span>.
@@ -111,7 +115,8 @@
     date: 2020-04-01
     topic: fairness
     level: journal
-    presentation: /papers/EnvyFreeAndSquare-Poster-2015-01-AAAI.ppt
+    presentation: 
+      ../../../papers/EnvyFreeAndSquare-Poster-2015-01-AAAI.ppt
     content: >
         [Mathematics of Operations Research 2020, 45(3):896--922](https://pubsonline.informs.org/doi/abs/10.1287/moor.2019.1016) and [arXiv 2019](https://arxiv.org/abs/1609.03938) (42 pages). 
         <span style='font-size:8pt'>Preliminary version: [AAAI 2015](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages)</span>.
@@ -129,7 +134,7 @@
         [Social Choice and Welfare 2019, 53(4):709--740](https://link.springer.com/journal/355) and
         [arXiv 2019](http://arxiv.org/abs/1510.03903).
     presentation: >
-      /papers/Families-60minutes-2018-10-Rome.pdf
+      ../../../papers/Families-60minutes-2018-10-Rome.pdf
 -
     id: Redivision
     lang: en
@@ -141,7 +146,7 @@
     content: >
         IJCAI 2018 and [arXiv 2018](http://arxiv.org/abs/1603.00286).
     presentation: >
-      /papers/RedividingTheCake-60minutes-2016-11-GlasgowEconomicsSeminar.pdf
+      ../../../papers/RedividingTheCake-60minutes-2016-11-GlasgowEconomicsSeminar.pdf
 -
     id: CakeWithToppings
     lang: en
@@ -173,7 +178,7 @@
     content: >
         AAMAS 2018 and [arXiv 2018](https://arxiv.org/abs/1704.00726).
     presentation: >
-      /papers/CakeBurntInOven-60minutes-2017-06-BIUCombinatoricsSeminar.pdf
+      ../../../papers/CakeBurntInOven-60minutes-2017-06-BIUCombinatoricsSeminar.pdf
 -
     id: PHD
     lang: en
@@ -181,7 +186,7 @@
     authors: Erel Segal-Halevi (supervised by Yonatan Aumann and Avinatan Hassidim)
     date: 2017-04-02
     presentation: >
-      /papers/FairDivisionOfLand-45minutes-2016-06-Dagstuhl.pptx
+      ../../../papers/FairDivisionOfLand-45minutes-2016-06-Dagstuhl.pptx
     topic: fairness
     level: book
     content: >
@@ -268,7 +273,7 @@
     content: >
         [arXiv 2020](https://arxiv.org/abs/2011.01053).
     presentation: >
-      /papers/Hypergraphs-60minutes-2020-11-BIU-Combinatorics.pdf
+       ../../../papers/Hypergraphs-60minutes-2020-11-BIU-Combinatorics.pdf
 
 
 
@@ -357,7 +362,7 @@
         [Journal of Autonomous Agents and Multiagent Systems 2020, 34(26):1--50](https://rdcu.be/b1ZX5).
         <span style='font-size:8pt'>Preliminary versions: AAMAS 2018 and [arXiv 2020](https://arxiv.org/abs/1705.04212)</span>.
     presentation: >
-      /papers/CEFAI-15minutes-2018-07-AAMAS.pdf
+       ../../../papers/CEFAI-15minutes-2018-07-AAMAS.pdf
 
 -
     id: minshare
@@ -370,7 +375,7 @@
     content: >
         Major revision. Preprint at [arXiv 2020](https://arxiv.org/abs/1908.01669).
     presentation: >
-      /papers/MinShare-30minutes-2019-WTAF.pdf
+      ../../../papers/MinShare-30minutes-2019-WTAF.pdf
 
 -
     id: boundshare
@@ -394,7 +399,7 @@
     content: >
         Major revision. Preprint at [arXiv 2020](https://arxiv.org/abs/1901.09527).
     presentation: >
-      /papers/EFM-60minutes-2020-03-BIU-Combinatorics.pdf
+      ../../../papers/EFM-60minutes-2020-03-BIU-Combinatorics.pdf
 
 
 
@@ -451,7 +456,7 @@
     topic: auctions
     level: conference+
     presentation: >
-      /papers/MIDA-60minutes-2017-04-TAU.pdf
+      ../../../papers/MIDA-60minutes-2017-04-TAU.pdf
     content: >
         IJCAI 2018 and [arXiv 2018](https://arxiv.org/abs/1604.06210).
 -
@@ -466,7 +471,7 @@
     content: >
         [AAAI 2018](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16593) and [arXiv 2018](https://arxiv.org/abs/1712.06848).
     presentation: >
-      /papers/MUDA-poster-AAAI18.ppt
+       ../../../papers/MUDA-poster-AAAI18.ppt
 -
     id: multilateraltree
     lang: en
@@ -499,7 +504,7 @@
     topic: auctions
     level: conference+
     presentation: >
-      /papers/SBBA-20minutes-2016-09-SAGT.pptx
+       ../../../papers/SBBA-20minutes-2016-09-SAGT.pptx
     content: >
         In International Symposium on Algorithmic Game Theory (SAGT) 2016, pages 260-272.
         *"Simple but cute" (--an anonymous reviewer)*. [Full version](https://arxiv.org/abs/1607.05139) (14 pages).
@@ -654,7 +659,7 @@
     topic: jewecon
     level: journal
     presentation: >
-      /papers/KosherBank-Presentation.pdf
+       ../../../papers/KosherBank-Presentation.pdf
     content: >
            פורסם ב[קולמוס - הירחון של עיתון "משפחה", שבט ה'תשע"ו (2016)](http://erelsgl.github.io/papers/KosherBank-SegalHalevi-Culmus.pdf). הוצג גם ב[כנס בנקאות יהודית](http://erelsgl.github.io/papers/Jewish-Banking-Conference-5776-Invitation.jpg) כ"ו ניסן ה'תשע"ו.
 
@@ -683,7 +688,7 @@
     content: >
         הרצאה ב[כנס בנקאות יהודית ה'תשע"ו](https://youtu.be/qJGTpDbdJ6o), חצי שעה;
 
-# ‎TNK:
+# TNK:
 -
     id: MishleyEQ
     lang: he
