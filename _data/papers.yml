@@ -252,7 +252,7 @@
 -
     id: realestate
     lang: en
-    title: Fair Cake-Cutting Algorithms with Real Land-Value Data‏
+    title: Fair Cake-Cutting Algorithms with Real Land-Value Data
     authors: Itay Shtechman and Rica Gonen and Erel Segal-Halevi
     date: 2021-07-22
     topic: fairness
@@ -267,11 +267,11 @@
     lang: en
     title: Fractionally balanced hypergraphs and rainbow KKM theorems
     authors: Ron Aharoni, Eli Berger, Joseph Briggs, Erel Segal-Halevi, Shira Zerbib
-    date: 2020-11-03
+    date: 2021-11-01
     topic: fairness
-    level: working
+    level: journal
     content: >
-        [arXiv 2020](https://arxiv.org/abs/2011.01053).
+        Combinatorica (accepted). [arXiv 2020](https://arxiv.org/abs/2011.01053).
     presentation: >
        ../../../papers/Hypergraphs-60minutes-2020-11-BIU-Combinatorics.pdf
 
@@ -325,6 +325,17 @@
     level: working
     content: >
         Working paper with open questions. [arXiv 2019](https://arxiv.org/abs/1912.08763).
+
+-
+    id: WEF
+    lang: en
+    title: Weighted Fairness Notions for Indivisible Items Revisited 
+    authors: Mithun Chakraborty, Erel Segal-Halevi, Warut Suksompong
+    date: 2022-01-01
+    topic: fairness-indivisible
+    level: conference+
+    content: >
+        AAAI 2022 (accepted).
 
 -
     id: Diminish
@@ -393,11 +404,11 @@
     lang: en
     title: Envy-Free Matchings in Bipartite Graphs and their Applications to Fair Division
     authors: Elad Aigner-Horev and Erel Segal-Halevi
-    date: 2021-06-01
+    date: 2021-11-27
     topic: fairness-indivisible
-    level: working
+    level: journal
     content: >
-        Major revision. Preprint at [arXiv 2020](https://arxiv.org/abs/1901.09527).
+        [Information Sciences 2021](https://www.sciencedirect.com/science/article/abs/pii/S0020025521011816) and [arXiv 2021](https://arxiv.org/abs/1901.09527).
     presentation: >
       ../../../papers/EFM-60minutes-2020-03-BIU-Combinatorics.pdf
 
@@ -488,12 +499,13 @@
     lang: en
     title: >
         Strongly Budget Balanced Auctions for Multi-Sided Markets
-    authors: Rica Gonen, Erel Segal-Halevi
-    date: 2020-02-01
+    authors: Dvir Gilor, Rica Gonen, Erel Segal-Halevi
+    date: 2021-11-01
     topic: auctions
-    level: conference+
+    level: journal
     content: >
-        [AAAI 2020](https://aaai.org/ojs/index.php/AAAI/article/view/5571) and [arXiv 2019](https://arxiv.org/abs/1911.08094).
+        [Artificial Intelligence 2021](https://www.sciencedirect.com/science/article/abs/pii/S0004370221000990).
+        <small>Previous versions: [AAAI 2020](https://aaai.org/ojs/index.php/AAAI/article/view/5571) and [arXiv 2019](https://arxiv.org/abs/1911.08094)</small>.
 -
     id: SBBA
     lang: en
