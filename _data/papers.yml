@@ -293,6 +293,19 @@
         https://virtual.2021.aaai.org/paper_AAAI-5368.html
 #        https://slideslive.com/embed/presentation/38950265?url=https%3A%2F%2Fvirtual.2021.aaai.org%2Fpaper_AAAI-5368.html&origin=https%3A%2F%2Fvirtual.2021.aaai.org&target_id=presentation-intro&auto_play=&zoom_ratio=&disable_fullscreen=&locale=en&demo=&vertical_enabled=&vertical_enabled_on_mobile=&vertical_when_width_lte=500&allow_hidden_controls_when_paused=true&debug_slideslive_player=&user_uuid=e22cbfd9-a525-4e46-8e48-c2d46e0acaff
 
+
+-
+    id: OrdinalGoods
+    lang: en
+    title: Ordinal Maximin Share Approximation for Goods  
+    authors: Hadi Hosseini, Andrew Searns, Erel Segal-Halevi
+    date: 2021-10-01
+    topic: fairness-indivisible
+    level: working
+    content: >
+        Submitted. Preprint at [arXiv 2021](https://arxiv.org/abs/2109.01925).
+
+
 -
     id: FairUtilitarian
     lang: en
