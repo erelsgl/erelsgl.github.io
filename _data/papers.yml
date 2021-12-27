@@ -305,6 +305,16 @@
     content: >
         Submitted. Preprint at [arXiv 2021](https://arxiv.org/abs/2109.01925).
 
+-
+    id: OrdinalChores
+    lang: en
+    title: Ordinal Maximin Share Approximation for Chores
+    authors: Hadi Hosseini, Andrew Searns, Erel Segal-Halevi
+    date: 2022-05-01
+    topic: fairness-indivisible
+    level: conference+
+    content: >
+        AAMAS 2022 (accepted).
 
 -
     id: FairUtilitarian
