@@ -427,14 +427,26 @@
     lang: en
     title: Envy-Free Matchings in Bipartite Graphs and their Applications to Fair Division
     authors: Elad Aigner-Horev and Erel Segal-Halevi
-    date: 2021-11-27
+    date: 2022-03-01
     topic: fairness-indivisible
     level: journal
     content: >
-        [Information Sciences 2021](https://www.sciencedirect.com/science/article/abs/pii/S0020025521011816) and [arXiv 2021](https://arxiv.org/abs/1901.09527).
+        [Information Sciences 2022, 587:164--187](https://www.sciencedirect.com/science/article/abs/pii/S0020025521011816) and [arXiv 2021](https://arxiv.org/abs/1901.09527).
     presentation: >
       ../../../papers/EFM-60minutes-2020-03-BIU-Combinatorics.pdf
 
+-
+    id: electricity
+    lang: en
+    title: Fair Division of Electricity
+    authors: Dinesh Kumar Baghel and Erel Segal-Halevi
+    date: 2022-01-01
+    topic: fairness-indivisible
+    level: working
+    content: >
+        Research proposal. [COMSOC seminar talk](https://utoronto.zoom.us/rec/play/dq0BbEdCIjQO0a067usEQTN-Z2UMkkTjvEww1vKQLcabZSBhbCXceLncT0OuZhcRmemFgH2KHeJ61iSa.skNBF3aOSZ4Vudzo?continueMode=true&_x_zm_rtaid=jgOimqMsTMek_vi8aGMPyA.1640527228934.b84271b6fd306bfe282c13d61d4d44c3&_x_zm_rhtaid=23).
+    presentation: >
+      ../../../papers/Electricity-COMSOCOnline-20min.pdf
 
 
 # Social choice:
