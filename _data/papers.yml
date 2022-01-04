@@ -227,6 +227,17 @@
     review: The paper is extremely well-written.
 
 -
+    id: EnvyfreeGroups2
+    lang: en
+    title: Cutting a Cake Fairly for Groups Revisited
+    authors: Erel Segal-Halevi, Warut Suksompong
+    date: 2022-01-01
+    topic: fairness
+    level: journal
+    content: >
+        American Mathematical Monthly 2002 (forthcoming).
+
+-
     id: pone
     lang: en
     title: Fair and Efficient Division among Families
@@ -403,11 +414,11 @@
     lang: en
     title: Efficient Fair Division with Minimal Sharing
     authors: Fedor Sandomirskiy and Erel Segal-Halevi
-    date: 2021-06-01
+    date: 2022-01-01
     topic: fairness-indivisible
-    level: working
+    level: journal
     content: >
-        Major revision. Preprint at [arXiv 2020](https://arxiv.org/abs/1908.01669).
+        Operations Research 2022 (accepted). Preprint at [arXiv 2020](https://arxiv.org/abs/1908.01669).
     presentation: >
       ../../../papers/MinShare-30minutes-2019-WTAF.pdf
 
