@@ -251,13 +251,13 @@
 -
     id: lab
     lang: en
-    title: Fair Cake Cutting in Practice
-    authors: Maria Kyropoulou and Josue Ortega and Erel Segal-Halevi
-    date: 2019-12-01
+    title: Fair Cake Cutting in Practice (in the lab)
+    authors: Josue Ortega and Maria Kyropoulou and Erel Segal-Halevi
+    date: 2022-02-01
     topic: fairness
-    level: conference+
+    level: journal
     content: >
-        [EC 2019](https://dl.acm.org/doi/abs/10.1145/3328526.3329592) and [arXiv 2019](https://arxiv.org/abs/1810.08243).
+        Accepted to Games and Economic Behaviour (2022). Preliminary versions in [EC 2019](https://dl.acm.org/doi/abs/10.1145/3328526.3329592) and [arXiv 2019](https://arxiv.org/abs/1810.08243).
 
 
 -
@@ -368,6 +368,8 @@
     date: 2022-01-01
     topic: fairness-indivisible
     level: conference+
+    presentation: >
+        https://recorder-v3.slideslive.com/?share=57217&s=70779934-b103-4640-89b5-0fe80fe384ab
     content: >
         AAAI 2022 (accepted), [arXiv 2021](https://arxiv.org/abs/2112.04166).
 
