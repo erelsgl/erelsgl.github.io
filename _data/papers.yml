@@ -396,7 +396,9 @@
   topic: fairness-indivisible
   level: journal
   content: >
-    [Information Sciences 2022, 587:164--187](https://www.sciencedirect.com/science/article/abs/pii/S0020025521011816) and [arXiv 2021](https://arxiv.org/abs/1901.09527).
+    [arXiv 2021](https://arxiv.org/abs/1901.09527).
+    <small>Published in [Information Sciences 2022, 587:164--187](https://www.sciencedirect.com/science/article/abs/pii/S0020025521011816),
+    but with errors - the main theorem is missing!</small>
   presentation: >
     ../../../papers/EFM-60minutes-2020-03-BIU-Combinatorics.pdf
 
