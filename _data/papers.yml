@@ -398,7 +398,7 @@
   content: >
     [arXiv 2021](https://arxiv.org/abs/1901.09527).
     <small>Published in [Information Sciences 2022, 587:164--187](https://www.sciencedirect.com/science/article/abs/pii/S0020025521011816),
-    but with errors - the main theorem is missing!</small>
+    but due to an error in production, the main theorem is missing. Please read the arXiv version.</small>
   presentation: >
     ../../../papers/EFM-60minutes-2020-03-BIU-Combinatorics.pdf
 
