@@ -275,9 +275,9 @@
   authors: Hadi Hosseini, Andrew Searns, Erel Segal-Halevi
   date: 2021-10-01
   topic: fairness-indivisible
-  level: working
+  level: journal
   content: >
-    Submitted. Preprint at [arXiv 2021](https://arxiv.org/abs/2109.01925).
+    Accepted to JAIR (2022). Preprint at [arXiv 2021](https://arxiv.org/abs/2109.01925).
 
 - id: OrdinalChores
   lang: en
@@ -426,6 +426,17 @@
   content: >
     [Social Choice and Welfare 2017, 50(3):457--479](https://link.springer.com/article/10.1007/s00355-017-1092-2).
     <span style='font-size:8pt'>Preliminary version: [arXiv 2017](https://arxiv.org/abs/1704.06037)</span>.
+
+- id: oneweight
+  lang: en
+  title: >
+    One person, one weight: when is weighted voting democratic?
+  authors: Roy Baharad, Shmuel Nitzan, Erel Segal-Halevi
+  date: 2022-03-21
+  topic: voting
+  level: journal
+  content: >
+    [Social Choice and Welfare 2022](https://link.springer.com/article/10.1007/s00355-022-01393-8).
 
 # Bitcoin:
 - id: lightning
