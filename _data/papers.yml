@@ -119,17 +119,19 @@
     [arXiv 2019](http://arxiv.org/abs/1510.03903).
   presentation: >
     ../../../papers/Families-60minutes-2018-10-Rome.pdf
+
 - id: Redivision
   lang: en
   title: Redividing the Cake
   authors: Erel Segal-Halevi
-  date: 2018-07-15
+  date: 2022-02-03
   topic: fairness
-  level: conference+
+  level: journal
   content: >
-    IJCAI 2018 and [arXiv 2018](http://arxiv.org/abs/1603.00286).
+    [JAAMAS 2022, 36:14](https://link.springer.com/article/10.1007/s10458-022-09545-x) and [arXiv 2021](http://arxiv.org/abs/1603.00286) and [IJCAI 2018](https://dl.acm.org/doi/abs/10.5555/3304415.3304486).
   presentation: >
     ../../../papers/RedividingTheCake-60minutes-2016-11-GlasgowEconomicsSeminar.pdf
+
 - id: CakeWithToppings
   lang: en
   title: Counting Blanks in Polygonal Arrangements <small>(Previously called "Cutting a Cake without Harming the Toppings")</small>.
@@ -148,6 +150,7 @@
   level: working-old
   content: >
     [Working paper contains some initial ideas](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf) (13 pages); collaborators are welcome.
+
 - id: GoodAndBad
   lang: en
   title: Fairly Dividing a Cake after Some Parts were Burnt in the Oven
@@ -159,6 +162,7 @@
     AAMAS 2018 and [arXiv 2018](https://arxiv.org/abs/1704.00726).
   presentation: >
     ../../../papers/CakeBurntInOven-60minutes-2017-06-BIUCombinatoricsSeminar.pdf
+
 - id: PHD
   lang: en
   title: Fair Division of Land (Ph.D. Thesis)
@@ -170,6 +174,7 @@
   level: book
   content: >
     [Submitted version](/papers/FairDivisionOfLand-PhDThesis.pdf).
+
 - id: Entitlements
   lang: en
   title: Cake-Cutting with Different Entitlements -- How Many Cuts are Needed?
@@ -210,7 +215,7 @@
   topic: fairness
   level: journal
   content: >
-    American Mathematical Monthly 2002 (forthcoming).
+    American Mathematical Monthly 2022 (forthcoming).
 
 - id: pone
   lang: en
