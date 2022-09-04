@@ -354,6 +354,8 @@
   level: journal
   content: >
     [American Mathematical Monthly 2022](https://www.tandfonline.com/doi/abs/10.1080/00029890.2022.2037988) and [arXiv 2020](https://arxiv.org/abs/1912.13249).
+  presentation: >
+    ../../../papers/Rent-Poster-2022-08-MATCHUP.pdf
 
 - id: MMS
   lang: en
@@ -494,7 +496,7 @@
   presentation: >
     https://youtu.be/3pd6xHjLbhs?t=1h2m20s
   content: >
-    Presented at Scaling Bitcoin 2017.
+    Presented at Scaling Bitcoin 2017 and in [Allerton Conference on Communication, Control and Computing (2022)](https://easychair.org/smart-program/58thAllertonConference/2022-09-30.html#talk:201567).
     [Working paper](https://arxiv.org/abs/1712.10222).
 
 # Auctions:
