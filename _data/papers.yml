@@ -323,7 +323,7 @@
   topic: fairness-indivisible
   level: journal
   content: >
-    [JAIR 2022](https://www.jair.org/index.php/jair/article/view/13317) and [arXiv 2021](https://arxiv.org/abs/2109.01925). [In the news](https://www.psu.edu/news/information-sciences-and-technology/story/good-bad-fair-new-algorithms-could-help-fairly-distribute/)
+    [Journal of Artificial Intelligence Research 2022](https://www.jair.org/index.php/jair/article/view/13317) and [arXiv 2021](https://arxiv.org/abs/2109.01925). [In the news](https://www.psu.edu/news/information-sciences-and-technology/story/good-bad-fair-new-algorithms-could-help-fairly-distribute/)
 
 - id: OrdinalChores
   lang: en
@@ -334,16 +334,16 @@
   level: conference+
   content: >
     [AAMAS 2022](https://dl.acm.org/doi/abs/10.5555/3535850.3535918) and [arXiv 2022](https://arxiv.org/abs/2201.07424). [In the news](https://www.psu.edu/news/information-sciences-and-technology/story/good-bad-fair-new-algorithms-could-help-fairly-distribute/)
-
-- id: FairUtilitarian
+-
+  id: FairUtilitarian
   lang: en
-  title: Computing Welfare-Maximizing Fair Allocations of Indivisible Goods
+  title: Computing Welfare-Maximizing Fair Allocations of Indivisible Goods  
   authors: Haris Aziz, Xin Huang, Nicholas Mattei, Erel Segal-Halevi
-  date: 2021-12-01
+  date: 2022-10-01
   topic: fairness-indivisible
-  level: working
+  level: journal
   content: >
-    Submitted. Preprint at [arXiv 2021](https://arxiv.org/abs/2012.03979).
+      [European Journal of Operations Research 2022](https://www.sciencedirect.com/science/article/pii/S0377221722007822?via%3Dihub) and [arXiv 2022](https://arxiv.org/abs/2012.03979).
 
 - id: Rental
   lang: en
@@ -353,7 +353,7 @@
   topic: fairness-indivisible
   level: journal
   content: >
-    [American Mathematical Monthly 2022](https://www.tandfonline.com/doi/abs/10.1080/00029890.2022.2037988) and [arXiv 2020](https://arxiv.org/abs/1912.13249).
+    [American Mathematical Monthly 2022, 129:5 403--414](https://www.tandfonline.com/doi/abs/10.1080/00029890.2022.2037988) and [arXiv 2020](https://arxiv.org/abs/1912.13249).
   presentation: >
     ../../../papers/Rent-Poster-2022-08-MATCHUP.pdf
 
