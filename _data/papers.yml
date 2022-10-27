@@ -2,794 +2,804 @@
 
 # Fair Division:
 
+- id: ObviousManipulations
+  lang: en
+  title: Obvious manipulations in cake-cutting
+  authors: Josué Ortega and Erel Segal-Halevi
+  date: 2022-06-17
+  topic: fairness
+  level: journal
+  content: >
+    [Social Chioce and Welfare 2022](https://link.springer.com/article/10.1007/s00355-022-01416-4) and [arXiv 2019](https://arxiv.org/abs/1908.02988).
 
-
--
-    id: FairGap1
-    lang: en
-    title: Mind the Gap - Cake Cutting With Separation 
-    authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
-    date: 2021-02-01
-    topic: fairness
-    level: conference+
-    content: >
-        [AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-1625.ElkindE.pdf) and [arXiv 2020](https://arxiv.org/abs/2012.06682).
-    presentation: >
-        https://www.youtube.com/watch?v=CmT4vpUGKEw
+- id: FairGap1
+  lang: en
+  title: Mind the Gap - Cake Cutting With Separation
+  authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
+  date: 2021-02-01
+  topic: fairness
+  level: conference+
+  content: >
+    [AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-1625.ElkindE.pdf) and [arXiv 2020](https://arxiv.org/abs/2012.06682).
+  presentation: >
+    https://www.youtube.com/watch?v=CmT4vpUGKEw
 #        https://virtual.2021.aaai.org/paper_AAAI-1625.html
 #        https://slideslive.com/embed/presentation/38949666?url=https%3A%2F%2Fvirtual.2021.aaai.org%2Fpaper_AAAI-1625.html&origin=https%3A%2F%2Fvirtual.2021.aaai.org&target_id=presentation-intro&auto_play=&zoom_ratio=&disable_fullscreen=&locale=en&demo=&vertical_enabled=&vertical_enabled_on_mobile=&vertical_when_width_lte=500&allow_hidden_controls_when_paused=true&debug_slideslive_player=&user_uuid=e22cbfd9-a525-4e46-8e48-c2d46e0acaff
 
--
-    id: FairGap2
-    lang: en
-    title: Keep Your Distance - Land Division With Separation 
-    authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
-    date: 2021-05-01
-    topic: fairness
-    level: conference+
-    content: >
-        [IJCAI 2021 distinguished paper award](https://www.comp.nus.edu.sg/news/2021-ijcai/) and [arXiv 2021](https://arxiv.org/abs/2105.06669).
-    presentation: >
-       https://www.youtube.com/watch?v=SXLgGU4g7bY
+- id: FairGap2
+  lang: en
+  title: Keep Your Distance - Land Division With Separation
+  authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
+  date: 2021-05-01
+  topic: fairness
+  level: conference+
+  content: >
+    [IJCAI 2021 distinguished paper award](https://www.comp.nus.edu.sg/news/2021-ijcai/), [AI Hub](https://aihub.org/2021/09/21/allocating-fair-shares-of-land), and [arXiv 2021](https://arxiv.org/abs/2105.06669).
+  presentation: >
+    https://www.youtube.com/watch?v=SXLgGU4g7bY
 #      https://recorder-v3.slideslive.com/?share=45936&s=479fbab7-19e4-4924-bb54-da7eda50b620
-
-
--
-    id: FairGap3
-    lang: en
-    title: Graphical Cake Cutting via Maximin Share
-    authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
-    date: 2021-05-01
-    topic: fairness
-    level: conference+
-    content: >
-        IJCAJ 2021 and [arXiv 2021](https://arxiv.org/abs/2105.04755).
-    presentation: >
-       https://www.youtube.com/watch?v=kHmQupNF5DI
+- id: FairGap3
+  lang: en
+  title: Graphical Cake Cutting via Maximin Share
+  authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
+  date: 2021-05-01
+  topic: fairness
+  level: conference+
+  content: >
+    IJCAJ 2021 and [arXiv 2021](https://arxiv.org/abs/2105.04755).
+  presentation: >
+    https://www.youtube.com/watch?v=kHmQupNF5DI
 #        https://recorder-v3.slideslive.com/#/share?share=43356&s=993e5f2f-8ef4-43c0-92fa-d9de41920614
+- id: FairAndSquare
+  lang: en
+  title: Fair and Square - Cake-Cutting in Two Dimensions
+  authors: Erel Segal-Halevi, Shmuel Nitzan, Avinatan Hassidim, Yonatan Aumann
+  date: 2017-02-01
+  topic: fairness
+  level: journal
+  content: >
+    [Journal of Mathematical Economics 2017, 70:1--28](http://www.sciencedirect.com/science/article/pii/S0304406817300381).
+    <span style='font-size:8pt'>Preliminary versions: [EuroCG 2016 (4 pages)](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) and [arXiv 2016 (54 pages)](http://arxiv.org/abs/1510.03170)</span>.
+  presentation: >
+    ../../../papers/FairAndSquare-90minutes-2015-11-TelAvivCompGeom.pptx
+  presentation2: >
+    ../../../papers/FairAndSquare-15minutes-2016-04-EuroCompGeom.pptx
+  onlinedemoexists: true
+  onlinedemo:
+    url: http://tora.us.fm/geometry/fair-division.html
+    title: Fair-and-square cake-cutting
+  review: The paper is now a full treatise on the subject, with enough material to fill three or four regular length articles.
 
--
-    id: FairAndSquare
-    lang: en
-    title: Fair and Square - Cake-Cutting in Two Dimensions
-    authors: Erel Segal-Halevi, Shmuel Nitzan, Avinatan Hassidim, Yonatan Aumann
-    date: 2017-02-01
-    topic: fairness
-    level: journal
-    content: >
-        [Journal of Mathematical Economics 2017, 70:1--28](http://www.sciencedirect.com/science/article/pii/S0304406817300381).
-        *"The paper is now a full treatise on the subject, with enough material to fill three or four regular length articles" (--an anonymous reviewer)*.
-        <span style='font-size:8pt'>Preliminary versions: [EuroCG 2016 (4 pages)](http://erelsgl.github.io/papers/FairAndSquare-EuroCG-16.pdf) and [arXiv 2016 (54 pages)](http://arxiv.org/abs/1510.03170)</span>.
-    presentation: >
-      ../../../papers/FairAndSquare-90minutes-2015-11-TelAvivCompGeom.pptx
-    presentation2: >
-      ../../../papers/FairAndSquare-15minutes-2016-04-EuroCompGeom.pptx
-    onlinedemoexists: true
-    onlinedemo:
-      url: http://tora.us.fm/geometry/fair-division.html
-      title: Fair-and-square cake-cutting
-    review: The paper is now a full treatise on the subject, with enough material to fill three or four regular length articles.
+- id: WasteMakesHaste
+  lang: en
+  title: Waste Makes Haste - Bounded Time Protocols for Envy-Free Cake Cutting with Free Disposal
+  authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+  date: 2016-05-24
+  topic: fairness
+  level: journal
+  presentation: >
+    ../../../papers/WasteMakesHaste-60minutes-2016-05-BGU.pptx
+  content: >
+    [ACM Transactions on Algorithms 2016, 12:1--32](http://dl.acm.org/citation.cfm?doid=2997037.2988232).
+    <span style='font-size:8pt'>Preliminary versions: [AAMAS 2015](http://dl.acm.org/citation.cfm?id=2773268) and [arXiv 2016](http://arxiv.org/abs/1511.02599)</span>.
+- id: CakeCuttingMonotonicity
+  lang: en
+  title: Monotonicity and Competitive Equilibrium in Cake-cutting
+  authors: Erel Segal-Halevi, Balázs Sziklai
+  date: 2018-05-29
+  topic: fairness
+  level: journal
+  presentation: >
+    ../../../papers/Monotonicity-30minutes-2016-07-GAMES.pptx
+  content: >
+    [Economic Theory 2018, 68(2):363--401](https://rdcu.be/PkIk).
+    <span style='font-size:8pt'>Preliminary version: [arXiv 2018](http://arxiv.org/abs/1510.05229)</span>.
+- id: CakeCuttingMonotonicityCon
+  lang: en
+  title: Resource-monotonicity and Population-monotonicity in Connected Cake-cutting
+  authors: Erel Segal-Halevi, Balázs Sziklai
+  date: 2018-09-01
+  topic: fairness
+  level: journal
+  content: >
+    [Mathematical Social Sciences 2018, 95:19--30](https://www.sciencedirect.com/science/article/pii/S0165489618300520).
+    <span style='font-size:8pt'>Preliminary version: [arXiv 2017](http://arxiv.org/abs/1703.08928)</span>.
+- id: EnvyFreeAndSquare
+  lang: en
+  title: Envy-Free Division of Land
+  authors: Erel Segal-Halevi, Shmuel Nitzan, Avinatan Hassidim, Yonatan Aumann
+  date: 2020-04-01
+  topic: fairness
+  level: journal
+  presentation: ../../../papers/EnvyFreeAndSquare-Poster-2015-01-AAAI.ppt
+  content: >
+    [Mathematics of Operations Research 2020, 45(3):896--922](https://pubsonline.informs.org/doi/abs/10.1287/moor.2019.1016) and [arXiv 2019](https://arxiv.org/abs/1609.03938) (42 pages). 
+    <span style='font-size:8pt'>Preliminary version: [AAAI 2015](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages)</span>.
+  review: Structure, readability and formal accuracy are very good
 
--
-    id: WasteMakesHaste
-    lang: en
-    title: Waste Makes Haste - Bounded Time Protocols for Envy-Free Cake Cutting with Free Disposal
-    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
-    date: 2016-05-24
-    topic: fairness
-    level: journal
-    presentation: >
-      ../../../papers/WasteMakesHaste-60minutes-2016-05-BGU.pptx
-    content: >
-        [ACM Transactions on Algorithms 2016, 12:1--32](http://dl.acm.org/citation.cfm?doid=2997037.2988232).
-        <span style='font-size:8pt'>Preliminary versions: [AAMAS 2015](http://dl.acm.org/citation.cfm?id=2773268) and [arXiv 2016](http://arxiv.org/abs/1511.02599)</span>.
--
-    id: CakeCuttingMonotonicity
-    lang: en
-    title: Monotonicity and Competitive Equilibrium in Cake-cutting
-    authors: Erel Segal-Halevi, Balázs Sziklai
-    date: 2018-05-29
-    topic: fairness
-    level: journal
-    presentation: >
-      ../../../papers/Monotonicity-30minutes-2016-07-GAMES.pptx
-    content: >
-        [Economic Theory 2018, 68(2):363--401](https://rdcu.be/PkIk).
-        <span style='font-size:8pt'>Preliminary version: [arXiv 2018](http://arxiv.org/abs/1510.05229)</span>.
--
-    id: CakeCuttingMonotonicityCon
-    lang: en
-    title: Resource-monotonicity and Population-monotonicity in Connected Cake-cutting
-    authors: Erel Segal-Halevi, Balázs Sziklai
-    date: 2018-09-01
-    topic: fairness
-    level: journal
-    content: >
-        [Mathematical Social Sciences 2018, 95:19--30](https://www.sciencedirect.com/science/article/pii/S0165489618300520).
-        <span style='font-size:8pt'>Preliminary version: [arXiv 2017](http://arxiv.org/abs/1703.08928)</span>.
--
-    id: EnvyFreeAndSquare
-    lang: en
-    title: Envy-Free Division of Land 
-    authors: Erel Segal-Halevi, Shmuel Nitzan, Avinatan Hassidim, Yonatan Aumann
-    date: 2020-04-01
-    topic: fairness
-    level: journal
-    presentation: 
-      ../../../papers/EnvyFreeAndSquare-Poster-2015-01-AAAI.ppt
-    content: >
-        [Mathematics of Operations Research 2020, 45(3):896--922](https://pubsonline.informs.org/doi/abs/10.1287/moor.2019.1016) and [arXiv 2019](https://arxiv.org/abs/1609.03938) (42 pages). 
-        <span style='font-size:8pt'>Preliminary version: [AAAI 2015](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9656) (8 pages)</span>.
-    review: Structure, readability and formal accuracy are very good
+- id: GroupCakeCutting
+  lang: en
+  title: Fair Cake-cutting among Families
+  authors: Erel Segal-Halevi, Shmuel Nitzan
+  date: 2019-01-02
+  topic: fairness
+  level: journal
+  content: >
+    [Social Choice and Welfare 2019, 53(4):709--740](https://link.springer.com/journal/355) and
+    [arXiv 2019](http://arxiv.org/abs/1510.03903).
+  presentation: >
+    ../../../papers/Families-60minutes-2018-10-Rome.pdf
 
--
-    id: GroupCakeCutting
-    lang: en
-    title: Fair Cake-cutting among Families
-    authors: Erel Segal-Halevi, Shmuel Nitzan
-    date: 2019-01-02
-    topic: fairness
-    level: journal
-    content: >
-        [Social Choice and Welfare 2019, 53(4):709--740](https://link.springer.com/journal/355) and
-        [arXiv 2019](http://arxiv.org/abs/1510.03903).
-    presentation: >
-      ../../../papers/Families-60minutes-2018-10-Rome.pdf
--
-    id: Redivision
-    lang: en
-    title: Redividing the Cake
-    authors: Erel Segal-Halevi
-    date: 2018-07-15
-    topic: fairness
-    level: conference+
-    content: >
-        IJCAI 2018 and [arXiv 2018](http://arxiv.org/abs/1603.00286).
-    presentation: >
-      ../../../papers/RedividingTheCake-60minutes-2016-11-GlasgowEconomicsSeminar.pdf
--
-    id: CakeWithToppings
-    lang: en
-    title: Counting Blanks in Polygonal Arrangements <small>(Previously called "Cutting a Cake without Harming the Toppings")</small>.
-    authors: Arseniy Akopyan, Erel Segal-Halevi
-    date: 2018-09-06
-    topic: fairness
-    level: journal
-    content: >
-        [SIAM Journal on Discrete Mathematics 2018, 32(3):2242–-2257](https://epubs.siam.org/doi/abs/10.1137/16M110407X) and [arXiv 2018](http://arxiv.org/abs/1604.00960).
--
-    id: FairnessEfficiencyTradeoff
-    lang: en
-    title: A Tradeoff between Fairness and Efficiency in Cake-cutting
-    authors: Erel Segal-Halevi
-    date: 2016-04-22
-    topic: fairness-old
-    level: working-old
-    content: >
-        [Working paper contains some initial ideas](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf) (13 pages); collaborators are welcome.
--
-    id: GoodAndBad
-    lang: en
-    title: Fairly Dividing a Cake after Some Parts were Burnt in the Oven
-    authors: Erel Segal-Halevi
-    date: 2017-04-02
-    topic: fairness
-    level: conference+
-    content: >
-        AAMAS 2018 and [arXiv 2018](https://arxiv.org/abs/1704.00726).
-    presentation: >
-      ../../../papers/CakeBurntInOven-60minutes-2017-06-BIUCombinatoricsSeminar.pdf
--
-    id: PHD
-    lang: en
-    title: Fair Division of Land (Ph.D. Thesis)
-    authors: Erel Segal-Halevi (supervised by Yonatan Aumann and Avinatan Hassidim)
-    date: 2017-04-02
-    presentation: >
-      ../../../papers/FairDivisionOfLand-45minutes-2016-06-Dagstuhl.pptx
-    topic: fairness
-    level: book
-    content: >
-        [Submitted version](/papers/FairDivisionOfLand-PhDThesis.pdf).
--
-    id: Entitlements
-    lang: en
-    title: Cake-Cutting with Different Entitlements -- How Many Cuts are Needed?
-    authors: Erel Segal-Halevi
-    date: 2019-12-01
-    topic: fairness
-    level: journal
-    content: >
-        [Journal of Mathematical Analysis 2019, 123382](https://doi.org/10.1016/j.jmaa.2019.123382) and [arXiv 2019](https://arxiv.org/abs/1803.05470).
+- id: Redivision
+  lang: en
+  title: Redividing the Cake
+  authors: Erel Segal-Halevi
+  date: 2022-02-03
+  topic: fairness
+  level: journal
+  content: >
+    [JAAMAS 2022, 36:14](https://link.springer.com/article/10.1007/s10458-022-09545-x) and [arXiv 2021](http://arxiv.org/abs/1603.00286) and [IJCAI 2018](https://dl.acm.org/doi/abs/10.5555/3304415.3304486).
+  presentation: >
+    ../../../papers/RedividingTheCake-60minutes-2016-11-GlasgowEconomicsSeminar.pdf
 
--
-    id: Multicake
-    lang: en
-    title: Fair Multi-Cake Cutting <small>(Previously called "Fair Division of an Archipelago")</small>
-    authors: Erel Segal-Halevi
-    date: 2021-03-01
-    topic: fairness
-    level: journal
-    content: >
-        [Discrete Applied Mathematics 2021, 291:15--35](https://authors.elsevier.com/a/1cDmy,3nuHiTqA) and [arXiv 2020](https://arxiv.org/abs/1812.08150) (32 pages). 
-    review: Some of the ideas in this proof will become part of many cake-cutters’ toolkits.
+- id: CakeWithToppings
+  lang: en
+  title: Counting Blanks in Polygonal Arrangements <small>(Previously called "Cutting a Cake without Harming the Toppings")</small>.
+  authors: Arseniy Akopyan, Erel Segal-Halevi
+  date: 2018-09-06
+  topic: fairness
+  level: journal
+  content: >
+    [SIAM Journal on Discrete Mathematics 2018, 32(3):2242–-2257](https://epubs.siam.org/doi/abs/10.1137/16M110407X) and [arXiv 2018](http://arxiv.org/abs/1604.00960).
+- id: FairnessEfficiencyTradeoff
+  lang: en
+  title: A Tradeoff between Fairness and Efficiency in Cake-cutting
+  authors: Erel Segal-Halevi
+  date: 2016-04-22
+  topic: fairness-old
+  level: working-old
+  content: >
+    [Working paper contains some initial ideas](http://erelsgl.github.io/papers/FairnessEfficiencyTradeoff-04.pdf) (13 pages); collaborators are welcome.
 
--
-    id: EnvyfreeGroups
-    lang: en
-    title: How to Cut a Cake Fairly - A Generalization to Groups
-    authors: Erel Segal-Halevi, Warut Suksompong
-    date: 2021-01-01
-    topic: fairness
-    level: journal
-    content: >
-        [American Mathematical Monthly 2021, 128:79--83](https://www.tandfonline.com/doi/abs/10.1080/00029890.2021.1835338) and [arXiv 2020](https://arxiv.org/abs/2001.03327) (5 pages). 
-    review: The paper is extremely well-written.
+- id: GoodAndBad
+  lang: en
+  title: Fairly Dividing a Cake after Some Parts were Burnt in the Oven
+  authors: Erel Segal-Halevi
+  date: 2017-04-02
+  topic: fairness
+  level: conference+
+  content: >
+    AAMAS 2018 and [arXiv 2018](https://arxiv.org/abs/1704.00726).
+  presentation: >
+    ../../../papers/CakeBurntInOven-60minutes-2017-06-BIUCombinatoricsSeminar.pdf
 
--
-    id: pone
-    lang: en
-    title: Fair and Efficient Division among Families
-    authors: Sophie Bade and Erel Segal-Halevi
-    date: 2019-12-01
-    topic: fairness
-    level: working
-    content: >
-        [arXiv 2019](https://arxiv.org/abs/1811.06684).
+- id: PHD
+  lang: en
+  title: Fair Division of Land (Ph.D. Thesis)
+  authors: Erel Segal-Halevi (supervised by Yonatan Aumann and Avinatan Hassidim)
+  date: 2017-04-02
+  presentation: >
+    ../../../papers/FairDivisionOfLand-45minutes-2016-06-Dagstuhl.pptx
+  topic: fairness
+  level: book
+  content: >
+    [Submitted version](/papers/FairDivisionOfLand-PhDThesis.pdf).
 
--
-    id: lab
-    lang: en
-    title: Fair Cake Cutting in Practice
-    authors: Maria Kyropoulou and Josue Ortega and Erel Segal-Halevi
-    date: 2019-12-01
-    topic: fairness
-    level: conference+
-    content: >
-        [EC 2019](https://dl.acm.org/doi/abs/10.1145/3328526.3329592) and [arXiv 2019](https://arxiv.org/abs/1810.08243).
+- id: Entitlements
+  lang: en
+  title: Cake-Cutting with Different Entitlements -- How Many Cuts are Needed?
+  authors: Erel Segal-Halevi
+  date: 2019-12-01
+  topic: fairness
+  level: journal
+  content: >
+    [Journal of Mathematical Analysis 2019, 123382](https://doi.org/10.1016/j.jmaa.2019.123382) and [arXiv 2019](https://arxiv.org/abs/1803.05470).
 
+- id: Multicake
+  lang: en
+  title: Fair Multi-Cake Cutting <small>(Previously called "Fair Division of an Archipelago")</small>
+  authors: Erel Segal-Halevi
+  date: 2021-03-01
+  topic: fairness
+  level: journal
+  content: >
+    [Discrete Applied Mathematics 2021, 291:15--35](https://authors.elsevier.com/a/1cDmy,3nuHiTqA) and [arXiv 2020](https://arxiv.org/abs/1812.08150) (32 pages).
+  review: Some of the ideas in this proof will become part of many cake-cutters’ toolkits.
 
--
-    id: realestate
-    lang: en
-    title: Fair Cake-Cutting Algorithms with Real Land-Value Data
-    authors: Itay Shtechman and Rica Gonen and Erel Segal-Halevi
-    date: 2021-07-22
-    topic: fairness
-    level: journal
-    content: >
-        [JAAMAS 2021, 35:39](https://rdcu.be/cpHG0). 
-        <small>There is also a [2-page extended abstract](https://dl.acm.org/doi/abs/10.5555/3398761.3399056)</small>.
+- id: EnvyfreeGroups
+  lang: en
+  title: How to Cut a Cake Fairly - A Generalization to Groups
+  authors: Erel Segal-Halevi, Warut Suksompong
+  date: 2021-01-01
+  topic: fairness
+  level: journal
+  content: >
+    [American Mathematical Monthly 2021, 128:79--83](https://www.tandfonline.com/doi/abs/10.1080/00029890.2021.1835338) and [arXiv 2020](https://arxiv.org/abs/2001.03327) (5 pages).
+  review: The paper is extremely well-written.
 
+- id: EnvyfreeGroups2
+  lang: en
+  title: Cutting a Cake Fairly for Groups Revisited
+  authors: Erel Segal-Halevi, Warut Suksompong
+  date: 2022-01-01
+  topic: fairness
+  level: journal
+  content: >
+    American Mathematical Monthly 2022 (forthcoming).
 
--
-    id: hypergraphs
-    lang: en
-    title: Fractionally balanced hypergraphs and rainbow KKM theorems
-    authors: Ron Aharoni, Eli Berger, Joseph Briggs, Erel Segal-Halevi, Shira Zerbib
-    date: 2021-11-01
-    topic: fairness
-    level: journal
-    content: >
-        Combinatorica (accepted). [arXiv 2020](https://arxiv.org/abs/2011.01053).
-    presentation: >
-       ../../../papers/Hypergraphs-60minutes-2020-11-BIU-Combinatorics.pdf
+- id: pone
+  lang: en
+  title: Fair and Efficient Division among Families
+  authors: Sophie Bade and Erel Segal-Halevi
+  date: 2019-12-01
+  topic: fairness
+  level: working
+  content: >
+    [arXiv 2019](https://arxiv.org/abs/1811.06684).
 
+- id: lab
+  lang: en
+  title: Fair Cake Cutting in Practice (in the lab)
+  authors: Josue Ortega and Maria Kyropoulou and Erel Segal-Halevi
+  date: 2022-02-01
+  topic: fairness
+  level: journal
+  content: >
+    [Games and Economic Behaviour 2022, 133:28--49](https://www.sciencedirect.com/science/article/pii/S0899825622000331). Preliminary versions in [EC 2019](https://dl.acm.org/doi/abs/10.1145/3328526.3329592) and [arXiv 2019](https://arxiv.org/abs/1810.08243).
 
+- id: realestate
+  lang: en
+  title: Fair Cake-Cutting Algorithms with Real Land-Value Data
+  authors: Itay Shtechman and Rica Gonen and Erel Segal-Halevi
+  date: 2021-07-22
+  topic: fairness
+  level: journal
+  content: >
+    [JAAMAS 2021, 35:39](https://rdcu.be/cpHG0). 
+    <small>There is also a [2-page extended abstract](https://dl.acm.org/doi/abs/10.5555/3398761.3399056)</small>.
+
+- id: hypergraphs
+  lang: en
+  title: Fractionally balanced hypergraphs and rainbow KKM theorems
+  authors: Ron Aharoni, Eli Berger, Joseph Briggs, Erel Segal-Halevi, Shira Zerbib
+  date: 2021-11-01
+  topic: fairness
+  level: journal
+  content: >
+    Combinatorica (accepted). [arXiv 2020](https://arxiv.org/abs/2011.01053).
+  presentation: >
+    ../../../papers/Hypergraphs-60minutes-2020-11-BIU-Combinatorics.pdf
 
 # Fairness - indivisible items:
 
--
-    id: FairMatroid
-    lang: en
-    title: On Fair Division under Heterogeneous Matroid Constraints  
-    authors: Amitay Dror, Michal Feldman, Erel Segal-Halevi
-    date: 2021-02-01
-    topic: fairness-indivisible
-    level: conference+
-    content: >
-        [AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-5368.DrorA.pdf); [full version](https://arxiv.org/abs/2010.07280).
-    presentation: >
-        https://virtual.2021.aaai.org/paper_AAAI-5368.html
+- id: MonotonicityPartitioning
+  lang: en
+  title: On Monotonicity of Number-Partitioning Algorithms 
+  authors: Erel Segal-Halevi
+  date: 2021-10-17
+  topic: fairness-indivisible
+  level: working
+  content: >
+    [arXiv 2021](https://arxiv.org/abs/2110.08886) preprint contains some nice results, but many more open questions.
+
+- id: FairSplitting
+  lang: en
+  title: Number Partitioning with Splitting
+  authors: Samuel Bismuth, Vladislav Makarov, Erel Segal-Halevi, Dana Shapira
+  date: 2022-07-19
+  topic: fairness-indivisible
+  level: working
+  content: >
+    [arXiv 2022](https://arxiv.org/abs/2205.07779).
+
+- id: FairCapacity
+  lang: en
+  title: Efficient Nearly-Fair Division with Capacity Constraints
+  authors: Hila Shoshan, Erel Segal-Halevi, Noam Hazon
+  date: 2022-05-16
+  topic: fairness-indivisible
+  level: working
+  content: >
+    [arXiv 2022](https://arxiv.org/abs/2205.07779).
+
+- id: FairMatroid
+  lang: en
+  title: On Fair Division under Heterogeneous Matroid Constraints
+  authors: Amitay Dror, Michal Feldman, Erel Segal-Halevi
+  date: 2021-02-01
+  topic: fairness-indivisible
+  level: conference+
+  content: >
+    [AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-5368.DrorA.pdf); [full version](https://arxiv.org/abs/2010.07280).
+  presentation: >
+    https://virtual.2021.aaai.org/paper_AAAI-5368.html
 #        https://slideslive.com/embed/presentation/38950265?url=https%3A%2F%2Fvirtual.2021.aaai.org%2Fpaper_AAAI-5368.html&origin=https%3A%2F%2Fvirtual.2021.aaai.org&target_id=presentation-intro&auto_play=&zoom_ratio=&disable_fullscreen=&locale=en&demo=&vertical_enabled=&vertical_enabled_on_mobile=&vertical_when_width_lte=500&allow_hidden_controls_when_paused=true&debug_slideslive_player=&user_uuid=e22cbfd9-a525-4e46-8e48-c2d46e0acaff
 
+- id: OrdinalGoods
+  lang: en
+  title: Ordinal Maximin Share Approximation for Goods
+  authors: Hadi Hosseini, Andrew Searns, Erel Segal-Halevi
+  date: 2022-05-26
+  topic: fairness-indivisible
+  level: journal
+  content: >
+    [JAIR 2022](https://www.jair.org/index.php/jair/article/view/13317) and [arXiv 2021](https://arxiv.org/abs/2109.01925). [In the news](https://www.psu.edu/news/information-sciences-and-technology/story/good-bad-fair-new-algorithms-could-help-fairly-distribute/)
 
--
-    id: OrdinalGoods
-    lang: en
-    title: Ordinal Maximin Share Approximation for Goods  
-    authors: Hadi Hosseini, Andrew Searns, Erel Segal-Halevi
-    date: 2021-10-01
-    topic: fairness-indivisible
-    level: working
-    content: >
-        Submitted. Preprint at [arXiv 2021](https://arxiv.org/abs/2109.01925).
+- id: OrdinalChores
+  lang: en
+  title: Ordinal Maximin Share Approximation for Chores
+  authors: Hadi Hosseini, Andrew Searns, Erel Segal-Halevi
+  date: 2022-05-01
+  topic: fairness-indivisible
+  level: conference+
+  content: >
+    [AAMAS 2022](https://dl.acm.org/doi/abs/10.5555/3535850.3535918) and [arXiv 2022](https://arxiv.org/abs/2201.07424). [In the news](https://www.psu.edu/news/information-sciences-and-technology/story/good-bad-fair-new-algorithms-could-help-fairly-distribute/)
 
+- id: FairUtilitarian
+  lang: en
+  title: Computing Welfare-Maximizing Fair Allocations of Indivisible Goods
+  authors: Haris Aziz, Xin Huang, Nicholas Mattei, Erel Segal-Halevi
+  date: 2021-12-01
+  topic: fairness-indivisible
+  level: working
+  content: >
+    Submitted. Preprint at [arXiv 2021](https://arxiv.org/abs/2012.03979).
 
--
-    id: FairUtilitarian
-    lang: en
-    title: Computing Welfare-Maximizing Fair Allocations of Indivisible Goods  
-    authors: Haris Aziz, Xin Huang, Nicholas Mattei, Erel Segal-Halevi
-    date: 2022-10-01
-    topic: fairness-indivisible
-    level: journal
-    content: >
-        [European Journal of Operations Research 2022](https://www.sciencedirect.com/science/article/pii/S0377221722007822?via%3Dihub) and [arXiv 2022](https://arxiv.org/abs/2012.03979).
+- id: Rental
+  lang: en
+  title: Generalized Rental Harmony
+  authors: Erel Segal-Halevi
+  date: 2022-04-13
+  topic: fairness-indivisible
+  level: journal
+  content: >
+    [American Mathematical Monthly 2022](https://www.tandfonline.com/doi/abs/10.1080/00029890.2022.2037988) and [arXiv 2020](https://arxiv.org/abs/1912.13249).
+  presentation: >
+    ../../../papers/Rent-Poster-2022-08-MATCHUP.pdf
 
--
-    id: Rental
-    lang: en
-    title: Generalized Rental Harmony
-    authors: Erel Segal-Halevi
-    date: 2022-01-01
-    topic: fairness-indivisible
-    level: journal
-    content: >
-        [American Mathematical Monthly 2022, 129:5 403--414](https://www.tandfonline.com/doi/full/10.1080/00029890.2022.2037988) and [arXiv 2020](https://arxiv.org/abs/1912.13249).
+- id: MMS
+  lang: en
+  title: The Maximin Share Dominance Relation
+  authors: Erel Segal-Halevi
+  date: 2019-12-31
+  topic: fairness-indivisible
+  level: working
+  content: >
+    Working paper with open questions. [arXiv 2019](https://arxiv.org/abs/1912.08763).
 
--
-    id: MMS
-    lang: en
-    title: The Maximin Share Dominance Relation 
-    authors: Erel Segal-Halevi
-    date: 2019-12-31
-    topic: fairness-indivisible
-    level: working
-    content: >
-        Working paper with open questions. [arXiv 2019](https://arxiv.org/abs/1912.08763).
+- id: WEF
+  lang: en
+  title: Weighted Fairness Notions for Indivisible Items Revisited
+  authors: Mithun Chakraborty, Erel Segal-Halevi, Warut Suksompong
+  date: 2022-01-01
+  topic: fairness-indivisible
+  level: conference+
+  presentation: >
+    https://recorder-v3.slideslive.com/?share=57217&s=70779934-b103-4640-89b5-0fe80fe384ab
+  content: >
+    AAAI 2022 (accepted), [arXiv 2021](https://arxiv.org/abs/2112.04166).
 
--
-    id: WEF
-    lang: en
-    title: Weighted Fairness Notions for Indivisible Items Revisited 
-    authors: Mithun Chakraborty, Erel Segal-Halevi, Warut Suksompong
-    date: 2022-01-01
-    topic: fairness-indivisible
-    level: conference+
-    content: >
-        AAAI 2022 (accepted), [arXiv 2021](https://arxiv.org/abs/2112.04166).
+- id: Diminish
+  lang: en
+  title: Fair Allocation based on Diminishing Differences
+  authors: Erel Segal-Halevi, Avinatan Hassidim, Haris Aziz
+  date: 2020-03-01
+  topic: fairness-indivisible
+  level: journal
+  content: >
+    [Journal of Artificial Intelligence Research 2020, 67:471--507](https://www.jair.org/index.php/jair/article/view/11994).
+    <span style='font-size:8pt'>Preliminary versions: [IJCAI 2017 pages 1254-1261](https://www.ijcai.org/proceedings/2017/174) and [arXiv 2019](https://arxiv.org/abs/1705.07993)</span>.
 
--
-    id: Diminish
-    lang: en
-    title: Fair Allocation based on Diminishing Differences
-    authors: Erel Segal-Halevi, Avinatan Hassidim, Haris Aziz
-    date: 2020-03-01
-    topic: fairness-indivisible
-    level: journal
-    content: >
-        [Journal of Artificial Intelligence Research 2020, 67:471--507](https://www.jair.org/index.php/jair/article/view/11994).
-        <span style='font-size:8pt'>Preliminary versions: [IJCAI 2017 pages 1254-1261](https://www.ijcai.org/proceedings/2017/174) and [arXiv 2019](https://arxiv.org/abs/1705.07993)</span>.
-         
--
-    id: GroupItemAllocation
-    lang: en
-    title: Democratic Fair Allocation of Indivisible Goods
-    authors: Erel Segal-Halevi, Warut Suksompong
-    date: 2019-12-01
-    topic: fairness-indivisible
-    level: journal
-    content: >
-        [Artificial Intelligence 2019, 277(103167)](https://doi.org/10.1016/j.artint.2019.103167) and [arXiv 2019](https://arxiv.org/abs/1709.02564).
-        <span style='font-size:8pt'>Preliminary version: IJCAI 2018</span>.
+- id: GroupItemAllocation
+  lang: en
+  title: Democratic Fair Allocation of Indivisible Goods
+  authors: Erel Segal-Halevi, Warut Suksompong
+  date: 2019-12-01
+  topic: fairness-indivisible
+  level: journal
+  content: >
+    [Artificial Intelligence 2019, 277(103167)](https://doi.org/10.1016/j.artint.2019.103167) and [arXiv 2019](https://arxiv.org/abs/1709.02564).
+    <span style='font-size:8pt'>Preliminary version: IJCAI 2018</span>.
 
--
-    id: CEFAI
-    lang: en
-    title: Competitive Equilibrium For almost All Incomes - Existence and Fairness
-    authors: Erel Segal-Halevi
-    date: 2020-02-01
-    topic: fairness-indivisible
-    level: journal
-    content: >
-        [Journal of Autonomous Agents and Multiagent Systems 2020, 34(26):1--50](https://rdcu.be/b1ZX5).
-        <span style='font-size:8pt'>Preliminary versions: AAMAS 2018 and [arXiv 2020](https://arxiv.org/abs/1705.04212)</span>.
-    presentation: >
-       ../../../papers/CEFAI-15minutes-2018-07-AAMAS.pdf
+- id: CEFAI
+  lang: en
+  title: Competitive Equilibrium For almost All Incomes - Existence and Fairness
+  authors: Erel Segal-Halevi
+  date: 2020-02-01
+  topic: fairness-indivisible
+  level: journal
+  content: >
+    [Journal of Autonomous Agents and Multiagent Systems 2020, 34(26):1--50](https://rdcu.be/b1ZX5).
+    <span style='font-size:8pt'>Preliminary versions: AAMAS 2018 and [arXiv 2020](https://arxiv.org/abs/1705.04212)</span>.
+  presentation: >
+    ../../../papers/CEFAI-15minutes-2018-07-AAMAS.pdf
 
--
-    id: minshare
-    lang: en
-    title: Efficient Fair Division with Minimal Sharing
-    authors: Fedor Sandomirskiy and Erel Segal-Halevi
-    date: 2021-06-01
-    topic: fairness-indivisible
-    level: working
-    content: >
-        Major revision. Preprint at [arXiv 2020](https://arxiv.org/abs/1908.01669).
-    presentation: >
-      ../../../papers/MinShare-30minutes-2019-WTAF.pdf
+- id: minshare
+  lang: en
+  title: Efficient Fair Division with Minimal Sharing
+  authors: Fedor Sandomirskiy and Erel Segal-Halevi
+  date: 2022-06-01
+  topic: fairness-indivisible
+  level: journal
+  content: >
+    [Operations Research 2022](https://pubsonline.informs.org/doi/abs/10.1287/opre.2022.2279) and [arXiv 2022](https://arxiv.org/abs/1908.01669).
+  presentation: >
+    ../../../papers/MinShare-30minutes-2019-WTAF.pdf
 
--
-    id: boundshare
-    lang: en
-    title: Fair Division with Bounded Sharing
-    authors: Erel Segal-Halevi
-    date: 2019-12-31
-    topic: fairness-indivisible
-    level: working
-    content: >
-        Working paper with many open questions. [arXiv 2019](https://arxiv.org/abs/1912.00459).
+- id: boundshare
+  lang: en
+  title: Fair Division with Bounded Sharing
+  authors: Erel Segal-Halevi
+  date: 2019-12-31
+  topic: fairness-indivisible
+  level: working
+  content: >
+    Working paper with many open questions. [arXiv 2019](https://arxiv.org/abs/1912.00459).
 
--
-    id: efm
-    lang: en
-    title: Envy-Free Matchings in Bipartite Graphs and their Applications to Fair Division
-    authors: Elad Aigner-Horev and Erel Segal-Halevi
-    date: 2021-11-27
-    topic: fairness-indivisible
-    level: journal
-    content: >
-        [Information Sciences 2021](https://www.sciencedirect.com/science/article/abs/pii/S0020025521011816) and [arXiv 2021](https://arxiv.org/abs/1901.09527).
-    presentation: >
-      ../../../papers/EFM-60minutes-2020-03-BIU-Combinatorics.pdf
+- id: efm
+  lang: en
+  title: Envy-Free Matchings in Bipartite Graphs and their Applications to Fair Division
+  authors: Elad Aigner-Horev and Erel Segal-Halevi
+  date: 2022-03-01
+  topic: fairness-indivisible
+  level: journal
+  content: >
+    [Information Sciences 2022, 587:164--187](https://www.sciencedirect.com/science/article/abs/pii/S0020025521011816) and [arXiv 2022](https://arxiv.org/abs/1901.09527).
+  presentation: >
+    ../../../papers/EFM-60minutes-2020-03-BIU-Combinatorics.pdf
 
-
+- id: electricity
+  lang: en
+  title: Fair Division Algorithms for Electricity Distribution 
+  authors: Dinesh Kumar Baghel and Vadim E. Levitt and Erel Segal-Halevi
+  date: 2022-05-28
+  topic: fairness-indivisible
+  level: working
+  content: >
+    [Research proposal](https://arxiv.org/abs/2205.14531). [COMSOC seminar talk](https://utoronto.zoom.us/rec/play/dq0BbEdCIjQO0a067usEQTN-Z2UMkkTjvEww1vKQLcabZSBhbCXceLncT0OuZhcRmemFgH2KHeJ61iSa.skNBF3aOSZ4Vudzo?continueMode=true&_x_zm_rtaid=jgOimqMsTMek_vi8aGMPyA.1640527228934.b84271b6fd306bfe282c13d61d4d44c3&_x_zm_rhtaid=23).
+  presentation: >
+    ../../../papers/Electricity-COMSOCOnline-20min.pdf
 
 # Social choice:
--
-    id: Level1
-    lang: en
-    title: >
-        Flexible level-1 consensus ensuring stable social choice: analysis and algorithms
-    authors: Mor Nitzan, Shmuel Nitzan, Erel Segal-Halevi
-    date: 2017-11-02
-    topic: voting
-    level: journal
-    content: >
-        [Social Choice and Welfare 2017, 50(3):457--479](https://link.springer.com/article/10.1007/s00355-017-1092-2).
-        <span style='font-size:8pt'>Preliminary version: [arXiv 2017](https://arxiv.org/abs/1704.06037)</span>.
+- id: Level1
+  lang: en
+  title: >
+    Flexible level-1 consensus ensuring stable social choice: analysis and algorithms
+  authors: Mor Nitzan, Shmuel Nitzan, Erel Segal-Halevi
+  date: 2017-11-02
+  topic: voting
+  level: journal
+  content: >
+    [Social Choice and Welfare 2017, 50(3):457--479](https://link.springer.com/article/10.1007/s00355-017-1092-2).
+    <span style='font-size:8pt'>Preliminary version: [arXiv 2017](https://arxiv.org/abs/1704.06037)</span>.
+
+- id: oneweight
+  lang: en
+  title: >
+    One person, one weight: when is weighted voting democratic?
+  authors: Roy Baharad, Shmuel Nitzan, Erel Segal-Halevi
+  date: 2022-03-21
+  topic: voting
+  level: journal
+  content: >
+    [Social Choice and Welfare 2022](https://link.springer.com/article/10.1007/s00355-022-01393-8).
 
 # Bitcoin:
--
-    id: lightning
-    lang: en
-    title: >
-        How to Charge Lightning
-    authors: Simina Branzei, Erel Segal-Halevi, Aviv Zohar
-    date: 2017-11-01
-    topic: bitcoin
-    level: conference-
-    presentation: >
-        https://youtu.be/3pd6xHjLbhs?t=1h2m20s
-    content: >
-        Presented at Scaling Bitcoin 2017.
-        [Working paper](https://arxiv.org/abs/1712.10222).
-
+- id: lightning
+  lang: en
+  title: >
+    How to Charge Lightning
+  authors: Simina Branzei, Erel Segal-Halevi, Aviv Zohar
+  date: 2017-11-01
+  topic: bitcoin
+  level: conference-
+  presentation: >
+    https://youtu.be/3pd6xHjLbhs?t=1h2m20s
+  content: >
+    Presented at Scaling Bitcoin 2017 and in [Allerton Conference on Communication, Control and Computing (2022)](https://easychair.org/smart-program/58thAllertonConference/2022-09-30.html#talk:201567).
+    [Working paper](https://arxiv.org/abs/1712.10222).
 
 # Auctions:
--
-    id: bilateral
-    lang: en
-    title: >
-        Truthful Bilateral Trade is Impossible even with Fixed Prices
-    authors: Erel Segal-Halevi, Avinatan Hassidim
-    date: 2018-03-01
-    topic: auctions
-    level: working
-    content: >
-        [Working paper](https://arxiv.org/abs/1711.08057)
--
-    id: MIDA
-    lang: en
-    title: >
-        Double Auctions in Markets for Multiple Kinds of Goods
-    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
-    date: 2018-07-15
-    topic: auctions
-    level: conference+
-    presentation: >
-      ../../../papers/MIDA-60minutes-2017-04-TAU.pdf
-    content: >
-        IJCAI 2018 and [arXiv 2018](https://arxiv.org/abs/1604.06210).
--
-    id: MUDA
-    lang: en
-    title: >
-        MUDA: a Truthful Multi Unit Double Auction Mechanism
-    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
-    date: 2018-02-01
-    topic: auctions
-    level: conference+
-    content: >
-        [AAAI 2018](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16593) and [arXiv 2018](https://arxiv.org/abs/1712.06848).
-    presentation: >
-       ../../../papers/MUDA-poster-AAAI18.ppt
--
-    id: multilateraltree
-    lang: en
-    title: >
-        A Global Multi-Sided Market with Ascending-Price Mechanism
-    authors: Rica Gonen, Erel Segal-Halevi
-    date: 2021-03-01
-    topic: auctions
-    level: conference-
-    content: >
-        [AAMAS 2021](http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1515.pdf), pages 1515--1516 (extended abstract).
--
-    id: multilateral
-    lang: en
-    title: >
-        Strongly Budget Balanced Auctions for Multi-Sided Markets
-    authors: Dvir Gilor, Rica Gonen, Erel Segal-Halevi
-    date: 2021-11-01
-    topic: auctions
-    level: journal
-    content: >
-        [Artificial Intelligence 2021](https://www.sciencedirect.com/science/article/abs/pii/S0004370221000990).
-        <small>Previous versions: [AAAI 2020](https://aaai.org/ojs/index.php/AAAI/article/view/5571) and [arXiv 2019](https://arxiv.org/abs/1911.08094)</small>.
--
-    id: SBBA
-    lang: en
-    title: >
-        SBBA: a Strongly-Budget-Balanced Double-Auction Mechanism
-    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
-    date: 2016-09-19
-    topic: auctions
-    level: conference+
-    presentation: >
-       ../../../papers/SBBA-20minutes-2016-09-SAGT.pptx
-    content: >
-        In International Symposium on Algorithmic Game Theory (SAGT) 2016, pages 260-272.
-        *"Simple but cute" (--an anonymous reviewer)*. [Full version](https://arxiv.org/abs/1607.05139) (14 pages).
-    review: Simple but cute, and practically relevant
--
-    id: DDF
-    lang: en
-    title: >
-        Demand-Flow of Agents with Gross-Substitute Valuations
-    authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
-    date: 2016-10-03
-    topic: auctions
-    level: journal
-    content: >
-        [Operations Research Letters 2016, pages 757-760](http://dx.doi.org/10.1016/j.orl.2016.09.012). &nbsp;&nbsp;&nbsp; [Full version](https://arxiv.org/abs/1607.01989)
-    review: As far as I can tell, the characterization is correct.
--
-    id: appraiser
-    lang: en
-    title: >
-        Obtaining Costly Unverifiable Valuations from a Single Agent (aka Making an Appraiser Work for You)
-    authors: Erel Segal-Halevi, Shani Alkoby, Tomer Sharbaf and David Sarne
-    date: 2020-10-01
-    topic: auctions
-    level: journal
-    content: >
-        [Journal of Autonomous Agents and Multiagent Systems 2020, 34(2):1--25](https://rdcu.be/b44Bq).
-        <span style='font-size:8pt'>Preliminary versions: AAMAS 2019 and [arXiv 2019](https://arxiv.org/abs/1804.08314)</span>.
-    review: Very well written... Strikes me as very interesting.
-
+- id: bilateral
+  lang: en
+  title: >
+    Truthful Bilateral Trade is Impossible even with Fixed Prices
+  authors: Erel Segal-Halevi, Avinatan Hassidim
+  date: 2018-03-01
+  topic: auctions
+  level: working
+  content: >
+    [Working paper](https://arxiv.org/abs/1711.08057)
+- id: MIDA
+  lang: en
+  title: >
+    Double Auctions in Markets for Multiple Kinds of Goods
+  authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+  date: 2018-07-15
+  topic: auctions
+  level: conference+
+  presentation: >
+    ../../../papers/MIDA-60minutes-2017-04-TAU.pdf
+  content: >
+    IJCAI 2018 and [arXiv 2018](https://arxiv.org/abs/1604.06210).
+- id: MUDA
+  lang: en
+  title: >
+    MUDA: a Truthful Multi Unit Double Auction Mechanism
+  authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+  date: 2018-02-01
+  topic: auctions
+  level: conference+
+  content: >
+    [AAAI 2018](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16593) and [arXiv 2018](https://arxiv.org/abs/1712.06848).
+  presentation: >
+    ../../../papers/MUDA-poster-AAAI18.ppt
+- id: multilateraltree
+  lang: en
+  title: >
+    A Global Multi-Sided Market with Ascending-Price Mechanism
+  authors: Rica Gonen, Erel Segal-Halevi
+  date: 2021-03-01
+  topic: auctions
+  level: conference-
+  content: >
+    [AAMAS 2021](http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1515.pdf), pages 1515--1516 (extended abstract).
+- id: multilateral
+  lang: en
+  title: >
+    Strongly Budget Balanced Auctions for Multi-Sided Markets
+  authors: Dvir Gilor, Rica Gonen, Erel Segal-Halevi
+  date: 2021-11-01
+  topic: auctions
+  level: journal
+  content: >
+    [Artificial Intelligence 2021](https://www.sciencedirect.com/science/article/abs/pii/S0004370221000990).
+    <small>Previous versions: [AAAI 2020](https://aaai.org/ojs/index.php/AAAI/article/view/5571) and [arXiv 2019](https://arxiv.org/abs/1911.08094)</small>.
+- id: SBBA
+  lang: en
+  title: >
+    SBBA: a Strongly-Budget-Balanced Double-Auction Mechanism
+  authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+  date: 2016-09-19
+  topic: auctions
+  level: conference+
+  presentation: >
+    ../../../papers/SBBA-20minutes-2016-09-SAGT.pptx
+  content: >
+    In International Symposium on Algorithmic Game Theory (SAGT) 2016, pages 260-272.
+    [Full version](https://arxiv.org/abs/1607.05139) (14 pages).
+  review: Simple but cute, and practically relevant
+- id: DDF
+  lang: en
+  title: >
+    Demand-Flow of Agents with Gross-Substitute Valuations
+  authors: Erel Segal-Halevi, Avinatan Hassidim, Yonatan Aumann
+  date: 2016-10-03
+  topic: auctions
+  level: journal
+  content: >
+    [Operations Research Letters 2016, pages 757-760](http://dx.doi.org/10.1016/j.orl.2016.09.012). &nbsp;&nbsp;&nbsp; [Full version](https://arxiv.org/abs/1607.01989)
+  review: As far as I can tell, the characterization is correct.
+- id: appraiser
+  lang: en
+  title: >
+    Obtaining Costly Unverifiable Valuations from a Single Agent (aka Making an Appraiser Work for You)
+  authors: Erel Segal-Halevi, Shani Alkoby, Tomer Sharbaf and David Sarne
+  date: 2020-10-01
+  topic: auctions
+  level: journal
+  content: >
+    [Journal of Autonomous Agents and Multiagent Systems 2020, 34(2):1--25](https://rdcu.be/b44Bq).
+    <span style='font-size:8pt'>Preliminary versions: AAMAS 2019 and [arXiv 2019](https://arxiv.org/abs/1804.08314)</span>.
+  review: Very well written... Strikes me as very interesting.
 
 # NLP and NegoChat:
--
-    id: DialogNLP
-    lang: en
-    title: Dialog Natural Language Understanding using a Generic Textual Inference System
-    authors: Erel Segal-Halevi, Ido Dagan
-    date: 2013-07-01
-    topic: negochat
-    level: conference-
-    content: >
-        Presented in [ACLP speech processing conference 2013](http://events.eventact.com/afeka/aclp2012/Dialogue%20Natural%20Language%20Understanding_Segal-halevi%20et%20al.pdf) (5 pages)
--
-    id: FirstSteps
-    lang: en
-    title: First Steps in Chat-Based Negotiating Agents
-    authors: Inon Zuckerman, Erel Segal-Halevi, Avi Rosenfeld, Sarit Kraus
-    date: 2015-02-17
-    topic: negochat
-    level: journal
-    content: >
-        [Next Frontier in Agent-based Complex Automated Negotiation, 2015, pages 89-109](http://link.springer.com/chapter/10.1007%2F978-4-431-55525-4_6).
-    review: From motivation, related work, system description to final discussion, this paper is very well written
--
-    id: NegoChatA
-    lang: en
-    title: NegoChat-A - a chat-based negotiation agent with bounded rationality
-    authors: Avi Rosenfeld, Inon Zuckerman, Erel Segal-Halevi, Osnat Drein, Sarit Kraus
-    date: 2015-02-17
-    topic: negochat
-    level: journal
-    content: >
-        [Autonomous Agents and Multi-Agent Systems Journal, 2016, pages 60-81](http://link.springer.com/article/10.1007%2Fs10458-015-9281-9).
-    # onlinedemoexists: false
-    # onlinedemo:
-    #   url: http://biu-ai.com:4014/demo
-    #   title: Negotiate with our chat-bots!
--
-    id: PLIS
-    lang: en
-    title: >
-        PLIS: a Probabilistic Lexical Inference System
-    authors: Eyal Shnarch, Erel Segal-haLevi, Jacob Goldberger, Ido Dagan
-    date: 2013-08-01
-    topic: negochat
-    level: conference+
-    content: >
-        Published in [ACL 2013 conference](http://u.cs.biu.ac.il/~nlp/downloads/publications/85acl13.pdf) (6 pages)
--
-    id: HebrewMorph
-    lang: en
-    title: A Corpus Based Morphological Analyzer for Unvocalized Modern Hebrew
-    authors: Alon Itai, Erel Segal-Halevi
-    date: 2003-01-01
-    topic: hebnlp
-    level: conference+
-    content: >
-        Published in [Proceedings of Machine Translation for Semitic Languages: Issues and Approaches, Workshop at MT Summit IX (MT-SUMMIT-IX) 2003](http://mt-archive.info/MTS-2003-Itai.pdf) (8 pages)
--
-    id: HebrewGen
-    lang: he
-    title: מבחן ההבנה הגדול - האם אתם יודעים להבחין בין טקסט אמיתי לטקסט שנוצר באקראי?
-    authors: נדב שנרב (רעיון), משה קופל (יעוץ מדעי), רוני ורד, ולדימיר טורגוביצקי, יורי יברבאום ואראל סגל-הלוי (תיכנות)
-    date: 2011-01-01
-    topic: hebnlp
-    level: working
-    content: >
-                [הרעיון הכללי](http://woland.ph.biu.ac.il/?page_id=154)
-    onlinedemoexists: true
-    onlinedemo:
-      url: http://tora.us.fm/imitator
-      title:  הקובץ התשיעי - האם אתם מבינים את כתבי הרב קוק? הרמב"ם? הרצל?
-      sourcecode: https://github.com/erelsgl/parody-generator
-
-
+- id: DialogNLP
+  lang: en
+  title: Dialog Natural Language Understanding using a Generic Textual Inference System
+  authors: Erel Segal-Halevi, Ido Dagan
+  date: 2013-07-01
+  topic: negochat
+  level: conference-
+  content: >
+    Presented in [ACLP speech processing conference 2013](http://events.eventact.com/afeka/aclp2012/Dialogue%20Natural%20Language%20Understanding_Segal-halevi%20et%20al.pdf) (5 pages)
+- id: FirstSteps
+  lang: en
+  title: First Steps in Chat-Based Negotiating Agents
+  authors: Inon Zuckerman, Erel Segal-Halevi, Avi Rosenfeld, Sarit Kraus
+  date: 2015-02-17
+  topic: negochat
+  level: journal
+  content: >
+    [Next Frontier in Agent-based Complex Automated Negotiation, 2015, pages 89-109](http://link.springer.com/chapter/10.1007%2F978-4-431-55525-4_6).
+  review: From motivation, related work, system description to final discussion, this paper is very well written
+- id: NegoChatA
+  lang: en
+  title: NegoChat-A - a chat-based negotiation agent with bounded rationality
+  authors: Avi Rosenfeld, Inon Zuckerman, Erel Segal-Halevi, Osnat Drein, Sarit Kraus
+  date: 2015-02-17
+  topic: negochat
+  level: journal
+  content: >
+    [Autonomous Agents and Multi-Agent Systems Journal, 2016, pages 60-81](http://link.springer.com/article/10.1007%2Fs10458-015-9281-9).
+  # onlinedemoexists: false
+  # onlinedemo:
+  #   url: http://biu-ai.com:4014/demo
+  #   title: Negotiate with our chat-bots!
+- id: PLIS
+  lang: en
+  title: >
+    PLIS: a Probabilistic Lexical Inference System
+  authors: Eyal Shnarch, Erel Segal-haLevi, Jacob Goldberger, Ido Dagan
+  date: 2013-08-01
+  topic: negochat
+  level: conference+
+  content: >
+    Published in [ACL 2013 conference](http://u.cs.biu.ac.il/~nlp/downloads/publications/85acl13.pdf) (6 pages)
+- id: HebrewMorph
+  lang: en
+  title: A Corpus Based Morphological Analyzer for Unvocalized Modern Hebrew
+  authors: Alon Itai, Erel Segal-Halevi
+  date: 2003-01-01
+  topic: hebnlp
+  level: conference+
+  content: >
+    Published in [Proceedings of Machine Translation for Semitic Languages: Issues and Approaches, Workshop at MT Summit IX (MT-SUMMIT-IX) 2003](http://mt-archive.info/MTS-2003-Itai.pdf) (8 pages)
+- id: HebrewGen
+  lang: he
+  title: מבחן ההבנה הגדול - האם אתם יודעים להבחין בין טקסט אמיתי לטקסט שנוצר באקראי?
+  authors: נדב שנרב (רעיון), משה קופל (יעוץ מדעי), רוני ורד, ולדימיר טורגוביצקי, יורי יברבאום ואראל סגל-הלוי (תיכנות)
+  date: 2011-01-01
+  topic: hebnlp
+  level: working
+  content: >
+    [הרעיון הכללי](http://woland.ph.biu.ac.il/?page_id=154)
+  onlinedemoexists: true
+  onlinedemo:
+    url: http://tora.us.fm/imitator
+    title: הקובץ התשיעי - האם אתם מבינים את כתבי הרב קוק? הרמב"ם? הרצל?
+    sourcecode: https://github.com/erelsgl/parody-generator
 
 # Jewish Economy - Yovel and Ribit0:
--
-    id: YovelAkdamot
-    lang: he
-    title: מצוות חלוקת הנחלות והיובל מראשית הציונות ועד ימינו
-    entitle: Fair land-division and land-Jubilee since the wake of Zionism to our time
-    authors: אראל סגל-הלוי
-    date: 2013-03-15
-    topic: jewecon
-    level: journal
-    content: >
-        פורסם ב[אקדמות כח - אדר ה'תשע"ג 2013](http://www.bmj.org.il/akdamot_content/37). יש גם [מהדורת רשת](http://tora.us.fm/tryg/mamr/yovl_etc.html).
+- id: YovelAkdamot
+  lang: he
+  title: מצוות חלוקת הנחלות והיובל מראשית הציונות ועד ימינו
+  entitle: Fair land-division and land-Jubilee since the wake of Zionism to our time
+  authors: אראל סגל-הלוי
+  date: 2013-03-15
+  topic: jewecon
+  level: journal
+  content: >
+    פורסם ב[אקדמות כח - אדר ה'תשע"ג 2013](http://www.bmj.org.il/akdamot_content/37). יש גם [מהדורת רשת](http://tora.us.fm/tryg/mamr/yovl_etc.html).
 
--
-    id: YovelBdd
-    lang: he
-    title: אלגוריתם היובל - תהליך הדרגתי לחלוקת נחלות בימינו
-    entitle: The Jubilee Algorithm - a procedure for gradual land division
-    authors: אראל סגל-הלוי
-    date: 2013-12-15
-    topic: jewecon
-    level: journal
-    content: >
-        פורסם ב[בדד 28 - כסלו ה'תשע"ד 2013](http://www.biupress.co.il/website/index.asp?id=928).
-        נמצא גם [כאן](http://www.tora.us.fm/tryg/yovl/bdd/yovel-bdd-28.pdf).
+- id: YovelBdd
+  lang: he
+  title: אלגוריתם היובל - תהליך הדרגתי לחלוקת נחלות בימינו
+  entitle: The Jubilee Algorithm - a procedure for gradual land division
+  authors: אראל סגל-הלוי
+  date: 2013-12-15
+  topic: jewecon
+  level: journal
+  content: >
+    פורסם ב[בדד 28 - כסלו ה'תשע"ד 2013](http://www.biupress.co.il/website/index.asp?id=928).
+    נמצא גם [כאן](http://www.tora.us.fm/tryg/yovl/bdd/yovel-bdd-28.pdf).
 
--
-    id: GmachsBanks
-    lang: he
-    title: הצעה לשילוב גמ"ח כספים במערך הפעילות הבנקאית
-    entitle: Towards cooperation between banks and non-profit interest-free loan givers
-    authors: אראל סגל-הלוי
-    date: 2012-10-15
-    topic: jewecon
-    level: journal
-    content: >
-        פורסם ב[רבעון הישראלי לבנקאות מס' 173 - תשרי ה'תשע"ג (2012)](http://erelsgl.github.io/papers/BankingQuarterly_2012_LoanMediation.pdf). יש גם [מהדורת רשת](http://tora.us.fm/tryg/ribit0/bnq3.html).
+- id: GmachsBanks
+  lang: he
+  title: הצעה לשילוב גמ"ח כספים במערך הפעילות הבנקאית
+  entitle: Towards cooperation between banks and non-profit interest-free loan givers
+  authors: אראל סגל-הלוי
+  date: 2012-10-15
+  topic: jewecon
+  level: journal
+  content: >
+    פורסם ב[רבעון הישראלי לבנקאות מס' 173 - תשרי ה'תשע"ג (2012)](http://erelsgl.github.io/papers/BankingQuarterly_2012_LoanMediation.pdf). יש גם [מהדורת רשת](http://tora.us.fm/tryg/ribit0/bnq3.html).
 
--
-    id: KosherBank
-    lang: he
-    title: על מפתנו של הבנק הכשר לכתחילה
-    entitle: Towards a Kosher Bank
-    authors: אראל סגל-הלוי
-    date: 2016-02-01
-    topic: jewecon
-    level: journal
-    presentation: >
-       ../../../papers/KosherBank-Presentation.pdf
-    content: >
-           פורסם ב[קולמוס - הירחון של עיתון "משפחה", שבט ה'תשע"ו (2016)](http://erelsgl.github.io/papers/KosherBank-SegalHalevi-Culmus.pdf). הוצג גם ב[כנס בנקאות יהודית](http://erelsgl.github.io/papers/Jewish-Banking-Conference-5776-Invitation.jpg) כ"ו ניסן ה'תשע"ו.
+- id: KosherBank
+  lang: he
+  title: על מפתנו של הבנק הכשר לכתחילה
+  entitle: Towards a Kosher Bank
+  authors: אראל סגל-הלוי
+  date: 2016-02-01
+  topic: jewecon
+  level: journal
+  presentation: >
+    ../../../papers/KosherBank-Presentation.pdf
+  content: >
+    פורסם ב[קולמוס - הירחון של עיתון "משפחה", שבט ה'תשע"ו (2016)](http://erelsgl.github.io/papers/KosherBank-SegalHalevi-Culmus.pdf). הוצג גם ב[כנס בנקאות יהודית](http://erelsgl.github.io/papers/Jewish-Banking-Conference-5776-Invitation.jpg) כ"ו ניסן ה'תשע"ו.
 
--
-    id: ShmitaTalk
-    lang: he
-    title: שנת השמיטה - השבת של הטבע
-    entitle: The Sabbatical Year for the Land
-    authors: אראל סגל-הלוי
-    date: 2014-11-13
-    topic: jewecon
-    level: video
-    content: >
-        הרצאה ב[כנס ניצוצות שחר ה'תשע"ד](https://www.youtube.com/watch?v=wE4pnT0fKCc), חצי שעה.
+- id: ShmitaTalk
+  lang: he
+  title: שנת השמיטה - השבת של הטבע
+  entitle: The Sabbatical Year for the Land
+  authors: אראל סגל-הלוי
+  date: 2014-11-13
+  topic: jewecon
+  level: video
+  content: >
+    הרצאה ב[כנס ניצוצות שחר ה'תשע"ד](https://www.youtube.com/watch?v=wE4pnT0fKCc), חצי שעה.
 
-
--
-    id: Ribit0Talk
-    lang: he
-    title: מודלים לבנקאות יהודית כשרה לכתחילה
-    entitle: Models for Kosher Jewish Banking
-    authors: אראל סגל-הלוי
-    date: 2016-05-04
-    topic: jewecon-hidden
-    level: video-hidden
-    content: >
-        הרצאה ב[כנס בנקאות יהודית ה'תשע"ו](https://youtu.be/qJGTpDbdJ6o), חצי שעה;
+- id: Ribit0Talk
+  lang: he
+  title: מודלים לבנקאות יהודית כשרה לכתחילה
+  entitle: Models for Kosher Jewish Banking
+  authors: אראל סגל-הלוי
+  date: 2016-05-04
+  topic: jewecon-hidden
+  level: video-hidden
+  content: >
+    הרצאה ב[כנס בנקאות יהודית ה'תשע"ו](https://youtu.be/qJGTpDbdJ6o), חצי שעה;
 
 # TNK:
--
-    id: MishleyEQ
-    lang: he
-    title: אינטלגנציה רגשית בספר משלי
-    entitle: Emotional Intelligence in the Book of Proverbs
-    authors: אראל סגל-הלוי
-    date: 2011-09-15
-    topic: tnk
-    level: journal
-    content: >
-        פורסם ב[בדד 25 - אלול ה'תשע"א](http://www.biupress.co.il/website/index.asp?id=847).
-        נמצא גם [כאן](http://erelsgl.github.io/papers/EmotionalIntelligenceInProverbs.pdf).
--
-    id: Monopoly
-    lang: he
-    title: הסוד היהודי של משחק המונופול
-    entitle: The Biblical theme in the game of Monopoly
-    authors: אראל סגל-הלוי וצוות ניצוצות שחר
-    date: 2013-04-03
-    topic: jewecon
-    level: conference-
-    content: >
-        [פוסטר בכנס תורה ומדע - ה'תשע"ג 2013](http://erelsgl.github.io/papers/monopoly/toraumada_5773_monopoly.pdf).
+- id: MishleyEQ
+  lang: he
+  title: אינטלגנציה רגשית בספר משלי
+  entitle: Emotional Intelligence in the Book of Proverbs
+  authors: אראל סגל-הלוי
+  date: 2011-09-15
+  topic: tnk
+  level: journal
+  content: >
+    פורסם ב[בדד 25 - אלול ה'תשע"א](http://www.biupress.co.il/website/index.asp?id=847).
+    נמצא גם [כאן](http://erelsgl.github.io/papers/EmotionalIntelligenceInProverbs.pdf).
+- id: Monopoly
+  lang: he
+  title: הסוד היהודי של משחק המונופול
+  entitle: The Biblical theme in the game of Monopoly
+  authors: אראל סגל-הלוי וצוות ניצוצות שחר
+  date: 2013-04-03
+  topic: jewecon
+  level: conference-
+  content: >
+    [פוסטר בכנס תורה ומדע - ה'תשע"ג 2013](http://erelsgl.github.io/papers/monopoly/toraumada_5773_monopoly.pdf).
 
--
-    id: SgulotMishley
-    lang: he
-    title: סגולות משלי - עצות מקוריות בנושאים מגוונים לפי ספר משלי ומפרשיו
-    entitle: The Advices of Solomon's Proverbs
-    authors: אראל סגל-הלוי
-    date: 2009-12-19
-    topic: tnk
-    level: book
-    content: >
-        ניתן להשיג [כאן](http://www.lulu.com/spotlight/erel).
+- id: SgulotMishley
+  lang: he
+  title: סגולות משלי - עצות מקוריות בנושאים מגוונים לפי ספר משלי ומפרשיו
+  entitle: The Advices of Solomon's Proverbs
+  authors: אראל סגל-הלוי
+  date: 2009-12-19
+  topic: tnk
+  level: book
+  content: >
+    ניתן להשיג [כאן](http://www.lulu.com/spotlight/erel).
 
 # Etc:
--
-    id: underground
-    lang: he
-    title: חיל תת קרקעי
-    entitle: Towards an underground force in the IDF
-    authors: אראל סגל-הלוי
-    date: 2003-05-15
-    topic: defense
-    level: journal
-    content: >
-        פורסם ב[מערכות 389 - ה'תשס"ג 2003](http://maarachot.idf.il/71911-he/Maarachot.aspx).
--
-    id: trustpatent
-    lang: en
-    title: Calculating Connectivity, Social Proximity and Trust Level between Web Users
-    authors:  Tuvia Rosenthal, Erel Segal-Halevi, Erez Segal
-    date: 2010-01-14
-    topic: trust
-    level: patent
-    content: >
-        [US Patent 20100010826](http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20100010826.PGNR.&OS=DN/20100010826&RS=DN/20100010826)
+- id: underground
+  lang: he
+  title: חיל תת קרקעי
+  entitle: Towards an underground force in the IDF
+  authors: אראל סגל-הלוי
+  date: 2003-05-15
+  topic: defense
+  level: journal
+  content: >
+    פורסם ב[מערכות 389 - ה'תשס"ג 2003](http://maarachot.idf.il/71911-he/Maarachot.aspx).
+- id: trustpatent
+  lang: en
+  title: Calculating Connectivity, Social Proximity and Trust Level between Web Users
+  authors: Tuvia Rosenthal, Erel Segal-Halevi, Erez Segal
+  date: 2010-01-14
+  topic: trust
+  level: patent
+  content: >
+    [US Patent 20100010826](http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20100010826.PGNR.&OS=DN/20100010826&RS=DN/20100010826)
 
--
-    id: RandomSets
-    lang: en
-    title: Concentration Inequalities for Random Sets
-    authors: Erel Segal-Halevi, Avinatan Hassidim
-    date: 2018-03-01
-    topic: probability
-    level: working
-    content: >
-        [Working paper](https://arxiv.org/abs/1612.08580).
--
-    id: RepeatedGames
-    lang: en
-    title: Repeated Games with Risk Averse Players
-    authors: Yonatan Aumann and Erel Segal-Halevi
-    date: 2017-01-16
-    topic: repeatedgames
-    level: working
-    content: >
-        [Working paper](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhdW1hbm5iaXV8Z3g6MTBlZjg1MmMwMjc2OGQ3).
+- id: RandomSets
+  lang: en
+  title: Concentration Inequalities for Random Sets
+  authors: Erel Segal-Halevi, Avinatan Hassidim
+  date: 2018-03-01
+  topic: probability
+  level: working
+  content: >
+    [Working paper](https://arxiv.org/abs/1612.08580).
+- id: RepeatedGames
+  lang: en
+  title: Repeated Games with Risk Averse Players
+  authors: Yonatan Aumann and Erel Segal-Halevi
+  date: 2017-01-16
+  topic: repeatedgames
+  level: working
+  content: >
+    [Working paper](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhdW1hbm5iaXV8Z3g6MTBlZjg1MmMwMjc2OGQ3).
