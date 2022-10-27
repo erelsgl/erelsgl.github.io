@@ -311,11 +311,11 @@
     lang: en
     title: Computing Welfare-Maximizing Fair Allocations of Indivisible Goods  
     authors: Haris Aziz, Xin Huang, Nicholas Mattei, Erel Segal-Halevi
-    date: 2021-12-01
+    date: 2022-10-01
     topic: fairness-indivisible
-    level: working
+    level: journal
     content: >
-        Submitted. Preprint at [arXiv 2021](https://arxiv.org/abs/2012.03979).
+        [European Journal of Operations Research 2022](https://www.sciencedirect.com/science/article/pii/S0377221722007822?via%3Dihub) and [arXiv 2022](https://arxiv.org/abs/2012.03979).
 
 -
     id: Rental
@@ -326,7 +326,7 @@
     topic: fairness-indivisible
     level: journal
     content: >
-        American Mathematical Monthly 2022 (forthcoming) and [arXiv 2020](https://arxiv.org/abs/1912.13249).
+        [American Mathematical Monthly 2022, 129:5 403--414](https://www.tandfonline.com/doi/full/10.1080/00029890.2022.2037988) and [arXiv 2020](https://arxiv.org/abs/1912.13249).
 
 -
     id: MMS
