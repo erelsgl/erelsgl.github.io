@@ -10,7 +10,7 @@
   topic: fairness
   level: journal
   content: >
-    [Social Chioce and Welfare 2022](https://link.springer.com/article/10.1007/s00355-022-01416-4) and [arXiv 2019](https://arxiv.org/abs/1908.02988).
+    [Social Choice and Welfare 2022, 59(4): 969–-988](https://link.springer.com/article/10.1007/s00355-022-01416-4) and [arXiv 2019](https://arxiv.org/abs/1908.02988).
 
 - id: FairGap1
   lang: en
@@ -46,7 +46,7 @@
   topic: fairness
   level: conference+
   content: >
-    IJCAJ 2021 and [arXiv 2021](https://arxiv.org/abs/2105.04755).
+    IJCAI 2021 and [arXiv 2021](https://arxiv.org/abs/2105.04755).
   presentation: >
     https://www.youtube.com/watch?v=kHmQupNF5DI
 #        https://recorder-v3.slideslive.com/#/share?share=43356&s=993e5f2f-8ef4-43c0-92fa-d9de41920614
@@ -262,11 +262,11 @@
   lang: en
   title: Fractionally balanced hypergraphs and rainbow KKM theorems
   authors: Ron Aharoni, Eli Berger, Joseph Briggs, Erel Segal-Halevi, Shira Zerbib
-  date: 2021-11-01
+  date: 2022-10-10
   topic: fairness
   level: journal
   content: >
-    Combinatorica (accepted). [arXiv 2020](https://arxiv.org/abs/2011.01053).
+    [Combinatorica 2022](https://link.springer.com/article/10.1007/s00493-021-4808-y) and [arXiv 2020](https://arxiv.org/abs/2011.01053).
   presentation: >
     ../../../papers/Hypergraphs-60minutes-2020-11-BIU-Combinatorics.pdf
 
@@ -323,7 +323,7 @@
   topic: fairness-indivisible
   level: journal
   content: >
-    [JAIR 2022](https://www.jair.org/index.php/jair/article/view/13317) and [arXiv 2021](https://arxiv.org/abs/2109.01925). [In the news](https://www.psu.edu/news/information-sciences-and-technology/story/good-bad-fair-new-algorithms-could-help-fairly-distribute/)
+    [JAIR 2022, 74:353--391](https://www.jair.org/index.php/jair/article/view/13317) and [arXiv 2021](https://arxiv.org/abs/2109.01925). [In the news](https://www.psu.edu/news/information-sciences-and-technology/story/good-bad-fair-new-algorithms-could-help-fairly-distribute/)
 
 - id: OrdinalChores
   lang: en
@@ -422,7 +422,7 @@
   topic: fairness-indivisible
   level: journal
   content: >
-    [Operations Research 2022](https://pubsonline.informs.org/doi/abs/10.1287/opre.2022.2279) and [arXiv 2022](https://arxiv.org/abs/1908.01669).
+    [Operations Research 2022, 70(3): 1762--1782](https://pubsonline.informs.org/doi/abs/10.1287/opre.2022.2279) and [arXiv 2022](https://arxiv.org/abs/1908.01669).
   presentation: >
     ../../../papers/MinShare-30minutes-2019-WTAF.pdf
 
