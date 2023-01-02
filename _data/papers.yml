@@ -555,6 +555,16 @@
   content: >
     [Artificial Intelligence 2021](https://www.sciencedirect.com/science/article/abs/pii/S0004370221000990).
     <small>Previous versions: [AAAI 2020](https://aaai.org/ojs/index.php/AAAI/article/view/5571) and [arXiv 2019](https://arxiv.org/abs/1911.08094)</small>.
+- id: multirecipe
+  lang: en
+  title: >
+    Ascending-Price Mechanism for General Multi-sided Markets
+  authors: Dvir Gilor, Rica Gonen, Erel Segal-Halevi
+  date: 2021-11-02
+  topic: auctions
+  level: conference+
+  content: >
+    [Proceedings of EuMAS 2021](https://link.springer.com/chapter/10.1007/978-3-030-82254-5_1).
 - id: SBBA
   lang: en
   title: >
