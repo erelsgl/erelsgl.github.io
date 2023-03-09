@@ -2,6 +2,16 @@
 
 # Fair Division:
 
+- id: Budget
+  lang: en
+  title: Balanced Donor Coordination
+  authors: Felix Brandt and Matthias Greger and Erel Segal-Halevi and Warut Suksompong
+  date: 2023-03-01
+  topic: fairness
+  level: working
+  content: >
+    [Working paper 2023](https://pub.dss.in.tum.de/brandt-research/balanced.pdf).
+
 - id: ObviousManipulations
   lang: en
   title: Obvious manipulations in cake-cutting
@@ -32,9 +42,10 @@
   authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
   date: 2021-05-01
   topic: fairness
-  level: conference+
+  level: journal
   content: >
-    [IJCAI 2021 distinguished paper award](https://www.comp.nus.edu.sg/news/2021-ijcai/), [AI Hub](https://aihub.org/2021/09/21/allocating-fair-shares-of-land), and [arXiv 2021](https://arxiv.org/abs/2105.06669).
+    Accepted to Computational Geometry: Theory and Applications (2023). 
+    Preliminary versions: [IJCAI 2021 distinguished paper award](https://www.comp.nus.edu.sg/news/2021-ijcai/), [AI Hub](https://aihub.org/2021/09/21/allocating-fair-shares-of-land), [arXiv 2021](https://arxiv.org/abs/2105.06669).
   presentation: >
     https://www.youtube.com/watch?v=SXLgGU4g7bY
 #      https://recorder-v3.slideslive.com/?share=45936&s=479fbab7-19e4-4924-bb54-da7eda50b620
@@ -50,6 +61,16 @@
   presentation: >
     https://www.youtube.com/watch?v=kHmQupNF5DI
 #        https://recorder-v3.slideslive.com/#/share?share=43356&s=993e5f2f-8ef4-43c0-92fa-d9de41920614
+- id: FairGap4
+  lang: en
+  title: On Maximum Bipartite Matching with Separation
+  authors: Pasin Manurangsi, Erel Segal-Halevi, Warut Suksompong
+  date: 2023-03-01
+  topic: fairness
+  level: journal
+  content: >
+    Accepted to Information Processing Letters. [arXiv 2023](https://arxiv.org/abs/2303.02283).
+  presentation: >
 - id: FairAndSquare
   lang: en
   title: Fair and Square - Cake-Cutting in Two Dimensions
