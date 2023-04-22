@@ -30,11 +30,12 @@
   lang: en
   title: Keep Your Distance - Land Division With Separation
   authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
-  date: 2021-05-01
+  date: 2023-08-01
   topic: fairness
-  level: conference+
+  level: journal
   content: >
-    [IJCAI 2021 distinguished paper award](https://www.comp.nus.edu.sg/news/2021-ijcai/), [AI Hub](https://aihub.org/2021/09/21/allocating-fair-shares-of-land), and [arXiv 2021](https://arxiv.org/abs/2105.06669).
+    [Computational Geometry 2023, 113(102006)](https://www.sciencedirect.com/science/article/pii/S0925772123000263) and 
+    [IJCAI 2021 distinguished paper award](https://www.comp.nus.edu.sg/news/2021-ijcai/), [AI Hub](https://aihub.org/2021/09/21/allocating-fair-shares-of-land), and [arXiv 2023](https://arxiv.org/abs/2105.06669).
   presentation: >
     https://www.youtube.com/watch?v=SXLgGU4g7bY
 #      https://recorder-v3.slideslive.com/?share=45936&s=479fbab7-19e4-4924-bb54-da7eda50b620
@@ -50,6 +51,20 @@
   presentation: >
     https://www.youtube.com/watch?v=kHmQupNF5DI
 #        https://recorder-v3.slideslive.com/#/share?share=43356&s=993e5f2f-8ef4-43c0-92fa-d9de41920614
+
+- id: FairGap4
+  lang: en
+  title: On Maximum Bipartite Matching with Separation
+  authors: Pasin Manurangsi, Erel Segal-Halevi, Warut Suksompong
+  date: 2023-08-01
+  topic: fairness
+  level: journal
+  content: >
+    [Information Processing Letters 2023, 182(106388)](https://www.sciencedirect.com/science/article/pii/S0020019023000315).
+  presentation: >
+    https://www.youtube.com/watch?v=kHmQupNF5DI
+#        https://recorder-v3.slideslive.com/#/share?share=43356&s=993e5f2f-8ef4-43c0-92fa-d9de41920614
+
 - id: FairAndSquare
   lang: en
   title: Fair and Square - Cake-Cutting in Two Dimensions
@@ -296,11 +311,11 @@
   lang: en
   title: Efficient Nearly-Fair Division with Capacity Constraints
   authors: Hila Shoshan, Erel Segal-Halevi, Noam Hazon
-  date: 2022-05-16
+  date: 2023-05-16
   topic: fairness-indivisible
-  level: working
+  level: conference+
   content: >
-    [arXiv 2022](https://arxiv.org/abs/2205.07779).
+    AAMAS 2023 (accepted) and [arXiv 2022](https://arxiv.org/abs/2205.07779).
 
 - id: FairMatroid
   lang: en
