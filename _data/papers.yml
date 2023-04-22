@@ -2,6 +2,16 @@
 
 # Fair Division:
 
+- id: Budget
+  lang: en
+  title: Balanced Donor Coordination
+  authors: Felix Brandt and Matthias Greger and Erel Segal-Halevi and Warut Suksompong
+  date: 2023-03-01
+  topic: fairness
+  level: working
+  content: >
+    [Working paper 2023](https://pub.dss.in.tum.de/brandt-research/balanced.pdf).
+
 - id: ObviousManipulations
   lang: en
   title: Obvious manipulations in cake-cutting
@@ -34,11 +44,12 @@
   topic: fairness
   level: journal
   content: >
-    [Computational Geometry 2023, 113(102006)](https://www.sciencedirect.com/science/article/pii/S0925772123000263) and 
-    [IJCAI 2021 distinguished paper award](https://www.comp.nus.edu.sg/news/2021-ijcai/), [AI Hub](https://aihub.org/2021/09/21/allocating-fair-shares-of-land), and [arXiv 2023](https://arxiv.org/abs/2105.06669).
+    [Computational Geometry 2023, 113(102006)](https://www.sciencedirect.com/science/article/pii/S0925772123000263).
+    Preliminary versions: [IJCAI 2021 (distinguished paper award)](https://www.comp.nus.edu.sg/news/2021-ijcai/), [AI Hub](https://aihub.org/2021/09/21/allocating-fair-shares-of-land), and [arXiv 2023](https://arxiv.org/abs/2105.06669).
   presentation: >
     https://www.youtube.com/watch?v=SXLgGU4g7bY
 #      https://recorder-v3.slideslive.com/?share=45936&s=479fbab7-19e4-4924-bb54-da7eda50b620
+
 - id: FairGap3
   lang: en
   title: Graphical Cake Cutting via Maximin Share
@@ -60,10 +71,7 @@
   topic: fairness
   level: journal
   content: >
-    [Information Processing Letters 2023, 182(106388)](https://www.sciencedirect.com/science/article/pii/S0020019023000315).
-  presentation: >
-    https://www.youtube.com/watch?v=kHmQupNF5DI
-#        https://recorder-v3.slideslive.com/#/share?share=43356&s=993e5f2f-8ef4-43c0-92fa-d9de41920614
+    [Information Processing Letters 2023, 182(106388)](https://www.sciencedirect.com/science/article/pii/S0020019023000315) and [arXiv 2023](https://arxiv.org/abs/2303.02283).
 
 - id: FairAndSquare
   lang: en
