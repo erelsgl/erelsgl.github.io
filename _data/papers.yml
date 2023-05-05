@@ -252,13 +252,13 @@
 
 - id: pone
   lang: en
-  title: Fair and Efficient Division among Families
+  title: Fairness for Multi-Self Agents
   authors: Sophie Bade and Erel Segal-Halevi
-  date: 2019-12-01
+  date: 2023-04-22
   topic: fairness
-  level: working
+  level: journal
   content: >
-    [arXiv 2019](https://arxiv.org/abs/1811.06684).
+    Accepted to Games and Economic Behavior (2023). [arXiv 2022](https://arxiv.org/abs/1811.06684).
 
 - id: lab
   lang: en
