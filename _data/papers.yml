@@ -4,13 +4,23 @@
 
 - id: Budget
   lang: en
+  title: A Reduction from Chores Allocation to Job Scheduling
+  authors: Xin Huang and Erel Segal-Halevi
+  date: 2023-05-01
+  topic: fairness
+  level: conference+
+  content: >
+    EC 2023 (accepted); [arXiv 2023](https://arxiv.org/abs/2302.04581).
+
+- id: Budget
+  lang: en
   title: Balanced Donor Coordination
   authors: Felix Brandt and Matthias Greger and Erel Segal-Halevi and Warut Suksompong
-  date: 2023-03-01
+  date: 2023-05-01
   topic: fairness
-  level: working
+  level: conference+
   content: >
-    [Working paper 2023](https://pub.dss.in.tum.de/brandt-research/balanced.pdf).
+    EC 2023 (accepted); [Working paper 2023](https://pub.dss.in.tum.de/brandt-research/balanced.pdf).
 
 - id: ObviousManipulations
   lang: en
