@@ -10,7 +10,7 @@
   topic: fairness
   level: conference+
   content: >
-    EC 2023 (accepted); [arXiv 2023](https://arxiv.org/abs/2302.04581).
+    [EC 2023](https://dl.acm.org/doi/10.1145/3580507.3597676) and [arXiv 2023](https://arxiv.org/abs/2302.04581).
 
 - id: Donors
   lang: en
@@ -20,7 +20,7 @@
   topic: fairness
   level: conference+
   content: >
-    EC 2023 (accepted); [arXiv 2023](https://arxiv.org/abs/2305.10286).
+    [EC 2023](https://dl.acm.org/doi/10.1145/3580507.3597729) and [arXiv 2023](https://arxiv.org/abs/2305.10286).
 
 - id: ObviousManipulations
   lang: en
