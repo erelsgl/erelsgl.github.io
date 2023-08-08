@@ -46,10 +46,11 @@
   lang: en
   title: Mind the Gap - Cake Cutting With Separation
   authors: Edith Elkind, Erel Segal-Halevi, Warut Suksompong
-  date: 2021-02-01
+  date: 2022-12-01
   topic: fairness
-  level: conference+
+  level: journal
   content: >
+    [Artificial Intelligence 2022, 313(103783)](https://www.sciencedirect.com/science/article/pii/S0004370222001230) and
     [AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-1625.ElkindE.pdf) and [arXiv 2020](https://arxiv.org/abs/2012.06682).
   presentation: >
     https://www.youtube.com/watch?v=CmT4vpUGKEw
@@ -349,7 +350,7 @@
   lang: en
   title: On Fair Division under Heterogeneous Matroid Constraints
   authors: Amitay Dror, Michal Feldman, Erel Segal-Halevi
-  date: 2021-02-01
+  date: 2023-05-01
   topic: fairness-indivisible
   level: journal
   content: >
@@ -421,7 +422,7 @@
   presentation: >
     https://recorder-v3.slideslive.com/?share=57217&s=70779934-b103-4640-89b5-0fe80fe384ab
   content: >
-    AAAI 2022 (accepted), [arXiv 2021](https://arxiv.org/abs/2112.04166).
+    [AAAI 2022](https://ojs.aaai.org/index.php/AAAI/article/view/20425) and [arXiv 2021](https://arxiv.org/abs/2112.04166).
 
 - id: Diminish
   lang: en

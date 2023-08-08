@@ -21,11 +21,11 @@ lang: he
 
 # לסטודנטים בתואר ראשון
 
-בשנת ה'תשפ"ג אני מלמד את הקורסים הבאים:
+בשנת ה'תשפ"ד אני מלמד את הקורסים הבאים:
 
-1. חורף: [אלגוריתמים כלכליים][alg-econ] ,  [תיכנות אלגוריתמים מחקריים][alg-research]. 
+1. חורף: [אלגוריתמים כלכליים][alg-econ] ,  [פיתוח משחקי מחשב][gamedev]. 
    
-2. אביב: [תכנות מערכות ב (C++)][cpp], [פיתוח משחקי מחשב][gamedev].
+2. אביב: [תיכנות אלגוריתמים מחקריים][alg-research].
 
 בנוסף, אני מציע
 [פרוייקטים שנתיים][projects]
@@ -45,20 +45,9 @@ davidesh@ariel.ac.il .
 [research]: {{site.baseurl}}/papers/ResearchProgram-ISF-712-20.pdf
 [wishlist]: {{site.baseurl}}/pages/{{page.lang}}/wishlist
 
-[opensource]: https://github.com/erelsgl-at-ariel/projects-5780/blob/master/open-source-projects.pdf
-[fairdivision]: https://github.com/erelsgl-at-ariel/projects-5780/blob/master/fair-division-algorithms.pdf
-[seriousgames]: https://en.wikipedia.org/wiki/Serious_games
-[proj5780gamedev]: https://maoz-grossman.github.io/GameDev-Ariel/
-[proj5780fair]: https://github.com/DanielAbergel/Distribution-Algorithm
-[proj5780fairsite]: https://???
-[proj5780trade]: https://github.com/aricRach/final-project
-[proj5780tradesite]: https://multitrade.herokuapp.com/
-[projects]: https://github.com/erelsgl-at-ariel/projects-5783
-
-[cpp]: https://github.com/erelsgl-at-ariel/cpp-5783
-[alg-econ]: https://github.com/erelsgl-at-ariel/algorithms-5783
-[alg-research]: https://github.com/erelsgl-at-ariel/research-5783
-[gamedev]: https://github.com/gamedev-at-ariel/gamedev-5783
-
-[oop5778]: https://github.com/erelsgl-at-ariel/oop-5778
+[projects]: https://github.com/erelsgl-at-ariel/projects-5784
+[cpp]: https://github.com/erelsgl-at-ariel/cpp-5784
+[alg-econ]: https://github.com/erelsgl-at-ariel/algorithms-5784
+[alg-research]: https://github.com/erelsgl-at-ariel/research-5784
+[gamedev]: https://github.com/gamedev-at-ariel/gamedev-5784
 
