@@ -605,11 +605,11 @@
   title: >
     Ascending-Price Mechanism for General Multi-sided Markets
   authors: Dvir Gilor, Rica Gonen, Erel Segal-Halevi
-  date: 2021-11-02
+  date: 2023-09-27
   topic: auctions
-  level: conference+
+  level: journal
   content: >
-    [Proceedings of EuMAS 2021](https://link.springer.com/chapter/10.1007/978-3-030-82254-5_1).
+    Accepted to Artificial Intelligence 2023. [Proceedings of EuMAS 2021](https://link.springer.com/chapter/10.1007/978-3-030-82254-5_1).
 - id: SBBA
   lang: en
   title: >
