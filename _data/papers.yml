@@ -8,9 +8,9 @@
   authors: Eden R. Hartman and Yonatan Aumann and Avinatan Hassidim and Erel Segal-Halevi
   date: 2023-09-30
   topic: fairness
-  level: working
+  level: conference+
   content: >
-    [arXiv 2023](https://arxiv.org/abs/2303.12506).
+    ECAI 2023 and [arXiv 2023](https://arxiv.org/abs/2303.12506). NOTE: there is a mistake in Section 5; we are working on a corrected version.
 
 - id: ChoresJobs
   lang: en
