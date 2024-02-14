@@ -7,7 +7,7 @@ lang: en
 ---
 # Erel Segal-Halevi - Academic Homepage
 
-I am a tenured lecturer in [Ariel university][arielcs], computer science department. 
+I am an associate professor in [Ariel university][arielcs], computer science department. 
 My main research goal is to develop algorithms for making human society better and fairer. In particular, I develop [fair division algorithms][1] and [truthful auction mechanisms][2]. 
 
 In the past I did research in natural language processing - [English negotiation][4] and [Hebrew morphology][5]. 

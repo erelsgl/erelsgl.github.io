@@ -9,9 +9,9 @@ lang: he
 
 # אראל סגל-הלוי - דף-בית אקדמי 
 
-אני חוקר ומרצה בכיר באוניברסיטת אריאל, במחלקה למדעי המחשב.
+אני פרופסור חבר באוניברסיטת אריאל, במחלקה למדעי המחשב.
 מתוך לימוד [התנ"ך][tnk] הגעתי לנושא המחקר העיקרי שלי כיום -
-[אלגוריתמים כלכליים][alg5781],  במיוחד
+[אלגוריתמים כלכליים][alg],  במיוחד
 **אלגוריתמי חלוקה הוגנת**.
 מטרת המחקר בנושא זה היא לפתח אלגוריתמים חדשניים שיסייעו לבני-אדם לחלק ביניהם דברים
 באופן יעיל ומהיר, שיהיה הוגן בעיני כולם.
@@ -49,4 +49,4 @@ lang: he
 [research]: {{site.baseurl}}/papers/ResearchProgram-ISF-712-20.pdf
 [ya]: https://sites.google.com/site/aumannbiu/
 [ah]: http://u.cs.biu.ac.il/~avinatan/
-[alg5781]: https://github.com/erelsgl-at-ariel/algorithms-5781
+[alg]: https://github.com/erelsgl-at-ariel/algorithms-5784
