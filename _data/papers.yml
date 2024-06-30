@@ -32,6 +32,16 @@
   content: >
     [EC 2023](https://dl.acm.org/doi/10.1145/3580507.3597729) and [arXiv 2023](https://arxiv.org/abs/2305.10286).
 
+- id: Aggregation
+  lang: en
+  title: Optimal Budget Aggregation with Single-Peaked Preferences 
+  authors: Felix Brandt and Matthias Greger and Erel Segal-Halevi and Warut Suksompong
+  date: 2024-05-01
+  topic: fairness
+  level: conference+
+  content: >
+    EC 2024 (accepted) and [arXiv 2024](https://arxiv.org/abs/2402.15904).
+
 - id: ObviousManipulations
   lang: en
   title: Obvious manipulations in cake-cutting
@@ -269,7 +279,7 @@
   topic: fairness
   level: journal
   content: >
-    American Mathematical Monthly 2022 (forthcoming).
+    [American Mathematical Monthly 2022, 130:203--213](https://www.tandfonline.com/doi/full/10.1080/00029890.2022.2153566).
 
 - id: pone
   lang: en
@@ -418,11 +428,11 @@
   authors: Mithun Chakraborty, Erel Segal-Halevi, Warut Suksompong
   date: 2022-01-01
   topic: fairness-indivisible
-  level: conference+
+  level: journal
   presentation: >
     https://recorder-v3.slideslive.com/?share=57217&s=70779934-b103-4640-89b5-0fe80fe384ab
   content: >
-    [AAAI 2022](https://ojs.aaai.org/index.php/AAAI/article/view/20425) and [arXiv 2021](https://arxiv.org/abs/2112.04166).
+    [AAAI 2022](https://ojs.aaai.org/index.php/AAAI/article/view/20425) and [arXiv 2021](https://arxiv.org/abs/2112.04166) and [TEAC 2024](https://dl.acm.org/doi/10.1145/3665799).
 
 - id: Diminish
   lang: en
@@ -489,7 +499,9 @@
   topic: fairness-indivisible
   level: journal
   content: >
-    [Information Sciences 2022, 587:164--187](https://www.sciencedirect.com/science/article/abs/pii/S0020025521011816) and [arXiv 2022](https://arxiv.org/abs/1901.09527).
+    [arXiv 2022](https://arxiv.org/abs/1901.09527)
+    (the published version in [Information Sciences 2022, 587:164--187](https://www.sciencedirect.com/science/article/abs/pii/S0020025521011816) contains typographic errors - please read the arXiv version).
+    
   presentation: >
     ../../../papers/EFM-60minutes-2020-03-BIU-Combinatorics.pdf
 
