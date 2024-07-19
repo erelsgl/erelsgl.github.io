@@ -111,7 +111,7 @@
   date: 2024-07-04
   topic: fairness
   level: conference+
-  content: ECAI 2024 (accepted)
+  content: ECAI 2024 (accepted) and [arXiv 2023-2024](https://arxiv.org/abs/2312.15326).
 
 
 - id: FairAndSquare
@@ -498,7 +498,7 @@
   date: 2024-07-07
   topic: fairness-indivisible
   level: conference+
-  content: SAGT 2024 (accepted) and [arXiv 2019 (outdated)](https://arxiv.org/abs/1912.00459).
+  content: SAGT 2024 (accepted) and [arXiv 2019--2024](https://arxiv.org/abs/1912.00459).
 
 - id: efm
   lang: en
@@ -533,7 +533,7 @@
   date: 2024-07-07
   topic: fairness-indivisible
   level: conference+
-  content: SAGT 2024 (accepted) and [arXiv 2023 (outdated)](https://arxiv.org/abs/2311.16742)
+  content: SAGT 2024 (accepted) and [arXiv 2023-2024](https://arxiv.org/abs/2311.16742).
 
 
 # Social choice:
