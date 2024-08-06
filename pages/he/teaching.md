@@ -21,11 +21,11 @@ lang: he
 
 # לסטודנטים בתואר ראשון
 
-בשנת ה'תשפ"ד אני מלמד את הקורסים הבאים:
+בשנת ה'תשפ"ה אני מלמד את הקורסים הבאים:
 
-1. חורף: [אלגוריתמים כלכליים][alg-econ] ,  [פיתוח משחקי מחשב][gamedev]. 
+1. חורף:  [פיתוח משחקי מחשב][gamedev]. 
    
-2. אביב: [תיכנות אלגוריתמים מחקריים][alg-research].
+2. אביב: [אלגוריתמים כלכליים][alg-econ] ,[תיכנות אלגוריתמים מחקריים][alg-research].
 
 בנוסף, אני מציע
 [פרוייקטים שנתיים][projects]
@@ -45,9 +45,9 @@ davidesh@ariel.ac.il .
 [research]: {{site.baseurl}}/papers/ResearchProgram-ISF-712-20.pdf
 [wishlist]: {{site.baseurl}}/pages/{{page.lang}}/wishlist
 
-[projects]: https://github.com/erelsgl-at-ariel/projects-5784
+[projects]: https://github.com/erelsgl-at-ariel/projects-5785
 [cpp]: https://github.com/erelsgl-at-ariel/cpp-5784
-[alg-econ]: https://github.com/erelsgl-at-ariel/algorithms-5784
-[alg-research]: https://github.com/erelsgl-at-ariel/research-5784
-[gamedev]: https://github.com/gamedev-at-ariel/gamedev-5784
+[alg-econ]: https://github.com/erelsgl-at-ariel/algorithms-5785
+[alg-research]: https://github.com/erelsgl-at-ariel/research-5785
+[gamedev]: https://github.com/gamedev-at-ariel/gamedev-5785
 
