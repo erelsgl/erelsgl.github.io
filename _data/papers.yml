@@ -350,11 +350,11 @@
   lang: en
   title: Number Partitioning with Splitting
   authors: Samuel Bismuth, Vladislav Makarov, Erel Segal-Halevi, Dana Shapira
-  date: 2022-07-19
+  date: 2024-09-01
   topic: fairness-indivisible
-  level: working
+  level: conference+
   content: >
-    [arXiv 2022](https://arxiv.org/abs/2205.07779).
+    ISAAC 2024 (accepted) and [arXiv 2022](https://arxiv.org/abs/2205.07779).
 
 - id: FairCapacity
   lang: en
@@ -442,7 +442,7 @@
   presentation: >
     https://recorder-v3.slideslive.com/?share=57217&s=70779934-b103-4640-89b5-0fe80fe384ab
   content: >
-    [AAAI 2022](https://ojs.aaai.org/index.php/AAAI/article/view/20425) and [arXiv 2021](https://arxiv.org/abs/2112.04166) and [TEAC 2024](https://dl.acm.org/doi/10.1145/3665799).
+    [AAAI 2022](https://ojs.aaai.org/index.php/AAAI/article/view/20425) and [arXiv 2021](https://arxiv.org/abs/2112.04166) and [TEAC 2024 12:3:9 1--45](https://dl.acm.org/doi/10.1145/3665799).
 
 - id: Diminish
   lang: en
