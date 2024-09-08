@@ -493,12 +493,12 @@
 
 - id: boundshare
   lang: en
-  title: Fair Division with Bounded Sharing
+  title: Fair Division with Bounded Sharing - Binary and Non-degenerate Valuations
   authors: Samuel Bismuth and Ivan Bliznets and Erel Segal-Halevi
   date: 2024-07-07
   topic: fairness-indivisible
   level: conference+
-  content: SAGT 2024 (accepted) and [arXiv 2019--2024](https://arxiv.org/abs/1912.00459).
+  content: [SAGT 2024](https://link.springer.com/chapter/10.1007/978-3-031-71033-9_6) and [arXiv 2019--2024](https://arxiv.org/abs/1912.00459).
 
 - id: efm
   lang: en
