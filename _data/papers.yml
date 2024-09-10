@@ -479,6 +479,16 @@
   presentation: >
     ../../../papers/CEFAI-15minutes-2018-07-AAMAS.pdf
 
+- id: boundshare
+  lang: en
+  title: Fair Division with Bounded Sharing - Binary and Non-degenerate Valuations
+  authors: Samuel Bismuth and Ivan Bliznets and Erel Segal-Halevi
+  date: 2024-07-07
+  topic: fairness-indivisible
+  level: conference+
+  content: >
+    [SAGT 2024, 89--107](https://link.springer.com/chapter/10.1007/978-3-031-71033-9_6) and [arXiv 2019--2024](https://arxiv.org/abs/1912.00459).
+
 - id: minshare
   lang: en
   title: Efficient Fair Division with Minimal Sharing
@@ -490,15 +500,6 @@
     [Operations Research 2022, 70(3): 1762--1782](https://pubsonline.informs.org/doi/abs/10.1287/opre.2022.2279) and [arXiv 2022](https://arxiv.org/abs/1908.01669).
   presentation: >
     ../../../papers/MinShare-30minutes-2019-WTAF.pdf
-
-- id: boundshare
-  lang: en
-  title: Fair Division with Bounded Sharing - Binary and Non-degenerate Valuations
-  authors: Samuel Bismuth and Ivan Bliznets and Erel Segal-Halevi
-  date: 2024-07-07
-  topic: fairness-indivisible
-  level: conference+
-  content: [SAGT 2024, 89--107](https://link.springer.com/chapter/10.1007/978-3-031-71033-9_6) and [arXiv 2019--2024](https://arxiv.org/abs/1912.00459).
 
 - id: efm
   lang: en
@@ -533,7 +534,8 @@
   date: 2024-07-07
   topic: fairness-indivisible
   level: conference+
-  content: [SAGT 2024, 483--500](https://link.springer.com/chapter/10.1007/978-3-031-71033-9_27) and [arXiv 2023-2024](https://arxiv.org/abs/2311.16742).
+  content: >
+    [SAGT 2024, 483--500](https://link.springer.com/chapter/10.1007/978-3-031-71033-9_27) and [arXiv 2023-2024](https://arxiv.org/abs/2311.16742).
 
 
 # Social choice:
