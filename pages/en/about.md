@@ -18,7 +18,7 @@ Stipends are available for excellent students.
 
 For other open questions I find particularly interesting, see my [wishlist][8].
 
-I served as PC member in IJCAI (2018-2021, last year as SPC), AAAI (2019-2021), AAMAS (2019-2021), EC (2021), COMSOC (2023), ECAI (2023, as SPC), IJCAI-CFD-workshop (2023) and have [reviewed for various journals](https://www.webofscience.com/wos/author/record/706840), as well as for the [NSF](https://www.nsf.org/).
+I served as PC member in IJCAI (2018-2021, last year as SPC), AAAI (2019-2021), AAMAS (2019-2021), AAMAS-DC (2025), EC (2021), COMSOC (2023), IJCAI-CFD-workshop (2023-2024), ECAI (2023-2025, as SPC), and have [reviewed for various journals](https://www.webofscience.com/wos/author/record/706840), as well as for the [NSF](https://www.nsf.org/).
 
 <p style='display:none'>
 In addition to research, I have many years of experience [programming in various languages][6].
