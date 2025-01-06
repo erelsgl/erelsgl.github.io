@@ -94,6 +94,16 @@
     https://www.youtube.com/watch?v=kHmQupNF5DI
 #        https://recorder-v3.slideslive.com/#/share?share=43356&s=993e5f2f-8ef4-43c0-92fa-d9de41920614
 
+- id: FairGap3J
+  lang: en
+  title: Dividing a Graphical Cake
+  authors: Xiaohui Bei, Edith Elkind, Erel Segal-Halevi, Warut Suksompong
+  date: 2025-01-01
+  topic: fairness
+  level: journal
+  content: >
+    [SIAM Journal on Discrete Mathematics 2025, 39:1](https://epubs.siam.org/doi/10.1137/22M1500502).
+
 - id: FairGap4
   lang: en
   title: On Maximum Bipartite Matching with Separation
