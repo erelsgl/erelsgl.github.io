@@ -2,6 +2,50 @@
 
 # Fair Division:
 
+- id: RAT Degree
+  lang: en
+  title: It's Not All Black and White - Degree of Truthfulness for Risk-Avoiding Agents
+  authors: Eden R. Hartman, Erel Segal-Halevi, Biaoshuai Tao
+  date: 2025-02-18
+  topic: auctions
+  level: working
+  content: >
+    In preparation.
+
+- id: PinuyBinuy
+  lang: en
+  title: Evacuate and Rebuild - Avoiding Envy in Urban Renewal
+  authors: Noga Klein Elmalem, Rica Gonen, Erel Segal-Halevi
+  date: 2025-02-19
+  topic: fairness
+  level: working
+  content: >
+    In preparation.
+  presentation: >
+    ../../../papers/EvacuateRebuild-40minutes-2024-Singapore.pptx
+
+- id: WeightedSubsidy
+  lang: en
+  title: Whoever Said Money Won't Solve All Your Problems? Weighted Envy-free Allocation with Subsidy	
+  authors: Noga Klein Elmalem, Haris Aziz, Rica Gonen, Xin Huang, Kei Kimura, Indrajit Saha, Erel Segal-Halevi, Zhaohong Sun, Mashbat Suzuki, Makoto Yokoo
+  date: 2025-02-17
+  topic: fairness
+  level: working
+  content: >
+    [arXiv 2025](https://arxiv.org/abs/2502.09006).
+
+- id: LeximinReduction
+  lang: en
+  title: Reducing Leximin Fairness to Utilitarian Optimization	
+  authors: Eden R. Hartman and Yonatan Aumann and Avinatan Hassidim and Erel Segal-Halevi
+  date: 2025-02-01
+  topic: fairness
+  level: conference+
+  content: >
+    AAAI 2025 and [arXiv 2024](https://arxiv.org/abs/2409.10395).
+  presentation: >
+    ../../../papers/Leximin-40minutes-2024-Singapore.pptx
+
 - id: LeximinApproximation
   lang: en
   title: Leximin Approximation - from Single-Objective to Multi-Objective	
@@ -10,7 +54,17 @@
   topic: fairness
   level: conference+
   content: >
-    ECAI 2023 and [arXiv 2023](https://arxiv.org/abs/2303.12506). NOTE: there is a mistake in Section 5; we are working on a corrected version.
+    [ECAI 2023](https://ebooks.iospress.nl/doi/10.3233/FAIA230371) and [arXiv 2023](https://arxiv.org/abs/2303.12506). NOTE: there is a mistake in Section 5 (the applications). Please see our AAAI 2025 paper for details.
+
+- id: ChoresJobs2
+  lang: en
+  title: Improved Maximin Share Approximations for Chores by Bin Packing
+  authors: Jugal Garg and Xin Huang and Erel Segal-Halevi
+  date: 2025-02-01
+  topic: fairness
+  level: conference+
+  content: >
+    AAAI 2025 and [arXiv 2024](https://arxiv.org/abs/2411.04391).
 
 - id: ChoresJobs
   lang: en
@@ -22,6 +76,16 @@
   content: >
     [EC 2023](https://dl.acm.org/doi/10.1145/3580507.3597676) and [arXiv 2023](https://arxiv.org/abs/2302.04581).
 
+- id: Aggregation
+  lang: en
+  title: Optimal Budget Aggregation with Single-Peaked Preferences 
+  authors: Felix Brandt and Matthias Greger and Erel Segal-Halevi and Warut Suksompong
+  date: 2024-05-01
+  topic: fairness
+  level: conference+
+  content: >
+    [EC 2024](https://dl.acm.org/doi/10.1145/3670865.3673512 and [arXiv 2024](https://arxiv.org/abs/2402.15904).
+
 - id: Donors
   lang: en
   title: Balanced Donor Coordination
@@ -31,16 +95,6 @@
   level: conference+
   content: >
     [EC 2023](https://dl.acm.org/doi/10.1145/3580507.3597729) and [arXiv 2023](https://arxiv.org/abs/2305.10286).
-
-- id: Aggregation
-  lang: en
-  title: Optimal Budget Aggregation with Single-Peaked Preferences 
-  authors: Felix Brandt and Matthias Greger and Erel Segal-Halevi and Warut Suksompong
-  date: 2024-05-01
-  topic: fairness
-  level: conference+
-  content: >
-    EC 2024 (accepted) and [arXiv 2024](https://arxiv.org/abs/2402.15904).
 
 - id: ObviousManipulations
   lang: en
@@ -779,8 +833,20 @@
   topic: jewecon
   level: journal
   content: >
-    פורסם ב[בדד 28 - כסלו ה'תשע"ד 2013](http://www.biupress.co.il/website/index.asp?id=928).
+    פורסם ב[בדד 28 - כסלו ה'תשע"ד 2013](https://www.biupress.co.il/index.php?dir=site&page=catalog&op=item&cs=1689).
     נמצא גם [כאן](http://www.tora.us.fm/tryg/yovl/bdd/yovel-bdd-28.pdf).
+
+- id: FairBDD
+  lang: he
+  title: חלוקה שווה עם העדפות שונות בהלכה ובמדע
+  entitle: Equal Division with Different Preferences in Halakha and Science
+  authors: אראל סגל-הלוי
+  date: 2024-07-14
+  topic: jewecon
+  level: journal
+  content: >
+    פורסם ב[בדד 37 - אייר ה'תשפ"ד 2024](https://www.biupress.co.il/index.php?dir=site&page=catalog&op=item&cs=2453).
+    נמצא גם [כאן](http://erelsgl.github.io/papers/FairDivisionInToraAndScience-BDD.pdf).
 
 - id: GmachsBanks
   lang: he
@@ -892,6 +958,7 @@
   level: working
   content: >
     [Working paper](https://arxiv.org/abs/1612.08580).
+
 - id: RepeatedGames
   lang: en
   title: Repeated Games with Risk Averse Players
