@@ -46,7 +46,7 @@ davidesh@ariel.ac.il .
 [wishlist]: {{site.baseurl}}/pages/{{page.lang}}/wishlist
 
 [projects]: https://github.com/erelsgl-at-ariel/projects-5785
-[cpp]: https://github.com/erelsgl-at-ariel/cpp-5784
+[cpp]: https://github.com/erelsgl-at-ariel/cpp-5785
 [alg-econ]: https://github.com/erelsgl-at-ariel/algorithms-5785
 [alg-research]: https://github.com/erelsgl-at-ariel/research-5785
 [gamedev]: https://github.com/gamedev-at-ariel/gamedev-5785

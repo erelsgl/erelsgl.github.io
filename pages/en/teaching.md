@@ -7,11 +7,11 @@ lang: en
 
 ## For undergraduate students
 
-In 2024 I teach the following courses:
+In 2025 I teach the following courses:
 
-1. Winter: [Economic Algorithms][alg-econ] and [Game Development][gamedev].
+1. Winter: [Game Development][gamedev].
 
-1. Spring: [Programming Research Algorithms][alg-research].
+1. Spring: [Economic Algorithms][alg-econ] and [Programming Research Algorithms][alg-research].
 
 In addition, I offer several kinds of [annual projects][projects].
 
@@ -26,8 +26,8 @@ Stipends are available for excellent students. Availability is limited.
 
 [research]: {{site.baseurl}}/papers/ResearchProgram-ISF-712-20.pdf
 
-[cpp]: https://github.com/erelsgl-at-ariel/cpp-5784
-[alg-econ]: https://github.com/erelsgl-at-ariel/algorithms-5784
-[alg-research]: https://github.com/erelsgl-at-ariel/research-5784
-[gamedev]: https://github.com/gamedev-at-ariel/gamedev-5784
-[projects]: https://github.com/erelsgl-at-ariel/projects-5784
+[cpp]: https://github.com/erelsgl-at-ariel/cpp-5785
+[alg-econ]: https://github.com/erelsgl-at-ariel/algorithms-5785
+[alg-research]: https://github.com/erelsgl-at-ariel/research-5785
+[gamedev]: https://github.com/gamedev-at-ariel/gamedev-5785
+[projects]: https://github.com/erelsgl-at-ariel/projects-5785
