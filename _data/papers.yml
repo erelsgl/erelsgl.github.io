@@ -6,21 +6,21 @@
   lang: en
   title: It's Not All Black and White - Degree of Truthfulness for Risk-Avoiding Agents
   authors: Eden R. Hartman, Erel Segal-Halevi, Biaoshuai Tao
-  date: 2025-02-18
+  date: 2025-02-26
   topic: auctions
   level: working
   content: >
-    In preparation.
+    [arXiv 2025](https://arxiv.org/abs/2502.18805).
 
 - id: PinuyBinuy
   lang: en
-  title: Evacuate and Rebuild - Avoiding Envy in Urban Renewal
+  title: Fair division of the replacement-units without an appraiser in urban renewal processes 
   authors: Noga Klein Elmalem, Rica Gonen, Erel Segal-Halevi
-  date: 2025-02-19
+  date: 2025-02-23
   topic: fairness
   level: working
   content: >
-    In preparation.
+    [arXiv 2025](https://arxiv.org/abs/2504.16852).
   presentation: >
     ../../../papers/EvacuateRebuild-40minutes-2024-Singapore.pptx
 
@@ -42,7 +42,7 @@
   topic: fairness
   level: conference+
   content: >
-    AAAI 2025 and [arXiv 2024](https://arxiv.org/abs/2409.10395).
+    [AAAI 2025](https://ojs.aaai.org/index.php/AAAI/article/view/33521) and [arXiv 2024](https://arxiv.org/abs/2409.10395).
   presentation: >
     ../../../papers/Leximin-40minutes-2024-Singapore.pptx
 
@@ -64,7 +64,7 @@
   topic: fairness
   level: conference+
   content: >
-    AAAI 2025 and [arXiv 2024](https://arxiv.org/abs/2411.04391).
+    [AAAI 2025](https://ojs.aaai.org/index.php/AAAI/article/view/33518) and [arXiv 2024](https://arxiv.org/abs/2411.04391).
 
 - id: ChoresJobs
   lang: en
@@ -84,7 +84,7 @@
   topic: fairness
   level: conference+
   content: >
-    [EC 2024](https://dl.acm.org/doi/10.1145/3670865.3673512 and [arXiv 2024](https://arxiv.org/abs/2402.15904).
+    [EC 2024](https://dl.acm.org/doi/10.1145/3670865.3673512) and [arXiv 2024](https://arxiv.org/abs/2402.15904).
 
 - id: Donors
   lang: en
@@ -156,7 +156,7 @@
   topic: fairness
   level: journal
   content: >
-    [SIAM Journal on Discrete Mathematics 2025, 39:1](https://epubs.siam.org/doi/10.1137/22M1500502).
+    [SIAM Journal on Discrete Mathematics 2025, 39(1):19--54](https://epubs.siam.org/doi/10.1137/22M1500502).
 
 - id: FairGap4
   lang: en
@@ -175,8 +175,8 @@
   date: 2024-07-04
   topic: fairness
   level: conference+
-  content: ECAI 2024 (accepted) and [arXiv 2023-2024](https://arxiv.org/abs/2312.15326).
-
+  content: >
+    [ECAI 2024](https://ebooks.iospress.nl/volumearticle/69980) and [arXiv 2023-2024](https://arxiv.org/abs/2312.15326).
 
 - id: FairAndSquare
   lang: en
@@ -363,7 +363,7 @@
   topic: fairness
   level: journal
   content: >
-    [Games and Economic Behavior 2023](https://www.sciencedirect.com/science/article/pii/S0899825623000866) and [arXiv 2022](https://arxiv.org/abs/1811.06684).
+    [Games and Economic Behavior 2023, 141:321--336](https://www.sciencedirect.com/science/article/pii/S0899825623000866) and [arXiv 2022](https://arxiv.org/abs/1811.06684).
 
 - id: lab
   lang: en
@@ -412,13 +412,13 @@
 
 - id: FairSplitting
   lang: en
-  title: Number Partitioning with Splitting
+  title: Partitioning Problems with Splittings and Interval Targets
   authors: Samuel Bismuth, Vladislav Makarov, Erel Segal-Halevi, Dana Shapira
   date: 2024-09-01
   topic: fairness-indivisible
   level: conference+
   content: >
-    ISAAC 2024 (accepted) and [arXiv 2022](https://arxiv.org/abs/2205.07779).
+    [ISAAC 2024](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ISAAC.2024.12) and [arXiv 2022--2025](https://arxiv.org/abs/2205.07779).
 
 - id: FairCapacity
   lang: en
@@ -676,6 +676,7 @@
     [AAAI 2018](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16593) and [arXiv 2018](https://arxiv.org/abs/1712.06848).
   presentation: >
     ../../../papers/MUDA-poster-AAAI18.ppt
+
 - id: multilateraltree
   lang: en
   title: >
@@ -686,6 +687,7 @@
   level: conference-
   content: >
     [AAMAS 2021](http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1515.pdf), pages 1515--1516 (extended abstract).
+
 - id: multilateral
   lang: en
   title: >
@@ -697,6 +699,7 @@
   content: >
     [Artificial Intelligence 2021](https://www.sciencedirect.com/science/article/abs/pii/S0004370221000990).
     <small>Previous versions: [AAAI 2020](https://aaai.org/ojs/index.php/AAAI/article/view/5571) and [arXiv 2019](https://arxiv.org/abs/1911.08094)</small>.
+
 - id: multirecipe
   lang: en
   title: >
@@ -706,7 +709,7 @@
   topic: auctions
   level: journal
   content: >
-    Accepted to Artificial Intelligence 2023. [Proceedings of EuMAS 2021](https://link.springer.com/chapter/10.1007/978-3-030-82254-5_1).
+    [Artificial Intelligence 2023, 325(104022)](https://www.sciencedirect.com/science/article/pii/S0004370223001686). [Proceedings of EuMAS 2021](https://link.springer.com/chapter/10.1007/978-3-030-82254-5_1).
 - id: SBBA
   lang: en
   title: >
