@@ -78,6 +78,16 @@
   content: >
     [EC 2023](https://dl.acm.org/doi/10.1145/3580507.3597676) and [arXiv 2023](https://arxiv.org/abs/2302.04581).
 
+- id: AggregationComputation
+  lang: en
+  title: Efficiently Computing Equilibria in Budget-Aggregation Games 
+  authors: Patrick Becker and Alexander Fries and Matthias Greger and Erel Segal-Halevi
+  date: 2025-09-11
+  topic: fairness
+  level: working
+  content: >
+    [arXiv 2025](https://arxiv.org/abs/2509.08767).
+
 - id: Aggregation
   lang: en
   title: Optimal Budget Aggregation with Single-Peaked Preferences 
@@ -90,13 +100,13 @@
 
 - id: Donors
   lang: en
-  title: Balanced Donor Coordination
+  title: Coordinating Charitable Donations with Leontief Preferences (aka Balanced Donor Coordination)
   authors: Felix Brandt and Matthias Greger and Erel Segal-Halevi and Warut Suksompong
-  date: 2023-05-01
+  date: 2025-09-28
   topic: fairness
-  level: conference+
+  level: journal
   content: >
-    [EC 2023](https://dl.acm.org/doi/10.1145/3580507.3597729) and [arXiv 2023](https://arxiv.org/abs/2305.10286).
+    [Journal of Economic Theory 2025, 106096](https://www.sciencedirect.com/science/article/pii/S0022053125001425) and [arXiv 2025](https://arxiv.org/abs/2305.10286). Previous version: [EC 2023](https://dl.acm.org/doi/10.1145/3580507.3597729).
 
 - id: ObviousManipulations
   lang: en
