@@ -90,13 +90,14 @@
 
 - id: Aggregation
   lang: en
-  title: Optimal Budget Aggregation with Single-Peaked Preferences 
+  title: Optimal Budget Aggregation with Star-Shaped Preferences 
   authors: Felix Brandt and Matthias Greger and Erel Segal-Halevi and Warut Suksompong
   date: 2024-05-01
   topic: fairness
-  level: conference+
+  level: journal
   content: >
-    [EC 2024](https://dl.acm.org/doi/10.1145/3670865.3673512) and [arXiv 2024](https://arxiv.org/abs/2402.15904).
+    Mathematics of Operations Research (accepted)
+    and [EC 2024](https://dl.acm.org/doi/10.1145/3670865.3673512) and [arXiv 2024](https://arxiv.org/abs/2402.15904).
 
 - id: Donors
   lang: en
@@ -335,6 +336,16 @@
   content: >
     [Journal of Mathematical Analysis 2019, 123382](https://doi.org/10.1016/j.jmaa.2019.123382) and [arXiv 2019](https://arxiv.org/abs/1803.05470).
 
+- id: MonotoneFunctions
+  lang: en
+  title: Computing Approximate Roots of Monotone Functions
+  authors: Alexandros Hollender and Chester Lawrence and Erel Segal-Halevi
+  date: 2025-06-01
+  topic: fairness
+  level: journal
+  content: >
+    [Journal of Complexity 88, 101930](https://www.sciencedirect.com/science/article/pii/S0885064X25000081).
+
 - id: Multicake
   lang: en
   title: Fair Multi-Cake Cutting <small>(Previously called "Fair Division of an Archipelago")</small>
@@ -406,7 +417,7 @@
   topic: fairness
   level: journal
   content: >
-    [Combinatorica 2022](https://link.springer.com/article/10.1007/s00493-021-4808-y) and [arXiv 2020](https://arxiv.org/abs/2011.01053).
+    [Combinatorica 2022, volume 42, 913--951](https://link.springer.com/article/10.1007/s00493-021-4808-y) and [arXiv 2020](https://arxiv.org/abs/2011.01053).
   presentation: >
     ../../../papers/Hypergraphs-60minutes-2020-11-BIU-Combinatorics.pdf
 
@@ -480,11 +491,11 @@
   lang: en
   title: Computing Welfare-Maximizing Fair Allocations of Indivisible Goods  
   authors: Haris Aziz, Xin Huang, Nicholas Mattei, Erel Segal-Halevi
-  date: 2022-10-01
+  date: 2023-06-01
   topic: fairness-indivisible
   level: journal
   content: >
-      [European Journal of Operations Research 2022](https://www.sciencedirect.com/science/article/pii/S0377221722007822?via%3Dihub) and [arXiv 2022](https://arxiv.org/abs/2012.03979).
+      [European Journal of Operations Research 2023, 307:2 773--784](https://www.sciencedirect.com/science/article/pii/S0377221722007822?via%3Dihub) and [arXiv 2022](https://arxiv.org/abs/2012.03979).
 
 - id: Rental
   lang: en
@@ -591,12 +602,22 @@
   presentation: >
     ../../../papers/EFM-60minutes-2020-03-BIU-Combinatorics.pdf
 
+- id: ElectricityLeximin
+  lang: en
+  title: Fairly Wired - Towards Leximin-Optimal Division of Electricity 
+  authors: Eden Hartman and Dinesh Kumar Baghel and Erel Segal-Halevi
+  date: 2025-06-01
+  topic: fairness
+  level: working
+  content: >
+    [arXiv 2025](https://arxiv.org/abs/2506.02193)
+
 - id: electricity
   lang: en
   title: Fair Division Algorithms for Electricity Distribution 
   authors: Dinesh Kumar Baghel and Vadim E. Levitt and Erel Segal-Halevi
   date: 2022-05-28
-  topic: fairness-indivisible
+  topic: fairness
   level: working
   content: >
     [Research proposal](https://arxiv.org/abs/2205.14531). [COMSOC seminar talk](https://utoronto.zoom.us/rec/play/dq0BbEdCIjQO0a067usEQTN-Z2UMkkTjvEww1vKQLcabZSBhbCXceLncT0OuZhcRmemFgH2KHeJ61iSa.skNBF3aOSZ4Vudzo?continueMode=true&_x_zm_rtaid=jgOimqMsTMek_vi8aGMPyA.1640527228934.b84271b6fd306bfe282c13d61d4d44c3&_x_zm_rhtaid=23).
