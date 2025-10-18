@@ -354,7 +354,7 @@
   topic: fairness
   level: journal
   content: >
-    [Discrete Applied Mathematics 2021, 291:15--35](https://authors.elsevier.com/a/1cDmy,3nuHiTqA) and [arXiv 2020](https://arxiv.org/abs/1812.08150) (32 pages).
+    [Discrete Applied Mathematics 2021, 291:15--35](https://www.sciencedirect.com/science/article/pii/S0166218X20304650) and [arXiv 2020](https://arxiv.org/abs/1812.08150) (32 pages).
   review: Some of the ideas in this proof will become part of many cake-cutters’ toolkits.
 
 - id: EnvyfreeGroups
@@ -365,18 +365,18 @@
   topic: fairness
   level: journal
   content: >
-    [American Mathematical Monthly 2021, 128:79--83](https://www.tandfonline.com/doi/abs/10.1080/00029890.2021.1835338) and [arXiv 2020](https://arxiv.org/abs/2001.03327) (5 pages).
+    [American Mathematical Monthly 2021, 128(1):79--83](https://www.tandfonline.com/doi/abs/10.1080/00029890.2021.1835338) and [arXiv 2020](https://arxiv.org/abs/2001.03327) (5 pages).
   review: The paper is extremely well-written.
 
 - id: EnvyfreeGroups2
   lang: en
   title: Cutting a Cake Fairly for Groups Revisited
   authors: Erel Segal-Halevi, Warut Suksompong
-  date: 2022-01-01
+  date: 2023-01-13
   topic: fairness
   level: journal
   content: >
-    [American Mathematical Monthly 2022, 130:203--213](https://www.tandfonline.com/doi/full/10.1080/00029890.2022.2153566).
+    [American Mathematical Monthly 2023, 130(3):203--213](https://www.tandfonline.com/doi/full/10.1080/00029890.2022.2153566).
 
 - id: pone
   lang: en
@@ -406,7 +406,7 @@
   topic: fairness
   level: journal
   content: >
-    [JAAMAS 2021, 35:39](https://rdcu.be/cpHG0). 
+    [Autonomous Agents and Multiagent Systems 2021, 35(39):1--28](https://rdcu.be/cpHG0). 
     <small>There is also a [2-page extended abstract](https://dl.acm.org/doi/abs/10.5555/3398761.3399056)</small>.
 
 - id: hypergraphs
@@ -417,7 +417,7 @@
   topic: fairness
   level: journal
   content: >
-    [Combinatorica 2022, volume 42, 913--951](https://link.springer.com/article/10.1007/s00493-021-4808-y) and [arXiv 2020](https://arxiv.org/abs/2011.01053).
+    [Combinatorica 2022, 42:913--951](https://link.springer.com/article/10.1007/s00493-021-4808-y) and [arXiv 2020](https://arxiv.org/abs/2011.01053).
   presentation: >
     ../../../papers/Hypergraphs-60minutes-2020-11-BIU-Combinatorics.pdf
 
@@ -461,7 +461,7 @@
   topic: fairness-indivisible
   level: journal
   content: >
-    [Journal of Artificial Intelligence Research 2023](https://www.jair.org/index.php/jair/article/view/13779). 
+    [Journal of Artificial Intelligence Research 2023, 76, 567--611](https://www.jair.org/index.php/jair/article/view/13779).
     <span style='font-size:8pt'>Preliminary versions: [AAAI 2021](https://www.aaai.org/AAAI21Papers/AAAI-5368.DrorA.pdf) and [arXiv 2022](https://arxiv.org/abs/2010.07280)</span>.
   presentation: >
     https://virtual.2021.aaai.org/paper_AAAI-5368.html
