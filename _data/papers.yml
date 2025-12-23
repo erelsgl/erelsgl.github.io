@@ -16,13 +16,13 @@
 
 - id: PinuyBinuy
   lang: en
-  title: Fair division of the replacement-units without an appraiser in urban renewal processes 
+  title: Fair Allocation of Improvements - When Old Endowments Shape New Assignments 
   authors: Noga Klein Elmalem, Rica Gonen, Erel Segal-Halevi
   date: 2025-02-23
   topic: fairness
-  level: working
+  level: conference+
   content: >
-    [arXiv 2025](https://arxiv.org/abs/2504.16852).
+    AAMAS 2026 (accepted), and [arXiv 2025](https://arxiv.org/abs/2504.16852).
   presentation: >
     ../../../papers/EvacuateRebuild-40minutes-2024-Singapore.pptx
 
@@ -84,9 +84,9 @@
   authors: Patrick Becker and Alexander Fries and Matthias Greger and Erel Segal-Halevi
   date: 2025-09-11
   topic: fairness
-  level: working
+  level: conference+
   content: >
-    [arXiv 2025](https://arxiv.org/abs/2509.08767).
+    AAMAS 2026 (accepted) and [arXiv 2025](https://arxiv.org/abs/2509.08767).
 
 - id: Aggregation
   lang: en
@@ -183,13 +183,14 @@
 
 - id: StronglyProportional
   lang: en
-  title: On Connected Strongly-Proportional Cake-Cutting
+  title: Fairer than Fair - Sharp Bounds for Connected Super-Proportional Cake Cutting (aka On Connected Strongly-Proportional Cake-Cutting)
   authors: Zsuzsanna Jankó, Attila Joó, Erel Segal-Halevi, Sheung Man Yuen
   date: 2024-07-04
   topic: fairness
   level: conference+
   content: >
     [ECAI 2024](https://ebooks.iospress.nl/volumearticle/69980) and [arXiv 2023-2024](https://arxiv.org/abs/2312.15326).
+  review: I would say the quality of the writing is among the best in the papers I reviewed these years.
 
 - id: FairAndSquare
   lang: en
@@ -768,6 +769,7 @@
   content: >
     [Operations Research Letters 2016, pages 757-760](http://dx.doi.org/10.1016/j.orl.2016.09.012). &nbsp;&nbsp;&nbsp; [Full version](https://arxiv.org/abs/1607.01989)
   review: As far as I can tell, the characterization is correct.
+
 - id: appraiser
   lang: en
   title: >
