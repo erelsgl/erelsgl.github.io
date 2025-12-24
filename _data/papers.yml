@@ -18,7 +18,7 @@
   lang: en
   title: Fair Allocation of Improvements - When Old Endowments Shape New Assignments 
   authors: Noga Klein Elmalem, Rica Gonen, Erel Segal-Halevi
-  date: 2025-02-23
+  date: 2026-01-01
   topic: fairness
   level: conference+
   content: >
@@ -82,7 +82,7 @@
   lang: en
   title: Efficiently Computing Equilibria in Budget-Aggregation Games 
   authors: Patrick Becker and Alexander Fries and Matthias Greger and Erel Segal-Halevi
-  date: 2025-09-11
+  date: 2026-01-01
   topic: fairness
   level: conference+
   content: >
@@ -92,11 +92,11 @@
   lang: en
   title: Optimal Budget Aggregation with Star-Shaped Preferences 
   authors: Felix Brandt and Matthias Greger and Erel Segal-Halevi and Warut Suksompong
-  date: 2024-05-01
+  date: 2025-12-17
   topic: fairness
   level: journal
   content: >
-    Mathematics of Operations Research (accepted)
+    [Mathematics of Operations Research 2025](https://pubsonline.informs.org/doi/full/10.1287/moor.2024.0723)
     and [EC 2024](https://dl.acm.org/doi/10.1145/3670865.3673512) and [arXiv 2024](https://arxiv.org/abs/2402.15904).
 
 - id: Donors
