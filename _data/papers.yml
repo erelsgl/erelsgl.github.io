@@ -2,6 +2,16 @@
 
 # Fair Division:
 
+- id: perpetual
+  lang: en
+  title: Perpetually Fair Assignments Via Balanced Sequences of Permutations
+  authors: Terrence Adams, Erel Segal-Halevi
+  date: 2026-02-28
+  topic: fairness
+  level: working
+  content: >
+    Open problem: [arXiv 2026](https://arxiv.org/abs/2602.21687).
+
 - id: FFPTAS
   lang: en
   title: An approximation notion between P and FPTAS
