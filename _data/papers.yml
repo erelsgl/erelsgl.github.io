@@ -2,6 +2,16 @@
 
 # Fair Division:
 
+- id: utilities
+  lang: en
+  title: What Are People's Actual Utility Functions in Budget Aggregation?
+  authors: Ayelet Amster, Lioz Akirav, Rica Gonen, Erel Segal-Halevi
+  date: 2025-10-28
+  topic: budget
+  level: working
+  content: >
+    Working paper: [arXiv 2025](https://arxiv.org/abs/2510.24872).
+
 - id: perpetual
   lang: en
   title: Perpetually Fair Assignments Via Balanced Sequences of Permutations
@@ -103,7 +113,7 @@
   title: Efficiently Computing Equilibria in Budget-Aggregation Games 
   authors: Patrick Becker and Alexander Fries and Matthias Greger and Erel Segal-Halevi
   date: 2026-01-01
-  topic: fairness
+  topic: budget
   level: conference+
   content: >
     AAMAS 2026 (accepted) and [arXiv 2025](https://arxiv.org/abs/2509.08767).
@@ -113,7 +123,7 @@
   title: Optimal Budget Aggregation with Star-Shaped Preferences 
   authors: Felix Brandt and Matthias Greger and Erel Segal-Halevi and Warut Suksompong
   date: 2025-12-17
-  topic: fairness
+  topic: budget
   level: journal
   content: >
     [Mathematics of Operations Research 2025](https://pubsonline.informs.org/doi/full/10.1287/moor.2024.0723)
@@ -124,7 +134,7 @@
   title: Coordinating Charitable Donations with Leontief Preferences (aka Balanced Donor Coordination)
   authors: Felix Brandt and Matthias Greger and Erel Segal-Halevi and Warut Suksompong
   date: 2025-09-28
-  topic: fairness
+  topic: budget
   level: journal
   content: >
     [Journal of Economic Theory 2025, 106096](https://www.sciencedirect.com/science/article/pii/S0022053125001425) and [arXiv 2025](https://arxiv.org/abs/2305.10286). Previous version: [EC 2023](https://dl.acm.org/doi/10.1145/3580507.3597729).
