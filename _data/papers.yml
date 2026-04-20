@@ -215,11 +215,11 @@
   lang: en
   title: Fairer than Fair - Sharp Bounds for Connected Super-Proportional Cake Cutting (aka On Connected Strongly-Proportional Cake-Cutting)
   authors: Zsuzsanna Jankó, Attila Joó, Erel Segal-Halevi, Sheung Man Yuen
-  date: 2026-02-10
+  date: 2026-04-17
   topic: fairness
   level: journal
   content: >
-    JAIR 2026 (accepted) and [ECAI 2024](https://ebooks.iospress.nl/volumearticle/69980) and [arXiv 2023-2024](https://arxiv.org/abs/2312.15326).
+    [JAIR 2026](https://www.jair.org/index.php/jair/article/view/19057) and [ECAI 2024](https://ebooks.iospress.nl/volumearticle/69980) and [arXiv 2023-2024](https://arxiv.org/abs/2312.15326).
   review: I would say the quality of the writing is among the best in the papers I reviewed these years.
 
 - id: FairAndSquare
