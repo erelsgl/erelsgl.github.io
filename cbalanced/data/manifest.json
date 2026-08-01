@@ -1,0 +1,1472 @@
+[
+ {
+  "file": "latin_n004_c1.csv",
+  "n": 4,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n005_c1.csv",
+  "n": 5,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n006_c1.csv",
+  "n": 6,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n007_c1.csv",
+  "n": 7,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n008_c1.csv",
+  "n": 8,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n009_c1.csv",
+  "n": 9,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n010_c1.csv",
+  "n": 10,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n011_c1.csv",
+  "n": 11,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n012_c1.csv",
+  "n": 12,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n013_c1.csv",
+  "n": 13,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n014_c1.csv",
+  "n": 14,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n015_c1.csv",
+  "n": 15,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n016_c1.csv",
+  "n": 16,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n017_c1.csv",
+  "n": 17,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n018_c1.csv",
+  "n": 18,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n020_c1.csv",
+  "n": 20,
+  "c": 1,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n004_c2.csv",
+  "n": 4,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n005_c2.csv",
+  "n": 5,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n006_c2.csv",
+  "n": 6,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n007_c2.csv",
+  "n": 7,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n008_c2.csv",
+  "n": 8,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n009_c2.csv",
+  "n": 9,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n010_c2.csv",
+  "n": 10,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n011_c2.csv",
+  "n": 11,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n012_c2.csv",
+  "n": 12,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n013_c2.csv",
+  "n": 13,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n014_c2.csv",
+  "n": 14,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n015_c2.csv",
+  "n": 15,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n016_c2.csv",
+  "n": 16,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n017_c2.csv",
+  "n": 17,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n018_c2.csv",
+  "n": 18,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n019_c2.csv",
+  "n": 19,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n020_c2.csv",
+  "n": 20,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n021_c2.csv",
+  "n": 21,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n022_c2.csv",
+  "n": 22,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n023_c2.csv",
+  "n": 23,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n024_c2.csv",
+  "n": 24,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n025_c2.csv",
+  "n": 25,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n026_c2.csv",
+  "n": 26,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n027_c2.csv",
+  "n": 27,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n028_c2.csv",
+  "n": 28,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n029_c2.csv",
+  "n": 29,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n030_c2.csv",
+  "n": 30,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n031_c2.csv",
+  "n": 31,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n032_c2.csv",
+  "n": 32,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n033_c2.csv",
+  "n": 33,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n034_c2.csv",
+  "n": 34,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n035_c2.csv",
+  "n": 35,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n036_c2.csv",
+  "n": 36,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n037_c2.csv",
+  "n": 37,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n038_c2.csv",
+  "n": 38,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n039_c2.csv",
+  "n": 39,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n040_c2.csv",
+  "n": 40,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n041_c2.csv",
+  "n": 41,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n042_c2.csv",
+  "n": 42,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n043_c2.csv",
+  "n": 43,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n044_c2.csv",
+  "n": 44,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n045_c2.csv",
+  "n": 45,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n046_c2.csv",
+  "n": 46,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n047_c2.csv",
+  "n": 47,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n048_c2.csv",
+  "n": 48,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n049_c2.csv",
+  "n": 49,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n050_c2.csv",
+  "n": 50,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n051_c2.csv",
+  "n": 51,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n052_c2.csv",
+  "n": 52,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n053_c2.csv",
+  "n": 53,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n054_c2.csv",
+  "n": 54,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n055_c2.csv",
+  "n": 55,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n056_c2.csv",
+  "n": 56,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n057_c2.csv",
+  "n": 57,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n058_c2.csv",
+  "n": 58,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n059_c2.csv",
+  "n": 59,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n060_c2.csv",
+  "n": 60,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n061_c2.csv",
+  "n": 61,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n062_c2.csv",
+  "n": 62,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n063_c2.csv",
+  "n": 63,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n064_c2.csv",
+  "n": 64,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n065_c2.csv",
+  "n": 65,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n066_c2.csv",
+  "n": 66,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n067_c2.csv",
+  "n": 67,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n068_c2.csv",
+  "n": 68,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n069_c2.csv",
+  "n": 69,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n070_c2.csv",
+  "n": 70,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n071_c2.csv",
+  "n": 71,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n072_c2.csv",
+  "n": 72,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n073_c2.csv",
+  "n": 73,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n074_c2.csv",
+  "n": 74,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n075_c2.csv",
+  "n": 75,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n076_c2.csv",
+  "n": 76,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n077_c2.csv",
+  "n": 77,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n078_c2.csv",
+  "n": 78,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n079_c2.csv",
+  "n": 79,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n080_c2.csv",
+  "n": 80,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n081_c2.csv",
+  "n": 81,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n082_c2.csv",
+  "n": 82,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n083_c2.csv",
+  "n": 83,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n084_c2.csv",
+  "n": 84,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n085_c2.csv",
+  "n": 85,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n086_c2.csv",
+  "n": 86,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n087_c2.csv",
+  "n": 87,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n088_c2.csv",
+  "n": 88,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n089_c2.csv",
+  "n": 89,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n090_c2.csv",
+  "n": 90,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n091_c2.csv",
+  "n": 91,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n092_c2.csv",
+  "n": 92,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n093_c2.csv",
+  "n": 93,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n094_c2.csv",
+  "n": 94,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n095_c2.csv",
+  "n": 95,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n096_c2.csv",
+  "n": 96,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n097_c2.csv",
+  "n": 97,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n098_c2.csv",
+  "n": 98,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n099_c2.csv",
+  "n": 99,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n100_c2.csv",
+  "n": 100,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n101_c2.csv",
+  "n": 101,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n102_c2.csv",
+  "n": 102,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n103_c2.csv",
+  "n": 103,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n104_c2.csv",
+  "n": 104,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n105_c2.csv",
+  "n": 105,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n106_c2.csv",
+  "n": 106,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n107_c2.csv",
+  "n": 107,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n108_c2.csv",
+  "n": 108,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n109_c2.csv",
+  "n": 109,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n110_c2.csv",
+  "n": 110,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n111_c2.csv",
+  "n": 111,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n112_c2.csv",
+  "n": 112,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n113_c2.csv",
+  "n": 113,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n114_c2.csv",
+  "n": 114,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n115_c2.csv",
+  "n": 115,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n116_c2.csv",
+  "n": 116,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n117_c2.csv",
+  "n": 117,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n118_c2.csv",
+  "n": 118,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n119_c2.csv",
+  "n": 119,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n120_c2.csv",
+  "n": 120,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n121_c2.csv",
+  "n": 121,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n122_c2.csv",
+  "n": 122,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n123_c2.csv",
+  "n": 123,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n124_c2.csv",
+  "n": 124,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n125_c2.csv",
+  "n": 125,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n126_c2.csv",
+  "n": 126,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n127_c2.csv",
+  "n": 127,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n128_c2.csv",
+  "n": 128,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n129_c2.csv",
+  "n": 129,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n130_c2.csv",
+  "n": 130,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n131_c2.csv",
+  "n": 131,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n132_c2.csv",
+  "n": 132,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n133_c2.csv",
+  "n": 133,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n134_c2.csv",
+  "n": 134,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n135_c2.csv",
+  "n": 135,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n136_c2.csv",
+  "n": 136,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n137_c2.csv",
+  "n": 137,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n138_c2.csv",
+  "n": 138,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n139_c2.csv",
+  "n": 139,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n140_c2.csv",
+  "n": 140,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n141_c2.csv",
+  "n": 141,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n142_c2.csv",
+  "n": 142,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n143_c2.csv",
+  "n": 143,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n144_c2.csv",
+  "n": 144,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n145_c2.csv",
+  "n": 145,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n146_c2.csv",
+  "n": 146,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n147_c2.csv",
+  "n": 147,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n148_c2.csv",
+  "n": 148,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n149_c2.csv",
+  "n": 149,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n150_c2.csv",
+  "n": 150,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n151_c2.csv",
+  "n": 151,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n152_c2.csv",
+  "n": 152,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n153_c2.csv",
+  "n": 153,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n154_c2.csv",
+  "n": 154,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n155_c2.csv",
+  "n": 155,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n156_c2.csv",
+  "n": 156,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n157_c2.csv",
+  "n": 157,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n158_c2.csv",
+  "n": 158,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n159_c2.csv",
+  "n": 159,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n160_c2.csv",
+  "n": 160,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n161_c2.csv",
+  "n": 161,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n162_c2.csv",
+  "n": 162,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n163_c2.csv",
+  "n": 163,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n164_c2.csv",
+  "n": 164,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n165_c2.csv",
+  "n": 165,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n166_c2.csv",
+  "n": 166,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n167_c2.csv",
+  "n": 167,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n168_c2.csv",
+  "n": 168,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n169_c2.csv",
+  "n": 169,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n170_c2.csv",
+  "n": 170,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n171_c2.csv",
+  "n": 171,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n172_c2.csv",
+  "n": 172,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n173_c2.csv",
+  "n": 173,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n174_c2.csv",
+  "n": 174,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n175_c2.csv",
+  "n": 175,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n176_c2.csv",
+  "n": 176,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n177_c2.csv",
+  "n": 177,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n178_c2.csv",
+  "n": 178,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n179_c2.csv",
+  "n": 179,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n180_c2.csv",
+  "n": 180,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n181_c2.csv",
+  "n": 181,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n182_c2.csv",
+  "n": 182,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n183_c2.csv",
+  "n": 183,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n184_c2.csv",
+  "n": 184,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n185_c2.csv",
+  "n": 185,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n186_c2.csv",
+  "n": 186,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n187_c2.csv",
+  "n": 187,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n188_c2.csv",
+  "n": 188,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n189_c2.csv",
+  "n": 189,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n190_c2.csv",
+  "n": 190,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n191_c2.csv",
+  "n": 191,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n192_c2.csv",
+  "n": 192,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n193_c2.csv",
+  "n": 193,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n194_c2.csv",
+  "n": 194,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n195_c2.csv",
+  "n": 195,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n196_c2.csv",
+  "n": 196,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n197_c2.csv",
+  "n": 197,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n198_c2.csv",
+  "n": 198,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n199_c2.csv",
+  "n": 199,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n200_c2.csv",
+  "n": 200,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n201_c2.csv",
+  "n": 201,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n202_c2.csv",
+  "n": 202,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n203_c2.csv",
+  "n": 203,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n204_c2.csv",
+  "n": 204,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n205_c2.csv",
+  "n": 205,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n206_c2.csv",
+  "n": 206,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n207_c2.csv",
+  "n": 207,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n208_c2.csv",
+  "n": 208,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n209_c2.csv",
+  "n": 209,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n210_c2.csv",
+  "n": 210,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n211_c2.csv",
+  "n": 211,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n212_c2.csv",
+  "n": 212,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n213_c2.csv",
+  "n": 213,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n214_c2.csv",
+  "n": 214,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n215_c2.csv",
+  "n": 215,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n216_c2.csv",
+  "n": 216,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n217_c2.csv",
+  "n": 217,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n218_c2.csv",
+  "n": 218,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n219_c2.csv",
+  "n": 219,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n220_c2.csv",
+  "n": 220,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n221_c2.csv",
+  "n": 221,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n222_c2.csv",
+  "n": 222,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n223_c2.csv",
+  "n": 223,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n224_c2.csv",
+  "n": 224,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n225_c2.csv",
+  "n": 225,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n226_c2.csv",
+  "n": 226,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n227_c2.csv",
+  "n": 227,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n228_c2.csv",
+  "n": 228,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n229_c2.csv",
+  "n": 229,
+  "c": 2,
+  "mode": "weak"
+ },
+ {
+  "file": "latin_n008_c1_strict.csv",
+  "n": 8,
+  "c": 1,
+  "mode": "strict"
+ },
+ {
+  "file": "latin_n010_c1_strict.csv",
+  "n": 10,
+  "c": 1,
+  "mode": "strict"
+ },
+ {
+  "file": "latin_n011_c1_strict.csv",
+  "n": 11,
+  "c": 1,
+  "mode": "strict"
+ }
+]

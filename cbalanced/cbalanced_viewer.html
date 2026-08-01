@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anchored window viewer — c-balanced Latin squares</title>
+<style>
+  :root {
+    --paper:#eceff3; --panel:#fff; --ink:#0e1922; --muted:#5d6b78;
+    --rule:#c2ccd6; --edge:#163a5c; --warn:#a8431a; --ok:#1f6b45;
+    --font-data: ui-monospace,"SF Mono","Cascadia Mono","Roboto Mono",Menlo,Consolas,monospace;
+    --font-ui: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-ui);
+       line-height:1.5;padding:26px 22px 60px}
+  .wrap{max-width:1200px;margin:0 auto}
+  h1{font-family:var(--font-data);font-size:15px;font-weight:600;letter-spacing:.18em;
+     text-transform:uppercase;margin:0 0 6px}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 20px;max-width:76ch}
+  code{font-family:var(--font-data);font-size:13px;background:#dfe5ec;padding:1px 5px;border-radius:3px}
+
+  .bar{display:flex;flex-wrap:wrap;gap:16px 24px;align-items:flex-end;background:var(--panel);
+       border:1px solid var(--rule);border-radius:6px;padding:14px 18px;margin-bottom:10px}
+  .bar label{font-family:var(--font-data);font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+             color:var(--muted);display:block;margin-bottom:5px}
+  select,input[type=range],input[type=file],button{font-family:var(--font-data);font-size:13px}
+  select,button{padding:5px 9px;border:1px solid var(--rule);border-radius:4px;background:#fff;color:var(--ink)}
+  button{cursor:pointer} button:hover{border-color:var(--edge);color:var(--edge)}
+  input[type=range]{width:250px;accent-color:var(--edge);vertical-align:middle}
+  .tval{font-family:var(--font-data);font-size:20px;font-weight:600;min-width:3ch;display:inline-block}
+  .badge{font-family:var(--font-data);font-size:11px;letter-spacing:.06em;border:1px solid var(--rule);
+         border-radius:3px;padding:3px 8px;color:var(--muted);display:inline-block;margin:2px 3px 0 0}
+  .badge.good{color:var(--ok);border-color:#a9cdbb}
+  .badge.bad{color:var(--warn);border-color:#e0b49f;font-weight:700}
+
+  .drop{border:2px dashed var(--rule);border-radius:6px;padding:26px;text-align:center;
+        color:var(--muted);background:var(--panel);font-size:14px}
+  .drop.hot{border-color:var(--edge);background:#e8eef5;color:var(--edge)}
+  .drop strong{color:var(--ink)}
+
+  .cols{display:grid;grid-template-columns:minmax(0,1fr) 322px;gap:20px;align-items:start}
+  @media(max-width:960px){.cols{grid-template-columns:minmax(0,1fr)}}
+  .board{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:14px;overflow:auto}
+  table.grid{border-collapse:collapse;font-family:var(--font-data)}
+  table.grid td,table.grid th{text-align:center;padding:0}
+  table.grid th{font-weight:500;color:var(--muted);font-size:10px}
+  th.day{cursor:pointer} th.day:hover{color:var(--edge)} th.day.sel{color:var(--edge);font-weight:700}
+  td.cell{border:1px solid rgba(255,255,255,.55)}
+  td.cell.outside{background:#f4f6f8;color:#b9c3cc;border-color:#e6eaee}
+  td.cell.spot{outline:2px solid var(--warn);outline-offset:-2px;position:relative;z-index:2}
+  .redge{box-shadow:inset 0 -2px 0 0 var(--edge)}
+  .cedge{box-shadow:inset -2px 0 0 0 var(--edge)}
+  .redge.cedge{box-shadow:inset 0 -2px 0 0 var(--edge),inset -2px 0 0 0 var(--edge)}
+
+  aside{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:15px}
+  aside h2{font-family:var(--font-data);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+           color:var(--muted);margin:0 0 9px;font-weight:600}
+  table.read{width:100%;border-collapse:collapse;font-family:var(--font-data);font-size:12px}
+  table.read th{text-align:left;font-weight:500;color:var(--muted);font-size:10px;letter-spacing:.06em;
+                text-transform:uppercase;padding:0 6px 5px 0}
+  table.read td{padding:3px 6px 3px 0;border-top:1px solid #e9edf1}
+  .swatch{display:inline-block;width:11px;height:11px;border-radius:2px;vertical-align:-1px;
+          margin-right:6px;border:1px solid rgba(0,0,0,.12)}
+  .pass{color:var(--ok)} .fail{color:var(--warn);font-weight:700}
+  .note{font-size:12px;color:var(--muted);margin-top:12px}
+  .hidden{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Anchored window viewer</h1>
+  <p class="sub">
+    Rows are items, columns are days, each entry is the player who receives that item that day.
+    Every <em>c</em>-balance condition says one thing: the anchored window of <code>t</code> columns
+    and <code>r_j = floor((j+c&minus;1)&middot;n/t)+1</code> rows is <strong>j-full</strong> &mdash;
+    every player appears in it at least <code>j</code> times. Load a CSV, pick <code>t</code>,
+    and the nested windows are drawn darkest-first from <code>j = 1</code>.
+    The checks on the right are recomputed from the loaded file, not read from it.
+  </p>
+
+  <div class="bar">
+    <div>
+      <label for="files">load csv files</label>
+      <input type="file" id="files" accept=".csv,text/csv" multiple>
+    </div>
+    <div><button id="clear">Clear all</button></div>
+    <div id="loadmsg" class="badge"></div>
+  </div>
+
+  <div class="drop" id="drop">
+    Drop CSV files here, or use the picker above.
+    <strong>Generate them with</strong> <code>python3 viz/export_csv.py</code>
+    <span style="color:var(--muted)">&rarr; writes to <code>viz/data/</code></span>
+  </div>
+
+  <div id="app" class="hidden">
+    <div class="bar">
+      <div>
+        <label for="seq">sequence</label>
+        <select id="seq"></select>
+      </div>
+      <div>
+        <label for="cval">draw windows for c =</label>
+        <select id="cval">
+          <option>1</option><option>2</option><option>3</option><option>4</option>
+        </select>
+      </div>
+      <div>
+        <label for="t">days t (or click a column header)</label>
+        <input type="range" id="t" min="1" value="1"> <span class="tval" id="tval">1</span>
+      </div>
+      <div>
+        <label for="spot">highlight player</label>
+        <select id="spot"></select>
+      </div>
+    </div>
+    <div style="margin:0 0 10px" id="badges"></div>
+
+    <div class="cols">
+      <div class="board" id="board"></div>
+      <aside>
+        <h2>Fullness check at this t</h2>
+        <table class="read"><thead>
+          <tr><th>j</th><th>rows r_j</th><th>need</th><th>min</th><th></th></tr>
+        </thead><tbody id="readout"></tbody></table>
+        <h2 style="margin-top:16px">Window staircase</h2>
+        <svg id="stair" width="290" height="150" role="img" aria-label="r_j against j"></svg>
+        <p class="note" id="note"></p>
+      </aside>
+    </div>
+  </div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+let SEQS = [], cur = 0, T = 1, spotPlayer = 0, cOverride = null;
+
+/* ---------- CSV ---------- */
+function parseCSV(text, filename) {
+  const meta = {}, rows = [];
+  for (const raw of text.split(/\r?\n/)) {
+    const line = raw.trim();
+    if (!line) continue;
+    if (line[0] === '#') {
+      const m = line.slice(1).match(/^\s*([A-Za-z_]+)\s*=\s*(.+?)\s*$/);
+      if (m) meta[m[1].toLowerCase()] = m[2];
+      continue;
+    }
+    const cells = line.split(',').map(s => parseInt(s.trim(), 10));
+    if (cells.some(Number.isNaN)) throw new Error('non-numeric cell');
+    rows.push(cells);
+  }
+  if (!rows.length) throw new Error('no data rows');
+  const n = rows.length;
+  if (rows.some(r => r.length !== n)) throw new Error(`not square (${n} rows)`);
+  let c = meta.c !== undefined ? parseFloat(meta.c) : null;
+  if (c === null) { const m = filename.match(/_c(\d+(?:\.\d+)?)/); c = m ? parseFloat(m[1]) : 1; }
+  return {
+    name: filename, n, c, mode: meta.mode || 'weak', grid: rows,
+    how: meta.found_by || null,
+    label: `${filename}  (n=${n}, c=${c}${meta.mode === 'strict' ? ', strict' : ''})`
+  };
+}
+
+function checkStructure(s) {
+  const n = s.n, ok = { cols: true, rows: true };
+  const want = Array.from({length: n}, (_, i) => i + 1).join(',');
+  for (let col = 0; col < n; col++) {
+    const v = [];
+    for (let r = 0; r < n; r++) v.push(s.grid[r][col]);
+    if (v.slice().sort((a, b) => a - b).join(',') !== want) { ok.cols = false; break; }
+  }
+  for (let r = 0; r < n; r++)
+    if (s.grid[r].slice().sort((a, b) => a - b).join(',') !== want) { ok.rows = false; break; }
+  return ok;
+}
+
+/* ---------- windows ---------- */
+const rj = (n, c, t, j) => Math.floor((j + c - 1) * n / t) + 1;
+
+function windows(n, c, t) {
+  const out = [];
+  for (let j = 1; j <= t; j++) {
+    const raw = rj(n, c, t, j), r = Math.min(n, raw);
+    out.push({ j, r, trivial: raw >= n });
+    if (r >= n) break;
+  }
+  return out;
+}
+const shadeOf = (wins, row) => { for (let k = 0; k < wins.length; k++) if (row <= wins[k].r) return k; return -1; };
+function colourFor(k, total) {
+  if (k < 0) return null;
+  const f = total <= 1 ? 0 : k / (total - 1);
+  const L = 32 + f * 55, S = 62 - f * 18;
+  return { bg: `hsl(209 ${S}% ${L}%)`, fg: L < 58 ? '#f2f6fa' : '#0e1922' };
+}
+function minCount(s, t, r) {
+  const n = s.n, tally = new Array(n + 1).fill(0);
+  for (let row = 0; row < r; row++) for (let col = 0; col < t; col++) tally[s.grid[row][col]]++;
+  let m = Infinity, who = 0;
+  for (let p = 1; p <= n; p++) if (tally[p] < m) { m = tally[p]; who = p; }
+  return { min: m, who };
+}
+
+/* ---------- render ---------- */
+function render() {
+  if (!SEQS.length) return;
+  const s = SEQS[cur], n = s.n;
+  const c = cOverride !== null ? cOverride : s.c;
+  const wins = windows(n, c, T), total = wins.length;
+
+  const size = n > 30 ? 17 : n > 22 ? 21 : n > 15 ? 26 : 30;
+  const fs = n > 30 ? 8 : n > 22 ? 9 : 12;
+  let h = '<table class="grid"><thead><tr><th></th>';
+  for (let col = 1; col <= n; col++)
+    h += `<th class="day${col === T ? ' sel' : ''}" data-col="${col}">${col}</th>`;
+  h += '</tr></thead><tbody>';
+  for (let row = 1; row <= n; row++) {
+    h += `<tr><th style="padding-right:6px">${row}</th>`;
+    for (let col = 1; col <= n; col++) {
+      const inside = col <= T, k = inside ? shadeOf(wins, row) : -1;
+      const cc = colourFor(k, total), v = s.grid[row - 1][col - 1];
+      const cls = ['cell'];
+      if (!inside || k < 0) cls.push('outside');
+      if (spotPlayer && v === spotPlayer) cls.push('spot');
+      if (inside && wins.some(w => w.r === row)) cls.push('redge');
+      if (inside && col === T) cls.push('cedge');
+      const st = cc ? `background:${cc.bg};color:${cc.fg};` : '';
+      h += `<td class="${cls.join(' ')}" style="${st}width:${size}px;height:${size}px;font-size:${fs}px">${v}</td>`;
+    }
+    h += '</tr>';
+  }
+  $('board').innerHTML = h + '</tbody></table>';
+  $('board').querySelectorAll('th.day').forEach(el =>
+    el.addEventListener('click', () => { T = +el.dataset.col; sync(); }));
+
+  let r = '', allPass = true;
+  wins.forEach((w, k) => {
+    const { min, who } = minCount(s, T, w.r), pass = min >= w.j;
+    if (!pass) allPass = false;
+    const cc = colourFor(k, total);
+    r += `<tr><td><span class="swatch" style="background:${cc.bg}"></span>${w.j}</td>` +
+         `<td>${w.r}${w.trivial ? '<span style="color:var(--muted)"> all</span>' : ''}</td>` +
+         `<td>&ge; ${w.j}</td><td>${min}</td>` +
+         `<td class="${pass ? 'pass' : 'fail'}">${pass ? '\u2713' : '\u2717 p' + who}</td></tr>`;
+  });
+  $('readout').innerHTML = r;
+
+  const W = 290, H = 150, pad = 26, maxJ = Math.max(...wins.map(w => w.j));
+  let g = `<rect width="${W}" height="${H}" fill="#fbfcfd"/>` +
+          `<line x1="${pad}" y1="${H - pad}" x2="${W - 6}" y2="${H - pad}" stroke="#c2ccd6"/>` +
+          `<line x1="${pad}" y1="6" x2="${pad}" y2="${H - pad}" stroke="#c2ccd6"/>`;
+  wins.forEach((w, k) => {
+    const x0 = pad + (w.j - 1) / Math.max(1, maxJ) * (W - pad - 10);
+    const x1 = pad + w.j / Math.max(1, maxJ) * (W - pad - 10);
+    const y = (H - pad) - (w.r / n) * (H - pad - 10);
+    g += `<rect x="${x0}" y="${y}" width="${Math.max(1, x1 - x0)}" height="${(H - pad) - y}" fill="${colourFor(k, total).bg}" stroke="#fff" stroke-width=".5"/>`;
+  });
+  g += `<text x="${pad}" y="${H - 8}" font-size="9" fill="#5d6b78" font-family="ui-monospace,monospace">j=1</text>` +
+       `<text x="${W - 8}" y="${H - 8}" font-size="9" fill="#5d6b78" text-anchor="end" font-family="ui-monospace,monospace">${maxJ}</text>` +
+       `<text x="3" y="14" font-size="9" fill="#5d6b78" font-family="ui-monospace,monospace">r=${n}</text>`;
+  $('stair').innerHTML = g;
+
+  const st = checkStructure(s);
+  $('badges').innerHTML =
+    `<span class="badge ${allPass ? 'good' : 'bad'}">${allPass ? 'all windows j-full at this t' : 'a window is not j-full'}</span>` +
+    `<span class="badge ${st.cols ? 'good' : 'bad'}">${st.cols ? 'columns are permutations' : 'a column is not a permutation'}</span>` +
+    `<span class="badge ${st.rows ? 'good' : 'bad'}">${st.rows ? 'Latin square' : 'not a Latin square'}</span>` +
+    (s.how ? `<span class="badge">found by ${s.how}</span>` : '') +
+    (cOverride !== null && cOverride !== s.c ? `<span class="badge bad">viewing c=${cOverride}; file declares c=${s.c}</span>` : '');
+  $('note').textContent = allPass
+    ? 'Every player appears at least j times in window j, for every j at this t.'
+    : 'A window fails: the marked player appears too few times. Try the c the file was built for.';
+}
+
+function sync() {
+  const s = SEQS[cur];
+  $('t').max = s.n; if (T > s.n) T = s.n; if (T < 1) T = 1;
+  $('t').value = T; $('tval').textContent = T;
+  render();
+}
+
+function refreshList() {
+  const remote = INDEX.length > 0;
+  const has = remote || SEQS.length > 0;
+  $('app').classList.toggle('hidden', !has);
+  $('drop').style.display = has ? 'none' : '';
+  if (!has) return;
+  if (remote) {
+    $('seq').innerHTML = INDEX.map((e, i) =>
+      `<option value="r${i}">${indexLabel(e)}${e.seqIdx === null ? '' : ' \u2022'}</option>`).join('');
+    const at = INDEX.findIndex(e => e.seqIdx === cur);
+    if (at >= 0) $('seq').value = 'r' + at;
+  } else {
+    $('seq').innerHTML = SEQS.map((d, i) => `<option value="${i}">${d.label}</option>`).join('');
+    $('seq').value = cur;
+  }
+  if (SEQS[cur]) {
+    $('cval').value = String(cOverride !== null ? cOverride : SEQS[cur].c);
+    buildSpot();
+    sync();
+  }
+}
+
+function buildSpot() {
+  const n = SEQS[cur].n;
+  let o = '<option value="0">none</option>';
+  for (let p = 1; p <= n; p++) o += `<option value="${p}">player ${p}</option>`;
+  $('spot').innerHTML = o; $('spot').value = String(spotPlayer);
+}
+
+function addFiles(fileList) {
+  const files = [...fileList].filter(f => /\.csv$/i.test(f.name));
+  if (!files.length) { $('loadmsg').textContent = 'no .csv files in that selection'; return; }
+  let done = 0, added = 0, errs = [];
+  files.forEach(f => {
+    const rd = new FileReader();
+    rd.onload = () => {
+      try { SEQS.push(parseCSV(rd.result, f.name)); added++; }
+      catch (e) { errs.push(`${f.name}: ${e.message}`); }
+      if (++done === files.length) finish();
+    };
+    rd.onerror = () => { errs.push(`${f.name}: unreadable`); if (++done === files.length) finish(); };
+    rd.readAsText(f);
+  });
+  function finish() {
+    SEQS.sort((a, b) => a.c - b.c || a.n - b.n);
+    cur = Math.min(cur, Math.max(0, SEQS.length - 1));
+    T = Math.max(2, Math.floor((SEQS[cur] ? SEQS[cur].n : 4) / 3));
+    cOverride = null; spotPlayer = 0;
+    $('loadmsg').textContent = `${added} loaded` + (errs.length ? `, ${errs.length} skipped` : '');
+    if (errs.length) console.warn(errs.join('\n'));
+    refreshList();
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Lazy loading.  Over http(s) we fetch ONLY data/manifest.json at startup and
+   build the dropdown from its n/c metadata.  Each CSV is fetched the first
+   time it is actually selected, then cached.  With hundreds of files this is
+   one small request on load instead of one request per square.
+   -------------------------------------------------------------------------- */
+let INDEX = [];        // {file, n, c, mode, label, seqIdx|null} — remote entries
+let DATA_DIR = 'data/';
+let loading = false;
+
+function indexLabel(e) {
+  return `n=${e.n}, c=${e.c}${e.mode === 'strict' ? ', strict' : ''}  —  ${e.file}`;
+}
+
+async function tryManifest() {
+  if (!/^https?:$/.test(location.protocol)) return;
+  let dir = new URLSearchParams(location.search).get('data') || 'data';
+  if (!dir.endsWith('/')) dir += '/';
+  DATA_DIR = dir;
+  try {
+    const r = await fetch(dir + 'manifest.json');
+    if (!r.ok) return;
+    const list = await r.json();
+    if (!Array.isArray(list) || !list.length) return;
+    INDEX = list
+      .filter(e => e && e.file)
+      .map(e => ({ file: e.file, n: +e.n || null, c: e.c === undefined ? null : +e.c,
+                   mode: e.mode || 'weak', seqIdx: null }));
+    INDEX.sort((a, b) => (a.c - b.c) || (a.n - b.n));
+    $('loadmsg').textContent = `${INDEX.length} available in ${dir} — loaded on demand`;
+    refreshList();
+    if (INDEX.length) selectIndex(0);
+  } catch (_) { /* file:// or missing manifest — pickers still work */ }
+}
+
+async function selectIndex(i) {
+  const e = INDEX[i];
+  if (!e) return;
+  if (e.seqIdx !== null) { cur = e.seqIdx; afterSelect(); return; }
+  if (loading) return;
+  loading = true;
+  $('loadmsg').textContent = `loading ${e.file}…`;
+  try {
+    const r = await fetch(DATA_DIR + e.file);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const seq = parseCSV(await r.text(), e.file);
+    SEQS.push(seq);
+    e.seqIdx = SEQS.length - 1;
+    e.n = seq.n; e.c = seq.c; e.mode = seq.mode;
+    cur = e.seqIdx;
+    $('loadmsg').textContent = `${INDEX.length} available — ${SEQS.length} loaded`;
+    afterSelect();
+  } catch (err) {
+    $('loadmsg').textContent = `could not load ${e.file}: ${err.message}`;
+  } finally {
+    loading = false;
+  }
+}
+
+function afterSelect() {
+  cOverride = null; spotPlayer = 0;
+  T = Math.max(2, Math.floor(SEQS[cur].n / 3));
+  $('cval').value = String(SEQS[cur].c);
+  $('app').classList.remove('hidden');
+  $('drop').style.display = 'none';
+  buildSpot();
+  sync();
+}
+
+$('files').addEventListener('change', e => addFiles(e.target.files));
+$('clear').addEventListener('click', () => {
+  SEQS = []; cur = 0; cOverride = null; spotPlayer = 0;
+  INDEX.forEach(e => { e.seqIdx = null; });
+  $('files').value = '';
+  $('loadmsg').textContent = INDEX.length ? `${INDEX.length} available — loaded on demand` : '';
+  refreshList();
+  if (INDEX.length) selectIndex(0);
+});
+$('seq').addEventListener('change', e => {
+  const v = e.target.value;
+  if (typeof v === 'string' && v[0] === 'r') { selectIndex(+v.slice(1)).then(refreshList); return; }
+  cur = +v; cOverride = null; spotPlayer = 0;
+  T = Math.min(T, SEQS[cur].n); $('cval').value = String(SEQS[cur].c);
+  buildSpot(); sync();
+});
+$('cval').addEventListener('change', e => { cOverride = parseFloat(e.target.value); render(); });
+$('t').addEventListener('input', e => { T = +e.target.value; sync(); });
+$('spot').addEventListener('change', e => { spotPlayer = +e.target.value; render(); });
+
+const dz = $('drop');
+['dragenter', 'dragover'].forEach(ev => dz.addEventListener(ev, e => {
+  e.preventDefault(); dz.classList.add('hot');
+}));
+['dragleave', 'drop'].forEach(ev => dz.addEventListener(ev, e => {
+  e.preventDefault(); dz.classList.remove('hot');
+}));
+dz.addEventListener('drop', e => addFiles(e.dataTransfer.files));
+document.addEventListener('dragover', e => e.preventDefault());
+document.addEventListener('drop', e => { e.preventDefault(); if (e.dataTransfer.files.length) addFiles(e.dataTransfer.files); });
+
+tryManifest();
+</script>
+</body>
+</html>
