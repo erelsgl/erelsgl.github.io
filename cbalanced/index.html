@@ -65,6 +65,27 @@
   .pass{color:var(--ok)} .fail{color:var(--warn);font-weight:700}
   .note{font-size:12px;color:var(--muted);margin-top:12px}
   .hidden{display:none}
+
+  .loader{margin-top:28px;padding-top:18px;border-top:1px solid var(--rule)}
+  .loader > summary{
+    cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;
+    padding:4px 0;width:fit-content;
+  }
+  .loader > summary::-webkit-details-marker{display:none}
+  .loader > summary::before{
+    content:'\25B8';                       /* right-pointing triangle */
+    color:var(--muted);font-size:11px;line-height:1;
+    transition:transform .12s ease;
+  }
+  .loader[open] > summary::before{transform:rotate(90deg)}
+  .loader > summary:hover h2, .loader > summary:hover::before{color:var(--edge)}
+  .loader > summary:focus-visible{outline:2px solid var(--edge);outline-offset:3px;border-radius:3px}
+  .loader h2{font-family:var(--font-data);font-size:11px;letter-spacing:.14em;
+             text-transform:uppercase;color:var(--muted);margin:0;font-weight:600;
+             display:inline}
+  .loader-help{font-size:13px;color:var(--muted);margin:12px 0;max-width:78ch}
+  .loader .bar{margin-bottom:8px}
+  #status{margin-bottom:10px}
 </style>
 </head>
 <body>
@@ -79,20 +100,7 @@
     The checks on the right are recomputed from the loaded file, not read from it.
   </p>
 
-  <div class="bar">
-    <div>
-      <label for="files">load csv files</label>
-      <input type="file" id="files" accept=".csv,text/csv" multiple>
-    </div>
-    <div><button id="clear">Clear all</button></div>
-    <div id="loadmsg" class="badge"></div>
-  </div>
-
-  <div class="drop" id="drop">
-    Drop CSV files here, or use the picker above.
-    <strong>Generate them with</strong> <code>python3 viz/export_csv.py</code>
-    <span style="color:var(--muted)">&rarr; writes to <code>viz/data/</code></span>
-  </div>
+  <div id="status" class="badge"></div>
 
   <div id="app" class="hidden">
     <div class="bar">
@@ -101,9 +109,13 @@
         <select id="seq"></select>
       </div>
       <div>
-        <label for="cval">draw windows for c =</label>
+        <label for="cval">draw windows for</label>
         <select id="cval">
-          <option>1</option><option>2</option><option>3</option><option>4</option>
+          <option value="strict">strict (fully balanced)</option>
+          <option value="1">c = 1</option>
+          <option value="2">c = 2</option>
+          <option value="3">c = 3</option>
+          <option value="4">c = 4</option>
         </select>
       </div>
       <div>
@@ -130,6 +142,29 @@
       </aside>
     </div>
   </div>
+
+  <details class="loader" id="loaderbox">
+    <summary><h2>Load your own latin square in a CSV file</h2></summary>
+    <p class="loader-help">
+      Any square CSV of integers works: <strong>rows are items, columns are days,
+      each entry is the player</strong> who receives that item that day. Optional
+      <code>#&nbsp;n=</code>, <code>#&nbsp;c=</code> and <code>#&nbsp;mode=</code>
+      comment lines at the top set the balance parameters; otherwise <code>c</code>
+      is taken from the filename, or defaults to 1. You can change <code>c</code>
+      afterwards with the selector above.
+    </p>
+    <div class="bar">
+      <div>
+        <label for="files">choose one or more .csv files</label>
+        <input type="file" id="files" accept=".csv,text/csv" multiple>
+      </div>
+      <div><button id="clear">Clear loaded files</button></div>
+      <div id="loadmsg" class="badge"></div>
+    </div>
+    <div class="drop" id="drop">
+      &hellip; or drop CSV files anywhere on this page
+    </div>
+  </details>
 </div>
 
 <script>
@@ -177,7 +212,11 @@ function checkStructure(s) {
 }
 
 /* ---------- windows ---------- */
-const rj = (n, c, t, j) => Math.floor((j + c - 1) * n / t) + 1;
+// strict (fully balanced):  r_j = ceil(j*n/t)
+// weak c-balanced:           r_j = floor((j+c-1)*n/t) + 1
+// The two coincide unless j*n/t is an integer, where strict is one row tighter.
+const rj = (n, c, t, j) =>
+  c === 'strict' ? Math.ceil(j * n / t) : Math.floor((j + c - 1) * n / t) + 1;
 
 function windows(n, c, t) {
   const out = [];
@@ -195,6 +234,13 @@ function colourFor(k, total) {
   const L = 32 + f * 55, S = 62 - f * 18;
   return { bg: `hsl(209 ${S}% ${L}%)`, fg: L < 58 ? '#f2f6fa' : '#0e1922' };
 }
+// which option the selector should show: an explicit override, else the
+// strongest guarantee the file itself declares
+function cvalFor(override, seq) {
+  if (override !== null && override !== undefined) return String(override);
+  return seq.mode === 'strict' ? 'strict' : String(seq.c);
+}
+
 function minCount(s, t, r) {
   const n = s.n, tally = new Array(n + 1).fill(0);
   for (let row = 0; row < r; row++) for (let col = 0; col < t; col++) tally[s.grid[row][col]]++;
@@ -207,7 +253,7 @@ function minCount(s, t, r) {
 function render() {
   if (!SEQS.length) return;
   const s = SEQS[cur], n = s.n;
-  const c = cOverride !== null ? cOverride : s.c;
+  const c = cOverride !== null ? cOverride : (s.mode === 'strict' ? 'strict' : s.c);
   const wins = windows(n, c, T), total = wins.length;
 
   const size = n > 30 ? 17 : n > 22 ? 21 : n > 15 ? 26 : 30;
@@ -268,7 +314,12 @@ function render() {
     `<span class="badge ${st.cols ? 'good' : 'bad'}">${st.cols ? 'columns are permutations' : 'a column is not a permutation'}</span>` +
     `<span class="badge ${st.rows ? 'good' : 'bad'}">${st.rows ? 'Latin square' : 'not a Latin square'}</span>` +
     (s.how ? `<span class="badge">found by ${s.how}</span>` : '') +
-    (cOverride !== null && cOverride !== s.c ? `<span class="badge bad">viewing c=${cOverride}; file declares c=${s.c}</span>` : '');
+    (() => {
+      const own = s.mode === 'strict' ? 'strict' : s.c;
+      return (cOverride !== null && cOverride !== own)
+        ? `<span class="badge bad">viewing ${cOverride === 'strict' ? 'strict' : 'c=' + cOverride}; file guarantees ${own === 'strict' ? 'strict' : 'c=' + own}</span>`
+        : '';
+    })();
   $('note').textContent = allPass
     ? 'Every player appears at least j times in window j, for every j at this t.'
     : 'A window fails: the marked player appears too few times. Try the c the file was built for.';
@@ -285,8 +336,11 @@ function refreshList() {
   const remote = INDEX.length > 0;
   const has = remote || SEQS.length > 0;
   $('app').classList.toggle('hidden', !has);
-  $('drop').style.display = has ? 'none' : '';
-  if (!has) return;
+  if (!has) {
+    $('status').textContent = 'No square loaded yet — load one below.';
+    $('loaderbox').open = true;          // nothing to show, so reveal the loader
+    return;
+  }
   if (remote) {
     $('seq').innerHTML = INDEX.map((e, i) =>
       `<option value="r${i}">${indexLabel(e)}${e.seqIdx === null ? '' : ' \u2022'}</option>`).join('');
@@ -297,7 +351,7 @@ function refreshList() {
     $('seq').value = cur;
   }
   if (SEQS[cur]) {
-    $('cval').value = String(cOverride !== null ? cOverride : SEQS[cur].c);
+    $('cval').value = cvalFor(cOverride !== null ? cOverride : null, SEQS[cur]);
     buildSpot();
     sync();
   }
@@ -325,6 +379,7 @@ function addFiles(fileList) {
     rd.readAsText(f);
   });
   function finish() {
+    $('loaderbox').open = true;
     SEQS.sort((a, b) => a.c - b.c || a.n - b.n);
     cur = Math.min(cur, Math.max(0, SEQS.length - 1));
     T = Math.max(2, Math.floor((SEQS[cur] ? SEQS[cur].n : 4) / 3));
@@ -364,7 +419,8 @@ async function tryManifest() {
       .map(e => ({ file: e.file, n: +e.n || null, c: e.c === undefined ? null : +e.c,
                    mode: e.mode || 'weak', seqIdx: null }));
     INDEX.sort((a, b) => (a.c - b.c) || (a.n - b.n));
-    $('loadmsg').textContent = `${INDEX.length} available in ${dir} — loaded on demand`;
+    $('status').textContent =
+      `${INDEX.length} squares available in ${dir} — each is downloaded when you select it.`;
     refreshList();
     if (INDEX.length) selectIndex(0);
   } catch (_) { /* file:// or missing manifest — pickers still work */ }
@@ -385,7 +441,9 @@ async function selectIndex(i) {
     e.seqIdx = SEQS.length - 1;
     e.n = seq.n; e.c = seq.c; e.mode = seq.mode;
     cur = e.seqIdx;
-    $('loadmsg').textContent = `${INDEX.length} available — ${SEQS.length} loaded`;
+    $('loadmsg').textContent = `${SEQS.length} loaded this session`;
+    $('status').textContent =
+      `${INDEX.length} squares available — ${SEQS.length} downloaded so far.`;
     afterSelect();
   } catch (err) {
     $('loadmsg').textContent = `could not load ${e.file}: ${err.message}`;
@@ -397,9 +455,8 @@ async function selectIndex(i) {
 function afterSelect() {
   cOverride = null; spotPlayer = 0;
   T = Math.max(2, Math.floor(SEQS[cur].n / 3));
-  $('cval').value = String(SEQS[cur].c);
+  $('cval').value = cvalFor(null, SEQS[cur]);
   $('app').classList.remove('hidden');
-  $('drop').style.display = 'none';
   buildSpot();
   sync();
 }
@@ -409,7 +466,9 @@ $('clear').addEventListener('click', () => {
   SEQS = []; cur = 0; cOverride = null; spotPlayer = 0;
   INDEX.forEach(e => { e.seqIdx = null; });
   $('files').value = '';
-  $('loadmsg').textContent = INDEX.length ? `${INDEX.length} available — loaded on demand` : '';
+  $('loadmsg').textContent = '';
+  $('status').textContent = INDEX.length
+    ? `${INDEX.length} squares available — each is downloaded when you select it.` : '';
   refreshList();
   if (INDEX.length) selectIndex(0);
 });
@@ -417,10 +476,14 @@ $('seq').addEventListener('change', e => {
   const v = e.target.value;
   if (typeof v === 'string' && v[0] === 'r') { selectIndex(+v.slice(1)).then(refreshList); return; }
   cur = +v; cOverride = null; spotPlayer = 0;
-  T = Math.min(T, SEQS[cur].n); $('cval').value = String(SEQS[cur].c);
+  T = Math.min(T, SEQS[cur].n); $('cval').value = cvalFor(null, SEQS[cur]);
   buildSpot(); sync();
 });
-$('cval').addEventListener('change', e => { cOverride = parseFloat(e.target.value); render(); });
+$('cval').addEventListener('change', e => {
+  const v = e.target.value;
+  cOverride = (v === 'strict') ? 'strict' : parseFloat(v);
+  render();
+});
 $('t').addEventListener('input', e => { T = +e.target.value; sync(); });
 $('spot').addEventListener('change', e => { spotPlayer = +e.target.value; render(); });
 
@@ -435,7 +498,15 @@ dz.addEventListener('drop', e => addFiles(e.dataTransfer.files));
 document.addEventListener('dragover', e => e.preventDefault());
 document.addEventListener('drop', e => { e.preventDefault(); if (e.dataTransfer.files.length) addFiles(e.dataTransfer.files); });
 
-tryManifest();
+// tryManifest() bails out early on file:// or when no manifest is served; in
+// that case nothing at all would be on screen, so reveal the loader.
+tryManifest().then(() => {
+  if (!INDEX.length && !SEQS.length) {
+    $('loaderbox').open = true;
+    $('status').textContent =
+      'No square loaded yet — choose a CSV file below.';
+  }
+});
 </script>
 </body>
 </html>
