@@ -18,9 +18,9 @@
   authors: Terrence Adams, Erel Segal-Halevi
   date: 2026-02-28
   topic: fairness
-  level: working
+  level: conference+
   content: >
-    Open problem: [arXiv 2026](https://arxiv.org/abs/2602.21687).
+    SAGT 2026 (accepted) and [arXiv 2026](https://arxiv.org/abs/2602.21687).
 
 - id: FFPTAS
   lang: en
