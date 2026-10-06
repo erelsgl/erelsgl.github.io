@@ -30,7 +30,7 @@
   topic: fairness
   level: working
   content: >
-    Open problem: [arXiv 2026](https://arxiv.org/abs/2603.17489).
+    [arXiv 2026](https://arxiv.org/abs/2603.17489).
 
 - id: RATDegree
   lang: en
@@ -473,6 +473,16 @@
   level: conference+
   content: >
     [ISAAC 2024, LIPIcs 322:12:1--12:15](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ISAAC.2024.12) and [arXiv 2022--2025](https://arxiv.org/abs/2205.07779).
+
+- id: FairSplittingAsymmetric
+  lang: en
+  title: Asymmetric Number Partitioning with Splitting
+  authors: Samuel Bismuth, Erel Segal-Halevi, Dana Shapira
+  date: 2026-10-06
+  topic: fairness-indivisible
+  level: journal
+  content: >
+    Journal of Combinatorial Optimization 2026 (accepted).
 
 - id: FairCapacity
   lang: en
