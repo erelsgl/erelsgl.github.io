@@ -52,7 +52,7 @@
   topic: fairness
   level: conference+
   content: >
-    AAMAS 2026 (accepted), and [arXiv 2025](https://arxiv.org/abs/2504.16852).
+    [AAMAS 2026, pp 643--651](https://dl.acm.org/doi/abs/10.65109/FRTB6682), and [arXiv 2025](https://arxiv.org/abs/2504.16852).
   presentation: >
     ../../../papers/EvacuateRebuild-40minutes-2024-Singapore.pptx
 
@@ -116,7 +116,7 @@
   topic: budget
   level: conference+
   content: >
-    AAMAS 2026 ([best student paper runner-up](https://cyprusconferences.org/aamas2026/awards/)) and [arXiv 2025](https://arxiv.org/abs/2509.08767).
+    [AAMAS 2026, pp 1304--1313](https://dl.acm.org/doi/abs/10.65109/CCMB1463). [Best student paper runner-up](https://cyprusconferences.org/aamas2026/awards/). Also [arXiv 2025](https://arxiv.org/abs/2509.08767).
 
 - id: Aggregation
   lang: en
@@ -482,7 +482,7 @@
   topic: fairness-indivisible
   level: journal
   content: >
-    Journal of Combinatorial Optimization 2026 (accepted).
+    [Journal of Combinatorial Optimization 2026, 52:47](https://link.springer.com/article/10.1007/s10878-026-01479-4) and [arXiv 2022--2025](https://arxiv.org/abs/2204.11753).
 
 - id: FairCapacity
   lang: en
